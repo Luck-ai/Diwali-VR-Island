@@ -1,0 +1,34 @@
+# Unity generated/cache data
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local Codex/editor automation and scene snapshots
+.agents/
+AgentScripts/
+Scene_Backups/
+
+# Crash reports
+sysinfo.txt
+*.stackdump
+
+# Unity-generated IDE project files
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.booproj
+*.svclog

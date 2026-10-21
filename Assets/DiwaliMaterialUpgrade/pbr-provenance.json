@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Plaster",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.7974109649658203,
+      0.804038405418396
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Paint",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.5076100826263428,
+      0.5137277245521545
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Terracotta",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/fiber-textured-wall-bl/fiber-textured-wall-bl/fiber-textured-wall1_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.6768134832382202,
+      0.6849703788757324
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Fabric",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/twill-fabric-bl/twill-fabric-bl/twill-fabric_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/twill-fabric-bl/twill-fabric-bl/twill-fabric_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/twill-fabric-bl/twill-fabric-bl/twill-fabric_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/twill-fabric-bl/twill-fabric-bl/twill-fabric_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.7875092625617981,
+      0.8122151494026184
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Gold",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/gold-scuffed-bl/gold-scuffed-bl/gold-scuffed_basecolor.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/gold-scuffed-bl/gold-scuffed-bl/gold-scuffed_normal.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/gold-scuffed-bl/gold-scuffed-bl/gold-scuffed_roughness.png",
+    "occlusion": null,
+    "resolution": 1024,
+    "roughnessRange": [
+      0.2934509515762329,
+      0.3372941017150879
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Tile",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/rectangle-polished-tile-bl/rectangle-polished-tile-bl/rectangle-polished-tile_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/rectangle-polished-tile-bl/rectangle-polished-tile-bl/rectangle-polished-tile_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/rectangle-polished-tile-bl/rectangle-polished-tile-bl/rectangle-polished-tile_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/rectangle-polished-tile-bl/rectangle-polished-tile-bl/rectangle-polished-tile_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.44651496410369873,
+      0.4590247571468353
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Stone",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/flat-temple-stonework-bl-exuop0/flat-temple-stonework-bl/flat-temple-stonework_albedo.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/flat-temple-stonework-bl-exuop0/flat-temple-stonework-bl/flat-temple-stonework_normal-ogl.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/flat-temple-stonework-bl-exuop0/flat-temple-stonework-bl/flat-temple-stonework_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/flat-temple-stonework-bl-exuop0/flat-temple-stonework-bl/flat-temple-stonework_ao.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.6973991394042969,
+      0.7640658617019653
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  },
+  {
+    "name": "Wood",
+    "source": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/oakfloor_fb1-bl/oakfloor_fb1-bl/oakfloor_basecolor.png",
+    "normal": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/oakfloor_fb1-bl/oakfloor_fb1-bl/oakfloor_normal.png",
+    "roughness": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/oakfloor_fb1-bl/oakfloor_fb1-bl/oakfloor_roughness.png",
+    "occlusion": "/home/lucky/KMITL/3.1/AR/Project/PBR Materials-20261019T125559Z-1-001/PBR Materials/oakfloor_fb1-bl/oakfloor_fb1-bl/oakfloor_AO.png",
+    "resolution": 1024,
+    "roughnessRange": [
+      0.5062190890312195,
+      0.5641014575958252
+    ],
+    "normalConvention": "OpenGL +Y; Unity NormalMap importer, flipGreenChannel=false",
+    "packing": "R=metallic; G=AO; B=0; A=1-roughness"
+  }
+]

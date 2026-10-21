@@ -1,0 +1,66 @@
+{
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Routing Game/rotuingfull.blend",
+  "sourceSha256": "52bc90cdb3f4cd188ba6a8eaafe2a02b4f6d4404ea12f052904d65b53235e1f3",
+  "materials": [
+    {
+      "name": "RoutingLatest_object1_0",
+      "sourceMaterial": "Pipe | Plum Satin Enamel.001",
+      "object": "object1",
+      "baseColor": "Textures/Baked/RoutingLatest_object1_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object1_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object1_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    },
+    {
+      "name": "RoutingLatest_object1_1",
+      "sourceMaterial": "Pipe | Warm Brushed Gold.001",
+      "object": "object1",
+      "baseColor": "Textures/Baked/RoutingLatest_object1_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object1_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object1_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    },
+    {
+      "name": "RoutingLatest_object2_0",
+      "sourceMaterial": "Pipe | Satin Silver.001",
+      "object": "object2",
+      "baseColor": "Textures/Baked/RoutingLatest_object2_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object2_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object2_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    },
+    {
+      "name": "RoutingLatest_object2_1",
+      "sourceMaterial": "Pipe | Warm Brushed Gold.001",
+      "object": "object2",
+      "baseColor": "Textures/Baked/RoutingLatest_object2_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object2_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object2_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    },
+    {
+      "name": "RoutingLatest_object3_0",
+      "sourceMaterial": "Pipe | Teal Satin Enamel.001",
+      "object": "object3",
+      "baseColor": "Textures/Baked/RoutingLatest_object3_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object3_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object3_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    },
+    {
+      "name": "RoutingLatest_object3_1",
+      "sourceMaterial": "Pipe | Warm Brushed Gold.001",
+      "object": "object3",
+      "baseColor": "Textures/Baked/RoutingLatest_object3_BaseColor.png",
+      "normal": "Textures/Baked/RoutingLatest_object3_Normal.png",
+      "metallicSmoothness": "Textures/Baked/RoutingLatest_object3_MetallicSmoothness.png",
+      "alpha": 1,
+      "twoSided": true
+    }
+  ]
+}

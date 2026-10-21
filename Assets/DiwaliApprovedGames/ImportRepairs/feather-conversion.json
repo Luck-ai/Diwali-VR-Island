@@ -1,0 +1,31 @@
+{
+  "source": "Diya Game/diyafull.blend",
+  "emitter": "Cylinder.003",
+  "particles": 1000,
+  "vertices": 52000,
+  "faces": 48000,
+  "normalization": {
+    "scale": 0.24026870816211773,
+    "originFloorTop": [
+      -35.9832763671875,
+      -0.6893405914306641,
+      0.8778871297836304
+    ],
+    "floorObjectName": "Plane.002",
+    "bounds": {
+      "min": [
+        -4.4041876792907715,
+        -4.405946731567383,
+        -0.06884360313415527
+      ],
+      "max": [
+        4.408792018890381,
+        4.462549686431885,
+        4.790372371673584
+      ]
+    },
+    "unityFloorTopY": 0,
+    "boundsCoordinateSpace": "Blender Z-up prior to FBX conversion; source floor top becomes Unity Y=0"
+  },
+  "policy": "Converted existing source hair paths into renderable mesh strands; source file not saved."
+}

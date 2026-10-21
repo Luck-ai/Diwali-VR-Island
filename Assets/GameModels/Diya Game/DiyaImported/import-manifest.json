@@ -1,0 +1,35 @@
+{
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Diya Game/diya.blend",
+  "sourceSha256": "4b6840768e202d58e8ace7029bc31a5f618e8d82764c581f69d3dc2c0e0f7a5d",
+  "sourceModified": false,
+  "export": "/home/lucky/KMITL/3.1/AR/Project/final_project_vr/Assets/GameModels/Diya Game/DiyaImported/Diya.fbx",
+  "uniformScale": 0.2910948700629693,
+  "sourceOrigin": [
+    -7.71270751953125,
+    0.22337061166763306,
+    0.03776657581329346
+  ],
+  "bodyUv": "Bowl has no authored UV layout; export copy smart-unwrapped with planar oil UVs for baked procedural shading.",
+  "flameUvPreserved": true,
+  "flameTextureHasAlpha": false,
+  "oilMaterial": "Procedural base color and bump baked to 512px textures. URP Lit approximates oil transmission/thin-film response.",
+  "objects": [
+    {
+      "name": "DiyaBody",
+      "vertices": 90,
+      "polygons": 92,
+      "uvLayers": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "DiyaFlame",
+      "vertices": 484,
+      "polygons": 512,
+      "uvLayers": [
+        "UVMap"
+      ]
+    }
+  ],
+  "exportRepairs": "Bowl normals corrected and Blender triangulation exported; source geometry positions unchanged."
+}

@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "approvedPalette": true,
+  "games": [
+    {
+      "game": "RoutingRack",
+      "source": "/home/lucky/KMITL/3.1/AR/Project/Routing Game/rotuingassets.blend",
+      "sourceSha256": "c3f6166521d2fa8037cecbe25a044ac16d7333304142965a6f2c92fef05d56ce",
+      "sourceUnchanged": true,
+      "model": "Models/RoutingRack_Approved.fbx",
+      "normalization": {
+        "scale": 0.1719155754268048,
+        "originFloorTop": [
+          6.234737396240234,
+          -65.03162384033203,
+          2.077967405319214
+        ],
+        "floorObjectName": "Plane",
+        "bounds": {
+          "min": [
+            2.4419493675231934,
+            1.3927218914031982,
+            0.03236112743616104
+          ],
+          "max": [
+            2.910921812057495,
+            2.0260164737701416,
+            0.8530279994010925
+          ]
+        },
+        "unityFloorTopY": 0
+      },
+      "objects": [
+        {
+          "name": "rack",
+          "sourceMesh": "Cube.004_RenderTriangles",
+          "materials": [
+            "RoutingRack_00_00",
+            "RoutingRack_00_01",
+            "RoutingRack_00_02",
+            "RoutingRack_00_03",
+            "RoutingRack_00_04",
+            "RoutingRack_00_05",
+            "RoutingRack_00_06"
+          ],
+          "uvSet": "ExportAtlasUV",
+          "vertices": 795,
+          "polygons": 1718,
+          "bakeCacheKey": "d0a1bc379bbd26f12e1d68ccd122f63887de4a07ce1589d39abd87ab133456d1"
+        }
+      ],
+      "sourceGeometry": [
+        {
+          "name": "rack",
+          "vertices": 795,
+          "polygons": 748,
+          "matrix": [
+            [
+              -0.05860620737075806,
+              0.9982811808586121,
+              0.0,
+              16.772235870361328
+            ],
+            [
+              -0.9982811808586121,
+              -0.05860620737075806,
+              0.0,
+              -51.7022705078125
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.031920909881592
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "RoutingRack_00_00",
+          "sourceMaterial": "Routing | Teal Painted Timber",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_01",
+          "sourceMaterial": "Routing | Terracotta Painted Timber",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_02",
+          "sourceMaterial": "Pipe | Warm Brushed Gold",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_03",
+          "sourceMaterial": "Pipe | Teal Satin Enamel",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_04",
+          "sourceMaterial": "Pipe | Warm Brushed Gold",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_05",
+          "sourceMaterial": "Pipe | Satin Silver",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        },
+        {
+          "name": "RoutingRack_00_06",
+          "sourceMaterial": "Pipe | Plum Satin Enamel",
+          "object": "rack",
+          "baseColor": "Textures/Baked/RoutingRack_00_BaseColor.png",
+          "normal": "Textures/Baked/RoutingRack_00_Normal.png",
+          "metallicSmoothness": "Textures/Baked/RoutingRack_00_MetallicSmoothness.png",
+          "baseColorTint": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "metallic": 1,
+          "smoothness": 1,
+          "normalScale": 1,
+          "emissionColorLinear": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "emissionStrength": 0,
+          "alphaCutoff": 0.5,
+          "twoSided": false,
+          "textureSize": 512,
+          "textureColorSpaces": {
+            "baseColor": "sRGB",
+            "normal": "Linear",
+            "metallicSmoothness": "Linear",
+            "emission": "sRGB"
+          },
+          "alpha": 1.0,
+          "alphaIsBaked": true,
+          "alphaMultiplier": 1.0,
+          "sourceAlpha": 1.0,
+          "sourceTransmission": 0.0,
+          "alphaMode": "Opaque",
+          "texturedAlpha": false,
+          "transmissionApproximation": ""
+        }
+      ],
+      "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+    }
+  ]
+}

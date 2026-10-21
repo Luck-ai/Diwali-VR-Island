@@ -1,0 +1,6178 @@
+{
+  "game": "SweetShop",
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Sweet Game/sweetfull.blend",
+  "sourceSha256": "62174f2954b8292e27a28653cf2097a7e4fcd4e81ea365dbfa0823979b4d2465",
+  "sourceUnchanged": true,
+  "model": "Models/SweetShop_Approved.fbx",
+  "normalization": {
+    "scale": 0.4214060280789118,
+    "originFloorTop": [
+      -0.29651355743408203,
+      -41.253238677978516,
+      0.804561197757721
+    ],
+    "floorObjectName": "Plane.001",
+    "bounds": {
+      "min": [
+        -5.165073394775391,
+        -4.400000095367432,
+        -0.3390469551086426
+      ],
+      "max": [
+        4.400000095367432,
+        4.400000095367432,
+        5.975755214691162
+      ]
+    },
+    "unityFloorTopY": 0,
+    "boundsCoordinateSpace": "Blender Z-up prior to FBX conversion; source floor top becomes Unity Y=0"
+  },
+  "objects": [
+    {
+      "name": "Circle",
+      "sourceMesh": "Circle.002_RenderTriangles",
+      "materials": [
+        "SweetShop_00_00",
+        "SweetShop_00_01",
+        "SweetShop_00_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 88,
+      "polygons": 194,
+      "bakeCacheKey": "3deb3e9da4d7cbc3c3cc525163b49a0a062e18591868430b64e7f04ff12d3d89"
+    },
+    {
+      "name": "Circle.001",
+      "sourceMesh": "Circle.019_RenderTriangles",
+      "materials": [
+        "SweetShop_01_00",
+        "SweetShop_01_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.002",
+      "sourceMesh": "Circle.021_RenderTriangles",
+      "materials": [
+        "SweetShop_02_00",
+        "SweetShop_02_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.003",
+      "sourceMesh": "Circle.022_RenderTriangles",
+      "materials": [
+        "SweetShop_03_00",
+        "SweetShop_03_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.004",
+      "sourceMesh": "Circle.023_RenderTriangles",
+      "materials": [
+        "SweetShop_04_00",
+        "SweetShop_04_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.005",
+      "sourceMesh": "Circle.024_RenderTriangles",
+      "materials": [
+        "SweetShop_05_00",
+        "SweetShop_05_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.006",
+      "sourceMesh": "Circle.025_RenderTriangles",
+      "materials": [
+        "SweetShop_06_00",
+        "SweetShop_06_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.007",
+      "sourceMesh": "Circle.026_RenderTriangles",
+      "materials": [
+        "SweetShop_07_00",
+        "SweetShop_07_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.008",
+      "sourceMesh": "Circle.027_RenderTriangles",
+      "materials": [
+        "SweetShop_08_00",
+        "SweetShop_08_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.009",
+      "sourceMesh": "Circle.028_RenderTriangles",
+      "materials": [
+        "SweetShop_09_00",
+        "SweetShop_09_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.010",
+      "sourceMesh": "Circle.029_RenderTriangles",
+      "materials": [
+        "SweetShop_10_00",
+        "SweetShop_10_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.011",
+      "sourceMesh": "Circle.030_RenderTriangles",
+      "materials": [
+        "SweetShop_11_00",
+        "SweetShop_11_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.012",
+      "sourceMesh": "Circle.031_RenderTriangles",
+      "materials": [
+        "SweetShop_12_00",
+        "SweetShop_12_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.013",
+      "sourceMesh": "Circle.032_RenderTriangles",
+      "materials": [
+        "SweetShop_13_00",
+        "SweetShop_13_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.014",
+      "sourceMesh": "Circle.033_RenderTriangles",
+      "materials": [
+        "SweetShop_14_00",
+        "SweetShop_14_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.015",
+      "sourceMesh": "Circle.034_RenderTriangles",
+      "materials": [
+        "SweetShop_15_00",
+        "SweetShop_15_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.016",
+      "sourceMesh": "Circle.035_RenderTriangles",
+      "materials": [
+        "SweetShop_16_00",
+        "SweetShop_16_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.017",
+      "sourceMesh": "Circle.036_RenderTriangles",
+      "materials": [
+        "SweetShop_17_00",
+        "SweetShop_17_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 289,
+      "polygons": 657,
+      "bakeCacheKey": "f488c0e22dc6049e8f7d4e367ab2db6f67189304aa1f40ad076146117e52ba81"
+    },
+    {
+      "name": "Circle.018",
+      "sourceMesh": "Circle.037_RenderTriangles",
+      "materials": [
+        "SweetShop_18_00",
+        "SweetShop_18_01",
+        "SweetShop_18_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 88,
+      "polygons": 194,
+      "bakeCacheKey": "3deb3e9da4d7cbc3c3cc525163b49a0a062e18591868430b64e7f04ff12d3d89"
+    },
+    {
+      "name": "Cube",
+      "sourceMesh": "Cube.015_RenderTriangles",
+      "materials": [
+        "SweetShop_19_00",
+        "SweetShop_19_01",
+        "SweetShop_19_02",
+        "SweetShop_19_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 122,
+      "polygons": 236,
+      "bakeCacheKey": "308f62a9d97f2a2b996ee295bf67159483e0f5b30bd1b30ddff0386bb3ded5d8"
+    },
+    {
+      "name": "Cube.001",
+      "sourceMesh": "Cube.016_RenderTriangles",
+      "materials": [
+        "SweetShop_20_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 8,
+      "polygons": 12,
+      "bakeCacheKey": "8c9cf1938eff36de309f5fda0e03bb16e3542691581b0a9be82597cf74483051"
+    },
+    {
+      "name": "Cube.002",
+      "sourceMesh": "Cube.017_RenderTriangles",
+      "materials": [
+        "SweetShop_21_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 8,
+      "polygons": 12,
+      "bakeCacheKey": "41cfbdbb7a5004c7c076c0bc7db4a9022dc2a36d06f9dc20a0c33abc688b9a2b"
+    },
+    {
+      "name": "Cube.003",
+      "sourceMesh": "Cube.018_RenderTriangles",
+      "materials": [
+        "SweetShop_22_00",
+        "SweetShop_22_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.004",
+      "sourceMesh": "Cube.019_RenderTriangles",
+      "materials": [
+        "SweetShop_23_00",
+        "SweetShop_23_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.005",
+      "sourceMesh": "Cube.020_RenderTriangles",
+      "materials": [
+        "SweetShop_24_00",
+        "SweetShop_24_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.006",
+      "sourceMesh": "Cube.021_RenderTriangles",
+      "materials": [
+        "SweetShop_25_00",
+        "SweetShop_25_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.007",
+      "sourceMesh": "Cube.022_RenderTriangles",
+      "materials": [
+        "SweetShop_26_00",
+        "SweetShop_26_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.008",
+      "sourceMesh": "Cube.023_RenderTriangles",
+      "materials": [
+        "SweetShop_27_00",
+        "SweetShop_27_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.009",
+      "sourceMesh": "Cube.024_RenderTriangles",
+      "materials": [
+        "SweetShop_28_00",
+        "SweetShop_28_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.010",
+      "sourceMesh": "Cube.025_RenderTriangles",
+      "materials": [
+        "SweetShop_29_00",
+        "SweetShop_29_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.011",
+      "sourceMesh": "Cube.026_RenderTriangles",
+      "materials": [
+        "SweetShop_30_00",
+        "SweetShop_30_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "ae9b35d7f5567619b8ffb71739bd71e189793b9f29d8ba8f8973297b87393f00"
+    },
+    {
+      "name": "Cube.012",
+      "sourceMesh": "Cube.027_RenderTriangles",
+      "materials": [
+        "SweetShop_31_00",
+        "SweetShop_31_01",
+        "SweetShop_31_02",
+        "SweetShop_31_03",
+        "SweetShop_31_04",
+        "SweetShop_31_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 467,
+      "polygons": 928,
+      "bakeCacheKey": "b55fad5defd067da6269bb0b9a41a73db669157f9f90fcc32085209b52e6ad0c"
+    },
+    {
+      "name": "Cube.013",
+      "sourceMesh": "Cube.028_RenderTriangles",
+      "materials": [
+        "SweetShop_32_00",
+        "SweetShop_32_01",
+        "SweetShop_32_02",
+        "SweetShop_32_03",
+        "SweetShop_32_04"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 184,
+      "polygons": 380,
+      "bakeCacheKey": "7b8cda5f754bdd7a7efff5e887cdd6f87d25b8fa2fbe8117e71348ecf3c484d8"
+    },
+    {
+      "name": "Cube.014",
+      "sourceMesh": "Cube.029_RenderTriangles",
+      "materials": [
+        "SweetShop_33_00",
+        "SweetShop_33_01",
+        "SweetShop_33_02",
+        "SweetShop_33_03",
+        "SweetShop_33_04"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 60,
+      "polygons": 116,
+      "bakeCacheKey": "c7e9aea021591b3fef10d3f24c87b75c5aa9ad5e3adafc626be9297f1ae8ac92"
+    },
+    {
+      "name": "Plane",
+      "sourceMesh": "Plane.003_RenderTriangles",
+      "materials": [
+        "SweetShop_34_00",
+        "SweetShop_34_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 18,
+      "polygons": 32,
+      "bakeCacheKey": "8847a594aa03e89993391bf2dda70f2b19f3e67330d5425dd64cb9590cdbfe8e"
+    },
+    {
+      "name": "Plane.001",
+      "sourceMesh": "Plane.004_RenderTriangles",
+      "materials": [
+        "SweetShop_35_00",
+        "SweetShop_35_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 8,
+      "polygons": 12,
+      "bakeCacheKey": "6a15efffb1ec1b14789b2516fe58c71798223cd6c1eedb651d70ca5115357ccd"
+    },
+    {
+      "name": "Plane.002",
+      "sourceMesh": "Plane.005_RenderTriangles",
+      "materials": [
+        "SweetShop_36_00",
+        "SweetShop_36_01",
+        "SweetShop_36_02",
+        "SweetShop_36_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 16,
+      "polygons": 28,
+      "bakeCacheKey": "f0dc86fda4539888279e487e4b624629b98a5a1f68267ee2b59041a46f072c66"
+    },
+    {
+      "name": "Sphere.001",
+      "sourceMesh": "Sphere.001_RenderTriangles",
+      "materials": [
+        "SweetShop_37_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.002",
+      "sourceMesh": "Sphere.002_RenderTriangles",
+      "materials": [
+        "SweetShop_38_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.003",
+      "sourceMesh": "Sphere.003_RenderTriangles",
+      "materials": [
+        "SweetShop_39_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.004",
+      "sourceMesh": "Sphere.004_RenderTriangles",
+      "materials": [
+        "SweetShop_40_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.005",
+      "sourceMesh": "Sphere.005_RenderTriangles",
+      "materials": [
+        "SweetShop_41_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.006",
+      "sourceMesh": "Sphere.006_RenderTriangles",
+      "materials": [
+        "SweetShop_42_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.007",
+      "sourceMesh": "Sphere.007_RenderTriangles",
+      "materials": [
+        "SweetShop_43_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.008",
+      "sourceMesh": "Sphere.008_RenderTriangles",
+      "materials": [
+        "SweetShop_44_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.009",
+      "sourceMesh": "Sphere.009_RenderTriangles",
+      "materials": [
+        "SweetShop_45_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    },
+    {
+      "name": "Sphere.010",
+      "sourceMesh": "Sphere.010_RenderTriangles",
+      "materials": [
+        "SweetShop_46_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1986,
+      "polygons": 3968,
+      "bakeCacheKey": "d58a0d96b78b4bafd6e28c631e41196e131f6d20a373f9e449d11c9f9f0d0a0a"
+    }
+  ],
+  "sourceGeometry": [
+    {
+      "name": "Circle",
+      "vertices": 88,
+      "polygons": 92,
+      "matrix": [
+        [
+          1.4607326984405518,
+          0.0,
+          0.0,
+          -8.630992889404297
+        ],
+        [
+          0.0,
+          1.4607326984405518,
+          0.0,
+          -47.0159797668457
+        ],
+        [
+          0.0,
+          0.0,
+          1.4607326984405518,
+          5.762964248657227
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.001",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          6.465280532836914
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.002",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          6.072317123413086
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.003",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          5.679357528686523
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.004",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          5.286394119262695
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.005",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          4.893434524536133
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.006",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          4.500471115112305
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.007",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          4.107511520385742
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.008",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          3.7145519256591797
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.009",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          3.3215885162353516
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.010",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          2.928628921508789
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.011",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          2.535665512084961
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.012",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          2.1427059173583984
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.013",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          1.7497425079345703
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.014",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          1.3567829132080078
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.015",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          0.9638195037841797
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.016",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          0.5708599090576172
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.017",
+      "vertices": 153,
+      "polygons": 155,
+      "matrix": [
+        [
+          -2.6287885646070208e-08,
+          0.008282779715955257,
+          0.6013396978378296,
+          0.1779003143310547
+        ],
+        [
+          0.6013967394828796,
+          3.6205186071391893e-10,
+          2.628539519378137e-08,
+          -47.12775421142578
+        ],
+        [
+          0.0,
+          0.6013396978378296,
+          -0.008282779715955257,
+          2.3699159622192383
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Circle.018",
+      "vertices": 88,
+      "polygons": 92,
+      "matrix": [
+        [
+          1.4607326984405518,
+          0.0,
+          0.0,
+          -8.630992889404297
+        ],
+        [
+          0.0,
+          1.4607326984405518,
+          0.0,
+          -47.0159797668457
+        ],
+        [
+          0.0,
+          0.0,
+          1.4607326984405518,
+          8.46045207977295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube",
+      "vertices": 122,
+      "polygons": 118,
+      "matrix": [
+        [
+          -3.617376975739717e-08,
+          -3.7487714290618896,
+          0.0,
+          3.3293399810791016
+        ],
+        [
+          0.8275593519210815,
+          -1.6386400147894165e-07,
+          0.0,
+          -47.1875
+        ],
+        [
+          0.0,
+          0.0,
+          2.349212884902954,
+          4.453604221343994
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "vertices": 8,
+      "polygons": 6,
+      "matrix": [
+        [
+          -1.3323856462577055e-09,
+          -1.911769986152649,
+          0.0,
+          1.5311717987060547
+        ],
+        [
+          0.030481431633234024,
+          -8.356612113402662e-08,
+          0.0,
+          -46.24995040893555
+        ],
+        [
+          0.0,
+          0.0,
+          2.1942291259765625,
+          4.47801399230957
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "vertices": 8,
+      "polygons": 6,
+      "matrix": [
+        [
+          -1.3323856462577055e-09,
+          -1.7950162887573242,
+          0.0,
+          5.315454483032227
+        ],
+        [
+          0.030481431633234024,
+          -7.846265503985705e-08,
+          0.0,
+          -46.24995040893555
+        ],
+        [
+          0.0,
+          0.0,
+          2.1942291259765625,
+          4.47801399230957
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          6.608030319213867
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.004",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          5.758371353149414
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.005",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          4.908716201782227
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.006",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          4.059057235717773
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.007",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          3.2093982696533203
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          2.359739303588867
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.009",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          1.5100841522216797
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.010",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          0.6604251861572266
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.011",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          0.14014288783073425,
+          -0.19107495248317719,
+          0.0,
+          -0.06156349182128906
+        ],
+        [
+          0.19107495248317719,
+          0.14014288783073425,
+          0.0,
+          -47.23974609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.05988173559308052,
+          5.3652238845825195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.012",
+      "vertices": 467,
+      "polygons": 461,
+      "matrix": [
+        [
+          0.5975590944290161,
+          2.0498571395874023,
+          0.0,
+          -3.2374534606933594
+        ],
+        [
+          -1.27407705783844,
+          0.9614102244377136,
+          0.0,
+          -37.35488510131836
+        ],
+        [
+          0.0,
+          0.0,
+          1.2024375200271606,
+          2.3671131134033203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.013",
+      "vertices": 184,
+      "polygons": 172,
+      "matrix": [
+        [
+          0.7636188864707947,
+          0.0,
+          0.0,
+          8.25327205657959
+        ],
+        [
+          0.0,
+          0.6798115968704224,
+          0.0,
+          -50.56863784790039
+        ],
+        [
+          0.0,
+          0.0,
+          0.5493237972259521,
+          1.3102360963821411
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.014",
+      "vertices": 60,
+      "polygons": 57,
+      "matrix": [
+        [
+          0.7636188864707947,
+          0.0,
+          0.0,
+          8.25327205657959
+        ],
+        [
+          0.0,
+          0.6798115968704224,
+          0.0,
+          -31.75362205505371
+        ],
+        [
+          0.0,
+          0.0,
+          0.5493237972259521,
+          1.3102360963821411
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane",
+      "vertices": 18,
+      "polygons": 11,
+      "matrix": [
+        [
+          0.17115601897239685,
+          -0.11894983798265457,
+          0.0,
+          0.4817221164703369
+        ],
+        [
+          0.08027447760105133,
+          0.2536171078681946,
+          0.0,
+          -36.11296463012695
+        ],
+        [
+          0.0,
+          0.0,
+          0.2801262140274048,
+          3.4232699871063232
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "vertices": 8,
+      "polygons": 6,
+      "matrix": [
+        [
+          10.44123649597168,
+          0.0,
+          0.0,
+          -0.29651352763175964
+        ],
+        [
+          0.0,
+          10.44123649597168,
+          0.0,
+          -41.253238677978516
+        ],
+        [
+          0.0,
+          0.0,
+          10.44123649597168,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.002",
+      "vertices": 16,
+      "polygons": 14,
+      "matrix": [
+        [
+          9.49926471710205,
+          0.0,
+          0.0,
+          -0.5514131188392639
+        ],
+        [
+          0.0,
+          9.842028617858887,
+          0.0,
+          -41.253238677978516
+        ],
+        [
+          0.0,
+          0.0,
+          10.44123649597168,
+          12.785012245178223
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.001",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          6.610963821411133
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.002",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          5.880884170532227
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.003",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          5.150800704956055
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.004",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          4.420721054077148
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.005",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          3.6906375885009766
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.006",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          2.9605579376220703
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.007",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          2.2304744720458984
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.008",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          1.5003910064697266
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.009",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          0.7703113555908203
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.010",
+      "vertices": 1986,
+      "polygons": 1984,
+      "matrix": [
+        [
+          -1.4069368781122193e-08,
+          -0.3218696415424347,
+          0.0,
+          0.04022789001464844
+        ],
+        [
+          0.3218696415424347,
+          -1.4069368781122193e-08,
+          0.0,
+          -47.10945510864258
+        ],
+        [
+          0.0,
+          0.0,
+          0.3218696415424347,
+          4.167923927307129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "SweetShop_00_00",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Circle",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_00_01",
+      "sourceMaterial": "Diwali_Basket_Cream_Liner",
+      "object": "Circle",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_00_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Circle",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_01_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.001",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_01_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.001",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_02_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.002",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_02_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.002",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_03_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.003",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_03_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.003",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_04_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.004",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_04_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.004",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_05_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.005",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_05_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.005",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_06_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.006",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_06_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.006",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_07_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.007",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_07_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.007",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_08_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.008",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_08_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.008",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_09_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.009",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_09_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.009",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_10_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.010",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_10_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.010",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_11_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.011",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_11_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.011",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_12_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.012",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_12_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.012",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_13_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.013",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_13_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.013",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_14_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.014",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_14_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.014",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_15_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.015",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_15_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.015",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_16_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.016",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_16_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.016",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_17_00",
+      "sourceMaterial": "Sweet Shop | Gujiya Golden Pastry",
+      "object": "Circle.017",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_17_01",
+      "sourceMaterial": "Sweet Shop | Gujiya Toasted Crimp",
+      "object": "Circle.017",
+      "baseColor": "Textures/Baked/SweetShop_01_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_01_00"
+    },
+    {
+      "name": "SweetShop_18_00",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Circle.018",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_18_01",
+      "sourceMaterial": "Diwali_Basket_Cream_Liner",
+      "object": "Circle.018",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_18_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Circle.018",
+      "baseColor": "Textures/Baked/SweetShop_00_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_00_00"
+    },
+    {
+      "name": "SweetShop_19_00",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/SweetShop_19_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_19_00"
+    },
+    {
+      "name": "SweetShop_19_01",
+      "sourceMaterial": "Diwali_Cream_Enamel",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/SweetShop_19_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_19_00"
+    },
+    {
+      "name": "SweetShop_19_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/SweetShop_19_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_19_00"
+    },
+    {
+      "name": "SweetShop_19_03",
+      "sourceMaterial": "Diwali_Teal_Lining",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/SweetShop_19_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_19_00"
+    },
+    {
+      "name": "SweetShop_20_00",
+      "sourceMaterial": "Diwali_Clear_Display_Glass",
+      "object": "Cube.001",
+      "baseColor": "Textures/Baked/SweetShop_20_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_20_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_20_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 0.18,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 0.9999999602635717,
+      "sourceAlpha": 0.18000000715255737,
+      "sourceTransmission": 0.9800000190734863,
+      "alphaMode": "Blend",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "SweetShop_20_00"
+    },
+    {
+      "name": "SweetShop_21_00",
+      "sourceMaterial": "Diwali_Clear_Display_Glass",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/SweetShop_20_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_20_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_20_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 0.18,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 0.9999999602635717,
+      "sourceAlpha": 0.18000000715255737,
+      "sourceTransmission": 0.9800000190734863,
+      "alphaMode": "Blend",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "SweetShop_20_00"
+    },
+    {
+      "name": "SweetShop_22_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_22_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_23_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_23_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_24_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_24_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_25_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_25_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_26_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_26_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_27_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_27_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_28_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.009",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_28_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.009",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_29_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.010",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_29_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.010",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_30_00",
+      "sourceMaterial": "Diwali_Barfi_Pistachio_Top",
+      "object": "Cube.011",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_30_01",
+      "sourceMaterial": "Diwali_Barfi_Saffron_Layer",
+      "object": "Cube.011",
+      "baseColor": "Textures/Baked/SweetShop_22_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_22_00"
+    },
+    {
+      "name": "SweetShop_31_00",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_31_01",
+      "sourceMaterial": "Diwali_Cream_Enamel",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_31_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_31_03",
+      "sourceMaterial": "Diwali_Basket_Cream_Liner",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_31_04",
+      "sourceMaterial": "Diwali_Card_Reader",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_31_05",
+      "sourceMaterial": "Diwali_Checkout_Screen",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/SweetShop_31_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_31_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_31_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_31_00"
+    },
+    {
+      "name": "SweetShop_32_00",
+      "sourceMaterial": "Sweet Shop | Warm Cream Plaster",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/SweetShop_32_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_32_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_32_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_32_00"
+    },
+    {
+      "name": "SweetShop_32_01",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/SweetShop_32_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_32_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_32_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_32_00"
+    },
+    {
+      "name": "SweetShop_32_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/SweetShop_32_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_32_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_32_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_32_00"
+    },
+    {
+      "name": "SweetShop_32_03",
+      "sourceMaterial": "Sweet Shop | Teal Painted Roof",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/SweetShop_32_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_32_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_32_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_32_00"
+    },
+    {
+      "name": "SweetShop_32_04",
+      "sourceMaterial": "Diwali_Cream_Enamel",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/SweetShop_32_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_32_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_32_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_32_00"
+    },
+    {
+      "name": "SweetShop_33_00",
+      "sourceMaterial": "Sweet Shop | Warm Cream Plaster",
+      "object": "Cube.014",
+      "baseColor": "Textures/Baked/SweetShop_33_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_33_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_33_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_33_00"
+    },
+    {
+      "name": "SweetShop_33_01",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Cube.014",
+      "baseColor": "Textures/Baked/SweetShop_33_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_33_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_33_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_33_00"
+    },
+    {
+      "name": "SweetShop_33_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Cube.014",
+      "baseColor": "Textures/Baked/SweetShop_33_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_33_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_33_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_33_00"
+    },
+    {
+      "name": "SweetShop_33_03",
+      "sourceMaterial": "Sweet Shop | Teal Painted Roof",
+      "object": "Cube.014",
+      "baseColor": "Textures/Baked/SweetShop_33_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_33_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_33_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_33_00"
+    },
+    {
+      "name": "SweetShop_33_04",
+      "sourceMaterial": "Diwali_Cream_Enamel",
+      "object": "Cube.014",
+      "baseColor": "Textures/Baked/SweetShop_33_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_33_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_33_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_33_00"
+    },
+    {
+      "name": "SweetShop_34_00",
+      "sourceMaterial": "Diwali_Festival_Payment_Card",
+      "object": "Plane",
+      "baseColor": "Textures/Baked/SweetShop_34_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_34_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_34_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_34_00"
+    },
+    {
+      "name": "SweetShop_34_01",
+      "sourceMaterial": "Diwali_Card_Gold_Edge",
+      "object": "Plane",
+      "baseColor": "Textures/Baked/SweetShop_34_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_34_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_34_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_34_01"
+    },
+    {
+      "name": "SweetShop_35_00",
+      "sourceMaterial": "Sweet Shop | Cream Terracotta Tiles",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/SweetShop_35_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_35_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_35_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_35_00"
+    },
+    {
+      "name": "SweetShop_35_01",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/SweetShop_35_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_35_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_35_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_35_00"
+    },
+    {
+      "name": "SweetShop_36_00",
+      "sourceMaterial": "Sweet Shop | Teal Painted Roof",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/SweetShop_36_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_36_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_36_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_36_00"
+    },
+    {
+      "name": "SweetShop_36_01",
+      "sourceMaterial": "Diwali_Burgundy_Lacquer",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/SweetShop_36_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_36_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_36_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_36_00"
+    },
+    {
+      "name": "SweetShop_36_02",
+      "sourceMaterial": "Diwali_Brushed_Gold",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/SweetShop_36_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_36_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_36_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_36_00"
+    },
+    {
+      "name": "SweetShop_36_03",
+      "sourceMaterial": "Sweet Shop | Warm Cream Plaster",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/SweetShop_36_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_36_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_36_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_36_00"
+    },
+    {
+      "name": "SweetShop_37_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.001",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_38_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.002",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_39_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.003",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_40_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.004",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_41_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.005",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_42_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.006",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_43_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.007",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_44_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.008",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_45_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.009",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    },
+    {
+      "name": "SweetShop_46_00",
+      "sourceMaterial": "Diwali_Modak_Milk_Dough",
+      "object": "Sphere.010",
+      "baseColor": "Textures/Baked/SweetShop_37_BaseColor.png",
+      "normal": "Textures/Baked/SweetShop_37_Normal.png",
+      "metallicSmoothness": "Textures/Baked/SweetShop_37_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "SweetShop_37_00"
+    }
+  ],
+  "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+}

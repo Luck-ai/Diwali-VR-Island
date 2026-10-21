@@ -1,0 +1,3786 @@
+{
+  "game": "LanternRouting",
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Routing Game/rotuingfull.blend",
+  "sourceSha256": "52bc90cdb3f4cd188ba6a8eaafe2a02b4f6d4404ea12f052904d65b53235e1f3",
+  "sourceUnchanged": true,
+  "model": "Models/LanternRouting_Approved.fbx",
+  "normalization": {
+    "scale": 0.1719155754268048,
+    "originFloorTop": [
+      6.234737396240234,
+      -65.03162384033203,
+      2.077967405319214
+    ],
+    "floorObjectName": "Plane",
+    "bounds": {
+      "min": [
+        -4.400000095367432,
+        -4.400000095367432,
+        0.0
+      ],
+      "max": [
+        4.400000095367432,
+        4.400000095367432,
+        3.3804478645324707
+      ]
+    },
+    "unityFloorTopY": 0,
+    "boundsCoordinateSpace": "Blender Z-up prior to FBX conversion; source floor top becomes Unity Y=0"
+  },
+  "objects": [
+    {
+      "name": "BackPanel",
+      "sourceMesh": "Cube.004_RenderTriangles",
+      "materials": [
+        "LanternRouting_00_00",
+        "LanternRouting_00_01",
+        "LanternRouting_00_02",
+        "LanternRouting_00_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 54,
+      "polygons": 104,
+      "bakeCacheKey": "12225d2197e09ed7009b6576f2c10a63992274046bb83fab9bcdffae330b2548"
+    },
+    {
+      "name": "LightHolder1",
+      "sourceMesh": "Cube.005_RenderTriangles",
+      "materials": [
+        "LanternRouting_01_00",
+        "LanternRouting_01_01",
+        "LanternRouting_01_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 24,
+      "polygons": 44,
+      "bakeCacheKey": "f7a122464ff30dcc8aed75813f182267034ab8fd16e25728ec8f9026fd9a5102"
+    },
+    {
+      "name": "LightHolder2",
+      "sourceMesh": "Cube.006_RenderTriangles",
+      "materials": [
+        "LanternRouting_02_00",
+        "LanternRouting_02_01",
+        "LanternRouting_02_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 24,
+      "polygons": 44,
+      "bakeCacheKey": "c6eb3c0712ea71b88cf9cd18bf2a86884c0a153405148060fcbeab38e5ca0851"
+    },
+    {
+      "name": "LightHolder3",
+      "sourceMesh": "Cube.007_RenderTriangles",
+      "materials": [
+        "LanternRouting_03_00",
+        "LanternRouting_03_01",
+        "LanternRouting_03_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 24,
+      "polygons": 44,
+      "bakeCacheKey": "b6eea9d31de7b9223be8ec5b2c29dd2f7c70d5d1e16e6bab67894f74dbc3b0c1"
+    },
+    {
+      "name": "Pillar1",
+      "sourceMesh": "Cube.008_RenderTriangles",
+      "materials": [
+        "LanternRouting_04_00",
+        "LanternRouting_04_01",
+        "LanternRouting_04_02",
+        "LanternRouting_04_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 32,
+      "polygons": 60,
+      "bakeCacheKey": "9b03ff7de878c7c77f6062ad01ef2b4b945c106e7c1a39cd31af2dbe0ea5f2e0"
+    },
+    {
+      "name": "Pillar2",
+      "sourceMesh": "Cube.015_RenderTriangles",
+      "materials": [
+        "LanternRouting_05_00",
+        "LanternRouting_05_01",
+        "LanternRouting_05_02",
+        "LanternRouting_05_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 48,
+      "polygons": 90,
+      "bakeCacheKey": "611f33b878c0d9540c32979f3dc029c9ded05edc8c264f393d39a68144d3333e"
+    },
+    {
+      "name": "Pillar3",
+      "sourceMesh": "Cube.020_RenderTriangles",
+      "materials": [
+        "LanternRouting_06_00",
+        "LanternRouting_06_01",
+        "LanternRouting_06_02",
+        "LanternRouting_06_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 48,
+      "polygons": 90,
+      "bakeCacheKey": "1c5a1f1cf667c1473ecd64c265ff5e3a227f2a3843f1d8b5c3a7ea11464832f5"
+    },
+    {
+      "name": "Pillar4",
+      "sourceMesh": "Cube.021_RenderTriangles",
+      "materials": [
+        "LanternRouting_07_00",
+        "LanternRouting_07_01",
+        "LanternRouting_07_02",
+        "LanternRouting_07_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 68,
+      "polygons": 130,
+      "bakeCacheKey": "d91da581dcb6a9d8e5c850a20eb20d6c991e8cb27cc18b84d89cf7ed543b6112"
+    },
+    {
+      "name": "Pillar5",
+      "sourceMesh": "Cube.022_RenderTriangles",
+      "materials": [
+        "LanternRouting_08_00",
+        "LanternRouting_08_01",
+        "LanternRouting_08_02",
+        "LanternRouting_08_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 68,
+      "polygons": 130,
+      "bakeCacheKey": "4f1326976d5acdedcdfe8611bbcbc958eaba1f48e2c87e9e825dbd1919cb11a6"
+    },
+    {
+      "name": "Plane",
+      "sourceMesh": "Plane.001_RenderTriangles",
+      "materials": [
+        "LanternRouting_09_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 4,
+      "polygons": 2,
+      "bakeCacheKey": "2f00308e3b12a8d393bdf807072c22a433807662967a3c094669c67bec8870c9"
+    },
+    {
+      "name": "Roof_Curved_Cover",
+      "sourceMesh": "Cube.023_RenderTriangles",
+      "materials": [
+        "LanternRouting_10_00",
+        "LanternRouting_10_01",
+        "LanternRouting_10_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 3824,
+      "polygons": 7644,
+      "bakeCacheKey": "48167beeef6ae98fc03acae506dbb96d695288d1b1fd3bd60bda130736d259c7"
+    },
+    {
+      "name": "base",
+      "sourceMesh": "Cube.024_RenderTriangles",
+      "materials": [
+        "LanternRouting_11_00",
+        "LanternRouting_11_01",
+        "LanternRouting_11_02",
+        "LanternRouting_11_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 748,
+      "polygons": 1356,
+      "bakeCacheKey": "2d2875cc71996c5d3ec18acee49b7748470e4c8536c316a6fd1e95f93a1395d2"
+    },
+    {
+      "name": "crystal",
+      "sourceMesh": "Cylinder.001_RenderTriangles",
+      "materials": [
+        "LanternRouting_12_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 40,
+      "polygons": 76,
+      "bakeCacheKey": "deb6c1bd5ea8fcb422a86f3e04566529c928bf31c60d8ac868d238dcdc162794"
+    },
+    {
+      "name": "crystal holder",
+      "sourceMesh": "Cube.025_RenderTriangles",
+      "materials": [
+        "LanternRouting_13_00",
+        "LanternRouting_13_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 52,
+      "polygons": 121,
+      "bakeCacheKey": "a129a4d18ffd75a82a1ad97c955c2759542e55bd82633406832556a6ad2ddc08"
+    },
+    {
+      "name": "lamp1flower",
+      "sourceMesh": "Plane.002_RenderTriangles",
+      "materials": [
+        "LanternRouting_14_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1540,
+      "polygons": 3040,
+      "bakeCacheKey": "f1da72b8d62035de873030c2a0e123ede2670fc9daa918896ae874fc42862701"
+    },
+    {
+      "name": "lamp1lamp",
+      "sourceMesh": "Cylinder.006_RenderTriangles",
+      "materials": [
+        "LanternRouting_15_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 30,
+      "polygons": 56,
+      "bakeCacheKey": "477e31024ce136c54e1f157f97dd2509a4de8e3f91a5aa8cdadfd251920236b8"
+    },
+    {
+      "name": "lamp2",
+      "sourceMesh": "Cylinder.007_RenderTriangles",
+      "materials": [
+        "LanternRouting_16_00",
+        "LanternRouting_16_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 658,
+      "polygons": 1501,
+      "bakeCacheKey": "907fbb555ba0eadd0e9d561633e7652d85ce32bf700f875c70fb4c081f5f398a"
+    },
+    {
+      "name": "lamp3",
+      "sourceMesh": "Cylinder.009_RenderTriangles",
+      "materials": [
+        "LanternRouting_17_00",
+        "LanternRouting_17_01",
+        "LanternRouting_17_02",
+        "LanternRouting_17_03",
+        "LanternRouting_17_04"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 740,
+      "polygons": 1380,
+      "bakeCacheKey": "37aa0289467bfd076f5862075e9c7e047d01765e7173db3b12f8f337f493e5be"
+    },
+    {
+      "name": "object1",
+      "sourceMesh": "Cylinder.010_RenderTriangles",
+      "materials": [
+        "LanternRouting_18_00",
+        "LanternRouting_18_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 554,
+      "polygons": 960,
+      "bakeCacheKey": "ba82ce6cb70204ebc3db136aa29fc2c8d3e97029980f886f2c4ae5d81a36d810"
+    },
+    {
+      "name": "object2",
+      "sourceMesh": "Cylinder.011_RenderTriangles",
+      "materials": [
+        "LanternRouting_19_00",
+        "LanternRouting_19_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 5344,
+      "polygons": 10368,
+      "bakeCacheKey": "45c17e433dbd695514cc2fccd122e98c324b149be21d677c0733a1fd98d581d5"
+    },
+    {
+      "name": "object3",
+      "sourceMesh": "Cube.026_RenderTriangles",
+      "materials": [
+        "LanternRouting_20_00",
+        "LanternRouting_20_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 80,
+      "polygons": 152,
+      "bakeCacheKey": "363aaa0edb651e1ceb3974fe142dd961f036fc2a93d7ded1fe8dd2f3546b1981"
+    },
+    {
+      "name": "rack",
+      "sourceMesh": "Cube.027_RenderTriangles",
+      "materials": [
+        "LanternRouting_21_00",
+        "LanternRouting_21_01",
+        "LanternRouting_21_02",
+        "LanternRouting_21_03",
+        "LanternRouting_21_04",
+        "LanternRouting_21_05",
+        "LanternRouting_21_06"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 795,
+      "polygons": 1718,
+      "bakeCacheKey": "1502b125fd365484e330c59fb93dff61fc88cd06dd8a4372e04bdbfb2ab65910"
+    }
+  ],
+  "sourceGeometry": [
+    {
+      "name": "BackPanel",
+      "vertices": 54,
+      "polygons": 52,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          -8.941390991210938
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -83.91361999511719
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "LightHolder1",
+      "vertices": 24,
+      "polygons": 22,
+      "matrix": [
+        [
+          1.2549097537994385,
+          0.0,
+          0.0,
+          -6.844200611114502
+        ],
+        [
+          0.0,
+          1.5288265943527222,
+          0.0,
+          -81.1554946899414
+        ],
+        [
+          0.0,
+          0.0,
+          0.15276974439620972,
+          2.3548500537872314
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "LightHolder2",
+      "vertices": 24,
+      "polygons": 22,
+      "matrix": [
+        [
+          2.3119332790374756,
+          0.0,
+          0.0,
+          -5.935307502746582
+        ],
+        [
+          0.0,
+          2.816573143005371,
+          0.0,
+          -66.89903259277344
+        ],
+        [
+          0.0,
+          0.0,
+          0.15276974439620972,
+          2.3548500537872314
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "LightHolder3",
+      "vertices": 24,
+      "polygons": 22,
+      "matrix": [
+        [
+          1.2549097537994385,
+          0.0,
+          0.0,
+          -6.844200611114502
+        ],
+        [
+          0.0,
+          1.5288265943527222,
+          0.0,
+          -52.6871223449707
+        ],
+        [
+          0.0,
+          0.0,
+          0.15276974439620972,
+          2.3548500537872314
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Pillar1",
+      "vertices": 32,
+      "polygons": 30,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          -8.941390991210938
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -47.11864471435547
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Pillar2",
+      "vertices": 48,
+      "polygons": 45,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          10.247087478637695
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -47.11864471435547
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Pillar3",
+      "vertices": 48,
+      "polygons": 45,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          10.247087478637695
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -83.91361999511719
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Pillar4",
+      "vertices": 68,
+      "polygons": 65,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          24.195032119750977
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -83.91361999511719
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Pillar5",
+      "vertices": 68,
+      "polygons": 65,
+      "matrix": [
+        [
+          0.5878161191940308,
+          0.0,
+          0.0,
+          24.195032119750977
+        ],
+        [
+          0.0,
+          0.5289580225944519,
+          0.0,
+          -47.11864471435547
+        ],
+        [
+          0.0,
+          0.0,
+          0.19391542673110962,
+          2.3800406455993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane",
+      "vertices": 4,
+      "polygons": 1,
+      "matrix": [
+        [
+          25.593957901000977,
+          0.0,
+          0.0,
+          6.234737873077393
+        ],
+        [
+          0.0,
+          25.593957901000977,
+          0.0,
+          -65.03162384033203
+        ],
+        [
+          0.0,
+          0.0,
+          25.593957901000977,
+          2.077967405319214
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Roof_Curved_Cover",
+      "vertices": 3824,
+      "polygons": 3636,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.145424842834473
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -83.91361999511719
+        ],
+        [
+          0.0,
+          0.0,
+          0.6000000238418579,
+          10.530961036682129
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "base",
+      "vertices": 748,
+      "polygons": 581,
+      "matrix": [
+        [
+          0.17003953456878662,
+          0.9854372143745422,
+          0.0,
+          -4.8814544677734375
+        ],
+        [
+          -0.9854372143745422,
+          0.17003953456878662,
+          0.0,
+          -58.74601745605469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.2700917720794678
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "crystal",
+      "vertices": 40,
+      "polygons": 34,
+      "matrix": [
+        [
+          0.23100005090236664,
+          0.2945932149887085,
+          0.0,
+          0.9924192428588867
+        ],
+        [
+          -0.2945932149887085,
+          0.23100005090236664,
+          0.0,
+          -60.2620849609375
+        ],
+        [
+          0.0,
+          0.0,
+          0.3743610382080078,
+          2.195197582244873
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "crystal holder",
+      "vertices": 52,
+      "polygons": 60,
+      "matrix": [
+        [
+          0.4746817350387573,
+          0.7010761499404907,
+          0.0,
+          1.1493825912475586
+        ],
+        [
+          -0.6053592562675476,
+          0.5497364401817322,
+          0.0,
+          -60.2117919921875
+        ],
+        [
+          0.0,
+          0.0,
+          0.8571124076843262,
+          3.029954433441162
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "lamp1flower",
+      "vertices": 240,
+      "polygons": 150,
+      "matrix": [
+        [
+          -0.2760070562362671,
+          -0.4757075309753418,
+          -0.24483385682106018,
+          -5.857305526733398
+        ],
+        [
+          0.6262672543525696,
+          -0.26905137300491333,
+          0.39685192704200745,
+          -66.82731628417969
+        ],
+        [
+          -1.1012780666351318,
+          -0.03377840295433998,
+          0.2870403230190277,
+          5.172267913818359
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "lamp1lamp",
+      "vertices": 30,
+      "polygons": 22,
+      "matrix": [
+        [
+          0.37868618965148926,
+          0.0,
+          0.0,
+          -5.81159782409668
+        ],
+        [
+          0.0,
+          0.37868618965148926,
+          0.0,
+          -66.72737884521484
+        ],
+        [
+          0.0,
+          0.0,
+          0.8187559843063354,
+          6.292271614074707
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "lamp2",
+      "vertices": 658,
+      "polygons": 707,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.542864799499512
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -81.45333862304688
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.839468955993652
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "lamp3",
+      "vertices": 740,
+      "polygons": 656,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.672345161437988
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -49.964603424072266
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.068756103515625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "object1",
+      "vertices": 277,
+      "polygons": 240,
+      "matrix": [
+        [
+          -0.19109639525413513,
+          -1.0898149013519287,
+          -0.11335328221321106,
+          21.964977264404297
+        ],
+        [
+          -1.0221261978149414,
+          0.2187606394290924,
+          -0.38008546829223633,
+          -53.310516357421875
+        ],
+        [
+          0.39471933245658875,
+          0.038866303861141205,
+          -1.0391098260879517,
+          8.018881797790527
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "object2",
+      "vertices": 864,
+      "polygons": 832,
+      "matrix": [
+        [
+          -0.05860620737075806,
+          0.9982811808586121,
+          0.0,
+          23.95025634765625
+        ],
+        [
+          -0.9982811808586121,
+          -0.05860620737075806,
+          0.0,
+          -55.299964904785156
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.019839286804199
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "object3",
+      "vertices": 80,
+      "polygons": 68,
+      "matrix": [
+        [
+          -0.05860620737075806,
+          0.9982811808586121,
+          0.0,
+          12.824714660644531
+        ],
+        [
+          -0.9982811808586121,
+          -0.05860620737075806,
+          0.0,
+          -53.90511703491211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.060993194580078
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "rack",
+      "vertices": 795,
+      "polygons": 748,
+      "matrix": [
+        [
+          -0.05860620737075806,
+          0.9982811808586121,
+          0.0,
+          16.772235870361328
+        ],
+        [
+          -0.9982811808586121,
+          -0.05860620737075806,
+          0.0,
+          -51.7022705078125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.031920909881592
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "LanternRouting_00_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "BackPanel",
+      "baseColor": "Textures/Baked/LanternRouting_00_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_00_00"
+    },
+    {
+      "name": "LanternRouting_00_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "BackPanel",
+      "baseColor": "Textures/Baked/LanternRouting_00_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_00_00"
+    },
+    {
+      "name": "LanternRouting_00_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "BackPanel",
+      "baseColor": "Textures/Baked/LanternRouting_00_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_00_00"
+    },
+    {
+      "name": "LanternRouting_00_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "BackPanel",
+      "baseColor": "Textures/Baked/LanternRouting_00_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_00_00"
+    },
+    {
+      "name": "LanternRouting_01_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "LightHolder1",
+      "baseColor": "Textures/Baked/LanternRouting_01_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_01_00"
+    },
+    {
+      "name": "LanternRouting_01_01",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "LightHolder1",
+      "baseColor": "Textures/Baked/LanternRouting_01_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_01_00"
+    },
+    {
+      "name": "LanternRouting_01_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "LightHolder1",
+      "baseColor": "Textures/Baked/LanternRouting_01_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_01_00"
+    },
+    {
+      "name": "LanternRouting_02_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "LightHolder2",
+      "baseColor": "Textures/Baked/LanternRouting_02_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_02_00"
+    },
+    {
+      "name": "LanternRouting_02_01",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "LightHolder2",
+      "baseColor": "Textures/Baked/LanternRouting_02_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_02_00"
+    },
+    {
+      "name": "LanternRouting_02_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "LightHolder2",
+      "baseColor": "Textures/Baked/LanternRouting_02_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_02_00"
+    },
+    {
+      "name": "LanternRouting_03_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "LightHolder3",
+      "baseColor": "Textures/Baked/LanternRouting_03_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_03_00"
+    },
+    {
+      "name": "LanternRouting_03_01",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "LightHolder3",
+      "baseColor": "Textures/Baked/LanternRouting_03_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_03_00"
+    },
+    {
+      "name": "LanternRouting_03_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "LightHolder3",
+      "baseColor": "Textures/Baked/LanternRouting_03_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_03_00"
+    },
+    {
+      "name": "LanternRouting_04_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "Pillar1",
+      "baseColor": "Textures/Baked/LanternRouting_04_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_04_00"
+    },
+    {
+      "name": "LanternRouting_04_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Pillar1",
+      "baseColor": "Textures/Baked/LanternRouting_04_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_04_00"
+    },
+    {
+      "name": "LanternRouting_04_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Pillar1",
+      "baseColor": "Textures/Baked/LanternRouting_04_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_04_00"
+    },
+    {
+      "name": "LanternRouting_04_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "Pillar1",
+      "baseColor": "Textures/Baked/LanternRouting_04_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_04_00"
+    },
+    {
+      "name": "LanternRouting_05_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "Pillar2",
+      "baseColor": "Textures/Baked/LanternRouting_05_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_05_00"
+    },
+    {
+      "name": "LanternRouting_05_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Pillar2",
+      "baseColor": "Textures/Baked/LanternRouting_05_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_05_00"
+    },
+    {
+      "name": "LanternRouting_05_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Pillar2",
+      "baseColor": "Textures/Baked/LanternRouting_05_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_05_00"
+    },
+    {
+      "name": "LanternRouting_05_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "Pillar2",
+      "baseColor": "Textures/Baked/LanternRouting_05_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_05_00"
+    },
+    {
+      "name": "LanternRouting_06_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "Pillar3",
+      "baseColor": "Textures/Baked/LanternRouting_06_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_06_00"
+    },
+    {
+      "name": "LanternRouting_06_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Pillar3",
+      "baseColor": "Textures/Baked/LanternRouting_06_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_06_00"
+    },
+    {
+      "name": "LanternRouting_06_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Pillar3",
+      "baseColor": "Textures/Baked/LanternRouting_06_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_06_00"
+    },
+    {
+      "name": "LanternRouting_06_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "Pillar3",
+      "baseColor": "Textures/Baked/LanternRouting_06_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_06_00"
+    },
+    {
+      "name": "LanternRouting_07_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "Pillar4",
+      "baseColor": "Textures/Baked/LanternRouting_07_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_07_00"
+    },
+    {
+      "name": "LanternRouting_07_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Pillar4",
+      "baseColor": "Textures/Baked/LanternRouting_07_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_07_00"
+    },
+    {
+      "name": "LanternRouting_07_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Pillar4",
+      "baseColor": "Textures/Baked/LanternRouting_07_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_07_00"
+    },
+    {
+      "name": "LanternRouting_07_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "Pillar4",
+      "baseColor": "Textures/Baked/LanternRouting_07_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_07_00"
+    },
+    {
+      "name": "LanternRouting_08_00",
+      "sourceMaterial": "Garden | Warm Sandstone",
+      "object": "Pillar5",
+      "baseColor": "Textures/Baked/LanternRouting_08_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_08_00"
+    },
+    {
+      "name": "LanternRouting_08_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Pillar5",
+      "baseColor": "Textures/Baked/LanternRouting_08_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_08_00"
+    },
+    {
+      "name": "LanternRouting_08_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Pillar5",
+      "baseColor": "Textures/Baked/LanternRouting_08_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_08_00"
+    },
+    {
+      "name": "LanternRouting_08_03",
+      "sourceMaterial": "Garden | Teal Plinths",
+      "object": "Pillar5",
+      "baseColor": "Textures/Baked/LanternRouting_08_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_08_00"
+    },
+    {
+      "name": "LanternRouting_09_00",
+      "sourceMaterial": "Garden | Sandstone Floor Tiles",
+      "object": "Plane",
+      "baseColor": "Textures/Baked/LanternRouting_09_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_09_00"
+    },
+    {
+      "name": "LanternRouting_10_00",
+      "sourceMaterial": "Garden | Cream Canopy",
+      "object": "Roof_Curved_Cover",
+      "baseColor": "Textures/Baked/LanternRouting_10_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_10_00"
+    },
+    {
+      "name": "LanternRouting_10_01",
+      "sourceMaterial": "Garden | Terracotta Frame",
+      "object": "Roof_Curved_Cover",
+      "baseColor": "Textures/Baked/LanternRouting_10_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_10_01"
+    },
+    {
+      "name": "LanternRouting_10_02",
+      "sourceMaterial": "Garden | Satin Gold Trim",
+      "object": "Roof_Curved_Cover",
+      "baseColor": "Textures/Baked/LanternRouting_10_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_10_01"
+    },
+    {
+      "name": "LanternRouting_11_00",
+      "sourceMaterial": "Routing | Terracotta Painted Timber",
+      "object": "base",
+      "baseColor": "Textures/Baked/LanternRouting_11_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_11_00"
+    },
+    {
+      "name": "LanternRouting_11_01",
+      "sourceMaterial": "Routing | Emerald Socket",
+      "object": "base",
+      "baseColor": "Textures/Baked/LanternRouting_11_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_11_00"
+    },
+    {
+      "name": "LanternRouting_11_02",
+      "sourceMaterial": "Routing | Warm Amber Detail",
+      "object": "base",
+      "baseColor": "Textures/Baked/LanternRouting_11_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_11_00"
+    },
+    {
+      "name": "LanternRouting_11_03",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "base",
+      "baseColor": "Textures/Baked/LanternRouting_11_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_11_00"
+    },
+    {
+      "name": "LanternRouting_12_00",
+      "sourceMaterial": "crystal outside",
+      "object": "crystal",
+      "baseColor": "Textures/Baked/LanternRouting_12_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_12_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_12_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_12_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "emissionStrength": 1.0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 0.32,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 0.32,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 1.0,
+      "alphaMode": "Blend",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "LanternRouting_12_00"
+    },
+    {
+      "name": "LanternRouting_13_00",
+      "sourceMaterial": "Routing | Emerald Socket",
+      "object": "crystal holder",
+      "baseColor": "Textures/Baked/LanternRouting_13_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_13_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_13_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_13_00"
+    },
+    {
+      "name": "LanternRouting_13_01",
+      "sourceMaterial": "Routing | Warm Amber Detail",
+      "object": "crystal holder",
+      "baseColor": "Textures/Baked/LanternRouting_13_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_13_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_13_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_13_00"
+    },
+    {
+      "name": "LanternRouting_14_00",
+      "sourceMaterial": "Material",
+      "object": "lamp1flower",
+      "baseColor": "Textures/Baked/LanternRouting_14_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_14_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_14_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_14_00"
+    },
+    {
+      "name": "LanternRouting_15_00",
+      "sourceMaterial": "Beacon | Glowing Amber Glass",
+      "object": "lamp1lamp",
+      "baseColor": "Textures/Baked/LanternRouting_15_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_15_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_15_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.10000000149011612,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "LanternRouting_15_00"
+    },
+    {
+      "name": "LanternRouting_16_00",
+      "sourceMaterial": "Lantern | Glowing Amber Panels",
+      "object": "lamp2",
+      "baseColor": "Textures/Baked/LanternRouting_16_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.5000001192092896,
+        1.5000001192092896,
+        1.5000001192092896,
+        1
+      ],
+      "emissionStrength": 1.5000001192092896,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.15000000596046448,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "LanternRouting_16_00"
+    },
+    {
+      "name": "LanternRouting_16_01",
+      "sourceMaterial": "Lantern | Warm Antique Brass",
+      "object": "lamp2",
+      "baseColor": "Textures/Baked/LanternRouting_16_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.5000001192092896,
+        1.5000001192092896,
+        1.5000001192092896,
+        1
+      ],
+      "emissionStrength": 1.5000001192092896,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_16_00"
+    },
+    {
+      "name": "LanternRouting_17_00",
+      "sourceMaterial": "Beacon | Plum Lacquer Base",
+      "object": "lamp3",
+      "baseColor": "Textures/Baked/LanternRouting_17_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_17_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_17_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_17_00"
+    },
+    {
+      "name": "LanternRouting_17_01",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "lamp3",
+      "baseColor": "Textures/Baked/LanternRouting_17_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_17_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_17_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_17_00"
+    },
+    {
+      "name": "LanternRouting_17_02",
+      "sourceMaterial": "Beacon | Teal Satin Enamel",
+      "object": "lamp3",
+      "baseColor": "Textures/Baked/LanternRouting_17_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_17_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_17_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_17_00"
+    },
+    {
+      "name": "LanternRouting_17_03",
+      "sourceMaterial": "Beacon | Copper Orange Frame",
+      "object": "lamp3",
+      "baseColor": "Textures/Baked/LanternRouting_17_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_17_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_17_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_17_00"
+    },
+    {
+      "name": "LanternRouting_17_04",
+      "sourceMaterial": "Beacon | Glowing Amber Glass",
+      "object": "lamp3",
+      "baseColor": "Textures/Baked/LanternRouting_17_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_17_MetallicSmoothness.png",
+      "emission": "Textures/Baked/LanternRouting_17_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.2000000476837158,
+        1
+      ],
+      "emissionStrength": 1.2000000476837158,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.10000000149011612,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "LanternRouting_17_00"
+    },
+    {
+      "name": "LanternRouting_18_00",
+      "sourceMaterial": "Pipe | Plum Satin Enamel",
+      "object": "object1",
+      "baseColor": "Textures/Baked/LanternRouting_18_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_18_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_18_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_18_00"
+    },
+    {
+      "name": "LanternRouting_18_01",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "object1",
+      "baseColor": "Textures/Baked/LanternRouting_18_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_18_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_18_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_18_00"
+    },
+    {
+      "name": "LanternRouting_19_00",
+      "sourceMaterial": "Pipe | Satin Silver",
+      "object": "object2",
+      "baseColor": "Textures/Baked/LanternRouting_19_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_19_00"
+    },
+    {
+      "name": "LanternRouting_19_01",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "object2",
+      "baseColor": "Textures/Baked/LanternRouting_19_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_19_00"
+    },
+    {
+      "name": "LanternRouting_20_00",
+      "sourceMaterial": "Pipe | Teal Satin Enamel",
+      "object": "object3",
+      "baseColor": "Textures/Baked/LanternRouting_20_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_20_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_20_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_20_00"
+    },
+    {
+      "name": "LanternRouting_20_01",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "object3",
+      "baseColor": "Textures/Baked/LanternRouting_20_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_20_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_20_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_20_00"
+    },
+    {
+      "name": "LanternRouting_21_00",
+      "sourceMaterial": "Routing | Teal Painted Timber",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_01",
+      "sourceMaterial": "Routing | Terracotta Painted Timber",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_02",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_03",
+      "sourceMaterial": "Pipe | Teal Satin Enamel",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_04",
+      "sourceMaterial": "Pipe | Warm Brushed Gold",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_05",
+      "sourceMaterial": "Pipe | Satin Silver",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    },
+    {
+      "name": "LanternRouting_21_06",
+      "sourceMaterial": "Pipe | Plum Satin Enamel",
+      "object": "rack",
+      "baseColor": "Textures/Baked/LanternRouting_21_BaseColor.png",
+      "normal": "Textures/Baked/LanternRouting_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/LanternRouting_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "LanternRouting_21_00"
+    }
+  ],
+  "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+}

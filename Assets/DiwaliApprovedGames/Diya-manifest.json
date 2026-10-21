@@ -1,0 +1,3536 @@
+{
+  "game": "Diya",
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Diya Game/diyafull.blend",
+  "sourceSha256": "c588f7bd7818d81ce66643287fee638aeaa2c1c1ac72cd178e44bd9704452180",
+  "sourceUnchanged": true,
+  "model": "Models/Diya_Approved.fbx",
+  "normalization": {
+    "scale": 0.24026870816211773,
+    "originFloorTop": [
+      -35.9832763671875,
+      -0.6893405914306641,
+      0.8778871297836304
+    ],
+    "floorObjectName": "Plane.002",
+    "bounds": {
+      "min": [
+        -4.4041876792907715,
+        -4.405946731567383,
+        -0.06884360313415527
+      ],
+      "max": [
+        4.408792018890381,
+        4.462549686431885,
+        4.790372371673584
+      ]
+    },
+    "unityFloorTopY": 0,
+    "boundsCoordinateSpace": "Blender Z-up prior to FBX conversion; source floor top becomes Unity Y=0"
+  },
+  "objects": [
+    {
+      "name": "B\u00e9zierCurve.001",
+      "sourceMesh": "Mesh.001_RenderTriangles",
+      "materials": [
+        "Diya_00_00",
+        "Diya_00_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 984,
+      "polygons": 1970,
+      "bakeCacheKey": "f487f6dfac52fa42411eeaf8c8dbb8a426512887b93abdff69916532b28eedba"
+    },
+    {
+      "name": "Cube",
+      "sourceMesh": "Cube.004_RenderTriangles",
+      "materials": [
+        "Diya_01_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 132,
+      "polygons": 252,
+      "bakeCacheKey": "cd37d756cac722a4714de76e2bf2dbd61b526d6e16c7dfb607ca122c234e9a63"
+    },
+    {
+      "name": "Cube.001",
+      "sourceMesh": "Cube.006_RenderTriangles",
+      "materials": [
+        "Diya_02_00",
+        "Diya_02_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 332,
+      "polygons": 658,
+      "bakeCacheKey": "7204c10ab48b7b335b4e1ebc875b4fd1292024b7e545b11813f6a65ef400fad1"
+    },
+    {
+      "name": "Cube.002",
+      "sourceMesh": "Cube.011_RenderTriangles",
+      "materials": [
+        "Diya_03_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 124,
+      "polygons": 244,
+      "bakeCacheKey": "da8e5764005f9719cca0f2698d9cc4f3104b2a00bb15daff3d6dfc5cfb39b402"
+    },
+    {
+      "name": "Cube.003",
+      "sourceMesh": "Cube.012_RenderTriangles",
+      "materials": [
+        "Diya_04_00",
+        "Diya_04_01",
+        "Diya_04_02",
+        "Diya_04_03",
+        "Diya_04_04",
+        "Diya_04_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 188,
+      "polygons": 368,
+      "bakeCacheKey": "ce4578f054236769504958e49a3dc521f92eaff79ea844c9bd028d380b5c50d4"
+    },
+    {
+      "name": "Cube.004",
+      "sourceMesh": "Cube.013_RenderTriangles",
+      "materials": [
+        "Diya_05_00",
+        "Diya_05_01",
+        "Diya_05_02",
+        "Diya_05_03",
+        "Diya_05_04",
+        "Diya_05_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 12,
+      "polygons": 20,
+      "bakeCacheKey": "a90580ce98b0413a5f4c358fdea2b809394545f386330cbb56c23f75a2c4a7e8"
+    },
+    {
+      "name": "Cube.005",
+      "sourceMesh": "Cube.014_RenderTriangles",
+      "materials": [
+        "Diya_06_00",
+        "Diya_06_01",
+        "Diya_06_02",
+        "Diya_06_03",
+        "Diya_06_04",
+        "Diya_06_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 28,
+      "polygons": 52,
+      "bakeCacheKey": "fcac35ee2b4855b99603d95ba3be5edf8ef3bb4e31690f3cef7ae3446b5434c6"
+    },
+    {
+      "name": "Cube.006",
+      "sourceMesh": "Cube.015_RenderTriangles",
+      "materials": [
+        "Diya_07_00",
+        "Diya_07_01",
+        "Diya_07_02",
+        "Diya_07_03",
+        "Diya_07_04",
+        "Diya_07_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 28,
+      "polygons": 52,
+      "bakeCacheKey": "1eeb1c94d2a3211eb74efc061b2fb52a795a2922cdac05001a474fa9cd3366eb"
+    },
+    {
+      "name": "Cube.007",
+      "sourceMesh": "Cube.016_RenderTriangles",
+      "materials": [
+        "Diya_08_00",
+        "Diya_08_01",
+        "Diya_08_02",
+        "Diya_08_03",
+        "Diya_08_04",
+        "Diya_08_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 136,
+      "polygons": 268,
+      "bakeCacheKey": "dedc673e5622ed99f1470d4259a8d85ced6447691c855fb8173564e77a8e7abb"
+    },
+    {
+      "name": "Cube.008",
+      "sourceMesh": "Cube.017_RenderTriangles",
+      "materials": [
+        "Diya_09_00",
+        "Diya_09_01",
+        "Diya_09_02",
+        "Diya_09_03",
+        "Diya_09_04",
+        "Diya_09_05"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 435,
+      "polygons": 877,
+      "bakeCacheKey": "00d689b572af2b2be8c06523fe5bec4b9eaa9a57c4d8b4609dbf5fadb87236ea"
+    },
+    {
+      "name": "Cylinder",
+      "sourceMesh": "Cylinder.001_RenderTriangles",
+      "materials": [
+        "Diya_10_00",
+        "Diya_10_01",
+        "Diya_10_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 320,
+      "polygons": 636,
+      "bakeCacheKey": "52076830ce05d8792a32a9ac73231a02afa6276ffbb6ee4b73d169d617708b3a"
+    },
+    {
+      "name": "Cylinder.001",
+      "sourceMesh": "Cylinder.003_RenderTriangles",
+      "materials": [
+        "Diya_11_00",
+        "Diya_11_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 204,
+      "polygons": 404,
+      "bakeCacheKey": "e6f79d084f79c34c64534768056ff8fa1b7401ee89d453639e50737048885775"
+    },
+    {
+      "name": "Cylinder.003",
+      "sourceMesh": "Cylinder.005_RenderTriangles",
+      "materials": [
+        "Diya_12_00",
+        "Diya_12_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1922,
+      "polygons": 3840,
+      "bakeCacheKey": "37830842dc7054c061850b43f73c1d4ae7474d9e9204da746d385c12667b55a8"
+    },
+    {
+      "name": "Plane",
+      "sourceMesh": "Plane.003_RenderTriangles",
+      "materials": [
+        "Diya_13_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1470,
+      "polygons": 2400,
+      "bakeCacheKey": "309a1e1be4d21f7fb2ee3b5e1b48d34fa30046f60d5807b1d60c705950467236"
+    },
+    {
+      "name": "Plane.001",
+      "sourceMesh": "Plane.004_RenderTriangles",
+      "materials": [
+        "Diya_14_00",
+        "Diya_14_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 836,
+      "polygons": 1920,
+      "bakeCacheKey": "af6219cd4215387717969560d30743efa6b9f4b917f8705ae1ddfb1988532830"
+    },
+    {
+      "name": "Plane.002",
+      "sourceMesh": "Plane.005_RenderTriangles",
+      "materials": [
+        "Diya_15_00",
+        "Diya_15_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 117,
+      "polygons": 200,
+      "bakeCacheKey": "67d0a71deb53d54c4c112d85aab354b5b48b68161d068757f441b0f6d375d350"
+    },
+    {
+      "name": "Sphere",
+      "sourceMesh": "Sphere.004_RenderTriangles",
+      "materials": [
+        "Diya_16_00",
+        "Diya_16_01",
+        "Diya_16_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 574,
+      "polygons": 1167,
+      "bakeCacheKey": "a0f96d46204dc916e50e991b7adb7ceb09021874c9ac43813a7e2f512497a5e6"
+    },
+    {
+      "name": "Sphere.001",
+      "sourceMesh": "Sphere.005_RenderTriangles",
+      "materials": [
+        "Diya_17_00",
+        "Diya_17_01",
+        "Diya_17_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 574,
+      "polygons": 1167,
+      "bakeCacheKey": "a0f96d46204dc916e50e991b7adb7ceb09021874c9ac43813a7e2f512497a5e6"
+    },
+    {
+      "name": "Sphere.002",
+      "sourceMesh": "Sphere.006_RenderTriangles",
+      "materials": [
+        "Diya_18_00",
+        "Diya_18_01",
+        "Diya_18_02"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 574,
+      "polygons": 1167,
+      "bakeCacheKey": "a0f96d46204dc916e50e991b7adb7ceb09021874c9ac43813a7e2f512497a5e6"
+    }
+  ],
+  "sourceGeometry": [
+    {
+      "name": "B\u00e9zierCurve.001",
+      "vertices": 496,
+      "polygons": 494,
+      "matrix": [
+        [
+          -7.465745852641703e-07,
+          -17.079635620117188,
+          0.0,
+          -48.77004623413086
+        ],
+        [
+          17.079635620117188,
+          -7.465745852641703e-07,
+          0.0,
+          8.561164855957031
+        ],
+        [
+          0.0,
+          0.0,
+          17.079635620117188,
+          1.5268135070800781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube",
+      "vertices": 132,
+      "polygons": 126,
+      "matrix": [
+        [
+          1.485612154006958,
+          0.0,
+          0.0,
+          -48.79294967651367
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.773331642150879
+        ],
+        [
+          0.0,
+          0.0,
+          0.5311055183410645,
+          1.7615327835083008
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "vertices": 332,
+      "polygons": 331,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          1.0,
+          0.0,
+          -20.68718719482422
+        ],
+        [
+          -1.0,
+          -4.371138828673793e-08,
+          0.0,
+          -22.717384338378906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.718815565109253
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "vertices": 124,
+      "polygons": 122,
+      "matrix": [
+        [
+          5.3050466242154926e-09,
+          -1.569738117268571e-09,
+          0.03607384115457535,
+          -20.24298095703125
+        ],
+        [
+          -0.44487208127975464,
+          4.282393606391821e-10,
+          4.3017625572794316e-10,
+          -5.42977237701416
+        ],
+        [
+          -5.3050466242154926e-09,
+          -0.03591141849756241,
+          -1.5768376604441414e-09,
+          2.4910888671875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "vertices": 94,
+      "polygons": 92,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.11806106567383
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -18.026920318603516
+        ],
+        [
+          0.0,
+          0.0,
+          0.8525389432907104,
+          1.705946683883667
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.004",
+      "vertices": 12,
+      "polygons": 10,
+      "matrix": [
+        [
+          1.2085689306259155,
+          0.0,
+          0.0,
+          -20.074922561645508
+        ],
+        [
+          0.0,
+          -6.183335781097412,
+          0.0,
+          -8.718687057495117
+        ],
+        [
+          0.0,
+          0.0,
+          0.7686934471130371,
+          1.6562399864196777
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.005",
+      "vertices": 28,
+      "polygons": 26,
+      "matrix": [
+        [
+          4.889983654022217,
+          0.0,
+          0.0,
+          -25.463844299316406
+        ],
+        [
+          0.0,
+          2.5585882663726807,
+          0.0,
+          11.470552444458008
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.783733606338501
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.006",
+      "vertices": 28,
+      "polygons": 26,
+      "matrix": [
+        [
+          4.889983654022217,
+          0.0,
+          0.0,
+          -36.949851989746094
+        ],
+        [
+          0.0,
+          2.5585882663726807,
+          0.0,
+          11.470552444458008
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.783733606338501
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.007",
+      "vertices": 136,
+      "polygons": 134,
+      "matrix": [
+        [
+          4.301093101501465,
+          0.0,
+          0.0,
+          -48.401554107666016
+        ],
+        [
+          0.0,
+          2.5585882663726807,
+          0.0,
+          11.470552444458008
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.783733606338501
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "vertices": 435,
+      "polygons": 456,
+      "matrix": [
+        [
+          18.312997817993164,
+          0.0,
+          0.0,
+          -35.94685363769531
+        ],
+        [
+          0.0,
+          4.229189872741699,
+          0.0,
+          13.654630661010742
+        ],
+        [
+          0.0,
+          0.0,
+          1.1102705001831055,
+          13.459457397460938
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "vertices": 320,
+      "polygons": 290,
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -20.041851043701172
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -5.485254764556885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.136244058609009
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cylinder.001",
+      "vertices": 102,
+      "polygons": 84,
+      "matrix": [
+        [
+          0.03417205810546875,
+          0.8409227132797241,
+          5.24592451256467e-07,
+          -19.2514591217041
+        ],
+        [
+          1.029268759111801e-07,
+          -2.403902783498779e-07,
+          1.8843168020248413,
+          -9.94211196899414
+        ],
+        [
+          0.7174037098884583,
+          -0.04005562886595726,
+          -2.9533336487475026e-07,
+          4.551358222961426
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cylinder.003",
+      "vertices": 121,
+      "polygons": 121,
+      "matrix": [
+        [
+          0.7705631852149963,
+          8.300390840522149e-16,
+          1.844169261744355e-08,
+          -20.256549835205078
+        ],
+        [
+          3.368238665757417e-08,
+          -1.8989080530218416e-08,
+          -0.421896755695343,
+          -8.372856140136719
+        ],
+        [
+          0.0,
+          0.43441954255104065,
+          -1.844169261744355e-08,
+          3.288127899169922
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane",
+      "vertices": 44,
+      "polygons": 30,
+      "matrix": [
+        [
+          0.22660201787948608,
+          0.0,
+          0.0,
+          -20.034500122070312
+        ],
+        [
+          0.0,
+          0.22660201787948608,
+          0.0,
+          -5.47641658782959
+        ],
+        [
+          0.0,
+          0.0,
+          0.22660201787948608,
+          3.1090753078460693
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "vertices": 418,
+      "polygons": 313,
+      "matrix": [
+        [
+          -2.543635129928589,
+          0.0,
+          0.0,
+          -22.305875778198242
+        ],
+        [
+          -0.0,
+          -2.6901693672698457e-07,
+          0.8047515153884888,
+          7.854661464691162
+        ],
+        [
+          0.0,
+          6.15438985824585,
+          3.517680724485217e-08,
+          7.448563575744629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.002",
+      "vertices": 117,
+      "polygons": 100,
+      "matrix": [
+        [
+          18.312829971313477,
+          0.0,
+          0.0,
+          -35.9832763671875
+        ],
+        [
+          0.0,
+          18.312829971313477,
+          0.0,
+          -0.6893408894538879
+        ],
+        [
+          0.0,
+          0.0,
+          18.312829971313477,
+          0.6892939209938049
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere",
+      "vertices": 574,
+      "polygons": 604,
+      "matrix": [
+        [
+          0.06083359569311142,
+          -0.0046678888611495495,
+          -0.0008789575658738613,
+          -21.86891746520996
+        ],
+        [
+          0.004736064001917839,
+          0.06047043576836586,
+          0.00664711557328701,
+          11.94815444946289
+        ],
+        [
+          0.00036255986196920276,
+          -0.006695167161524296,
+          0.06064924597740173,
+          3.355281352996826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.001",
+      "vertices": 574,
+      "polygons": 604,
+      "matrix": [
+        [
+          0.06083359569311142,
+          -0.0046678888611495495,
+          -0.0008789575658738613,
+          -36.96574401855469
+        ],
+        [
+          0.004736064001917839,
+          0.06047043576836586,
+          0.00664711557328701,
+          11.94815444946289
+        ],
+        [
+          0.00036255986196920276,
+          -0.006695167161524296,
+          0.06064924597740173,
+          3.355281352996826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.002",
+      "vertices": 574,
+      "polygons": 604,
+      "matrix": [
+        [
+          0.06083359569311142,
+          -0.0046678888611495495,
+          -0.0008789575658738613,
+          -49.134037017822266
+        ],
+        [
+          0.004736064001917839,
+          0.06047043576836586,
+          0.00664711557328701,
+          11.94815444946289
+        ],
+        [
+          0.00036255986196920276,
+          -0.006695167161524296,
+          0.06064924597740173,
+          3.355281352996826
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Diya_00_00",
+      "sourceMaterial": "Scroll | Purple Satin Ribbon",
+      "object": "B\u00e9zierCurve.001",
+      "baseColor": "Textures/Baked/Diya_00_BaseColor.png",
+      "normal": "Textures/Baked/Diya_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_00_00"
+    },
+    {
+      "name": "Diya_00_01",
+      "sourceMaterial": "Scroll | Warm Satin Gold",
+      "object": "B\u00e9zierCurve.001",
+      "baseColor": "Textures/Baked/Diya_00_BaseColor.png",
+      "normal": "Textures/Baked/Diya_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_00_01"
+    },
+    {
+      "name": "Diya_01_00",
+      "sourceMaterial": "Material.003",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/Diya_01_BaseColor.png",
+      "normal": "Textures/Baked/Diya_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_01_00"
+    },
+    {
+      "name": "Diya_02_00",
+      "sourceMaterial": "Scroll | Warm Satin Gold",
+      "object": "Cube.001",
+      "baseColor": "Textures/Baked/Diya_02_BaseColor.png",
+      "normal": "Textures/Baked/Diya_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_02_00"
+    },
+    {
+      "name": "Diya_02_01",
+      "sourceMaterial": "Material.007",
+      "object": "Cube.001",
+      "baseColor": "Textures/Baked/Diya_02_BaseColor.png",
+      "normal": "Textures/Baked/Diya_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_02_00"
+    },
+    {
+      "name": "Diya_03_00",
+      "sourceMaterial": "Scroll | Warm Satin Gold",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/Diya_03_BaseColor.png",
+      "normal": "Textures/Baked/Diya_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_03_00"
+    },
+    {
+      "name": "Diya_04_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_04_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_04_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_04_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_04_04",
+      "sourceMaterial": "Diya Courtyard | Plum Accent",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_04_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Diya_04_BaseColor.png",
+      "normal": "Textures/Baked/Diya_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_04_00"
+    },
+    {
+      "name": "Diya_05_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_05_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_05_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_05_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_05_04",
+      "sourceMaterial": "Diya Courtyard | Plum Accent",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_05_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Diya_05_BaseColor.png",
+      "normal": "Textures/Baked/Diya_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_05_00"
+    },
+    {
+      "name": "Diya_06_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_06_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_06_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_06_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_06_04",
+      "sourceMaterial": "Diya Courtyard | Plum Accent",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_06_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Diya_06_BaseColor.png",
+      "normal": "Textures/Baked/Diya_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_06_00"
+    },
+    {
+      "name": "Diya_07_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_07_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_07_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_07_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_07_04",
+      "sourceMaterial": "Diya Courtyard | Plum Accent",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_07_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Diya_07_BaseColor.png",
+      "normal": "Textures/Baked/Diya_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_07_00"
+    },
+    {
+      "name": "Diya_08_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_08_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_08_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_08_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_08_04",
+      "sourceMaterial": "Diya Courtyard | Plum Accent",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_08_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Diya_08_BaseColor.png",
+      "normal": "Textures/Baked/Diya_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_08_00"
+    },
+    {
+      "name": "Diya_09_00",
+      "sourceMaterial": "Diya Courtyard | Sandstone",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_09_01",
+      "sourceMaterial": "Diya Courtyard | Terracotta",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_09_02",
+      "sourceMaterial": "Diya Courtyard | Teal Paint",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_09_03",
+      "sourceMaterial": "Diya Courtyard | Satin Gold",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_09_04",
+      "sourceMaterial": "Material.004",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_09_05",
+      "sourceMaterial": "Diya Courtyard | Column Color Bands",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Diya_09_BaseColor.png",
+      "normal": "Textures/Baked/Diya_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_09_00"
+    },
+    {
+      "name": "Diya_10_00",
+      "sourceMaterial": "Pot | Fine Terracotta",
+      "object": "Cylinder",
+      "baseColor": "Textures/Baked/Diya_10_BaseColor.png",
+      "normal": "Textures/Baked/Diya_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_10_00"
+    },
+    {
+      "name": "Diya_10_01",
+      "sourceMaterial": "Pot | Teal and Gold Painted Pattern",
+      "object": "Cylinder",
+      "baseColor": "Textures/Baked/Diya_10_BaseColor.png",
+      "normal": "Textures/Baked/Diya_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_10_00"
+    },
+    {
+      "name": "Diya_10_02",
+      "sourceMaterial": "Pot | Dark Inner Clay",
+      "object": "Cylinder",
+      "baseColor": "Textures/Baked/Diya_10_BaseColor.png",
+      "normal": "Textures/Baked/Diya_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_10_00"
+    },
+    {
+      "name": "Diya_11_00",
+      "sourceMaterial": "Material.007",
+      "object": "Cylinder.001",
+      "baseColor": "Textures/Baked/Diya_11_BaseColor.png",
+      "normal": "Textures/Baked/Diya_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_11_00"
+    },
+    {
+      "name": "Diya_11_01",
+      "sourceMaterial": "Scroll | Warm Satin Gold",
+      "object": "Cylinder.001",
+      "baseColor": "Textures/Baked/Diya_11_BaseColor.png",
+      "normal": "Textures/Baked/Diya_11_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_11_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_11_00"
+    },
+    {
+      "name": "Diya_12_00",
+      "sourceMaterial": "feather",
+      "object": "Cylinder.003",
+      "baseColor": "Textures/Baked/Diya_12_BaseColor.png",
+      "normal": "Textures/Baked/Diya_12_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_12_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 0.6636363863945007,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 0.6636363863945007,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Blend",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_12_00"
+    },
+    {
+      "name": "Diya_12_01",
+      "sourceMaterial": "Material.006",
+      "object": "Cylinder.003",
+      "baseColor": "Textures/Baked/Diya_12_BaseColor.png",
+      "normal": "Textures/Baked/Diya_12_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_12_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_12_01"
+    },
+    {
+      "name": "Diya_13_00",
+      "sourceMaterial": "Material.001",
+      "object": "Plane",
+      "baseColor": "Textures/Baked/Diya_13_BaseColor.png",
+      "normal": "Textures/Baked/Diya_13_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_13_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_13_00"
+    },
+    {
+      "name": "Diya_14_00",
+      "sourceMaterial": "Pot | Fine Terracotta",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Diya_14_BaseColor.png",
+      "normal": "Textures/Baked/Diya_14_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_14_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_14_00"
+    },
+    {
+      "name": "Diya_14_01",
+      "sourceMaterial": "Material",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Diya_14_BaseColor.png",
+      "normal": "Textures/Baked/Diya_14_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_14_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": true,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_14_01"
+    },
+    {
+      "name": "Diya_15_00",
+      "sourceMaterial": "Diya Courtyard | Floor Tiles",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Diya_15_BaseColor.png",
+      "normal": "Textures/Baked/Diya_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_15_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_15_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "emissionStrength": 1.0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_15_00"
+    },
+    {
+      "name": "Diya_15_01",
+      "sourceMaterial": "Diya Courtyard | Orange Path Emission",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Diya_15_BaseColor.png",
+      "normal": "Textures/Baked/Diya_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_15_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_15_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "emissionStrength": 1.0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_15_00"
+    },
+    {
+      "name": "Diya_16_00",
+      "sourceMaterial": "diya emisssion",
+      "object": "Sphere",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Blend",
+      "texturedAlpha": true,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_00"
+    },
+    {
+      "name": "Diya_16_01",
+      "sourceMaterial": "Material.005",
+      "object": "Sphere",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_01"
+    },
+    {
+      "name": "Diya_16_02",
+      "sourceMaterial": "Material.002",
+      "object": "Sphere",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.5818182229995728,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "Diya_16_01"
+    },
+    {
+      "name": "Diya_17_00",
+      "sourceMaterial": "diya emisssion",
+      "object": "Sphere.001",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Blend",
+      "texturedAlpha": true,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_00"
+    },
+    {
+      "name": "Diya_17_01",
+      "sourceMaterial": "Material.005",
+      "object": "Sphere.001",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_01"
+    },
+    {
+      "name": "Diya_17_02",
+      "sourceMaterial": "Material.002",
+      "object": "Sphere.001",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.5818182229995728,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "Diya_16_01"
+    },
+    {
+      "name": "Diya_18_00",
+      "sourceMaterial": "diya emisssion",
+      "object": "Sphere.002",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Blend",
+      "texturedAlpha": true,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_00"
+    },
+    {
+      "name": "Diya_18_01",
+      "sourceMaterial": "Material.005",
+      "object": "Sphere.002",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "",
+      "canonicalMaterial": "Diya_16_01"
+    },
+    {
+      "name": "Diya_18_02",
+      "sourceMaterial": "Material.002",
+      "object": "Sphere.002",
+      "baseColor": "Textures/Baked/Diya_16_BaseColor.png",
+      "normal": "Textures/Baked/Diya_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Diya_16_MetallicSmoothness.png",
+      "emission": "Textures/Baked/Diya_16_Emission.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        1.75,
+        1.75,
+        1.75,
+        1
+      ],
+      "emissionStrength": 1.75,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.5818182229995728,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": "URP alpha transparency approximation; source not modified",
+      "canonicalMaterial": "Diya_16_01"
+    }
+  ],
+  "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+}

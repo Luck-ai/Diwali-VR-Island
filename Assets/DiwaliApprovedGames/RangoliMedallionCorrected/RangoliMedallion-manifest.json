@@ -1,0 +1,245 @@
+{
+  "game": "RangoliMedallion",
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Rangoli Game/fullrangoligame.blend",
+  "sourceSha256": "3428725d70531e680cf92751be797d4215a88420ac8eef83268e8b86520917bf",
+  "sourceUnchanged": true,
+  "model": "Models/RangoliMedallion_Approved.fbx",
+  "normalization": {
+    "scale": 0.16408448938530248,
+    "originFloorTop": [
+      -0.06773185729980469,
+      -18.741317749023438,
+      0.4375331401824951
+    ],
+    "floorObjectName": "Plane",
+    "bounds": {
+      "min": [
+        1.8983898162841797,
+        1.9471158981323242,
+        0.1821579784154892
+      ],
+      "max": [
+        1.990641713142395,
+        2.1746277809143066,
+        0.4402785301208496
+      ]
+    },
+    "unityFloorTopY": 0
+  },
+  "objects": [
+    {
+      "name": "Plane.001",
+      "sourceMesh": "Plane.002_RenderTriangles",
+      "materials": [
+        "RangoliMedallion_00_00",
+        "RangoliMedallion_00_01",
+        "RangoliMedallion_00_02",
+        "RangoliMedallion_00_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 451,
+      "polygons": 794,
+      "bakeCacheKey": "4dae0f77af0df4f6bfb9f01c56ec180f67a2c0988d387230ec3a9d4aab657f05"
+    }
+  ],
+  "sourceGeometry": [
+    {
+      "name": "Plane.001",
+      "vertices": 451,
+      "polygons": 380,
+      "matrix": [
+        [
+          0.06962484866380692,
+          -0.11839664727449417,
+          0.9905223846435547,
+          11.878250122070312
+        ],
+        [
+          0.9682230353355408,
+          0.24710381031036377,
+          -0.03852120414376259,
+          -5.90587854385376
+        ],
+        [
+          -0.24020108580589294,
+          0.9617286324501038,
+          0.13183891773223877,
+          2.262805461883545
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "RangoliMedallion_00_00",
+      "sourceMaterial": "Material.031",
+      "object": "Plane.001",
+      "baseColor": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_BaseColor.png",
+      "normal": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_Normal.png",
+      "metallicSmoothness": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "RangoliMedallion_00_01",
+      "sourceMaterial": "Material.032",
+      "object": "Plane.001",
+      "baseColor": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_BaseColor.png",
+      "normal": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_Normal.png",
+      "metallicSmoothness": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "RangoliMedallion_00_02",
+      "sourceMaterial": "Material.033",
+      "object": "Plane.001",
+      "baseColor": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_BaseColor.png",
+      "normal": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_Normal.png",
+      "metallicSmoothness": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "RangoliMedallion_00_03",
+      "sourceMaterial": "Material.034",
+      "object": "Plane.001",
+      "baseColor": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_BaseColor.png",
+      "normal": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_Normal.png",
+      "metallicSmoothness": "RangoliMedallionCorrected/Textures/Baked/RangoliMedallion_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    }
+  ],
+  "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+}
