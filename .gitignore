@@ -32,3 +32,9 @@ sysinfo.txt
 *.pidb
 *.booproj
 *.svclog
+
+# Local build outputs and editor automation scratch files
+.utmp/
+*_BurstDebugInformation_DoNotShip/
+*.apk
+*.aab

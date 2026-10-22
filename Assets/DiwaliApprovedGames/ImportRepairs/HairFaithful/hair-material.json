@@ -1,0 +1,9 @@
+{
+  "sourceMaterial": "feather",
+  "paths": {
+    "baseColor": "Textures/Baked/FeatherSource_BaseColor.png",
+    "normal": "Textures/Baked/FeatherSource_Normal.png",
+    "metallicSmoothness": "Textures/Baked/FeatherSource_MetallicSmoothness.png"
+  },
+  "policy": "Original source shader baked from existing particle hair paths, preserving Generated coordinate shader inputs. No source file saved."
+}

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 namespace DiwaliGameplay {
 public sealed class DiyaFlameVisual : MonoBehaviour {
- public Light source;
+ public Light source;public bool decorative;
  ParticleSystem flame;static Material flameMaterial;
  void Start(){
  var go=new GameObject("Soft rising flame");go.transform.SetParent(transform,false);flame=go.AddComponent<ParticleSystem>();flame.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);
@@ -13,6 +13,6 @@ public sealed class DiyaFlameVisual : MonoBehaviour {
  var renderer=go.GetComponent<ParticleSystemRenderer>();renderer.renderMode=ParticleSystemRenderMode.Billboard;renderer.sharedMaterial=Material();renderer.shadowCastingMode=ShadowCastingMode.Off;renderer.receiveShadows=false;
  }
  static Material Material(){if(flameMaterial)return flameMaterial;var tex=new Texture2D(32,32,TextureFormat.RGBA32,false);tex.name="Diya soft flame alpha";tex.wrapMode=TextureWrapMode.Clamp;for(int y=0;y<32;y++)for(int x=0;x<32;x++){float u=(x-15.5f)/15.5f,v=(y-15.5f)/15.5f;float a=Mathf.Pow(Mathf.Clamp01(1-u*u-v*v),2);tex.SetPixel(x,y,new Color(1,1,1,a));}tex.Apply();flameMaterial=new Material(Shader.Find("Universal Render Pipeline/Particles/Unlit"));flameMaterial.name="Diya flame particles";flameMaterial.SetTexture("_BaseMap",tex);flameMaterial.SetColor("_BaseColor",Color.white);flameMaterial.SetFloat("_Surface",1);flameMaterial.SetFloat("_Blend",0);flameMaterial.SetFloat("_SrcBlend",(float)BlendMode.SrcAlpha);flameMaterial.SetFloat("_DstBlend",(float)BlendMode.OneMinusSrcAlpha);flameMaterial.SetFloat("_ZWrite",0);flameMaterial.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");flameMaterial.renderQueue=3000;return flameMaterial;}
- void LateUpdate(){if(!source||!flame)return;if(source.enabled&&!flame.isPlaying)flame.Play();else if(!source.enabled&&flame.isPlaying)flame.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);}
+ void LateUpdate(){if(!flame)return;bool active=decorative||(source&&source.enabled);if(active&&!flame.isPlaying)flame.Play();else if(!active&&flame.isPlaying)flame.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);}
 }
 }

@@ -1,0 +1,3579 @@
+{
+  "game": "Rangoli",
+  "source": "/home/lucky/KMITL/3.1/AR/Project/Rangoli Game/fullrangoligame.blend",
+  "sourceSha256": "68861e797a28ca42922f3c614bf8a886f1c779a5dd9274bed0c428d56153561a",
+  "sourceUnchanged": true,
+  "model": "Models/Rangoli_Approved.fbx",
+  "normalization": {
+    "scale": 0.16408448938530248,
+    "originFloorTop": [
+      -0.06773185729980469,
+      -18.741317749023438,
+      0.4375331401824951
+    ],
+    "floorObjectName": "Plane",
+    "bounds": {
+      "min": [
+        -3.267829656600952,
+        -4.400000095367432,
+        0.0
+      ],
+      "max": [
+        3.267829656600952,
+        4.400000095367432,
+        3.5485925674438477
+      ]
+    },
+    "unityFloorTopY": 0
+  },
+  "objects": [
+    {
+      "name": "Cube",
+      "sourceMesh": "Cube.005_RenderTriangles",
+      "materials": [
+        "Rangoli_00_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 174,
+      "polygons": 324,
+      "bakeCacheKey": "03049f10ab3301c3c7ea28c0c1e733f290ba5c3c769cc7628db04b785099f3d1"
+    },
+    {
+      "name": "Cube.001",
+      "sourceMesh": "Cube.015_RenderTriangles",
+      "materials": [
+        "Rangoli_01_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 8,
+      "polygons": 12,
+      "bakeCacheKey": "c0e1ff73c7190faa62e66413a0191a57c750567059a779a9f02997d8574e70e7"
+    },
+    {
+      "name": "Cube.002",
+      "sourceMesh": "Cube.016_RenderTriangles",
+      "materials": [
+        "Rangoli_02_00",
+        "Rangoli_02_01",
+        "Rangoli_02_02",
+        "Rangoli_02_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1417,
+      "polygons": 2809,
+      "bakeCacheKey": "3a604394699974091f2bdb9a3fba659af31994379b050f42b2802343cf31e3de"
+    },
+    {
+      "name": "Cube.003",
+      "sourceMesh": "Cube.017_RenderTriangles",
+      "materials": [
+        "Rangoli_03_00",
+        "Rangoli_03_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1692,
+      "polygons": 3380,
+      "bakeCacheKey": "51b406009cec89457f93a2f8d553aa09c742eb8207ba333c586b2fc670e1ff2d"
+    },
+    {
+      "name": "Cube.004",
+      "sourceMesh": "Cube.018_RenderTriangles",
+      "materials": [
+        "Rangoli_04_00",
+        "Rangoli_04_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 256,
+      "polygons": 508,
+      "bakeCacheKey": "9ab203ccbe7588d0ddfb1e014a94a22ee9a3a609ca6af3536e88dabb1c20ac98"
+    },
+    {
+      "name": "Cube.005",
+      "sourceMesh": "Cube.019_RenderTriangles",
+      "materials": [
+        "Rangoli_05_00",
+        "Rangoli_05_01",
+        "Rangoli_05_02",
+        "Rangoli_05_03",
+        "Rangoli_05_04",
+        "Rangoli_05_05",
+        "Rangoli_05_06",
+        "Rangoli_05_07",
+        "Rangoli_05_08",
+        "Rangoli_05_09",
+        "Rangoli_05_10",
+        "Rangoli_05_11",
+        "Rangoli_05_12"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 324,
+      "polygons": 356,
+      "bakeCacheKey": "9f646088f01d19222d09151c9532e33a408a9032a13a107e2941a9e0969e33e2"
+    },
+    {
+      "name": "Cube.006",
+      "sourceMesh": "Cube.020_RenderTriangles",
+      "materials": [
+        "Rangoli_06_00",
+        "Rangoli_06_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1692,
+      "polygons": 3380,
+      "bakeCacheKey": "3d0b1f0769667e451133f0ffaf7d848acbb8381b9d73b92541c92c256d34891d"
+    },
+    {
+      "name": "Cube.007",
+      "sourceMesh": "Cube.021_RenderTriangles",
+      "materials": [
+        "Rangoli_07_00",
+        "Rangoli_07_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1692,
+      "polygons": 3380,
+      "bakeCacheKey": "f5d12e8bd1f7566a343d163625d852102c22858b13e9b421c6668d178907aa90"
+    },
+    {
+      "name": "Cube.008",
+      "sourceMesh": "Cube.022_RenderTriangles",
+      "materials": [
+        "Rangoli_08_00",
+        "Rangoli_08_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1692,
+      "polygons": 3380,
+      "bakeCacheKey": "04d0977ec20cc1eb8c469795e06413e67ce98aa72acc32dd600242d8be63234e"
+    },
+    {
+      "name": "Cube.009",
+      "sourceMesh": "Cube.023_RenderTriangles",
+      "materials": [
+        "Rangoli_09_00",
+        "Rangoli_09_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1692,
+      "polygons": 3380,
+      "bakeCacheKey": "5b792348577d7f52c0e8ab053e4adef59b683ae2d585a421534ffa5a37628715"
+    },
+    {
+      "name": "Cube.010",
+      "sourceMesh": "Cube.024_RenderTriangles",
+      "materials": [
+        "Rangoli_10_00",
+        "Rangoli_10_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 256,
+      "polygons": 508,
+      "bakeCacheKey": "f3feefe317004d241bc42922f73aa500a8d9d7ceb26d062d0668192f33497acf"
+    },
+    {
+      "name": "Cube.011",
+      "sourceMesh": "Cube.025_RenderTriangles",
+      "materials": [
+        "Rangoli_11_00",
+        "Rangoli_11_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 256,
+      "polygons": 508,
+      "bakeCacheKey": "f3feefe317004d241bc42922f73aa500a8d9d7ceb26d062d0668192f33497acf"
+    },
+    {
+      "name": "Cube.012",
+      "sourceMesh": "Cube.026_RenderTriangles",
+      "materials": [
+        "Rangoli_12_00",
+        "Rangoli_12_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 256,
+      "polygons": 508,
+      "bakeCacheKey": "f3feefe317004d241bc42922f73aa500a8d9d7ceb26d062d0668192f33497acf"
+    },
+    {
+      "name": "Cube.013",
+      "sourceMesh": "Cube.027_RenderTriangles",
+      "materials": [
+        "Rangoli_13_00",
+        "Rangoli_13_01"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 256,
+      "polygons": 508,
+      "bakeCacheKey": "f3feefe317004d241bc42922f73aa500a8d9d7ceb26d062d0668192f33497acf"
+    },
+    {
+      "name": "Plane",
+      "sourceMesh": "Plane.002_RenderTriangles",
+      "materials": [
+        "Rangoli_14_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 4,
+      "polygons": 2,
+      "bakeCacheKey": "888851f839fa6e5b9463dfabe595113b56dd9346544c3e3b657f856f9e0f19ea"
+    },
+    {
+      "name": "Plane.001",
+      "sourceMesh": "Plane.003_RenderTriangles",
+      "materials": [
+        "Rangoli_15_00",
+        "Rangoli_15_01",
+        "Rangoli_15_02",
+        "Rangoli_15_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 451,
+      "polygons": 794,
+      "bakeCacheKey": "ad3c59f6393d47ae1fb61074538bbbb9dcfa758a48e1e602a9d4f8bcb9777bfc"
+    },
+    {
+      "name": "Plane.002",
+      "sourceMesh": "Plane.004_RenderTriangles",
+      "materials": [
+        "Rangoli_16_00",
+        "Rangoli_16_01",
+        "Rangoli_16_02",
+        "Rangoli_16_03"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 451,
+      "polygons": 794,
+      "bakeCacheKey": "6ebae888c4498a686ab59bb4c2e53463645903521d38cf8195047cfd510e4a6c"
+    },
+    {
+      "name": "Sphere.001",
+      "sourceMesh": "Sphere.003_RenderTriangles",
+      "materials": [
+        "Rangoli_17_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 482,
+      "polygons": 960,
+      "bakeCacheKey": "b357b1929692021162ba5adbcb63945a842d8b078c24eb9fc376de11d0dbe37b"
+    },
+    {
+      "name": "Sphere.002",
+      "sourceMesh": "Sphere.004_RenderTriangles",
+      "materials": [
+        "Rangoli_18_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 3856,
+      "polygons": 7680,
+      "bakeCacheKey": "d3f244edcacb18a407f24b3e5e009a7879b89f981430fb7c88b4135ee9f0e242"
+    },
+    {
+      "name": "Sphere.019",
+      "sourceMesh": "Sphere.005_RenderTriangles",
+      "materials": [
+        "Rangoli_19_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 4820,
+      "polygons": 9600,
+      "bakeCacheKey": "5dd6dcfe76c966b98e816ebee688fefd0e376a9fbbacf83e0ea2a3b45b96abfa"
+    },
+    {
+      "name": "Sphere.027",
+      "sourceMesh": "Sphere.006_RenderTriangles",
+      "materials": [
+        "Rangoli_20_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 3856,
+      "polygons": 7680,
+      "bakeCacheKey": "5bfe338a895aa4d8ed0e9381e3455a7e46cf18eb92e57b18d2f3598e4e8953a6"
+    },
+    {
+      "name": "Sphere.037",
+      "sourceMesh": "Sphere.007_RenderTriangles",
+      "materials": [
+        "Rangoli_21_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 4820,
+      "polygons": 9600,
+      "bakeCacheKey": "4d697d618e5dd4542723405e497cab2e5253540aeaeb9cc9ed9b664db65e8801"
+    },
+    {
+      "name": "Star.001",
+      "sourceMesh": "Star.006_RenderTriangles",
+      "materials": [
+        "Rangoli_22_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1346,
+      "polygons": 2688,
+      "bakeCacheKey": "57a25e2c6e19abbb5add96e81bea042d2dc742463c50f740f0412ce067610edd"
+    },
+    {
+      "name": "Star.002",
+      "sourceMesh": "Star.007_RenderTriangles",
+      "materials": [
+        "Rangoli_23_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1346,
+      "polygons": 2688,
+      "bakeCacheKey": "e6f6aff772b892a39f12f5a31554f9eaa15dd75f6162e89e9d74b0a91b05cdc0"
+    },
+    {
+      "name": "Star.003",
+      "sourceMesh": "Star.008_RenderTriangles",
+      "materials": [
+        "Rangoli_24_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1346,
+      "polygons": 2688,
+      "bakeCacheKey": "57a25e2c6e19abbb5add96e81bea042d2dc742463c50f740f0412ce067610edd"
+    },
+    {
+      "name": "Star.004",
+      "sourceMesh": "Star.009_RenderTriangles",
+      "materials": [
+        "Rangoli_25_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1346,
+      "polygons": 2688,
+      "bakeCacheKey": "57a25e2c6e19abbb5add96e81bea042d2dc742463c50f740f0412ce067610edd"
+    },
+    {
+      "name": "Star.005",
+      "sourceMesh": "Star.010_RenderTriangles",
+      "materials": [
+        "Rangoli_26_00"
+      ],
+      "uvSet": "ExportAtlasUV",
+      "vertices": 1346,
+      "polygons": 2688,
+      "bakeCacheKey": "57a25e2c6e19abbb5add96e81bea042d2dc742463c50f740f0412ce067610edd"
+    }
+  ],
+  "sourceGeometry": [
+    {
+      "name": "Cube",
+      "vertices": 174,
+      "polygons": 161,
+      "matrix": [
+        [
+          1.2473788261413574,
+          0.0,
+          0.0,
+          11.748093605041504
+        ],
+        [
+          0.0,
+          1.2473788261413574,
+          0.0,
+          -8.957925796508789
+        ],
+        [
+          0.0,
+          0.0,
+          1.2473788261413574,
+          -0.7809545993804932
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "vertices": 8,
+      "polygons": 6,
+      "matrix": [
+        [
+          -2.560744285583496,
+          0.0,
+          0.0,
+          13.674139022827148
+        ],
+        [
+          0.0,
+          2.7591235637664795,
+          0.0,
+          -22.200965881347656
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0251193046569824
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "vertices": 1417,
+      "polygons": 1359,
+      "matrix": [
+        [
+          1.6157530546188354,
+          0.0,
+          0.0,
+          6.512646675109863
+        ],
+        [
+          0.0,
+          1.6593875885009766,
+          0.0,
+          -4.685585975646973
+        ],
+        [
+          0.0,
+          0.0,
+          0.28732722997665405,
+          1.3904322385787964
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.003",
+      "vertices": 1692,
+      "polygons": 1690,
+      "matrix": [
+        [
+          0.2623317837715149,
+          -0.04092497378587723,
+          0.0282162856310606,
+          11.786551475524902
+        ],
+        [
+          0.0289154015481472,
+          0.0023527222219854593,
+          -0.2654191851615906,
+          -9.317036628723145
+        ],
+        [
+          0.040434032678604126,
+          0.26383447647094727,
+          0.006743654143065214,
+          1.912022352218628
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.004",
+      "vertices": 256,
+      "polygons": 258,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          1.899999976158142,
+          13.441262245178223
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.8344292640686035
+        ],
+        [
+          -1.0,
+          0.0,
+          -8.30516384553448e-08,
+          2.407780408859253
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.005",
+      "vertices": 324,
+      "polygons": 27,
+      "matrix": [
+        [
+          2.6785621643066406,
+          0.0,
+          0.0,
+          13.696125030517578
+        ],
+        [
+          0.0,
+          2.6785621643066406,
+          0.0,
+          -22.130573272705078
+        ],
+        [
+          0.0,
+          0.0,
+          1.0220142602920532,
+          3.314535617828369
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.006",
+      "vertices": 1692,
+      "polygons": 1690,
+      "matrix": [
+        [
+          -0.09409293532371521,
+          -0.3565939962863922,
+          0.3575941324234009,
+          3.311690330505371
+        ],
+        [
+          -0.01712648756802082,
+          -0.3612858057022095,
+          -0.36478155851364136,
+          -19.586204528808594
+        ],
+        [
+          0.5047171711921692,
+          -0.07873822748661041,
+          0.0542871467769146,
+          4.525501728057861
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.007",
+      "vertices": 1692,
+      "polygons": 1690,
+      "matrix": [
+        [
+          -0.00447845458984375,
+          0.27181127667427063,
+          0.43587252497673035,
+          1.3568859100341797
+        ],
+        [
+          -0.09553397446870804,
+          -0.4287252426147461,
+          0.2663724422454834,
+          -7.508624076843262
+        ],
+        [
+          0.5047171711921692,
+          -0.07873822748661041,
+          0.0542871467769146,
+          4.657158374786377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "vertices": 1692,
+      "polygons": 1690,
+      "matrix": [
+        [
+          0.09407098591327667,
+          0.35613223910331726,
+          -0.35805976390838623,
+          -11.733102798461914
+        ],
+        [
+          0.017246657982468605,
+          0.36174097657203674,
+          0.36432451009750366,
+          -9.442192077636719
+        ],
+        [
+          0.5047171711921692,
+          -0.07873822748661041,
+          0.0542871467769146,
+          4.525501728057861
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.009",
+      "vertices": 1692,
+      "polygons": 1690,
+      "matrix": [
+        [
+          0.004356420133262873,
+          -0.2723587155342102,
+          -0.4355319142341614,
+          -9.762872695922852
+        ],
+        [
+          0.09553961455821991,
+          0.4283776879310608,
+          -0.2669290006160736,
+          -21.51726531982422
+        ],
+        [
+          0.5047171711921692,
+          -0.07873822748661041,
+          0.0542871467769146,
+          4.657158374786377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.010",
+      "vertices": 256,
+      "polygons": 258,
+      "matrix": [
+        [
+          1.7029486894607544,
+          0.0,
+          1.4143267890176503e-07,
+          0.5768120288848877
+        ],
+        [
+          0.0,
+          1.7029486894607544,
+          0.0,
+          -15.021811485290527
+        ],
+        [
+          -7.443825467134957e-08,
+          0.0,
+          3.235602378845215,
+          7.37423849105835
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.011",
+      "vertices": 256,
+      "polygons": 258,
+      "matrix": [
+        [
+          1.7029486894607544,
+          0.0,
+          1.4143267890176503e-07,
+          -10.030264854431152
+        ],
+        [
+          0.0,
+          1.7029486894607544,
+          0.0,
+          -15.021811485290527
+        ],
+        [
+          -7.443825467134957e-08,
+          0.0,
+          3.235602378845215,
+          7.37423849105835
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.012",
+      "vertices": 256,
+      "polygons": 258,
+      "matrix": [
+        [
+          1.7029486894607544,
+          0.0,
+          1.4143267890176503e-07,
+          -4.156671524047852
+        ],
+        [
+          0.0,
+          1.7029486894607544,
+          0.0,
+          -19.512657165527344
+        ],
+        [
+          -7.443825467134957e-08,
+          0.0,
+          3.235602378845215,
+          7.37423849105835
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Cube.013",
+      "vertices": 256,
+      "polygons": 258,
+      "matrix": [
+        [
+          1.7029486894607544,
+          0.0,
+          1.4143267890176503e-07,
+          -4.156671524047852
+        ],
+        [
+          0.0,
+          1.7029486894607544,
+          0.0,
+          -9.953964233398438
+        ],
+        [
+          -7.443825467134957e-08,
+          0.0,
+          3.235602378845215,
+          7.37423849105835
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane",
+      "vertices": 4,
+      "polygons": 1,
+      "matrix": [
+        [
+          19.915529251098633,
+          0.0,
+          0.0,
+          -0.06773176044225693
+        ],
+        [
+          0.0,
+          26.815454483032227,
+          0.0,
+          -18.741317749023438
+        ],
+        [
+          0.0,
+          0.0,
+          12.304003715515137,
+          0.4375331401824951
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "vertices": 451,
+      "polygons": 380,
+      "matrix": [
+        [
+          0.06962484866380692,
+          -0.11839664727449417,
+          0.9905223846435547,
+          11.878250122070312
+        ],
+        [
+          0.9682230353355408,
+          0.24710381031036377,
+          -0.03852120414376259,
+          -5.90587854385376
+        ],
+        [
+          -0.24020108580589294,
+          0.9617286324501038,
+          0.13183891773223877,
+          2.262805461883545
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Plane.002",
+      "vertices": 451,
+      "polygons": 380,
+      "matrix": [
+        [
+          0.34704849123954773,
+          -1.0716040134429932,
+          1.8489331007003784,
+          -3.6599395275115967
+        ],
+        [
+          2.096226453781128,
+          0.5349860191345215,
+          -0.08339895308017731,
+          -14.367911338806152
+        ],
+        [
+          -0.4155993163585663,
+          1.8035480976104736,
+          1.1233086585998535,
+          5.462581634521484
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.001",
+      "vertices": 482,
+      "polygons": 512,
+      "matrix": [
+        [
+          -0.0722702145576477,
+          -0.3739437460899353,
+          -0.0627622976899147,
+          11.813451766967773
+        ],
+        [
+          0.3791031837463379,
+          -0.07002392411231995,
+          -0.01932463049888611,
+          -7.8460798263549805
+        ],
+        [
+          0.0073353927582502365,
+          -0.06525902450084686,
+          0.3803727924823761,
+          1.9118651151657104
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.002",
+      "vertices": 3856,
+      "polygons": 4096,
+      "matrix": [
+        [
+          -0.142431378364563,
+          -0.7369748950004578,
+          -0.12369304150342941,
+          -13.90005874633789
+        ],
+        [
+          0.747143030166626,
+          -0.1380043774843216,
+          -0.038085319101810455,
+          -7.284327983856201
+        ],
+        [
+          0.014456718228757381,
+          -0.12861362099647522,
+          0.7496453523635864,
+          4.617188930511475
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.019",
+      "vertices": 4820,
+      "polygons": 5120,
+      "matrix": [
+        [
+          0.7434284687042236,
+          -0.15602219104766846,
+          -0.04110492765903473,
+          3.638796329498291
+        ],
+        [
+          0.16069702804088593,
+          0.7333717942237854,
+          0.12272263318300247,
+          -4.932321548461914
+        ],
+        [
+          0.014456718228757381,
+          -0.12861362099647522,
+          0.7496453523635864,
+          4.617188930511475
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.027",
+      "vertices": 3856,
+      "polygons": 4096,
+      "matrix": [
+        [
+          -0.142431378364563,
+          -0.7369748950004578,
+          -0.12369304150342941,
+          6.862560272216797
+        ],
+        [
+          0.747143030166626,
+          -0.1380043774843216,
+          -0.038085319101810455,
+          -21.339550018310547
+        ],
+        [
+          0.014456718228757381,
+          -0.12861362099647522,
+          0.7496453523635864,
+          4.617188930511475
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Sphere.037",
+      "vertices": 4820,
+      "polygons": 5120,
+      "matrix": [
+        [
+          0.7434284687042236,
+          -0.15602219104766846,
+          -0.04110492765903473,
+          3.638796329498291
+        ],
+        [
+          0.16069702804088593,
+          0.7333717942237854,
+          0.12272263318300247,
+          -23.905820846557617
+        ],
+        [
+          0.014456718228757381,
+          -0.12861362099647522,
+          0.7496453523635864,
+          4.617188930511475
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Star.001",
+      "vertices": 50,
+      "polygons": 60,
+      "matrix": [
+        [
+          1.7063438892364502,
+          0.0,
+          7.458665862714042e-08,
+          0.14862334728240967
+        ],
+        [
+          0.0,
+          1.7063438892364502,
+          0.0,
+          -10.639991760253906
+        ],
+        [
+          -7.458665862714042e-08,
+          0.0,
+          1.7063438892364502,
+          4.660467147827148
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Star.002",
+      "vertices": 50,
+      "polygons": 60,
+      "matrix": [
+        [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          11.548773765563965
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.645449161529541
+        ],
+        [
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          2.2092700004577637
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Star.003",
+      "vertices": 50,
+      "polygons": 60,
+      "matrix": [
+        [
+          1.7063438892364502,
+          0.0,
+          7.458665862714042e-08,
+          0.14862334728240967
+        ],
+        [
+          0.0,
+          1.7063438892364502,
+          0.0,
+          -18.967838287353516
+        ],
+        [
+          -7.458665862714042e-08,
+          0.0,
+          1.7063438892364502,
+          4.660467147827148
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Star.004",
+      "vertices": 50,
+      "polygons": 60,
+      "matrix": [
+        [
+          1.7063438892364502,
+          0.0,
+          7.458665862714042e-08,
+          -8.3400297164917
+        ],
+        [
+          0.0,
+          1.7063438892364502,
+          0.0,
+          -18.967838287353516
+        ],
+        [
+          -7.458665862714042e-08,
+          0.0,
+          1.7063438892364502,
+          3.681692600250244
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Star.005",
+      "vertices": 50,
+      "polygons": 60,
+      "matrix": [
+        [
+          1.7063438892364502,
+          0.0,
+          7.458665862714042e-08,
+          -8.3400297164917
+        ],
+        [
+          0.0,
+          1.7063438892364502,
+          0.0,
+          -10.409233093261719
+        ],
+        [
+          -7.458665862714042e-08,
+          0.0,
+          1.7063438892364502,
+          3.681692600250244
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Rangoli_00_00",
+      "sourceMaterial": "Material",
+      "object": "Cube",
+      "baseColor": "Textures/Baked/Rangoli_00_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_00_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_00_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_01_00",
+      "sourceMaterial": "m2",
+      "object": "Cube.001",
+      "baseColor": "Textures/Baked/Rangoli_01_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_01_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_01_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_02_00",
+      "sourceMaterial": "m1",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/Rangoli_02_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_02_01",
+      "sourceMaterial": "m2",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/Rangoli_02_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_02_02",
+      "sourceMaterial": "m3",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/Rangoli_02_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_02_03",
+      "sourceMaterial": "m4",
+      "object": "Cube.002",
+      "baseColor": "Textures/Baked/Rangoli_02_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_02_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_02_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 1024,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_03_00",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Rangoli_03_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_03_01",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.003",
+      "baseColor": "Textures/Baked/Rangoli_03_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_03_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_03_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_04_00",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Rangoli_04_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_04_01",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.004",
+      "baseColor": "Textures/Baked/Rangoli_04_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_04_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_04_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_00",
+      "sourceMaterial": "Green.002",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_01",
+      "sourceMaterial": "Base.002",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_02",
+      "sourceMaterial": "Slides.002",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_03",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_04",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_05",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_06",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_07",
+      "sourceMaterial": "Material.030",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_08",
+      "sourceMaterial": "Material.029",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_09",
+      "sourceMaterial": "Material.031",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_10",
+      "sourceMaterial": "Material.032",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_11",
+      "sourceMaterial": "Material.033",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_05_12",
+      "sourceMaterial": "Material.034",
+      "object": "Cube.005",
+      "baseColor": "Textures/Baked/Rangoli_05_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_05_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_05_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_06_00",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Rangoli_06_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_06_01",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.006",
+      "baseColor": "Textures/Baked/Rangoli_06_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_06_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_06_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_07_00",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Rangoli_07_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_07_01",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.007",
+      "baseColor": "Textures/Baked/Rangoli_07_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_07_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_07_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_08_00",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Rangoli_08_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_08_01",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.008",
+      "baseColor": "Textures/Baked/Rangoli_08_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_08_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_08_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_09_00",
+      "sourceMaterial": "Material.035",
+      "object": "Cube.009",
+      "baseColor": "Textures/Baked/Rangoli_09_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_09_01",
+      "sourceMaterial": "Material.036",
+      "object": "Cube.009",
+      "baseColor": "Textures/Baked/Rangoli_09_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_09_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_09_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_10_00",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.010",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_10_01",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.010",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_11_00",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.011",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_11_01",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.011",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_12_00",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_12_01",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.012",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_13_00",
+      "sourceMaterial": "Material.037",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_13_01",
+      "sourceMaterial": "Material.038",
+      "object": "Cube.013",
+      "baseColor": "Textures/Baked/Rangoli_10_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_10_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_10_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_14_00",
+      "sourceMaterial": "Rangoli | Warm Floor Stone",
+      "object": "Plane",
+      "baseColor": "Textures/Baked/Rangoli_14_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_14_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_14_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_15_00",
+      "sourceMaterial": "Material.031",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Rangoli_15_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_15_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_15_01",
+      "sourceMaterial": "Material.032",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Rangoli_15_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_15_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_15_02",
+      "sourceMaterial": "Material.033",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Rangoli_15_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_15_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_15_03",
+      "sourceMaterial": "Material.034",
+      "object": "Plane.001",
+      "baseColor": "Textures/Baked/Rangoli_15_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_15_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_15_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_16_00",
+      "sourceMaterial": "Material.031",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Rangoli_16_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_16_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_16_01",
+      "sourceMaterial": "Material.032",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Rangoli_16_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_16_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_16_02",
+      "sourceMaterial": "Material.033",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Rangoli_16_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_16_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_16_03",
+      "sourceMaterial": "Material.034",
+      "object": "Plane.002",
+      "baseColor": "Textures/Baked/Rangoli_16_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_16_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_16_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_17_00",
+      "sourceMaterial": "Material.030",
+      "object": "Sphere.001",
+      "baseColor": "Textures/Baked/Rangoli_17_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_17_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_17_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_18_00",
+      "sourceMaterial": "Material.030",
+      "object": "Sphere.002",
+      "baseColor": "Textures/Baked/Rangoli_18_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_18_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_18_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_19_00",
+      "sourceMaterial": "Material.030",
+      "object": "Sphere.019",
+      "baseColor": "Textures/Baked/Rangoli_19_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_19_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_19_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_20_00",
+      "sourceMaterial": "Material.030",
+      "object": "Sphere.027",
+      "baseColor": "Textures/Baked/Rangoli_20_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_20_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_20_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_21_00",
+      "sourceMaterial": "Material.030",
+      "object": "Sphere.037",
+      "baseColor": "Textures/Baked/Rangoli_21_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_21_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_21_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_22_00",
+      "sourceMaterial": "Material.029",
+      "object": "Star.001",
+      "baseColor": "Textures/Baked/Rangoli_22_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_23_00",
+      "sourceMaterial": "Material.029",
+      "object": "Star.002",
+      "baseColor": "Textures/Baked/Rangoli_23_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_23_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_23_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_24_00",
+      "sourceMaterial": "Material.029",
+      "object": "Star.003",
+      "baseColor": "Textures/Baked/Rangoli_22_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_25_00",
+      "sourceMaterial": "Material.029",
+      "object": "Star.004",
+      "baseColor": "Textures/Baked/Rangoli_22_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    },
+    {
+      "name": "Rangoli_26_00",
+      "sourceMaterial": "Material.029",
+      "object": "Star.005",
+      "baseColor": "Textures/Baked/Rangoli_22_BaseColor.png",
+      "normal": "Textures/Baked/Rangoli_22_Normal.png",
+      "metallicSmoothness": "Textures/Baked/Rangoli_22_MetallicSmoothness.png",
+      "baseColorTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1,
+      "emissionColorLinear": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "alphaCutoff": 0.5,
+      "twoSided": false,
+      "textureSize": 512,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "normal": "Linear",
+        "metallicSmoothness": "Linear",
+        "emission": "sRGB"
+      },
+      "alpha": 1.0,
+      "alphaIsBaked": true,
+      "alphaMultiplier": 1.0,
+      "sourceAlpha": 1.0,
+      "sourceTransmission": 0.0,
+      "alphaMode": "Opaque",
+      "texturedAlpha": false,
+      "transmissionApproximation": ""
+    }
+  ],
+  "geometryPolicy": "Evaluated native render triangles frozen before FBX conversion; original vertices and rendered surfaces retained, separate parts retained, no decimation/remeshing. Export-only UV atlas. Originals never saved."
+}

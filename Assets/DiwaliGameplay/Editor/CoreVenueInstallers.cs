@@ -13,8 +13,7 @@ public static class CoreVenueInstallers {
   var desired=b.center+side*(boardHalf+rackHalf+.3f);desired.y=r.center.y;var delta=desired-r.center;
   string[] loose={"Plane.001","Sphere.001","Cube.004","Cube.003","Star.002"};var pieces=loose.Select(n=>GameObjectUtility.FindUnder(venue,n)).ToArray();rack.position+=delta;foreach(var piece in pieces)piece.position+=delta;
   var all=new[]{board,table,rack}.Concat(pieces).ToArray();var pivot=new Vector3(b.center.x,floor.max.y,b.center.z);var frame=CompactFrame(venue,"Compact Rangoli work station",pivot,all);
-  float lift=.95f-GameObjectUtility.BoundsOf(rack).max.y;rack.position+=Vector3.up*lift;foreach(var piece in pieces)piece.position+=Vector3.up*lift;
-  var rackBounds=GameObjectUtility.BoundsOf(rack);float supportHeight=rackBounds.min.y-floor.max.y;if(supportHeight>.04f){var support=Object.Instantiate(table.gameObject,frame).transform;support.name="Rack riser - reused table mesh";FitBounds(support,new Vector3(rackBounds.center.x,floor.max.y+supportHeight*.5f,rackBounds.center.z),new Vector3(rackBounds.size.x,supportHeight,rackBounds.size.z));}
+  float lift=floor.max.y+.015f-GameObjectUtility.BoundsOf(rack).min.y;rack.position+=Vector3.up*lift;foreach(var piece in pieces)piece.position+=Vector3.up*lift;
  }
  static Vector3[] CompactRouting(Transform venue){
   var console=GameObjectUtility.FindUnder(venue,"base");var rack=GameObjectUtility.FindUnder(venue,"rack");var b=GameObjectUtility.BoundsOf(console);var r=GameObjectUtility.BoundsOf(rack);var floor=GameObjectUtility.BoundsOf(GameObjectUtility.FindUnder(venue,"Plane"));
@@ -28,18 +27,22 @@ public static class CoreVenueInstallers {
   return localRims.Select(frame.TransformPoint).ToArray();
  }
  static Vector3 NativeRoutingPoint(Transform console,Vector3 point){var origin=new Vector3(-4.88145447f,-58.74601746f,1.27009177f);var d=(point-origin)*.171915575f;return console.TransformPoint(new Vector3(-d.x,d.z,-d.y));}
- static Quaternion ConnectorFrame(Transform venue,Vector3 localRight,Vector3 localUp,Vector3 normal){
-  var right=venue.TransformDirection(localRight).normalized;var up=Vector3.ProjectOnPlane(venue.TransformDirection(localUp),right).normalized;var originalNormal=Vector3.Cross(right,up).normalized;
+ static Quaternion ConnectorFrame(GrabbableItem piece,Vector3 meshRight,Vector3 meshUp,Vector3 normal){
+  var mesh=piece.GetComponentInChildren<MeshFilter>();
+  var right=piece.transform.InverseTransformDirection(meshRight).normalized;
+  var up=Vector3.ProjectOnPlane(piece.transform.InverseTransformDirection(meshUp),right).normalized;
+  var originalNormal=Vector3.Cross(right,up).normalized;
   var targetRight=Vector3.Cross(Vector3.up,normal).normalized;var targetUp=Vector3.Cross(normal,targetRight).normalized;
   return Quaternion.LookRotation(normal,targetUp)*Quaternion.Inverse(Quaternion.LookRotation(originalNormal,up));
  }
  public static void ConfigureRoutingGeometry(RoutingGame game){
   var venue=GameObjectUtility.FindExact("LanternRouting - Approved Warm Palette");var console=GameObjectUtility.FindUnder(venue,"base");
-  game.socketPlaneNormal=console.TransformDirection(new Vector3(-.137803f,.585851f,.798617f)).normalized;
+  game.socketPlaneNormal=new Vector3(-.1377436f,.58634084f,.79826758f).normalized;
   Vector3[] sourceRims={new Vector3(14.056559f,-55.944513f,6.502191f),new Vector3(11.052767f,-56.462824f,6.502191f),new Vector3(8.048977f,-56.981134f,6.502191f)};
   Vector3[] right={new Vector3(-.998281f,0,.058606f),new Vector3(-.97983f,-.03494f,.19667f),new Vector3(-.998281f,0,.058606f)};
-  Vector3[] up={Vector3.up,new Vector3(-.066f,.985f,-.156f),new Vector3(.058606f,0,.998281f)};
-  for(int i=0;i<3;i++){game.sockets[i+1].transform.position=NativeRoutingPoint(console,sourceRims[i])+game.socketPlaneNormal*.045f;game.sockets[i+1].transform.rotation=Quaternion.AngleAxis(i==1?180:90,game.socketPlaneNormal)*ConnectorFrame(venue,right[i],up[i],game.socketPlaneNormal);}
+  Vector3[] up={Vector3.up,new Vector3(-.0723654f,.9797983f,-.1864364f),Vector3.up};
+  for(int i=0;i<3;i++){game.sockets[i+1].transform.position=new[]{new Vector3(27.832578f,1.153425f,32.327393f),new Vector3(28.605624f,1.151840f,32.461949f),new Vector3(29.388258f,1.154027f,32.595389f)}[i]+game.socketPlaneNormal*.025f;game.sockets[i+1].transform.rotation=Quaternion.AngleAxis(0,game.socketPlaneNormal)*ConnectorFrame(game.pieces[i+1],right[i],up[i],game.socketPlaneNormal);}
+  game.targetMasks=new[]{12,14,10};
   var lower=NativeRoutingPoint(console,new Vector3(7.599f,-58.65f,3.31324f));var lowerNormal=console.TransformDirection(new Vector3(-.193365f,-.030210f,.980662f)).normalized;
   game.sockets[0].transform.position=lower+lowerNormal*.065f;game.sockets[0].transform.rotation=Quaternion.identity;
  }
@@ -56,11 +59,22 @@ public static class CoreVenueInstallers {
   }
  }
  public static void ConfigureRangoliGeometry(RangoliGame game){
+  if(game.preserveAuthoredLayout)return;
   var venue=GameObjectUtility.FindExact("Rangoli - Approved Warm Palette");
   var rack=GameObjectUtility.FindUnder(venue,"Cube");var riser=GameObjectUtility.FindUnder(venue,"Rack riser - reused table mesh");var board=GameObjectUtility.FindUnder(venue,"Cube.005");var table=GameObjectUtility.FindUnder(venue,"Cube.001");
-  MakeFixed(rack,game);MakeFixed(riser,game);MakeFixed(board,game);MakeFixed(table,game);
-  var rb=GameObjectUtility.BoundsOf(rack);var bb=GameObjectUtility.BoundsOf(board);var destination=bb.center+Vector3.forward*(bb.extents.z+rb.extents.z+.2f);destination.y=rb.center.y;var delta=destination-rb.center;
-  rack.position+=delta;if(riser)riser.position+=delta;foreach(var piece in game.pieces)if(piece&&!game.sockets.Any(z=>piece.transform.IsChildOf(z.transform)))piece.transform.position+=delta;
+  if(riser)Object.DestroyImmediate(riser.gameObject);
+  MakeFixed(rack,game);MakeFixed(board,game);MakeFixed(table,game);
+  foreach(var box in rack.GetComponentsInChildren<BoxCollider>())Object.DestroyImmediate(box);
+  foreach(var filter in rack.GetComponentsInChildren<MeshFilter>()){var meshCollider=filter.GetComponent<MeshCollider>();if(!meshCollider)meshCollider=filter.gameObject.AddComponent<MeshCollider>();meshCollider.sharedMesh=filter.sharedMesh;meshCollider.convex=false;meshCollider.isTrigger=false;}
+  var floorBounds=GameObjectUtility.BoundsOf(GameObjectUtility.FindUnder(venue,"Plane"));var pavilionBounds=GameObjectUtility.BoundsOf(GameObjectUtility.FindUnder(venue,"Cube.002"));var bb=GameObjectUtility.BoundsOf(board);
+  float interiorY=floorBounds.max.y;if(game.pavilionSurface&&game.pavilionSurface.Raycast(new Ray(new Vector3(pavilionBounds.center.x,3,pavilionBounds.center.z),Vector3.down),out var interiorHit,5))interiorY=interiorHit.point.y;float tableLift=interiorY+.015f-GameObjectUtility.BoundsOf(table).min.y;var target=new Vector3(pavilionBounds.center.x+2.8f,bb.center.y+tableLift,pavilionBounds.center.z-2f);var stationDelta=target-bb.center;var frame=GameObjectUtility.FindUnder(venue,"Compact Rangoli work station");
+  if(frame)frame.position+=stationDelta;else{board.position+=stationDelta;table.position+=stationDelta;rack.position+=stationDelta;}
+  foreach(var piece in game.pieces)if(piece&&(!frame||!piece.transform.IsChildOf(frame)))piece.transform.position+=stationDelta;
+  foreach(var socket in game.sockets)socket.transform.position+=stationDelta;
+  var rb=GameObjectUtility.BoundsOf(rack);bb=GameObjectUtility.BoundsOf(board);var destination=bb.center+Vector3.forward*(bb.extents.z+rb.extents.z+.2f);float supportY=floorBounds.max.y;if(game.pavilionSurface&&game.pavilionSurface.Raycast(new Ray(new Vector3(destination.x,3,destination.z),Vector3.down),out var supportHit,5))supportY=supportHit.point.y;destination.y=supportY+.015f+rb.extents.y;var delta=destination-rb.center;
+  rack.position+=delta;foreach(var piece in game.pieces)if(piece)piece.transform.position+=delta;
+  string[] decorationNames={"Plane.002","Cube.006","Cube.007","Cube.008","Cube.009","Cube.010","Cube.011","Cube.012","Cube.013","Sphere.002","Sphere.019","Sphere.027","Sphere.037","Star.001","Star.003","Star.004","Star.005"};
+  game.decorations=decorationNames.Select(name=>GameObjectUtility.FindUnder(venue,name)).ToArray();game.decorationGroups=new[]{0,3,3,3,3,2,2,2,2,1,1,1,1,4,4,4,4};game.motifs=game.decorations.SelectMany(part=>part.GetComponentsInChildren<Renderer>(true)).Distinct().ToArray();
   game.pavilionFloor=GameObjectUtility.FindUnder(venue,"Plane");var pavilion=GameObjectUtility.FindUnder(venue,"Cube.002");var collider=pavilion.GetComponent<MeshCollider>();if(!collider){collider=pavilion.gameObject.AddComponent<MeshCollider>();collider.sharedMesh=pavilion.GetComponent<MeshFilter>().sharedMesh;}collider.enabled=true;game.pavilionSurface=collider;
   PavilionGrounding.Ground(game);
   if(game.sun&&game.sun.name!="Sun orientation pivot"){
