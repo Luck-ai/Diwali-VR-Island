@@ -16,9 +16,10 @@
 ## ✨ Features
 
 - **Two connected festival islands** with pathways and teleport travel.
-- **Five Diwali games:** assemble rangoli, buy sweets, route lantern lights, prepare a diya and launch fireworks.
+- **Diwali island:** rangoli puzzles, sweet shopping, lantern routing, diya preparation and fireworks.
+- **Christmas island:** festive interactive props, doors, a carousel and a Ferris wheel.
 - **Hands-on interactions:** grab objects, snap pieces into place, operate moving parts and use world-space menus.
-- **Island-wide celebrations** unlocked through venue completion.
+- **Festival exploration:** move between themed venues, enjoy rides and unlock Diwali celebrations through game completion.
 - Authored Blender models, PBR materials and festival lighting.
 
 ---
@@ -37,7 +38,9 @@ Install Unity’s **Android Build Support, SDK, NDK and OpenJDK** modules for he
 
 ## 🎮 Playing
 
-Choose **Begin** at a venue and follow its task panel. Grip to grab, release near highlighted targets to place, and use buttons or sliders to operate the game. **How To Play** explains each activity; **Restart** resets it.
+Start at the **Diwali entrance** beside the travel menu. Explore on foot or teleport between venues and the Christmas island. Grab festive props and interact with rides and activities.
+
+At Diwali mini-games, choose **Begin** and follow the task panel. Release items near highlighted targets to place them, and use buttons or sliders to operate the game. **How To Play** explains each activity; **Restart** resets it.
 
 > Checked using Unity Play Mode simulation and scripted checks. Physical headset comfort and Android performance still need device testing.
 
