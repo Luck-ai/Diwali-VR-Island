@@ -27,6 +27,12 @@ public class VenuePanel : MonoBehaviour {
     int fittedChildren = -1;
     float physicalWidth = .94f, maximumHeight = 1.28f;
     bool showingHelp;
+    float nextRefresh;
+    readonly System.Collections.Generic.List<(Slider slider,Text text,string label)> sliderReadouts=new System.Collections.Generic.List<(Slider,Text,string)>();
+    int helpPage;
+    string[] helpPages;
+    Button previousHelp, nextHelp;
+    Text helpPageLabel;
 
     public static VenuePanel Create(VenueGame owner, Vector3 position, Quaternion rotation, string title) {
         var go = Shell(owner.transform, title + " controls", position, rotation, out var canvas, out var rect, out var back);
@@ -40,9 +46,9 @@ public class VenuePanel : MonoBehaviour {
         panel.instructions = string.IsNullOrWhiteSpace(owner.howToPlay)
             ? "Point a controller ray at a button and select it.\n\nGrab a highlighted object, carry it to its matching marker, then release.\n\nFollow the current task shown on the main panel. Restart returns this activity to its beginning."
             : owner.howToPlay;
-        panel.Label(title, 36, 76, Ink, TextAnchor.MiddleLeft).fontStyle = FontStyle.Bold;
-        panel.stageText = panel.Label("DIWALI ACTIVITY", 19, 26, Muted, TextAnchor.MiddleLeft);
-        panel.journeyText = panel.Label(FestivalJourney.Purpose(owner)+"\n"+FestivalJourney.Summary, 20, 72, Muted, TextAnchor.MiddleLeft);
+        panel.Label(title, 36, 62, Ink, TextAnchor.MiddleLeft).fontStyle = FontStyle.Bold;
+        panel.stageText = panel.Label("DIWALI ACTIVITY", 22, 30, Muted, TextAnchor.MiddleLeft);
+        panel.journeyText = panel.Label(FestivalJourney.Purpose(owner)+"\n"+FestivalJourney.Summary, 23, 78, Muted, TextAnchor.MiddleLeft);
         panel.statusText = panel.Objective(owner.status);
         var footer = new GameObject("Activity tools", typeof(RectTransform));
         footer.transform.SetParent(rect, false);
@@ -53,9 +59,10 @@ public class VenuePanel : MonoBehaviour {
         panel.footer = footer.transform;
         panel.helpButton = MakeButton(footer.transform, "How To Play", ()=>{panel.SetHelp(owner.howToPlay);panel.ShowHelp();}).transform;
         panel.recenterButton = MakeButton(footer.transform, "Move menu here", panel.MoveMenuHere).transform;
+        panel.recenterButton.GetComponentInChildren<Text>().text="Move menu";
         panel.restart = MakeButton(footer.transform, "Restart", owner.ResetGame).transform;
-        panel.AddButton("Festival progress / next venue", panel.ShowJourney);
-        foreach(var button in footer.GetComponentsInChildren<Button>())button.GetComponentInChildren<Text>().fontSize = 21;
+        panel.AddButton("Festival progress", panel.ShowJourney);
+        foreach(var button in footer.GetComponentsInChildren<Button>())button.GetComponentInChildren<Text>().fontSize = 25;
         return panel;
     }
 
@@ -68,6 +75,7 @@ public class VenuePanel : MonoBehaviour {
         canvas.renderMode = RenderMode.WorldSpace;
         var raycaster = go.AddComponent<TrackedDeviceGraphicRaycaster>();
         raycaster.ignoreReversedGraphics = true;
+        raycaster.checkFor3DOcclusion = true;
         rect = go.GetComponent<RectTransform>();
         rect.sizeDelta = new Vector2(Width, 600);
         var surface=go.AddComponent<Image>();surface.color=Paper;surface.sprite=Rounded();surface.type=Image.Type.Sliced;
@@ -97,7 +105,7 @@ public class VenuePanel : MonoBehaviour {
         return go;
     }
 
-    static Sprite Rounded(bool outline=false) {
+    internal static Sprite Rounded(bool outline=false) {
         if(outline&&keyline)return keyline;
         if(!outline&&rounded)return rounded;
         const int size=64; const float radius=10;
@@ -127,10 +135,10 @@ public class VenuePanel : MonoBehaviour {
         }
     }
     Text Objective(string value){
-        var go=new GameObject("Current objective",typeof(RectTransform));go.transform.SetParent(content,false);go.AddComponent<LayoutElement>().preferredHeight=126;
+        var go=new GameObject("Current objective",typeof(RectTransform));go.transform.SetParent(content,false);go.AddComponent<LayoutElement>().preferredHeight=154;
         var image=go.AddComponent<Image>();image.sprite=Rounded();image.type=Image.Type.Sliced;image.color=new Color(.95f,.905f,.81f);
-        var caption=MakeText(go.transform,"CURRENT TASK",17,0,Muted,TextAnchor.UpperLeft);caption.rectTransform.anchorMin=new Vector2(0,1);caption.rectTransform.anchorMax=Vector2.one;caption.rectTransform.pivot=new Vector2(.5f,1);caption.rectTransform.offsetMin=new Vector2(17,-34);caption.rectTransform.offsetMax=new Vector2(-17,-10);Object.Destroy(caption.GetComponent<LayoutElement>());
-        var body=MakeText(go.transform,value,26,0,Ink,TextAnchor.MiddleLeft);body.rectTransform.anchorMin=Vector2.zero;body.rectTransform.anchorMax=Vector2.one;body.rectTransform.offsetMin=new Vector2(17,8);body.rectTransform.offsetMax=new Vector2(-17,-35);body.verticalOverflow=VerticalWrapMode.Truncate;Object.Destroy(body.GetComponent<LayoutElement>());return body;
+        var caption=MakeText(go.transform,"NEXT STEP",21,0,Muted,TextAnchor.UpperLeft);caption.rectTransform.anchorMin=new Vector2(0,1);caption.rectTransform.anchorMax=Vector2.one;caption.rectTransform.pivot=new Vector2(.5f,1);caption.rectTransform.offsetMin=new Vector2(17,-39);caption.rectTransform.offsetMax=new Vector2(-17,-10);Object.Destroy(caption.GetComponent<LayoutElement>());
+        var body=MakeText(go.transform,value,29,0,Ink,TextAnchor.MiddleLeft);body.rectTransform.anchorMin=Vector2.zero;body.rectTransform.anchorMax=Vector2.one;body.rectTransform.offsetMin=new Vector2(17,8);body.rectTransform.offsetMax=new Vector2(-17,-43);body.verticalOverflow=VerticalWrapMode.Truncate;Object.Destroy(body.GetComponent<LayoutElement>());return body;
     }
     Text Label(string value, int fontSize, float height, Color color, TextAnchor alignment) {
         return MakeText(content, value, fontSize, height, color, alignment);
@@ -147,7 +155,7 @@ public class VenuePanel : MonoBehaviour {
         text.alignment = alignment;
         text.raycastTarget = false;
         text.horizontalOverflow = HorizontalWrapMode.Wrap;
-        text.verticalOverflow = VerticalWrapMode.Overflow;
+        text.verticalOverflow = VerticalWrapMode.Truncate;
         text.lineSpacing = 1.12f;
         go.AddComponent<LayoutElement>().preferredHeight = height;
         return text;
@@ -159,7 +167,7 @@ public class VenuePanel : MonoBehaviour {
         var go = new GameObject(label, typeof(RectTransform));
         go.transform.SetParent(parent, false);
         go.AddComponent<LayoutElement>().preferredHeight = 62;
-        bool primary = label.StartsWith("Begin") || label.StartsWith("Make a") || label == "Celebrate" || label == "Finale";
+        bool primary = label.StartsWith("Begin") || label.StartsWith("Make a") || label == "Celebrate" || label == "Finale" || label == "Open Drawer" || label.StartsWith("Confirm") || label == "Test Lights";
         var image = go.AddComponent<Image>();
         image.sprite = Rounded(); image.type = Image.Type.Sliced;
         image.color = primary ? Clay : new Color(.94f,.885f,.765f,1);
@@ -182,9 +190,9 @@ public class VenuePanel : MonoBehaviour {
         return button;
     }
     public Slider AddSlider(string label, float value, UnityAction<float> action) {
-        var group=new GameObject(label+" control",typeof(RectTransform));group.transform.SetParent(content,false);group.AddComponent<LayoutElement>().preferredHeight=92;
+        var group=new GameObject(label+" control",typeof(RectTransform));group.transform.SetParent(content,false);group.AddComponent<LayoutElement>().preferredHeight=108;
         var layout=group.AddComponent<VerticalLayoutGroup>();layout.spacing=6;layout.childControlHeight=true;layout.childForceExpandHeight=false;
-        MakeText(group.transform,label,25,34,Ink,TextAnchor.MiddleLeft);
+        var valueLabel=MakeText(group.transform,label,27,40,Ink,TextAnchor.MiddleLeft);
         var go = new GameObject(label + " slider", typeof(RectTransform));
         go.transform.SetParent(group.transform, false);
         go.AddComponent<LayoutElement>().preferredHeight = 52;
@@ -206,16 +214,20 @@ public class VenuePanel : MonoBehaviour {
         handle.GetComponent<Image>().color = Ink;
         slider.handleRect = handleRect;
         slider.targetGraphic = handle.GetComponent<Image>();
+        sliderReadouts.Add((slider,valueLabel,label));
         slider.onValueChanged.AddListener(action);
+        slider.onValueChanged.AddListener(v=>valueLabel.text=label+"   "+Mathf.RoundToInt(slider.normalizedValue*100)+"%");
         return slider;
     }
     public void SetControlVisible(Slider control,bool visible){if(control)control.transform.parent.gameObject.SetActive(visible);}
     public void SetHelp(string value) {
         instructions = value;
-        if (helpBody) helpBody.text = value;
+        helpPages = PaginateHelp(value);
+        helpPage = 0;
+        UpdateHelpPage();
     }
     public void SetPhysicalSize(float widthMeters, float maxHeightMeters = 1.2f) {
-        physicalWidth = Mathf.Clamp(widthMeters, .35f, 1.5f);
+        physicalWidth = Mathf.Clamp(widthMeters, .68f, 1.5f);
         maximumHeight = Mathf.Clamp(maxHeightMeters, .45f, 1.6f);
         fittedChildren = -1;
     }
@@ -233,11 +245,12 @@ public class VenuePanel : MonoBehaviour {
         if (!camera) return;
         var forward = Vector3.ProjectOnPlane(camera.transform.forward, Vector3.up).normalized;
         if (forward.sqrMagnitude < .01f) forward = Vector3.forward;
-        transform.position = camera.transform.position + forward * 1.35f - Vector3.up * .15f;
+        var side = Vector3.Cross(Vector3.up, forward);
+        transform.position = camera.transform.position + forward * 1.15f + side * .65f - Vector3.up * .18f;
         FaceToward(camera.transform.position);
     }
     public void ShowJourney() {
-        SetHelp("Prepare the festival together.\n\nRangoli welcomes guests. Sweets are gifts to share. Diya brings the flame. Routing lights the lanterns. Fireworks opens the celebration.\n\nComplete the first four in any order, then select Play Finale at Fireworks.\n\n"+FestivalJourney.Summary+"\n\n"+FestivalJourney.Next);
+        SetHelp("Prepare the festival together.\n\nRangoli welcomes guests. Sweets are gifts to share. Diya brings the flame. Routing lights the lanterns. Fireworks opens the celebration.\n\nVisit the venues in any order. Fireworks and its Finale are available without completing the other games.\n\n"+FestivalJourney.Summary+"\n\n"+FestivalJourney.Next);
         ShowHelp();
     }
     public void ShowHelp() {
@@ -245,10 +258,18 @@ public class VenuePanel : MonoBehaviour {
             Shell(owner.transform, title + " help", transform.position, transform.rotation,
                 out helpCanvas, out helpContent, out helpBacking);
             MakeText(helpContent, "How to play", 36, 70, Ink, TextAnchor.MiddleLeft);
-            helpBody = MakeText(helpContent, instructions, 27, 600, Ink, TextAnchor.UpperLeft);
+            helpBody = MakeText(helpContent, instructions, 29, 500, Ink, TextAnchor.UpperLeft);
+            var paging = new GameObject("Help pages", typeof(RectTransform));
+            paging.transform.SetParent(helpContent, false);
+            paging.AddComponent<LayoutElement>().preferredHeight=64;
+            var row=paging.AddComponent<HorizontalLayoutGroup>();row.spacing=12;row.childControlWidth=true;row.childForceExpandWidth=true;
+            previousHelp=MakeButton(paging.transform,"Previous",()=>{helpPage--;UpdateHelpPage();});
+            helpPageLabel=MakeText(paging.transform,"",25,62,Muted,TextAnchor.MiddleCenter);
+            nextHelp=MakeButton(paging.transform,"Next",()=>{helpPage++;UpdateHelpPage();});
             MakeButton(helpContent, "Close", CloseHelp);
             LayoutRebuilder.ForceRebuildLayoutImmediate(helpContent);
-            helpBody.GetComponent<LayoutElement>().preferredHeight = Mathf.Clamp(helpBody.preferredHeight + 24, 340, 1020);
+            helpPages=PaginateHelp(instructions);
+            UpdateHelpPage();
         }
         showingHelp = true;
         helpCanvas.gameObject.SetActive(true);
@@ -267,7 +288,31 @@ public class VenuePanel : MonoBehaviour {
         if (!helpCanvas) return;
         helpCanvas.transform.SetPositionAndRotation(transform.position - transform.forward * .015f, transform.rotation);
     }
-    public void Refresh() { if(journeyText)journeyText.text=FestivalJourney.Purpose(owner)+"\n"+FestivalJourney.Summary;if (statusText) statusText.text = owner.status+(owner.completed?"\n"+FestivalJourney.Next:""); if(stageText){int total=owner.GetType().Name=="FireworksGame"?11:10;stageText.text=owner.completed?"FESTIVAL DISPLAY COMPLETE":owner.begun?"PROGRESS   "+owner.credited.Count+" / "+total:"DIWALI ACTIVITY  |  READY TO BEGIN";} }
+    static string[] PaginateHelp(string value) {
+        var pages=new System.Collections.Generic.List<string>();
+        var page="";
+        foreach(var line in (value??"").Split('\n')) {
+            if(page.Length>0&&page.Length+line.Length>440){pages.Add(page.Trim());page="";}
+            page+=line+"\n";
+        }
+        if(page.Length>0)pages.Add(page.Trim());
+        return pages.Count>0?pages.ToArray():new[]{"Follow the next step on the activity panel."};
+    }
+    void UpdateHelpPage() {
+        if(!helpBody)return;
+        if(helpPages==null||helpPages.Length==0)helpPages=PaginateHelp(instructions);
+        helpPage=Mathf.Clamp(helpPage,0,helpPages.Length-1);
+        helpBody.text=helpPages[helpPage];
+        if(previousHelp)previousHelp.interactable=helpPage>0;
+        if(nextHelp)nextHelp.interactable=helpPage<helpPages.Length-1;
+        if(helpPageLabel)helpPageLabel.text=(helpPage+1)+" / "+helpPages.Length;
+    }
+    public void Refresh() {
+        foreach(var readout in sliderReadouts)if(readout.slider&&readout.text)readout.text.text=readout.label+"   "+Mathf.RoundToInt(readout.slider.normalizedValue*100)+"%";
+        if(journeyText)journeyText.text=FestivalJourney.Purpose(owner)+"\n"+FestivalJourney.Summary;
+        if(statusText)statusText.text=owner.status;
+        if(stageText)stageText.text=owner.completed?"ACTIVITY COMPLETE":owner.begun?"ACTIONS COMPLETED   "+owner.credited.Count:"DIWALI ACTIVITY  |  READY TO BEGIN";
+    }
     static void Fit(RectTransform rect, Transform back, float widthMeters, float maxHeightMeters) {
         float height = 44;
         int count = 0;
@@ -295,6 +340,6 @@ public class VenuePanel : MonoBehaviour {
         if(autoFacePlayer&&camera){var toward=Vector3.ProjectOnPlane(camera.transform.position-transform.position,Vector3.up);if(toward.sqrMagnitude<16&&toward.sqrMagnitude>.25f&&Vector3.Dot(-transform.forward,toward.normalized)<.5f)FaceToward(camera.transform.position);}
         if (showingHelp) PositionHelp();
     }
-    void Update() { Refresh(); }
+    void Update() { if(Time.unscaledTime<nextRefresh)return;nextRefresh=Time.unscaledTime+.15f;Refresh(); }
 }
 }

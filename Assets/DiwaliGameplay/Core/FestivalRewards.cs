@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +16,8 @@ public sealed class FestivalRewards : MonoBehaviour {
  public bool CentralDisplayEnabled=>centralControl&&centralControl.activeSelf;
  public bool CentralDisplayRunning=>centralFireworks&&centralFireworks.isPlaying;
  public bool RangoliSpinning=>spin;
- public bool SweetsShared=>sweetGift&&sweetGift.activeSelf;
+ public bool SweetsShared=>earned.Contains("SweetGame");
+ public bool SweetCelebrationActive=>sweetGift&&sweetGift.activeSelf;
  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)] static void Boot(){instance=null;var root=GameObjectUtility.FindExact("Diwali Festival Ground");if(root){var go=new GameObject("Connected festival rewards");go.transform.SetParent(root,true);instance=go.AddComponent<FestivalRewards>();instance.Initialise(root);}}
  void Initialise(Transform root){
   foreach(var r in root.GetComponentsInChildren<Renderer>(true)){
@@ -34,18 +36,29 @@ public sealed class FestivalRewards : MonoBehaviour {
   case "DiyaGame":foreach(var r in flames){r.enabled=true;var b=r.bounds;var go=new GameObject("Festival diya lit flame");go.transform.SetParent(r.transform.parent,true);go.transform.position=new Vector3(b.center.x,b.max.y,b.center.z);go.AddComponent<DiyaFlameVisual>().decorative=true;}var main=GameObjectUtility.FindExact("Central lamp warm light");if(main&&main.GetComponent<Light>())main.GetComponent<Light>().intensity=1.1f;game.status+=" All festival diyas are now lit.";break;
   case "RoutingGame":foreach(var r in silks)SetLanternPower(r,true);foreach(var l in lamps){l.intensity=.85f;l.range=5;l.shadows=LightShadows.None;}game.status+=" The island lanterns are now lit.";break;
   case "RangoliGame":spin=true;if(rangoli)foreach(var r in rangoli.GetComponentsInChildren<Renderer>())SetEmission(r,new Color(.13f,.055f,.015f));game.status+=" The central rangoli now glows and spins.";break;
-  case "SweetGame":ShareSweetGift((SweetGame)game);game.status+=" Your sweet gift is on display in the central plaza.";break;
+  case "SweetGame":ShareSweetGift((SweetGame)game);game.status+=" A warm sharing celebration lights your gift at checkout.";break;
   case "FireworksGame":LaunchPlazaFinale(game);break;
  }}
  void Update(){if(spin&&rangoli)rangoli.Rotate(Vector3.up,8*Time.deltaTime,Space.World);}
  void ShareSweetGift(SweetGame game){
-  sweetGift=new GameObject("Festival sweet gift - checkout reward");sweetGift.transform.position=new Vector3(4,0,20.75f);
-  var table=GameObject.CreatePrimitive(PrimitiveType.Cube);table.name="Sweet sharing plinth";table.transform.SetParent(sweetGift.transform,false);table.transform.localPosition=new Vector3(0,.4f,0);table.transform.localScale=new Vector3(1.1f,.8f,.8f);var mat=new Material(Shader.Find("Universal Render Pipeline/Lit"));mat.color=new Color(.45f,.12f,.08f);mat.SetFloat("_Smoothness",.2f);table.GetComponent<Renderer>().sharedMaterial=mat;
-  var basket=CopyVisual(game.basket.transform,sweetGift.transform);var b=GameObjectUtility.BoundsOf(basket);float scale=.85f/Mathf.Max(b.size.x,b.size.z);basket.localScale*=scale;b=GameObjectUtility.BoundsOf(basket);basket.position+=new Vector3(4,.8f,20.75f)-new Vector3(b.center.x,b.min.y,b.center.z);
-  int n=0;foreach(var item in game.sweets){if(!item)continue;var clone=CopyVisual(item.transform,sweetGift.transform);var cb=GameObjectUtility.BoundsOf(clone);clone.localScale*=.18f/Mathf.Max(cb.size.x,cb.size.z);cb=GameObjectUtility.BoundsOf(clone);clone.position+=new Vector3(3.82f+(n%2)*.34f,1.0f,20.6f+(n/2)*.3f)-new Vector3(cb.center.x,cb.min.y,cb.center.z);if(++n==4)break;}
-  var sign=new GameObject("Sweet gift plaque").AddComponent<TextMesh>();sign.transform.SetParent(sweetGift.transform,false);sign.transform.localPosition=new Vector3(0,.6f,-.415f);sign.text="SWEETS TO SHARE\nGift prepared at the Sweet Shop";sign.anchor=TextAnchor.MiddleCenter;sign.fontSize=44;sign.characterSize=.009f;sign.color=new Color(1,.82f,.42f);
+  if(!game.basket)return;
+  var bounds=GameObjectUtility.BoundsOf(game.basket.transform);
+  sweetGift=new GameObject("Sweet gift checkout sharing celebration");
+  sweetGift.transform.SetParent(game.basket.transform,true);
+  sweetGift.transform.position=bounds.center+Vector3.up*bounds.extents.y*.4f;
+  var scale=game.basket.transform.lossyScale;sweetGift.transform.localScale=new Vector3(1/scale.x,1/scale.y,1/scale.z);
+  var light=sweetGift.AddComponent<Light>();light.type=LightType.Point;light.color=new Color(1,.65f,.25f);light.intensity=0;light.range=1.8f;light.shadows=LightShadows.None;
+  var sparks=sweetGift.AddComponent<ParticleSystem>();sparks.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);
+  var main=sparks.main;main.playOnAwake=false;main.loop=false;main.duration=2.5f;main.startLifetime=new ParticleSystem.MinMaxCurve(.7f,1.3f);main.startSpeed=new ParticleSystem.MinMaxCurve(.08f,.2f);main.startSize=new ParticleSystem.MinMaxCurve(.015f,.03f);main.startColor=new Color(1,.78f,.35f,.8f);main.maxParticles=32;main.scalingMode=ParticleSystemScalingMode.Shape;main.simulationSpace=ParticleSystemSimulationSpace.World;
+  var emission=sparks.emission;emission.rateOverTime=12;
+  var shape=sparks.shape;shape.shapeType=ParticleSystemShapeType.Circle;shape.radius=Mathf.Clamp(Mathf.Max(bounds.extents.x,bounds.extents.z)*.8f,.15f,.45f);shape.radiusThickness=.15f;shape.rotation=new Vector3(-90,0,0);
+  var size=sparks.sizeOverLifetime;size.enabled=true;size.size=new ParticleSystem.MinMaxCurve(1,AnimationCurve.EaseInOut(0,1,1,0));
+  FestivalParticleStyle.Apply(sparks);sparks.Play();StartCoroutine(FadeSharingCelebration(sweetGift,light));
  }
- static Transform CopyVisual(Transform source,Transform parent){var root=new GameObject(source.name+" display copy").transform;root.SetParent(parent,true);foreach(var mr in source.GetComponentsInChildren<MeshRenderer>()){var mf=mr.GetComponent<MeshFilter>();if(!mf)continue;var go=new GameObject(mr.name);go.transform.SetParent(root,true);go.transform.SetPositionAndRotation(mr.transform.position,mr.transform.rotation);go.transform.localScale=mr.transform.lossyScale;go.AddComponent<MeshFilter>().sharedMesh=mf.sharedMesh;go.AddComponent<MeshRenderer>().sharedMaterials=mr.sharedMaterials;}return root;}
+ IEnumerator FadeSharingCelebration(GameObject effect,Light light){
+  float elapsed=0;while(effect&&elapsed<4){elapsed+=Time.deltaTime;float fade=Mathf.Clamp01(elapsed/.4f)*Mathf.Clamp01((4-elapsed)/1.4f);light.intensity=fade*(.9f+.25f*Mathf.Sin(elapsed*4));yield return null;}
+  if(effect)Destroy(effect);
+ }
  void LaunchPlazaFinale(VenueGame owner){
   var f=owner as FireworksGame;if(!f||!f.rocketEffect)return;
   for(int i=0;i<3;i++){float a=i*Mathf.PI*2/3;var launch=new Vector3(Mathf.Cos(a)*5,.25f,20.75f+Mathf.Sin(a)*5);var burst=Instantiate(f.rocketEffect,launch+Vector3.up*8,Quaternion.identity,transform);burst.name="Finale fireworks above central decoration "+(i+1);burst.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);var main=burst.main;main.loop=true;main.duration=3.5f+i*.4f;main.startDelay=i*.6f;main.startLifetime=2;main.startSpeed=3.8f;main.startSize=.07f;var trails=burst.trails;trails.enabled=true;trails.lifetime=.2f;FestivalParticleStyle.Apply(burst);burst.Play();if(!centralFireworks)centralFireworks=burst;
