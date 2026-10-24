@@ -15,7 +15,8 @@ public class RangoliGame : VenueGame {
    var front=Vector3.ProjectOnPlane(-venue.right,Vector3.up).normalized;
    var side=Vector3.Cross(Vector3.up,front);
    float half=Vector3.Dot(new Vector3(Mathf.Abs(side.x),0,Mathf.Abs(side.z)),b.extents);
-   panelPosition=b.center+side*(half+.65f)+front*.35f;
+   float frontHalf=Vector3.Dot(new Vector3(Mathf.Abs(front.x),0,Mathf.Abs(front.z)),b.extents);
+   panelPosition=b.center+side*(half+.95f)+front*(frontHalf+.35f);
    panelPosition.y=floor.max.y+1.5f;
    approach=panelPosition+front*2;
   }

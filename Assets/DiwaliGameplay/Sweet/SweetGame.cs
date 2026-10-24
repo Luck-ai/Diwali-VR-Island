@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 namespace DiwaliGameplay {
 public class SweetGame : VenueGame {
  public GrabbableItem basket,card;
@@ -9,6 +10,7 @@ public class SweetGame : VenueGame {
  GrabbableItem defaultBasket;
  readonly HashSet<GrabbableItem> heldBaskets=new HashSet<GrabbableItem>();
  readonly Dictionary<GrabbableItem,Vector3> basketScales=new Dictionary<GrabbableItem,Vector3>();
+ Transform playerHead;
  public GrabbableItem[] sweets;
  public Transform rest,checkout,collection,cardReader;
  public Transform[] slots,glass;
@@ -36,7 +38,7 @@ public class SweetGame : VenueGame {
  public Quaternion gujiyaRestRotation=Quaternion.identity;
  readonly Dictionary<BoxCollider,(Vector3 center,Vector3 size)> shelfColliderShapes=new Dictionary<BoxCollider,(Vector3 center,Vector3 size)>();
  readonly Dictionary<GrabbableItem,Vector3> sweetScales=new Dictionary<GrabbableItem,Vector3>();
- protected override void Awake(){base.Awake();defaultBasket=basket;if(baskets==null||baskets.Length==0)baskets=new[]{basket};foreach(var b in baskets){basketScales[b]=b.transform.localScale;MakeBasketInteriorReachable(b);b.ConfigureGrab();b.grab.trackRotation=false;var item=b;b.grab.selectExited.AddListener(_=>QueueBasketRelease(item));}snapRadius=Mathf.Max(snapRadius,.65f);basketScale=basket.transform.localScale;basket.grab.trackScale=false;basket.grab.useDynamicAttach=true;basket.grab.matchAttachPosition=true;basket.grab.matchAttachRotation=true;if(sweets!=null)foreach(var sweet in sweets)if(sweet){sweet.ConfigureGrab();foreach(var box in sweet.GetComponentsInChildren<BoxCollider>(true))if(box.GetComponentInParent<GrabbableItem>()==sweet)shelfColliderShapes[box]=(box.center,box.size);sweetScales[sweet]=sweet.transform.localScale;shelfParents[sweet]=sweet.transform.parent;
+ protected override void Awake(){base.Awake();defaultBasket=basket;if(baskets==null||baskets.Length==0)baskets=new[]{basket};foreach(var b in baskets){basketScales[b]=b.transform.localScale;MakeBasketInteriorReachable(b);b.ConfigureGrab();b.grab.trackPosition=false;b.grab.trackRotation=false;b.grab.useDynamicAttach=false;var item=b;b.grab.selectExited.AddListener(_=>QueueBasketRelease(item));}snapRadius=Mathf.Max(snapRadius,.65f);basketScale=basket.transform.localScale;if(sweets!=null)foreach(var sweet in sweets)if(sweet){sweet.ConfigureGrab();foreach(var box in sweet.GetComponentsInChildren<BoxCollider>(true))if(box.GetComponentInParent<GrabbableItem>()==sweet)shelfColliderShapes[box]=(box.center,box.size);sweetScales[sweet]=sweet.transform.localScale;shelfParents[sweet]=sweet.transform.parent;
  var shelf=new GameObject(sweet.itemId+" original shelf pose").transform;shelf.SetParent(transform,false);shelf.SetPositionAndRotation(sweet.transform.position,sweet.transform.rotation);shelfTargets[sweet]=shelf;
  var item=sweet;sweet.grab.selectEntered.AddListener(_=>{if(!confirmed)RemoveSweet(item);});sweet.grab.selectExited.AddListener(_=>{if(begun&&!completed)releasedSweets.Add(item);});sweet.grab.trackScale=false;sweet.grab.useDynamicAttach=true;sweet.grab.matchAttachPosition=true;sweet.grab.matchAttachRotation=true;}}
 
@@ -67,6 +69,18 @@ public class SweetGame : VenueGame {
  void Invalidate(){if(authorized)cardMustLeaveReader=true;foreach(var label in GetComponentsInChildren<TextMesh>(true))if(label.name=="CARD ACCEPTED")Destroy(label.gameObject);authorized=false;confirmed=false;docked=docked&&!basket.IsHeld&&Vector3.Distance(basket.transform.position,checkout.position)<snapRadius;}
  public bool AddSweet(GrabbableItem sweet){if(!sweet||sweet.IsHeld||!begun||!cabinetOpen||!basketReady||confirmed||selected.Count>=4||selected.Contains(sweet)||!sweets.Contains(sweet))return false;Invalidate();selected.Add(sweet);Repack();Credit("sweet-"+selected.Count);status=selected.Count+"/4: "+string.Join(", ",selected.Select(s=>s.itemId))+ (selected.Count==4?(docked?". Tap the festival card again.":". Carry basket to checkout."):". Choose any sweet.");return true;}
  Bounds NativeBounds(GrabbableItem item,Transform frame){var b=new Bounds();bool first=true;foreach(var mf in item.GetComponentsInChildren<MeshFilter>(true)){if(!mf.sharedMesh||mf.GetComponentInParent<GrabbableItem>()!=item)continue;var mb=mf.sharedMesh.bounds;for(int k=0;k<8;k++){var p=frame.InverseTransformPoint(mf.transform.TransformPoint(mb.center+Vector3.Scale(mb.extents,new Vector3((k&1)==0?-1:1,(k&2)==0?-1:1,(k&4)==0?-1:1))));if(first){b=new Bounds(p,Vector3.zero);first=false;}else b.Encapsulate(p);}}return b;}
+ Bounds BasketFloor(GrabbableItem item){
+  var visual=NativeBounds(item,item.transform);BoxCollider floor=null;float lowest=float.PositiveInfinity;
+  foreach(var box in item.GetComponents<BoxCollider>()){
+   if(!box.enabled||box.size.y>=Mathf.Min(box.size.x,box.size.z)*.35f)continue;
+   if(box.size.x<visual.size.x*.5f||box.size.z<visual.size.z*.5f)continue;
+   float top=box.center.y+box.size.y*.5f;
+   if(top<lowest){lowest=top;floor=box;}
+  }
+  if(floor)return new Bounds(new Vector3(floor.center.x,lowest,floor.center.z),new Vector3(floor.size.x,0,floor.size.z));
+  return new Bounds(new Vector3(visual.center.x,visual.min.y+visual.size.y*.035f,visual.center.z),new Vector3(visual.size.x,0,visual.size.z));
+ }
+ public float BasketInteriorFloorY(GrabbableItem item)=>BasketFloor(item).center.y;
  void Repack(){
   var order=selected.OrderBy(s=>s.itemId=="Modak"?1:0).ThenBy(s=>NativeBounds(s,s.transform).size.y*Mathf.Abs(s.transform.lossyScale.y)).ToArray();
   for(int i=0;i<order.Length;i++)Seat(order[i],i);
@@ -89,14 +103,8 @@ public class SweetGame : VenueGame {
    var center=box.center;center[axis]+=extra*.5f*Mathf.Sign(projection[axis]);box.center=center;
   }
  }
- void Seat(GrabbableItem sweet,int index){RestoreSweetColliders(sweet);var bowl=NativeBounds(basket,basket.transform);var slot=slots[index];slot.localPosition=Vector3.zero;slot.localRotation=sweet.itemId=="Gujiya"?gujiyaRestRotation:Quaternion.identity;sweet.SnapTo(slot);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;var food=NativeBounds(sweet,basket.transform);float spanX=bowl.size.x*.68f,spanZ=bowl.size.z*.68f;float cellX=spanX*.5f-.08f,cellZ=spanZ*.5f-.08f;float fit=Mathf.Min(1,cellX/Mathf.Max(.001f,food.size.x),cellZ/Mathf.Max(.001f,food.size.z));sweet.transform.localScale*=fit;food=NativeBounds(sweet,basket.transform);var front=basket.transform.InverseTransformDirection(workspaceForward);front.y=0;front=front.sqrMagnitude>.001f?front.normalized:Vector3.forward;var side=Vector3.Cross(Vector3.up,front);
- var center=bowl.center+side*((index%2==0?-1:1)*spanX*.25f)+front*((index<2?1:-1)*spanZ*.25f);float linerY=bowl.min.y+.08f;
- // Flat sweets need a visible top above the basket body; the upper 65% is its handle.
- if(sweet.itemId=="Gujiya"||sweet.itemId=="Barfi"){
-  float upScale=basket.transform.TransformVector(Vector3.up).magnitude;
-  float rimY=bowl.min.y+bowl.size.y*.35f;
-  linerY=Mathf.Max(linerY,rimY+.02f/Mathf.Max(.001f,upScale)-food.size.y);
- }
+ void Seat(GrabbableItem sweet,int index){RestoreSweetColliders(sweet);var floor=BasketFloor(basket);var slot=slots[index];slot.localPosition=Vector3.zero;slot.localRotation=sweet.itemId=="Gujiya"?gujiyaRestRotation:Quaternion.identity;sweet.SnapTo(slot);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;var food=NativeBounds(sweet,basket.transform);float spanX=floor.size.x*.68f,spanZ=floor.size.z*.68f;float cellX=spanX*.5f-.08f,cellZ=spanZ*.5f-.08f;float fit=Mathf.Min(1,cellX/Mathf.Max(.001f,food.size.x),cellZ/Mathf.Max(.001f,food.size.z));sweet.transform.localScale*=fit;food=NativeBounds(sweet,basket.transform);var front=basket.transform.InverseTransformDirection(workspaceForward);front.y=0;front=front.sqrMagnitude>.001f?front.normalized:Vector3.forward;var side=Vector3.Cross(Vector3.up,front);
+ var center=floor.center+side*((index%2==0?-1:1)*spanX*.25f)+front*((index<2?1:-1)*spanZ*.25f);float upScale=basket.transform.TransformVector(Vector3.up).magnitude;float linerY=floor.center.y+.008f/Mathf.Max(.001f,upScale);
  slot.localPosition=new Vector3(center.x-food.center.x,linerY-food.min.y,center.z-food.center.z);ThickenPackedPickup(sweet);}
  public bool RemoveSweet(GrabbableItem sweet){if(confirmed||!selected.Remove(sweet))return false;RestoreSweetColliders(sweet);sweet.transform.SetParent(transform,true);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;Invalidate();Repack();status=selected.Count+"/4. Selection changed; tap card again at checkout.";return true;}
  public bool AuthorizeCard(){if(!begun||!docked||selected.Count!=4||confirmed||cardMustLeaveReader)return false;if(authorized)return true;authorized=true;Credit("card");status="CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.";MovePanelToReader();StartCoroutine(CardFeedback());return true;}
@@ -114,7 +122,7 @@ public class SweetGame : VenueGame {
   packingMenuAnchor.y=(worktopY>0?worktopY:rest.position.y)+.4f;
  }
  void MovePanelToPackingSide(){if(!panel)return;panel.transform.position=packingMenuAnchor;panel.FaceToward(rest.position+workspaceForward*2.2f);}
- void MovePanelToReader(){if(!panel)return;panel.transform.position=cardReader.position+workspaceForward*.45f+Vector3.Cross(workspaceForward,Vector3.up)*.8f+Vector3.up*.35f;panel.FaceToward(rest.position+workspaceForward*2.2f);}
+ void MovePanelToReader(){if(!panel)return;panel.transform.position=cardReader.position+workspaceForward*1.8f+Vector3.Cross(workspaceForward,Vector3.up)*.15f+Vector3.up*.55f;panel.FaceToward(rest.position+workspaceForward*2.2f);}
  IEnumerator CardFeedback(){var checkoutDisplay=GetComponent<SweetCheckoutDisplay>();if(checkoutDisplay)checkoutDisplay.RefreshStatus();yield break;}
  void PlaceBasket(Transform target,bool atCheckout){if(!placing)StartCoroutine(SettleBasket(target,atCheckout));}
  IEnumerator SettleBasket(Transform target,bool atCheckout){placing=true;var item=basket;item.transform.SetParent(transform,true);var body=item.GetComponent<Rigidbody>();if(body){if(!body.isKinematic){body.linearVelocity=Vector3.zero;body.angularVelocity=Vector3.zero;}body.isKinematic=true;}var start=item.transform.position;var rotation=item.transform.rotation;float t=0;while(t<1&&!item.IsHeld){t+=Time.deltaTime*3;item.transform.SetPositionAndRotation(Vector3.Lerp(start,target.position,Mathf.SmoothStep(0,1,t)),Quaternion.Slerp(rotation,target.rotation,Mathf.SmoothStep(0,1,t)));yield return null;}placing=false;if(item.IsHeld)yield break;item.SnapTo(target);if(atCheckout){docked=true;Credit("checkout");status="4/4 sweets checked. Tap the festival card on the outlined reader.";MovePanelToReader();}else{basketReady=true;docked=authorized=false;Credit("basket-rest");status=selected.Count==4?"Basket safely returned. Carry it to CHECKOUT when ready.":"Basket safely resting — "+selected.Count+"/4 sweets. Release sweets into the bowl.";MovePanelToPackingSide();}}
@@ -176,7 +184,36 @@ public class SweetGame : VenueGame {
   bool close=CanReturnSweet(sweet);shelfHint.transform.position=target.position+Vector3.up*.18f;shelfHint.transform.rotation=panelRotation;shelfHint.text=close?"RELEASE TO RETURN "+sweet.itemId.ToUpperInvariant():"RETURN "+sweet.itemId.ToUpperInvariant()+" HERE";shelfHint.color=close?new Color(.35f,1,.65f):new Color(1,.8f,.4f);
  }
  void RefreshControls(){if(!beginControl)return;var labels=panel.GetComponentsInChildren<UnityEngine.UI.Text>(true).Where(t=>t.transform.parent==panel.transform).ToArray();if(labels.Length>2)labels[2].gameObject.SetActive(!begun||completed);beginControl.gameObject.SetActive(!begun);openControl.gameObject.SetActive(begun&&!cabinetOpen);switchControl.gameObject.SetActive(begun&&cabinetOpen&&!confirmed&&!completed);confirmControl.gameObject.SetActive(begun&&docked&&authorized&&!confirmed&&!completed);}
- void LateUpdate(){foreach(var pair in basketScales)if(pair.Key){pair.Key.transform.localScale=pair.Value;if(pair.Key.IsHeld){var forward=Vector3.ProjectOnPlane(pair.Key.transform.forward,Vector3.up);pair.Key.transform.rotation=Quaternion.LookRotation(forward.sqrMagnitude>.001f?forward:Vector3.forward,Vector3.up);}}}
+ public static Pose ComfortableBasketPose(Vector3 handPosition,Vector3 handForward,Transform head,float radius){
+  var away=head?Vector3.ProjectOnPlane(handPosition-head.position,Vector3.up):Vector3.ProjectOnPlane(handForward,Vector3.up);
+  if(away.sqrMagnitude<.01f&&head)away=Vector3.ProjectOnPlane(head.forward,Vector3.up);
+  if(away.sqrMagnitude<.01f)away=Vector3.forward;
+  away.Normalize();
+  float distance=Mathf.Max(.55f,radius+.22f);
+  var position=handPosition+away*distance+Vector3.down*.12f;
+  if(head){
+   var horizontal=Vector3.ProjectOnPlane(position-head.position,Vector3.up);
+   float clearance=radius+.5f;
+   if(horizontal.magnitude<clearance)position+=away*(clearance-horizontal.magnitude);
+  }
+  return new Pose(position,Quaternion.LookRotation(away,Vector3.up));
+ }
+ void LateUpdate(){
+  foreach(var pair in basketScales)if(pair.Key){
+   var item=pair.Key;item.transform.localScale=pair.Value;
+   if(!item.IsHeld||item.grab.interactorsSelecting.Count==0)continue;
+   var interactor=item.grab.interactorsSelecting[0];
+   var nearFar=interactor as NearFarInteractor;
+   var hand=nearFar!=null?nearFar.interactionAttachController.transformToFollow:interactor.GetAttachTransform(item.grab);
+   if(!hand)continue;
+   if(!playerHead){var camera=Camera.main;if(camera)playerHead=camera.transform;}
+   var bounds=NativeBounds(item,item.transform);
+   float radius=Mathf.Max(bounds.extents.x*Mathf.Abs(item.transform.lossyScale.x),bounds.extents.z*Mathf.Abs(item.transform.lossyScale.z));
+   var pose=ComfortableBasketPose(hand.position,hand.forward,playerHead,radius);
+   item.transform.SetPositionAndRotation(pose.position,pose.rotation);
+   var body=item.GetComponent<Rigidbody>();if(body&&body.isKinematic){body.position=pose.position;body.rotation=pose.rotation;}
+  }
+ }
  public override void ResetGame(){StopAllCoroutines();foreach(var label in GetComponentsInChildren<TextMesh>(true))if(label.name=="CARD ACCEPTED")Destroy(label.gameObject);ChoosePackingMenuAnchor();MovePanelToPackingSide();placing=false;cardMustLeaveReader=false;releasedSweets.Clear();ShowShelfReturn(null);armedPlacement.Clear();armedAt.Clear();releasedPlacements.Clear();base.ResetGame();heldLast.Clear();heldBaskets.Clear();basketWasHeld=false;selected.Clear();otherSide=false;cabinetOpen=basketReady=docked=authorized=confirmed=false;if(baskets!=null)foreach(var b in baskets)if(b)b.ResetItem();basket=defaultBasket?defaultBasket:basket;if(basket){basketScale=basket.transform.localScale;foreach(var slot in slots)slot.SetParent(basket.transform,false);}if(card)card.ResetItem();if(sweets!=null)foreach(var s in sweets)if(s){RestoreSweetColliders(s);s.ResetItem();if(sweetScales.TryGetValue(s,out var scale))s.transform.localScale=scale;}if(glass!=null&&closedGlass!=null)for(int i=0;i<glass.Length;i++)glass[i].localPosition=closedGlass[i];}
 }
 }

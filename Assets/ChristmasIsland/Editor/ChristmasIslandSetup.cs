@@ -29,6 +29,18 @@ public static class ChristmasIslandSetup
         if (!Selection.activeGameObject) throw new InvalidOperationException("Select the imported Christmas island first.");
         Configure(Selection.activeGameObject);
     }
+    [MenuItem("Tools/Christmas Island/Upgrade second park swing")]
+    public static void UpgradeSecondSwing()
+    {
+        if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play mode before upgrading the swing.");
+        var root = SceneManager.GetActiveScene().GetRootGameObjects().FirstOrDefault(x => x.name == "Christmas Island Integration");
+        if (!root) throw new InvalidOperationException("Christmas Island Integration was not found.");
+        var swing = root.GetComponentsInChildren<Transform>(true).FirstOrDefault(t => t.name == "B5_SnowPark_Prop_SwingSeat2");
+        if (!swing) throw new InvalidOperationException("The second park swing was not found.");
+        ConfigureSecondSwing(swing.gameObject);
+        EditorSceneManager.MarkSceneDirty(root.scene);
+        EditorSceneManager.SaveScene(root.scene);
+    }
     public static GameObject Install(Vector3 center)
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play mode before scene setup.");
@@ -63,6 +75,7 @@ public static class ChristmasIslandSetup
             if (t.name == "Sea") { t.gameObject.SetActive(false); continue; }
             var mf = t.GetComponent<MeshFilter>();
             if (!mf || !mf.sharedMesh || IsInsideEvent(t)) continue;
+            if (t.name == "B5_SnowPark_Prop_SwingSeat2") { ConfigureSecondSwing(t.gameObject); continue; }
             if (t.name.Contains("_Prop_")) { ConfigureGrab(t.gameObject); continue; }
             var collider = t.GetComponent<MeshCollider>();
             if (!collider) collider = t.gameObject.AddComponent<MeshCollider>();
@@ -151,12 +164,23 @@ public static class ChristmasIslandSetup
         xr.interactionLayers = (InteractionLayerMask)1;
         GameObjectUtility.SetStaticEditorFlags(go, 0);
     }
+    static void ConfigureSecondSwing(GameObject go)
+    {
+        // The second swing is anchored park equipment, not a loose prop.
+        var grab = go.GetComponent<XRGrabInteractable>(); if (grab) UnityEngine.Object.DestroyImmediate(grab);
+        var reset = go.GetComponent<ChristmasPropReset>(); if (reset) UnityEngine.Object.DestroyImmediate(reset);
+        var body = go.GetComponent<Rigidbody>(); if (body) UnityEngine.Object.DestroyImmediate(body);
+        ConfigureSimple(go, ConfigureItemColliders(go));
+        Get<ChristmasSwing>(go);
+    }
     static void ConfigureGrab(GameObject go, Collider[] colliders = null)
     {
         if (colliders == null) colliders = ConfigureItemColliders(go);
         var body = Get<Rigidbody>(go);
-        // Props stay displayed until first grabbed, then regain gravity on release.
-        body.isKinematic = true; body.useGravity = true;
+        // XR Grab restores the pre-grab kinematic state on release, so keep the body dynamic
+        // and freeze it at its display position until the first grab.
+        body.isKinematic = false; body.useGravity = true;
+        body.constraints = RigidbodyConstraints.FreezeAll;
         body.mass = .25f; body.interpolation = RigidbodyInterpolation.Interpolate;
         body.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
         var xr = Get<XRGrabInteractable>(go);

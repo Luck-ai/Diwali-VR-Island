@@ -145,6 +145,7 @@ public sealed class ChristmasItemAction : MonoBehaviour
         var body = GetComponent<Rigidbody>();
         if (body && !body.isKinematic) { body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; }
         transform.localPosition = initialPosition; transform.localRotation = initialRotation;
+        GetComponent<ChristmasPropReset>()?.FreezeAtHome();
         foreach (var r in GetComponentsInChildren<Renderer>()) r.enabled = true;
         active = false;
         if (target && item.eventNumber == 8) target.localRotation = targetRotation;

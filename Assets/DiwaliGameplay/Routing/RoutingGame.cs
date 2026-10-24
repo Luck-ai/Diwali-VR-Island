@@ -9,9 +9,9 @@ public class RoutingGame : VenueGame {
  bool testInProgress;float[] flashUntil=new float[3];int[] lastTest=new[]{-1,-1,-1};public Shader pulseShader;LineRenderer ray,rayGlow;Renderer[][] lampRenderers;readonly System.Collections.Generic.List<LineRenderer> testTraces=new System.Collections.Generic.List<LineRenderer>();
  void ClearTraces(){foreach(var line in testTraces)if(line){Destroy(line.sharedMaterial);Destroy(line.gameObject);}testTraces.Clear();}
  Vector3 stationPanelPosition,stationViewer,gardenPanelPosition,gardenViewer;bool gardenControls;
- UnityEngine.UI.Button beginControl,testControl,confirmControl;UnityEngine.UI.Slider brightnessControl;VenuePanel panel;
+ UnityEngine.UI.Button beginControl,testControl,confirmControl,brightnessControl;VenuePanel panel;
  void Start(){
-  howToPlay="1  Select Begin Lighting. Grab the crystal and release it into the crystal holder.\n\n2  Take the elbow, T-junction and straight piece from the rack. Release each one over its matching circular recess.\n\n3  After fitting a piece, select its Rotate button. Each press makes one visible quarter-turn. Select Test Lights to check the route, then rotate and test again if needed. Pieces may be fitted in any order.\n\n4  Select Test Lights after all three connections are aligned.\n\n5  Adjust Garden brightness, then Confirm brightness to finish. Restart returns the pieces to the rack.";
+  howToPlay="1  Select Begin Lighting. Grab the crystal and release it into the crystal holder.\n\n2  Take the elbow, T-junction and straight piece from the rack. Release each one over its matching circular recess.\n\n3  After fitting a piece, select its Rotate button. Each press makes one visible quarter-turn. Select Test Lights to check the route, then rotate and test again if needed. Pieces may be fitted in any order.\n\n4  Select Test Lights after all three connections are aligned.\n\n5  Tap Change garden brightness to choose a gentle, warm or bright glow, then Confirm brightness to finish. Restart returns the pieces to the rack.";
   var venue=GameObjectUtility.FindExact("LanternRouting - Approved Warm Palette");
   var console=venue?GameObjectUtility.FindUnder(venue,"base"):null;
   Vector3 front=Vector3.ProjectOnPlane(socketPlaneNormal,Vector3.up).normalized;
@@ -20,17 +20,18 @@ public class RoutingGame : VenueGame {
    var b=GameObjectUtility.BoundsOf(console);
    var side=Vector3.Cross(Vector3.up,front);
    float half=Vector3.Dot(new Vector3(Mathf.Abs(side.x),0,Mathf.Abs(side.z)),b.extents);
-   panelPosition=b.center+side*(half+.65f)+front*.65f;
+   float frontHalf=Vector3.Dot(new Vector3(Mathf.Abs(front.x),0,Mathf.Abs(front.z)),b.extents);
+   panelPosition=b.center+side*(half+.95f)+front*(frontHalf+.55f);
    var floor=GameObjectUtility.FindUnder(venue,"Plane");
    panelPosition.y=(floor?GameObjectUtility.BoundsOf(floor).max.y:0)+1.55f;
   }
   var p=VenuePanel.Create(this,panelPosition,panelRotation,"Route the Festival Lights");panel=p;
-  p.SetPhysicalSize(.98f,1.28f);p.FaceToward(panelPosition+front*2);stationPanelPosition=panelPosition;stationViewer=panelPosition+front*2;gardenPanelPosition=stationPanelPosition;gardenViewer=stationViewer;
+  p.SetPhysicalSize(.98f,1.28f);p.FaceToward(panelPosition+front*2);p.autoFacePlayer=false;stationPanelPosition=panelPosition;stationViewer=panelPosition+front*2;gardenPanelPosition=stationPanelPosition;gardenViewer=stationViewer;
   beginControl=p.AddButton("Begin Lighting",BeginGame);
   rotateButtons[0]=p.AddButton("Rotate elbow ↻",()=>RotatePiece(0));
   rotateButtons[1]=p.AddButton("Rotate T-junction ↻",()=>RotatePiece(1));
   rotateButtons[2]=p.AddButton("Rotate straight ↻",()=>RotatePiece(2));
-  testControl=p.AddButton("Test Lights",TestLights);brightnessControl=p.AddSlider("Garden brightness",.65f,SetBrightness);confirmControl=p.AddButton("Confirm brightness",ConfirmBrightness);
+  testControl=p.AddButton("Test Lights",TestLights);brightnessControl=p.AddButton("Change garden brightness",()=>SetBrightness(brightness<.7f?.85f:brightness<.95f?1f:.5f));confirmControl=p.AddButton("Confirm brightness",ConfirmBrightness);
   for(int i=0;i<4;i++){
    int k=i;
    var marker=new GameObject("Connection status");marker.transform.SetParent(sockets[i].transform,false);
@@ -48,7 +49,7 @@ public class RoutingGame : VenueGame {
    if(connectionLabels[i+1])connectionLabels[i+1].text=(i==0?"3 ELBOW":i==1?"2 T":"1 STRAIGHT")+"\n"+(placed[i+1]?(lastTest[i]==orientation[i]?(Aligned(i)?"READY":"TURN"):"TEST TO CHECK"):"DROP HERE");
    if(directionArrows[i]){directionArrows[i].enabled=placed[i+1];var n=socketPlaneNormal.normalized;var forward=Vector3.ProjectOnPlane(Vector3.up,n).normalized;if(forward.sqrMagnitude<.01f)forward=Vector3.forward;forward=Quaternion.AngleAxis(orientation[i]*90+(i==2?90:180),n)*forward;var side=Vector3.Cross(n,forward);var c=sockets[i+1].transform.position+n*.12f;var tip=c+forward*.11f;directionArrows[i].SetPositions(new[]{c,tip,tip-forward*.035f+side*.025f,tip});}
   }
-  if(panel){bool wantsGarden=tested||completed;if(wantsGarden!=gardenControls){gardenControls=wantsGarden;panel.FollowTaskAt(gardenControls?gardenPanelPosition:stationPanelPosition,gardenControls?gardenViewer:stationViewer);}beginControl.gameObject.SetActive(!begun||completed);testControl.gameObject.SetActive(begun&&!completed&&placed[0]&&placed[1]&&placed[2]&&placed[3]);panel.SetControlVisible(brightnessControl,begun&&!completed&&tested);confirmControl.gameObject.SetActive(begun&&!completed&&tested&&brightnessChosen);if(begun&&!completed&&!testInProgress){int pending=-1;for(int j=0;j<3;j++)if(placed[j+1]&&lastTest[j]==orientation[j]&&!Aligned(j)){pending=j;break;}status=!placed[0]?"Grab the crystal and release it into its holder.":pending>=0?"Rotate the "+(pending==0?"elbow":pending==1?"T-junction":"straight piece")+" and select Test Lights to check. Repeat until connected.":!placed[1]||!placed[2]||!placed[3]?"Fit the remaining routing pieces into their circular recesses.":!tested?"Select Test Lights to illuminate the garden.":!brightnessChosen?"Adjust Garden brightness.":"Confirm brightness to finish the garden.";}}
+  if(panel){bool wantsGarden=tested||completed;if(wantsGarden!=gardenControls){gardenControls=wantsGarden;panel.FollowTaskAt(gardenControls?gardenPanelPosition:stationPanelPosition,gardenControls?gardenViewer:stationViewer);}beginControl.gameObject.SetActive(!begun||completed);testControl.gameObject.SetActive(begun&&!completed&&placed[0]&&placed[1]&&placed[2]&&placed[3]);brightnessControl.gameObject.SetActive(begun&&!completed&&tested);brightnessControl.GetComponentInChildren<UnityEngine.UI.Text>().text="Garden brightness: "+Mathf.RoundToInt(brightness*100)+"%  |  Tap to change";confirmControl.gameObject.SetActive(begun&&!completed&&tested&&brightnessChosen);if(begun&&!completed&&!testInProgress){int pending=-1;for(int j=0;j<3;j++)if(placed[j+1]&&lastTest[j]==orientation[j]&&!Aligned(j)){pending=j;break;}status=!placed[0]?"Grab the crystal and release it into its holder.":pending>=0?"Rotate the "+(pending==0?"elbow":pending==1?"T-junction":"straight piece")+" and select Test Lights to check. Repeat until connected.":!placed[1]||!placed[2]||!placed[3]?"Fit the remaining routing pieces into their circular recesses.":!tested?"Select Test Lights to illuminate the garden.":!brightnessChosen?"Adjust Garden brightness.":"Confirm brightness to finish the garden.";}}
   UpdateLights();
   if(connectionLabels[0])connectionLabels[0].text=placed[0]?"POWER\nREADY":"POWER\nDROP CRYSTAL";
  }
@@ -58,7 +59,7 @@ public class RoutingGame : VenueGame {
  public GrabbableItem[] pieces; public SnapZone[] sockets; public Light[] destinations; public Transform[] routePivots;
  public int[] orientation=new int[3]; public int[] targetMasks={3,11,10}; public bool[] placed=new bool[4]; public float brightness=.65f; public bool tested,brightnessChosen;
  public override void BeginGame(){ResetGame();base.BeginGame();Credit("begin");status="Place crystal. Fit elbow, T-junction and straight piece, then rotate to arrows.";UpdateLights();}
- public override void ResetGame(){StopAllCoroutines();ClearTraces();base.ResetGame();placed=new bool[4];orientation=new int[3];flashUntil=new float[3];lastTest=new[]{-1,-1,-1};if(ray)ray.enabled=false;if(rayGlow)rayGlow.enabled=false;poseDirty=new bool[3];testInProgress=false;tested=brightnessChosen=false;brightness=.65f;if(brightnessControl)brightnessControl.SetValueWithoutNotify(brightness);if(pieces!=null)foreach(var p in pieces)p.ResetItem();if(sockets!=null)foreach(var s in sockets)s.occupant=null;UpdateLights();}
+ public override void ResetGame(){StopAllCoroutines();ClearTraces();base.ResetGame();placed=new bool[4];orientation=new int[3];flashUntil=new float[3];lastTest=new[]{-1,-1,-1};if(ray)ray.enabled=false;if(rayGlow)rayGlow.enabled=false;poseDirty=new bool[3];testInProgress=false;tested=brightnessChosen=false;brightness=.65f;if(pieces!=null)foreach(var p in pieces)p.ResetItem();if(sockets!=null)foreach(var s in sockets)s.occupant=null;UpdateLights();}
  public void Place(int index,GrabbableItem item){if(!begun||completed||index<0||index>=pieces.Length||item!=pieces[index]||placed[index])return;placed[index]=true;item.SnapTo(sockets[index].transform,true);Credit("place"+index);if(index>0){orientation[index-1]=1;routePivots[index-1].rotation=Quaternion.AngleAxis(90,socketPlaneNormal)*sockets[index].transform.rotation;ApplyOrientation(index-1);poseDirty[index-1]=true;flashUntil[index-1]=Time.time+.65f;}status=index==0?"Source powered. Place routing pieces.":"Piece fitted. Rotate until the connection arrows align.";UpdateLights();}
  public int ConnectionMask(int index){int mask=targetMasks[index];for(int k=0;k<orientation[index];k++)mask=((mask<<1)&15)|((mask>>3)&1);return mask;}
  public bool Aligned(int index)=>placed[index+1]&&ConnectionMask(index)==targetMasks[index];

@@ -30,6 +30,9 @@ public class FireworksGame : VenueGame {
  float handStartY,liftAmount,plungerDepression,spinSpeed=45;
  Quaternion plungerRotation;
  Vector3 rocketStaging;
+ float rocketCarryRadius;
+ Quaternion rocketCarryHomeRotation;
+ Transform playerHead;
  TextMesh plungerFeedback;
  public float PlungerHandTravel=>.12f;
  public float PlungerProgress=>Mathf.Clamp01(plungerDepression/Mathf.Max(.08f,travel));
@@ -75,8 +78,35 @@ public class FireworksGame : VenueGame {
   }
   float clearance=Mathf.Clamp(halfDepth+.14f,.36f,.7f);
   pose.SetPositionAndRotation(bounds.center-rotation*new Vector3(0,.12f,clearance),rotation);
-  grab.attachTransform=pose;grab.useDynamicAttach=false;grab.attachEaseInTime=.15f;
+  rocketCarryRadius=Mathf.Max(bounds.extents.x,bounds.extents.z);
+  rocketCarryHomeRotation=rocket.transform.rotation;
+  grab.attachTransform=pose;grab.useDynamicAttach=false;grab.trackPosition=false;grab.trackRotation=false;grab.attachEaseInTime=.15f;
   grab.selectEntered.AddListener(OnRocketGrab);
+ }
+ public static Pose RocketCarryingPose(Vector3 handPosition,Vector3 handForward,Transform head,Vector3 launchAxis,Quaternion homeRotation,float radius){
+  var away=head?Vector3.ProjectOnPlane(handPosition-head.position,Vector3.up):Vector3.ProjectOnPlane(handForward,Vector3.up);
+  if(away.sqrMagnitude<.01f&&head)away=Vector3.ProjectOnPlane(head.forward,Vector3.up);
+  if(away.sqrMagnitude<.01f)away=Vector3.forward;
+  away.Normalize();
+  float distance=Mathf.Max(.7f,radius+.32f);
+  var position=handPosition+away*distance;
+  if(head){var separation=Vector3.ProjectOnPlane(position-head.position,Vector3.up).magnitude;float minimum=radius+.55f;if(separation<minimum)position+=away*(minimum-separation);}
+  var axis=launchAxis.sqrMagnitude>.001f?launchAxis.normalized:Vector3.up;
+  var upright=Quaternion.FromToRotation(homeRotation*axis,Vector3.up)*homeRotation;
+  var reference=Vector3.ProjectOnPlane(upright*Vector3.forward,Vector3.up);
+  if(reference.sqrMagnitude<.001f)reference=Vector3.ProjectOnPlane(upright*Vector3.right,Vector3.up);
+  var yaw=Quaternion.FromToRotation(reference.normalized,away);
+  return new Pose(position,yaw*upright);
+ }
+ void LateUpdate(){
+  if(!rocket||!rocket.IsHeld||rocket.grab.interactorsSelecting.Count==0)return;
+  var interactor=rocket.grab.interactorsSelecting[0];var nearFar=interactor as NearFarInteractor;
+  var controller=nearFar!=null?nearFar.interactionAttachController.transformToFollow:interactor.GetAttachTransform(rocket.grab);
+  if(!controller)return;
+  if(!playerHead){var camera=Camera.main;if(camera)playerHead=camera.transform;}
+  var pose=RocketCarryingPose(controller.position,controller.forward,playerHead,rocketLocalLaunchAxis,rocketCarryHomeRotation,rocketCarryRadius);
+  rocket.transform.SetPositionAndRotation(pose.position,pose.rotation);
+  var body=rocket.GetComponent<Rigidbody>();if(body&&body.isKinematic){body.position=pose.position;body.rotation=pose.rotation;}
  }
  void OnRocketGrab(SelectEnterEventArgs args){
   if(args.interactorObject is NearFarInteractor nearFar){

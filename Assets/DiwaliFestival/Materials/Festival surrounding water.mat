@@ -34,7 +34,7 @@ Material:
     - _ReflectionStrength: 1.15
     - _Smoothness: 0.91
     - _WaveScale: 0.85
-    - _WaveSpeed: 0.35
+    - _WaveSpeed: 0.42
     m_Colors:
     - _DeepColor: {r: 0.045, g: 0.17, b: 0.25, a: 1}
     - _ShallowColor: {r: 0.09, g: 0.32, b: 0.38, a: 1}
