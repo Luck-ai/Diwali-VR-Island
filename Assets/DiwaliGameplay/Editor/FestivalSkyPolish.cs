@@ -51,10 +51,11 @@ namespace DiwaliGameplay
             // Register the scene RenderSettings object so Undo restores the previous sky assignment.
             Undo.RecordObject(Unsupported.GetRenderSettings(), "Assign festival twilight sky");
             RenderSettings.skybox = material;
+            RenderSettings.fogColor = new Color(.3372549f, .32156864f, .41568628f);
             EditorSceneManager.MarkSceneDirty(scene);
             Undo.CollapseUndoOperations(group);
             Debug.Log("Festival sky: " + (previous ? previous.name : "none") + " -> " + material.name
-                + "; indigo zenith, dusk horizon, sparse static stars; one sky pass, no textures. Ambient/key/exposure unchanged.");
+                + "; indigo zenith, dusk horizon, sparse static stars and matching twilight fog. Ambient/key/exposure unchanged.");
         }
     }
 }

@@ -23,12 +23,16 @@ public static class FestivalWaterSurroundings {
   var christmas=GameObjectUtility.FindExact("Island_Terrain");
   if(!sand||!foundation||!christmas)throw new InvalidOperationException("Expected island foundations and sand backup missing.");
   var bounds=GameObjectUtility.BoundsOf(foundation);var christmasBounds=GameObjectUtility.BoundsOf(christmas);
-  float level=Mathf.Min(-.45f,bounds.min.y+.06f);
+  float level=Mathf.Min(bounds.min.y,christmasBounds.min.y)-.35f;
   var material=AssetDatabase.LoadAssetAtPath<Material>(Root+"/Materials/Festival surrounding water.mat");
   if(!material){material=new Material(shader);AssetDatabase.CreateAsset(material,Root+"/Materials/Festival surrounding water.mat");}
   Undo.RecordObject(material,"Surround festival islands with water");material.shader=shader;
-  material.SetColor("_DeepColor",new Color(.025f,.105f,.17f));material.SetColor("_ShallowColor",new Color(.10f,.30f,.36f));
-  material.SetFloat("_WaveScale",1.6f);material.SetFloat("_WaveSpeed",.32f);material.SetFloat("_Smoothness",.75f);EditorUtility.SetDirty(material);
+  var normal=material.HasProperty("_WaveNormal")?material.GetTexture("_WaveNormal"):null;
+  if(!normal||string.IsNullOrEmpty(AssetDatabase.GetAssetPath(normal))){
+   material.SetColor("_DeepColor",new Color(.025f,.20f,.30f));material.SetColor("_ShallowColor",new Color(.12f,.42f,.48f));
+   material.SetFloat("_WaveScale",1.1f);material.SetFloat("_WaveSpeed",.24f);material.SetFloat("_Smoothness",.82f);material.SetFloat("_Opacity",.84f);
+  }
+  EditorUtility.SetDirty(material);
   const string meshPath=Root+"/Surrounding ocean mesh.asset";
   var mesh=AssetDatabase.LoadAssetAtPath<Mesh>(meshPath);
   if(!mesh){mesh=new Mesh{name="Surrounding ocean - two triangles"};mesh.vertices=new[]{new Vector3(-1500,0,-1500),new Vector3(-1500,0,1500),new Vector3(1500,0,1500),new Vector3(1500,0,-1500)};mesh.triangles=new[]{0,1,2,0,2,3};mesh.RecalculateNormals();mesh.RecalculateBounds();AssetDatabase.CreateAsset(mesh,meshPath);}
