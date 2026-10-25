@@ -113,9 +113,22 @@ public class SweetGame : VenueGame {
    var center=box.center;center[axis]+=extra*.5f*Mathf.Sign(projection[axis]);box.center=center;
   }
  }
- void Seat(GrabbableItem sweet,int index){RestoreSweetColliders(sweet);var floor=BasketFloor(basket);var slot=slots[index];slot.localPosition=Vector3.zero;slot.localRotation=sweet.itemId=="Gujiya"?gujiyaRestRotation:Quaternion.identity;sweet.SnapTo(slot);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;var food=NativeBounds(sweet,basket.transform);float spanX=floor.size.x*1.05f,spanZ=floor.size.z*1.05f;float cellX=spanX*.5f-.035f,cellZ=spanZ*.5f-.035f;float fit=Mathf.Min(1,cellX/Mathf.Max(.001f,food.size.x),cellZ/Mathf.Max(.001f,food.size.z));sweet.transform.localScale*=fit;food=NativeBounds(sweet,basket.transform);var front=basket.transform.InverseTransformDirection(workspaceForward);front.y=0;front=front.sqrMagnitude>.001f?front.normalized:Vector3.forward;var side=Vector3.Cross(Vector3.up,front);
- var center=floor.center+side*((index%2==0?-1:1)*spanX*.25f)+front*((index<2?1:-1)*spanZ*.25f);float upScale=basket.transform.TransformVector(Vector3.up).magnitude;float linerY=floor.center.y+.14f/Mathf.Max(.001f,upScale);
- slot.localPosition=new Vector3(center.x-food.center.x,linerY-food.min.y,center.z-food.center.z);ThickenPackedPickup(sweet);}
+ void Seat(GrabbableItem sweet,int index){
+  RestoreSweetColliders(sweet);var floor=BasketFloor(basket);var slot=slots[index];
+  slot.localPosition=Vector3.zero;slot.localRotation=sweet.itemId=="Gujiya"?gujiyaRestRotation:Quaternion.identity;
+  sweet.SnapTo(slot);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;
+  float scaleX=Mathf.Max(.001f,basket.transform.TransformVector(Vector3.right).magnitude);
+  float scaleZ=Mathf.Max(.001f,basket.transform.TransformVector(Vector3.forward).magnitude);
+  float spanX=Mathf.Max(.01f,floor.size.x-.08f/scaleX),spanZ=Mathf.Max(.01f,floor.size.z-.08f/scaleZ);
+  var food=NativeBounds(sweet,basket.transform);
+  float cellX=spanX*.5f-.015f/scaleX,cellZ=spanZ*.5f-.015f/scaleZ;
+  float fit=Mathf.Min(1,cellX/Mathf.Max(.001f,food.size.x),cellZ/Mathf.Max(.001f,food.size.z));
+  sweet.transform.localScale*=Mathf.Max(.001f,fit);food=NativeBounds(sweet,basket.transform);
+  var center=floor.center+new Vector3((index%2==0?-1:1)*spanX*.25f,0,(index<2?1:-1)*spanZ*.25f);
+  float upScale=Mathf.Max(.001f,basket.transform.TransformVector(Vector3.up).magnitude);
+  slot.localPosition=new Vector3(center.x-food.center.x,floor.center.y+.14f/upScale-food.min.y,center.z-food.center.z);
+  ThickenPackedPickup(sweet);
+ }
  public bool RemoveSweet(GrabbableItem sweet){if(confirmed||!selected.Remove(sweet))return false;RestoreSweetColliders(sweet);sweet.transform.SetParent(transform,true);if(sweetScales.TryGetValue(sweet,out var scale))sweet.transform.localScale=scale;Invalidate();Repack();status=selected.Count+"/4. Selection changed; tap card again at checkout.";return true;}
  public bool AuthorizeCard(){if(!begun||!docked||selected.Count!=4||confirmed||cardMustLeaveReader)return false;if(authorized)return true;authorized=true;Credit("card");status="CARD ACCEPTED ✓ Your gift is authorized. Select Share Gift on the small monitor.";MovePanelToReader();StartCoroutine(CardFeedback());return true;}
  public bool CanPlaceBasket(GrabbableItem item,Transform target){if(!item||!target)return false;var local=NativeBounds(item,item.transform);var world=new Bounds(item.transform.TransformPoint(local.center),Vector3.zero);for(int k=0;k<8;k++)world.Encapsulate(item.transform.TransformPoint(local.center+Vector3.Scale(local.extents,new Vector3((k&1)==0?-1:1,(k&2)==0?-1:1,(k&4)==0?-1:1))));float dx=Mathf.Max(0,Mathf.Abs(world.center.x-target.position.x)-world.extents.x-.42f);float dz=Mathf.Max(0,Mathf.Abs(world.center.z-target.position.z)-world.extents.z-.42f);float center=Vector2.Distance(new Vector2(world.center.x,world.center.z),new Vector2(target.position.x,target.position.z));float surface=worktopY>0?worktopY:target.position.y-world.extents.y;return dx*dx+dz*dz<1.15f*1.15f&&center<1.75f&&world.min.y>surface-.9f&&world.min.y<surface+1.8f;}

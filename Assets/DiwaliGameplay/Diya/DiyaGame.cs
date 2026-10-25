@@ -15,8 +15,8 @@ public sealed class DiyaGame : VenueGame {
  Material originalFlameMask;
  Button drawerButton,chestButton,screenButton,keyButton;
  VenuePanel controls; int panelStep=-1;
- Vector3 controlsClearanceSide,controlsAnchor,lastControlsSearchHead;
- Bounds controlsCourtyard;bool controlsBoundsReady,controlsNeedSearch;
+ Vector3 controlsAnchor;
+ Bounds controlsCourtyard;bool controlsBoundsReady;
  readonly Collider[] controlsObstacles=new Collider[24];
  DiyaRestTarget scrollTarget,potTarget,keyTarget,featherTarget,diyaTarget;
  public string CurrentObjective=>completed?"Festival flame delivered!":Step==3&&keyInserted?"Select Turn Inserted Key on the courtyard controls.":Step==5&&clean?"Release the feather on its marked bench rest.":Step==8?"Carry the lit diya over any one of the three floor tiles. Keep holding it.":Step==9&&transferred?"Flame transferred. Release the diya on its central rest.":Step<Prompts.Length?Prompts[Step]:"Delivery complete";
@@ -45,20 +45,19 @@ public sealed class DiyaGame : VenueGame {
   if(!controls)controls=GetComponentInChildren<VenuePanel>();
   if(!controls)return;
   if(panelStep!=Step){
-   panelStep=Step;controls.autoFacePlayer=Step!=6&&Step!=7;
+   panelStep=Step;controls.autoFacePlayer=false;
    Transform target=Step<2?drawer:Step==2?pot.transform:Step<=4?keySocket:Step==5?diya.transform:Step<=7?starter:destination;
    var inward=Vector3.ProjectOnPlane(transform.position-target.position,Vector3.up);
    if(inward.sqrMagnitude<.1f)inward=transform.forward;
    inward.Normalize();var side=Vector3.Cross(Vector3.up,inward);
-   controlsClearanceSide=side;
    controls.transform.position=new Vector3(target.position.x,transform.position.y+1.42f,target.position.z)+inward*.8f+side*.85f;
    controls.FaceToward(target.position+inward*2);
    if(Step==5){controls.autoFacePlayer=false;var position=diya.transform.position+inward*.25f+side*1.6f;position.y=transform.position.y+1.55f;controls.transform.position=position;controls.FaceToward(transform.position+Vector3.up*1.6f);}
-   if(Step>=8){controls.autoFacePlayer=false;var approach=transform.position+Vector3.up*1.6f;var finalSide=Vector3.ProjectOnPlane(diyaRest.position-destination.position,Vector3.up).normalized;if(finalSide.sqrMagnitude<.1f)finalSide=side;controlsClearanceSide=-finalSide;var finalPosition=destination.position-finalSide*1.3f+inward*.2f;finalPosition.y=transform.position.y+1.42f;controls.transform.position=finalPosition;controls.FaceToward(approach);}
-   if(Step==6||Step==7){var approach=transform.position+Vector3.up*1.6f;var bounds=GameObjectUtility.BoundsOf(screen);var normal=bounds.size.x<bounds.size.z?Vector3.right:Vector3.forward;var courtyard=transform.position-bounds.center;courtyard.y=0;if(Vector3.Dot(courtyard,normal)<0)normal=-normal;var screenSide=Vector3.Cross(Vector3.up,normal);controlsClearanceSide=screenSide;var extent=Vector3.Dot(bounds.extents,new Vector3(Mathf.Abs(normal.x),0,Mathf.Abs(normal.z)));var p=bounds.center+normal*(extent+.95f)+screenSide*.7f;p.y=transform.position.y+1.42f;controls.transform.position=p;controls.FaceToward(approach+Vector3.up*.1f);}
-   controlsAnchor=ClampControlsInside(controls.transform.position);controls.transform.position=controlsAnchor;controlsNeedSearch=true;
+   if(Step>=8){controls.autoFacePlayer=false;var approach=transform.position+Vector3.up*1.6f;var finalSide=Vector3.ProjectOnPlane(diyaRest.position-destination.position,Vector3.up).normalized;if(finalSide.sqrMagnitude<.1f)finalSide=side;var finalPosition=destination.position-finalSide*1.3f+inward*.2f;finalPosition.y=transform.position.y+1.42f;controls.transform.position=finalPosition;controls.FaceToward(approach);}
+   if(Step==6||Step==7){var approach=transform.position+Vector3.up*1.6f;var bounds=GameObjectUtility.BoundsOf(screen);var normal=bounds.size.x<bounds.size.z?Vector3.right:Vector3.forward;var courtyard=transform.position-bounds.center;courtyard.y=0;if(Vector3.Dot(courtyard,normal)<0)normal=-normal;var screenSide=Vector3.Cross(Vector3.up,normal);var extent=Vector3.Dot(bounds.extents,new Vector3(Mathf.Abs(normal.x),0,Mathf.Abs(normal.z)));var p=bounds.center+normal*(extent+.95f)+screenSide*.7f;p.y=transform.position.y+1.42f;controls.transform.position=p;controls.FaceToward(approach+Vector3.up*.1f);}
+   controlsAnchor=ClampControlsInside(controls.transform.position);
+   PlaceControlsAtTaskAnchor();
   }
-  KeepControlsClearOfHead();
  }
  Vector3 ClampControlsInside(Vector3 point){
   if(!controlsBoundsReady){
@@ -72,7 +71,7 @@ public sealed class DiyaGame : VenueGame {
   point.z=Mathf.Clamp(point.z,controlsCourtyard.min.z+inset,controlsCourtyard.max.z-inset);
   return point;
  }
- bool ControlsPositionClear(Vector3 point,Vector3 viewer){
+ bool ControlsPositionClear(Vector3 point){
   if((ClampControlsInside(point)-point).sqrMagnitude>.0001f)return false;
   int count=Physics.OverlapBoxNonAlloc(point,new Vector3(.61f,.75f,.61f),controlsObstacles,Quaternion.identity,~0,QueryTriggerInteraction.Ignore);
   for(int i=0;i<count;i++){
@@ -84,36 +83,24 @@ public sealed class DiyaGame : VenueGame {
   }
   return count<controlsObstacles.Length;
  }
- void KeepControlsClearOfHead(){
-  var camera=Camera.main;if(!camera)return;
-  var head=camera.transform.position;var position=controls.transform.position;
-  const float minimum=1.725f;
-  var bounded=ClampControlsInside(position);
-  bool inside=head.x>=controlsCourtyard.min.x&&head.x<=controlsCourtyard.max.x&&head.z>=controlsCourtyard.min.z&&head.z<=controlsCourtyard.max.z;
-  float currentDistance=Vector3.ProjectOnPlane(position-head,Vector3.up).magnitude;
-  if(!controlsNeedSearch&&(bounded-position).sqrMagnitude<.0001f&&currentDistance>=minimum&&(!inside||currentDistance<=3.05f||Vector3.ProjectOnPlane(head-lastControlsSearchHead,Vector3.up).sqrMagnitude<.01f)&&ControlsPositionClear(position,head))return;
-  lastControlsSearchHead=head;controlsNeedSearch=false;
-  var best=ClampControlsInside(controlsAnchor);float bestScore=float.PositiveInfinity;bool allowDistant=false;
-  void Consider(Vector3 candidate){
-   candidate.y=controlsAnchor.y;
-   if(Vector3.ProjectOnPlane(candidate-head,Vector3.up).sqrMagnitude<minimum*minimum||!ControlsPositionClear(candidate,head))return;
-   float distance=Vector3.ProjectOnPlane(candidate-head,Vector3.up).magnitude;
-   if(inside&&!allowDistant&&distance>2.8f)return;
-   float score=(candidate-controlsAnchor).sqrMagnitude+Mathf.Max(0,distance-2.9f)*20;
-   if(score<bestScore){best=candidate;bestScore=score;}
-  }
-  Consider(best);
-  for(int x=-2;x<=2;x++)for(int z=-2;z<=2;z++)Consider(controlsAnchor+new Vector3(x*.8f,0,z*.8f));
-  foreach(float radius in new[]{1.95f,2.4f})for(int i=0;i<16;i++){
-   float angle=i*Mathf.PI*2/16;Consider(new Vector3(head.x+Mathf.Cos(angle)*radius,controlsAnchor.y,head.z+Mathf.Sin(angle)*radius));
+ void PlaceControlsAtTaskAnchor(){
+  var best=controlsAnchor;float bestScore=float.PositiveInfinity;
+  for(int x=-5;x<=5;x++)for(int z=-5;z<=5;z++){
+   var candidate=ClampControlsInside(controlsAnchor+new Vector3(x*.4f,0,z*.4f));
+   float score=(candidate-controlsAnchor).sqrMagnitude;
+   if(score>=bestScore||!ControlsPositionClear(candidate))continue;
+   best=candidate;bestScore=score;
   }
   if(float.IsPositiveInfinity(bestScore)){
-   allowDistant=true;
-   for(float x=controlsCourtyard.min.x+.9f;x<=controlsCourtyard.max.x-.9f;x+=1)
-    for(float z=controlsCourtyard.min.z+.9f;z<=controlsCourtyard.max.z-.9f;z+=1)Consider(new Vector3(x,controlsAnchor.y,z));
+   for(float x=controlsCourtyard.min.x+.9f;x<controlsCourtyard.max.x-.9f;x+=.8f)
+    for(float z=controlsCourtyard.min.z+.9f;z<controlsCourtyard.max.z-.9f;z+=.8f){
+     var candidate=new Vector3(x,controlsAnchor.y,z);float score=(candidate-controlsAnchor).sqrMagnitude;
+     if(score>=bestScore||!ControlsPositionClear(candidate))continue;
+     best=candidate;bestScore=score;
+    }
   }
-  // A bounded anchor is always preferable to pushing the panel beyond a wall.
-  controls.transform.position=best;controls.FaceToward(head);
+  controls.transform.position=best;
+  controls.FaceToward(transform.position+Vector3.up*1.6f);
  }
  void LateUpdate(){PositionControls();}
  void Advance(string id){Credit(id);SetAccessible();Prompt();}

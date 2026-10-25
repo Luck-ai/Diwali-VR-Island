@@ -1,0 +1,2147 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "scope": "Diya menu world position and rotation under player movement at all stages; basket mesh containment for repeated and mixed sweets, both baskets, four yaw angles. Desktop Unity Play Mode.",
+  "results": [
+    {
+      "name": "Diya stage 0 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 0 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 0 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 0 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 1 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 1 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 1 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 1 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 2 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 2 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 2 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 2 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 3 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 3 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 3 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 3 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 4 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 4 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 4 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 4 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 5 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 5 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 5 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 5 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 6 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 6 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 6 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 6 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 7 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 7 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 7 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 7 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 8 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 8 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 8 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 8 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 9 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 9 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 9 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 9 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 10 inside courtyard and clear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 10 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 10 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya stage 10 stays fixed as player moves",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 0 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, 0.07, 0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, -0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 0 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 45 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 90 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Modak",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Barfi",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack Gujiya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, -0.19, 0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Modak yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (0.31, 0.07, -0.31), Extents: (0.22, 0.30, 0.22),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Barfi yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, 0.31), Extents: (0.16, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket 1 Gujiya yaw 180 inside rim",
+      "pass": true,
+      "detail": "sweet=Center: (-0.31, -0.19, -0.31), Extents: (0.15, 0.04, 0.29),floor=Center: (0.00, -0.49, 0.00), Extents: (0.69, 0.00, 0.69)"
+    },
+    {
+      "name": "Packed sweet remains attached and grabbable",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
