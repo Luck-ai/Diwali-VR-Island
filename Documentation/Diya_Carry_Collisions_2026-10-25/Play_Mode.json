@@ -1,0 +1,393 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "scope": "Desktop Play Mode: native wall/table collisions via queued XR locomotion and tracked head movement; actual queued diya grip, walking carry, swept object barrier, restored controller settings, stationary chest menu. No physical Quest test.",
+  "results": [
+    {
+      "name": "Player has enabled collision guard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Locomotion uses CharacterController",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Diya north wall has solid geometry",
+      "pass": true,
+      "detail": "collider=Cube.003"
+    },
+    {
+      "name": "Diya north wall blocks joystick movement",
+      "pass": true,
+      "detail": "travel=2.162,surface=2.407"
+    },
+    {
+      "name": "Diya north wall blocks tracked walking",
+      "pass": true,
+      "detail": "travel=2.162,surface=2.407"
+    },
+    {
+      "name": "Diya south wall has solid geometry",
+      "pass": true,
+      "detail": "collider=Cube.003"
+    },
+    {
+      "name": "Diya south wall blocks joystick movement",
+      "pass": true,
+      "detail": "travel=1.386,surface=1.631"
+    },
+    {
+      "name": "Diya south wall blocks tracked walking",
+      "pass": true,
+      "detail": "travel=1.386,surface=1.631"
+    },
+    {
+      "name": "Diya display table has solid geometry",
+      "pass": true,
+      "detail": "collider=Cube.006"
+    },
+    {
+      "name": "Diya display table blocks joystick movement",
+      "pass": true,
+      "detail": "travel=1.081,surface=1.326"
+    },
+    {
+      "name": "Diya display table blocks tracked walking",
+      "pass": true,
+      "detail": "travel=1.081,surface=1.326"
+    },
+    {
+      "name": "Controller can target cleaned diya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued grip holds diya",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Held diya disables momentum and distance manipulation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Walking carry frame 0",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 1",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 2",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 3",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 4",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 5",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 6",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 7",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 8",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 9",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 10",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 11",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 12",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 13",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 14",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 15",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 16",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 17",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 18",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 19",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 20",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 21",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 22",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 23",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 24",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 25",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 26",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Walking carry frame 27",
+      "pass": true,
+      "detail": "handGap=0.800"
+    },
+    {
+      "name": "Carried diya stays before wall frame 0",
+      "pass": true,
+      "detail": "diyaEdge=34.347,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 1",
+      "pass": true,
+      "detail": "diyaEdge=34.437,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 2",
+      "pass": true,
+      "detail": "diyaEdge=34.527,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 3",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 4",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 5",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 6",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 7",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 8",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 9",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 10",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 11",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 12",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 13",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 14",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 15",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 16",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 17",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 18",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 19",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 20",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carried diya stays before wall frame 21",
+      "pass": true,
+      "detail": "diyaEdge=34.552,wall=34.550"
+    },
+    {
+      "name": "Carry into open aisle",
+      "pass": true,
+      "detail": "head=(31.88, 1.70, 5.70),target=(31.80, 1.70, 5.70)"
+    },
+    {
+      "name": "Walk around screen to starter",
+      "pass": true,
+      "detail": "head=(31.80, 1.70, -1.50),target=(31.80, 1.70, -1.56)"
+    },
+    {
+      "name": "Approach starter from open side",
+      "pass": true,
+      "detail": "head=(33.48, 1.70, -1.56),target=(33.55, 1.70, -1.56)"
+    },
+    {
+      "name": "Held diya lights at real starter",
+      "pass": true,
+      "detail": "wickGap=0.506"
+    },
+    {
+      "name": "Step away from starter bench",
+      "pass": true,
+      "detail": "head=(31.92, 1.70, -1.56),target=(31.80, 1.70, -1.56)"
+    },
+    {
+      "name": "Carry lit diya over authored route",
+      "pass": true,
+      "detail": "head=(31.56, 1.70, 4.07),target=(31.56, 1.70, 4.13)"
+    },
+    {
+      "name": "Walking route is accepted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Reach display along clear aisle",
+      "pass": true,
+      "detail": "head=(33.48, 1.70, 4.22),target=(33.55, 1.70, 4.22)"
+    },
+    {
+      "name": "Held flame transfers at display",
+      "pass": true,
+      "detail": "wickGap=0.505"
+    },
+    {
+      "name": "Diya safely returns to final rest",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Release restores normal controller settings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Chest controls stay away from lock working area",
+      "pass": true,
+      "detail": "gap=2.663"
+    },
+    {
+      "name": "Chest controls stay stationary",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "checks": 77
+}

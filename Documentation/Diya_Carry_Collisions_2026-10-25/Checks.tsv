@@ -1,0 +1,78 @@
+name	pass	detail
+Player has enabled collision guard	True	
+Locomotion uses CharacterController	True	
+Diya north wall has solid geometry	True	collider=Cube.003
+Diya north wall blocks joystick movement	True	travel=2.162,surface=2.407
+Diya north wall blocks tracked walking	True	travel=2.162,surface=2.407
+Diya south wall has solid geometry	True	collider=Cube.003
+Diya south wall blocks joystick movement	True	travel=1.386,surface=1.631
+Diya south wall blocks tracked walking	True	travel=1.386,surface=1.631
+Diya display table has solid geometry	True	collider=Cube.006
+Diya display table blocks joystick movement	True	travel=1.081,surface=1.326
+Diya display table blocks tracked walking	True	travel=1.081,surface=1.326
+Controller can target cleaned diya	True	
+Queued grip holds diya	True	
+Held diya disables momentum and distance manipulation	True	
+Walking carry frame 0	True	handGap=0.800
+Walking carry frame 1	True	handGap=0.800
+Walking carry frame 2	True	handGap=0.800
+Walking carry frame 3	True	handGap=0.800
+Walking carry frame 4	True	handGap=0.800
+Walking carry frame 5	True	handGap=0.800
+Walking carry frame 6	True	handGap=0.800
+Walking carry frame 7	True	handGap=0.800
+Walking carry frame 8	True	handGap=0.800
+Walking carry frame 9	True	handGap=0.800
+Walking carry frame 10	True	handGap=0.800
+Walking carry frame 11	True	handGap=0.800
+Walking carry frame 12	True	handGap=0.800
+Walking carry frame 13	True	handGap=0.800
+Walking carry frame 14	True	handGap=0.800
+Walking carry frame 15	True	handGap=0.800
+Walking carry frame 16	True	handGap=0.800
+Walking carry frame 17	True	handGap=0.800
+Walking carry frame 18	True	handGap=0.800
+Walking carry frame 19	True	handGap=0.800
+Walking carry frame 20	True	handGap=0.800
+Walking carry frame 21	True	handGap=0.800
+Walking carry frame 22	True	handGap=0.800
+Walking carry frame 23	True	handGap=0.800
+Walking carry frame 24	True	handGap=0.800
+Walking carry frame 25	True	handGap=0.800
+Walking carry frame 26	True	handGap=0.800
+Walking carry frame 27	True	handGap=0.800
+Carried diya stays before wall frame 0	True	diyaEdge=34.347,wall=34.550
+Carried diya stays before wall frame 1	True	diyaEdge=34.437,wall=34.550
+Carried diya stays before wall frame 2	True	diyaEdge=34.527,wall=34.550
+Carried diya stays before wall frame 3	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 4	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 5	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 6	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 7	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 8	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 9	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 10	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 11	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 12	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 13	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 14	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 15	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 16	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 17	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 18	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 19	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 20	True	diyaEdge=34.552,wall=34.550
+Carried diya stays before wall frame 21	True	diyaEdge=34.552,wall=34.550
+Carry into open aisle	True	head=(31.88, 1.70, 5.70),target=(31.80, 1.70, 5.70)
+Walk around screen to starter	True	head=(31.80, 1.70, -1.50),target=(31.80, 1.70, -1.56)
+Approach starter from open side	True	head=(33.48, 1.70, -1.56),target=(33.55, 1.70, -1.56)
+Held diya lights at real starter	True	wickGap=0.506
+Step away from starter bench	True	head=(31.92, 1.70, -1.56),target=(31.80, 1.70, -1.56)
+Carry lit diya over authored route	True	head=(31.56, 1.70, 4.07),target=(31.56, 1.70, 4.13)
+Walking route is accepted	True	
+Reach display along clear aisle	True	head=(33.48, 1.70, 4.22),target=(33.55, 1.70, 4.22)
+Held flame transfers at display	True	wickGap=0.505
+Diya safely returns to final rest	True	
+Release restores normal controller settings	True	
+Chest controls stay away from lock working area	True	gap=2.663
+Chest controls stay stationary	True	

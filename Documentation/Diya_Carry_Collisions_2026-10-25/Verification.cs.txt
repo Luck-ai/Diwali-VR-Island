@@ -1,0 +1,101 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.InputSystem.XR;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Attachment;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using UnityEngine.XR.Interaction.Toolkit.Interactors.Casters;
+using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion;
+using DiwaliGameplay;
+using GameObjectUtility=DiwaliGameplay.GameObjectUtility;
+internal class CommandScript:IRunCommand {
+ [Serializable] class Row {public string name;public bool pass;public string detail;} [Serializable] class Report {public string state;public int failures;public string scope;public List<Row> results;} static readonly List<Row> rows=new List<Row>();static int failures;
+ static string folder=Path.GetFullPath("Documentation/Diya_Carry_Collisions_2026-10-25");
+ static void Check(string name,bool pass,string detail=""){rows.Add(new Row{name=name,pass=pass,detail=detail});if(!pass)failures++;}
+ static async Task Wait(int ms=70){await Task.Delay(ms);}
+ public void Execute(ExecutionResult result){Run();result.Log("Native wall movement, tracked head movement, carried diya, and chest controls checks started");}
+ static async Task WalkTo(string label,Vector3 target,Transform head,XRBodyTransformer body){target.y=head.position.y;int stalled=0;for(int i=0;i<180&&Vector3.ProjectOnPlane(target-head.position,Vector3.up).magnitude>.15f;i++){var before=head.position;body.QueueTransformation(new XROriginMovement{motion=Vector3.ClampMagnitude(Vector3.ProjectOnPlane(target-head.position,Vector3.up),.12f)});await Wait(25);if(Vector3.Distance(before,head.position)<.003f){if(++stalled>10)break;}else stalled=0;}Check(label,Vector3.ProjectOnPlane(target-head.position,Vector3.up).magnitude<.22f,"head="+head.position+",target="+target);}
+ static async void Run(){
+  Directory.CreateDirectory(folder);rows.Clear();failures=0;
+  var rig=UnityEngine.Object.FindFirstObjectByType<Unity.XR.CoreUtils.XROrigin>();var head=rig.Camera.transform;var frame=rig.Origin.transform;
+  var saved=frame.position;var local=head.localPosition;var rotation=frame.rotation;
+  var body=UnityEngine.Object.FindFirstObjectByType<XRBodyTransformer>();bool bodyEnabled=body.enabled;
+  var providers=rig.GetComponentsInChildren<LocomotionProvider>(true);var providerStates=providers.Select(p=>p.enabled).ToArray();foreach(var p in providers)p.enabled=false;
+  var drivers=head.GetComponents<TrackedPoseDriver>();var driverStates=drivers.Select(d=>d.enabled).ToArray();foreach(var driver in drivers)driver.enabled=false;
+  var guard=rig.GetComponent<PlayerTrackedCollision>();var game=UnityEngine.Object.FindFirstObjectByType<DiyaGame>();
+  GameObject controller=null,wall=null;NearFarInteractor hand=null;
+  try{
+   Check("Player has enabled collision guard",guard&&guard.enabled);
+   Check("Locomotion uses CharacterController",body.constrainedBodyManipulator is CharacterControllerBodyManipulator);
+   var cases=new[]{(label:"Diya north wall",start:new Vector3(30.4f,1.7f,8),dir:Vector3.forward),(label:"Diya south wall",start:new Vector3(30.4f,1.7f,-1),dir:Vector3.back),(label:"Diya display table",start:new Vector3(32.7f,1.7f,4.2f),dir:Vector3.right)};
+   foreach(var sample in cases){
+    var rayStart=sample.start-Vector3.up*.85f;
+    var hit=Physics.RaycastAll(rayStart,sample.dir,7,~0,QueryTriggerInteraction.Ignore).Where(h=>!h.collider.attachedRigidbody&&!h.collider.transform.IsChildOf(frame)&&h.distance>.3f).OrderBy(h=>h.distance).FirstOrDefault();
+    Check(sample.label+" has solid geometry",hit.collider,"collider="+(hit.collider?hit.collider.name:"none"));if(!hit.collider)continue;
+    foreach(bool tracked in new[]{false,true}){
+     body.enabled=false;head.localPosition=local;frame.position+=sample.start-head.position;guard.ResetReference();Physics.SyncTransforms();await Wait();
+     body.enabled=!tracked;float requested=hit.distance+.9f;int steps=Mathf.CeilToInt(requested/.12f);
+     for(int i=0;i<steps;i++){
+      if(tracked)head.localPosition+=head.parent.InverseTransformVector(sample.dir*.12f);
+      else body.QueueTransformation(new XROriginMovement{motion=sample.dir*.12f});
+      await Wait(24);
+     }
+     float moved=Vector3.Dot(head.position-sample.start,sample.dir);
+     Check(sample.label+(tracked?" blocks tracked walking":" blocks joystick movement"),moved<hit.distance-.08f&&moved>-.1f,"travel="+moved.ToString("F3")+",surface="+hit.distance.ToString("F3"));
+    }
+   }
+   body.enabled=false;head.localPosition=local;frame.position+=new Vector3(32.6f,1.7f,8.5f)-head.position;guard.ResetReference();Physics.SyncTransforms();body.enabled=true;
+   game.BeginGame();for(int i=0;i<6;i++)game.Credit("carry-fixture-"+i);game.clean=true;game.RevealStarter();await Wait(900);
+   controller=new GameObject("Carried diya queued controller");controller.transform.SetParent(frame,true);controller.AddComponent<Rigidbody>().isKinematic=true;var touch=controller.AddComponent<SphereCollider>();touch.isTrigger=true;touch.radius=.03f;
+   hand=controller.AddComponent<NearFarInteractor>();hand.interactionManager=UnityEngine.Object.FindFirstObjectByType<XRInteractionManager>();hand.enableUIInteraction=true;hand.selectInput.inputSourceMode=XRInputButtonReader.InputSourceMode.ManualValue;
+   var attach=(InteractionAttachController)hand.interactionAttachController;attach.transformToFollow=hand.transform;attach.useDistanceBasedVelocityScaling=true;attach.useMomentum=true;attach.useManipulationInput=true;
+   if(hand.farInteractionCaster is CurveInteractionCaster cast){cast.castDistance=3;cast.hitDetectionType=CurveInteractionCaster.HitDetectionType.Raycast;}
+   await Wait(200);
+   var target=game.diya.GetComponent<Collider>().bounds.center;var direction=(target-head.position);direction.y=0;direction.Normalize();
+   hand.transform.SetPositionAndRotation(head.position+direction*.45f-Vector3.up*.25f,Quaternion.LookRotation(target-(head.position+direction*.45f-Vector3.up*.25f)));
+   await Wait(180);var valid=new List<IXRInteractable>();hand.GetValidTargets(valid);Check("Controller can target cleaned diya",valid.Contains(game.diya.grab));
+   hand.selectInput.QueueManualState(true,1);await Wait(320);
+   Check("Queued grip holds diya",game.diya.IsHeld);
+   Check("Held diya disables momentum and distance manipulation",!attach.useDistanceBasedVelocityScaling&&!attach.useMomentum&&!attach.useManipulationInput);
+   hand.transform.position+=Vector3.up*.25f;await Wait(150);
+   for(int i=0;i<28;i++){body.QueueTransformation(new XROriginMovement{motion=Vector3.back*.1f});await Wait(35);Check("Walking carry frame "+i,game.diya.IsHeld&&Vector3.Distance(game.diya.transform.position,hand.transform.position)<.95f,"handGap="+Vector3.Distance(game.diya.transform.position,hand.transform.position).ToString("F3"));}
+   wall=GameObject.CreatePrimitive(PrimitiveType.Cube);wall.name="QA carried-object barrier";wall.transform.position=new Vector3(34.6f,1.7f,head.position.z);wall.transform.localScale=new Vector3(.1f,3,3);Physics.SyncTransforms();
+   var wallCollider=wall.GetComponent<Collider>();var beforeBarrier=hand.transform.position;
+   for(int i=0;i<22;i++){hand.transform.position+=Vector3.right*.09f;await Wait(35);var b=game.diya.GetComponent<Collider>().bounds;Check("Carried diya stays before wall frame "+i,b.max.x<=wallCollider.bounds.min.x+.03f,"diyaEdge="+b.max.x.ToString("F3")+",wall="+wallCollider.bounds.min.x.ToString("F3"));}
+   UnityEngine.Object.Destroy(wall);wall=null;hand.transform.position=beforeBarrier;await Wait(200);
+   await WalkTo("Carry into open aisle",new Vector3(31.8f,head.position.y,head.position.z),head,body);
+   await WalkTo("Walk around screen to starter",new Vector3(31.8f,head.position.y,game.starter.position.z),head,body);
+   await WalkTo("Approach starter from open side",new Vector3(33.55f,head.position.y,game.starter.position.z),head,body);
+   for(int i=0;i<5&&!game.lit;i++){hand.transform.position+=Vector3.ClampMagnitude(game.starter.position-game.carriedFlame.transform.position,.1f);await Wait(100);}
+   Check("Held diya lights at real starter",game.lit&&game.Step>=8,"wickGap="+Vector3.Distance(game.starter.position,game.carriedFlame.transform.position).ToString("F3"));
+   await WalkTo("Step away from starter bench",new Vector3(31.8f,head.position.y,head.position.z),head,body);
+   await WalkTo("Carry lit diya over authored route",game.checkpoints[2].position,head,body);
+   await Wait(150);Check("Walking route is accepted",game.Step==9);
+   await WalkTo("Reach display along clear aisle",new Vector3(33.55f,head.position.y,game.destination.position.z),head,body);
+   for(int i=0;i<5&&!game.transferred;i++){hand.transform.position+=Vector3.ClampMagnitude(game.destination.position-game.carriedFlame.transform.position,.1f);await Wait(100);}
+   Check("Held flame transfers at display",game.transferred,"wickGap="+Vector3.Distance(game.destination.position,game.carriedFlame.transform.position).ToString("F3"));
+   hand.selectInput.QueueManualState(false,0);await Wait(300);
+   Check("Diya safely returns to final rest",game.completed);
+   Check("Release restores normal controller settings",attach.useDistanceBasedVelocityScaling&&attach.useMomentum&&attach.useManipulationInput);
+   game.ResetGame();game.BeginGame();for(int i=0;i<3;i++)game.Credit("menu-fixture-"+i);await Wait(100);var panel=game.GetComponentInChildren<VenuePanel>();var chestGap=Vector3.ProjectOnPlane(panel.transform.position-game.keySocket.position,Vector3.up).magnitude;
+   Check("Chest controls stay away from lock working area",chestGap>=2.5f,"gap="+chestGap.ToString("F3"));
+   var position=panel.transform.position;frame.position+=new Vector3(27.8f,1.7f,8.3f)-head.position;guard.ResetReference();await Wait(100);Check("Chest controls stay stationary",Vector3.Distance(position,panel.transform.position)<.001f);
+   File.Copy(ChristmasIslandQA.Render("Chest-controls-clear",new Vector3(29.2f,2.1f,7.1f),new Vector3(29.1f,1.45f,9.25f),76),Path.Combine(folder,"Chest-controls.png"),true);
+  }catch(Exception e){Check("exception",false,e.ToString());}
+  finally{
+   if(hand){hand.selectInput.QueueManualState(false,0);await Wait(100);}
+   if(controller)UnityEngine.Object.Destroy(controller);if(wall)UnityEngine.Object.Destroy(wall);
+   game.ResetGame();body.enabled=false;head.localPosition=local;frame.SetPositionAndRotation(saved,rotation);if(guard)guard.ResetReference();
+   for(int i=0;i<drivers.Length;i++)drivers[i].enabled=driverStates[i];for(int i=0;i<providers.Length;i++)providers[i].enabled=providerStates[i];body.enabled=bodyEnabled;
+   File.WriteAllText(Path.Combine(folder,"Play_Mode.json"),JsonUtility.ToJson(new Report{state=failures==0?"passed":"failed",failures=failures,scope="Desktop Play Mode: native wall/table collisions via queued XR locomotion and tracked head movement; actual queued diya grip, walking carry, swept object barrier, restored controller settings, stationary chest menu. No physical Quest test.",results=rows},true));
+   File.WriteAllLines(Path.Combine(folder,"Checks.tsv"),new[]{"name\tpass\tdetail"}.Concat(rows.Select(r=>r.name+"\t"+r.pass+"\t"+r.detail.Replace("\n"," ").Replace("\r"," "))));
+   Debug.Log("Diya collision/carry verification: "+failures+" failures");
+  }
+ }
+}

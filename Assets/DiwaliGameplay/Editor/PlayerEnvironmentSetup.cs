@@ -17,7 +17,7 @@ public static class PlayerEnvironmentSetup {
  }
  public static int AddEnvironmentColliders(){
   int added=0;
-  foreach(var rootName in new[]{"Diwali Festival Ground","Christmas Island Integration"}){
+  foreach(var rootName in new[]{"Diwali Festival Ground","Christmas Island Integration","Geo Island Integration"}){
    var root=GameObjectUtility.FindExact(rootName);if(!root)continue;
    foreach(var mf in root.GetComponentsInChildren<MeshFilter>(true)){
     if(!mf.sharedMesh||mf.sharedMesh.name=="Earth-beyond-the-walls-surface"||!mf.GetComponent<MeshRenderer>()||mf.GetComponent<Collider>())continue;
