@@ -74727,7 +74727,7 @@ MonoBehaviour:
   keyTurnAxis: {x: 0.000000049378087, y: 0, z: 1.0000005}
   keyLockPoint: {x: 27.804913, y: 1.1225795, z: 9.455321}
   proximity: 0.55
-  brushDistance: 0.55
+  brushDistance: 1.25
   inspected: 0
   clean: 0
   lit: 0

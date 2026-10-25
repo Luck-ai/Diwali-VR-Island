@@ -1,0 +1,10 @@
+name	pass	detail
+Scene cleaning reach is 1.25 m	True	
+Feather is actually held	True	
+Player stands outside bench	True	bodyEdge=33.620,bench=34.026
+Feather stays outside shelf	True	featherEdge=33.962
+Gesture starts beyond old cleaning radius	True	gap=1.018
+Holding feather still does not clean	True	
+Sweeping from outside cleans diya	True	
+Brushing emits dust	True	particles=24
+Dust coating fully clears	True	
