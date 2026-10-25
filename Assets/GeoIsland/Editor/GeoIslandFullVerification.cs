@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,6 +29,8 @@ public static class GeoIslandFullVerification
     static NearFarInteractor hand;
     static GameObject controller, root;
     static DateTime started;
+    static string lastApproachDetail;
+    static JArray authoredPoses;
     static async Task Pause(int ms = 120)
     {
         int frame = Time.frameCount;
@@ -60,10 +63,10 @@ public static class GeoIslandFullVerification
         (!controller || !c.transform.IsChildOf(controller.transform));
     static bool FloorAt(Vector3 point, out RaycastHit floor)
     {
-        floor = Physics.RaycastAll(new Vector3(point.x, 7f, point.z), Vector3.down, 8f, ~0, QueryTriggerInteraction.Ignore)
+        floor = Physics.SphereCastAll(new Vector3(point.x, 7f, point.z), .075f, Vector3.down, 8f, ~0, QueryTriggerInteraction.Ignore)
             .Where(h => External(h.collider) && !h.collider.attachedRigidbody && h.normal.y > .75f && h.point.y >= -.1f &&
                 h.collider.bounds.size.x > 2f && h.collider.bounds.size.z > 2f &&
-                (h.point.y < .9f || h.collider.name == "Cube.086" || h.collider.name == "Plane.004"))
+                (h.point.y < .9f || h.collider.name == "Cube.086" || h.collider.name == "Plane.004" || h.collider.name == "Cube.007"))
             .OrderByDescending(h => h.point.y).FirstOrDefault();
         return floor.collider;
     }
@@ -95,10 +98,10 @@ public static class GeoIslandFullVerification
         foreach (float angle in new[] { 0f, 45f, -45f, 90f, -90f, 135f, -135f, 180f })
         {
             var direction = Quaternion.AngleAxis(angle, Vector3.up) * Vector3.left;
-            if (!StandAt(target + direction * distance, target, out _, handHeight)) continue;
+            if (!StandAt(target + direction * distance, target, out var detail, handHeight)) continue;
             await Pause(65);
             var valid = new List<IXRInteractable>(); hand.GetValidTargets(valid);
-            if (valid.Contains(item)) return true;
+            if (valid.Contains(item)) { lastApproachDetail = detail; return true; }
         }
         return false;
     }
@@ -122,7 +125,31 @@ public static class GeoIslandFullVerification
         hand.uiPressInput.QueueManualState(false, 0); await Pause(220); button.onClick.RemoveListener(listener);
         Check("queued UI dispatch " + button.name, clicks == 1, "clicks=" + clicks); return clicks == 1;
     }
-    static Color Emission(LightToggle light) => light.glowRenderer ? light.glowRenderer.material.GetColor("_EmissionColor") : Color.black;
+    static Color Emission(LightToggle light) => light.glowRenderer ? light.glowRenderer.materials[light.glowMaterialIndex].GetColor("_EmissionColor") : Color.black;
+    static Color32[] CaptureStage(string filename)
+    {
+        var go = new GameObject("Temporary Geo stage evidence camera");
+        var camera = go.AddComponent<Camera>(); camera.enabled = false;
+        camera.transform.SetPositionAndRotation(new Vector3(82f, 6f, -66f),
+            Quaternion.LookRotation(new Vector3(73.3f, 3.2f, -55.6f) - new Vector3(82f, 6f, -66f)));
+        camera.fieldOfView = 60f; camera.nearClipPlane = .1f; camera.farClipPlane = 80f;
+        var target = RenderTexture.GetTemporary(960, 540, 24, RenderTextureFormat.ARGB32);
+        var previous = RenderTexture.active;
+        var texture = new Texture2D(960, 540, TextureFormat.RGB24, false);
+        try
+        {
+            camera.targetTexture = target; camera.Render(); RenderTexture.active = target;
+            texture.ReadPixels(new Rect(0, 0, 960, 540), 0, 0); texture.Apply();
+            File.WriteAllBytes(Path.GetFullPath("../Game_Plans/" + filename), texture.EncodeToPNG());
+            return texture.GetPixels32();
+        }
+        finally
+        {
+            RenderTexture.active = previous; camera.targetTexture = null;
+            RenderTexture.ReleaseTemporary(target);
+            UnityEngine.Object.DestroyImmediate(texture); UnityEngine.Object.DestroyImmediate(go);
+        }
+    }
     static async Task TestButton(Button button, int number)
     {
         int before = failures;
@@ -133,6 +160,8 @@ public static class GeoIslandFullVerification
         var music = targets.OfType<MusicToggle>().FirstOrDefault(); var source = music ? music.GetComponent<AudioSource>() : null;
         var oldLight = lights.Select(l => l.targetLight && l.targetLight.enabled).ToArray(); var oldGlow = lights.Select(Emission).ToArray();
         var oldMusic = source && source.isPlaying;
+        bool stage = lights.Length == 3;
+        var dark = stage ? CaptureStage("Geo_Stage_Lights_Off.png") : null;
         await Click(button);
         for (int i = 0; i < lights.Length; i++)
         {
@@ -150,6 +179,21 @@ public static class GeoIslandFullVerification
             if (spinner.name == "Cylinder.005") Check("fan shaft remains vertical", Mathf.Abs(Vector3.Dot(shaft, Vector3.up)) > .999f);
         }
         if (source) Check("music plays within Geo", source.isPlaying != oldMusic && source.clip && source.spatialBlend > .99f && source.maxDistance <= 18.1f);
+        if (stage)
+        {
+            await Pause(180);
+            var lit = CaptureStage("Geo_Stage_Lights_On.png");
+            double increase = 0; int clearPixels = 0;
+            for (int i = 0; i < lit.Length; i++)
+            {
+                double delta = ((lit[i].r - dark[i].r) * .2126 + (lit[i].g - dark[i].g) * .7152 + (lit[i].b - dark[i].b) * .0722) / 255.0;
+                increase += delta;
+                if (delta > .08) clearPixels++;
+            }
+            increase /= lit.Length;
+            Check("stage lighting visibly brightens the rendered stage", increase > .006 && clearPixels > lit.Length * .01,
+                "mean luminance increase=" + increase.ToString("F4") + ", clearly brighter pixels=" + clearPixels);
+        }
         await Click(button);
         for (int i = 0; i < lights.Length; i++)
         {
@@ -170,7 +214,8 @@ public static class GeoIslandFullVerification
     {
         item.transform.SetParent(parent, true); item.transform.SetPositionAndRotation(position, rotation);
         var body = item.GetComponent<Rigidbody>(); body.position = position; body.rotation = rotation;
-        body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; body.Sleep(); Physics.SyncTransforms();
+        if (!body.isKinematic) { body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; }
+        body.isKinematic = true; body.useGravity = false; body.Sleep(); Physics.SyncTransforms();
     }
     static async Task Settle(XRGrabInteractable item, float surfaceY, string name)
     {
@@ -192,8 +237,16 @@ public static class GeoIslandFullVerification
         string landing = "none";
         try
         {
+            var original = authoredPoses?.FirstOrDefault(p => (string)p["name"] == item.name);
+            if (original != null)
+            {
+                var p = original["position"].ToObject<float[]>(); var q = original["rotation"].ToObject<float[]>();
+                Check("untouched authored pose " + item.name,
+                    Vector3.Distance(item.transform.position, new Vector3(p[0], p[1], p[2])) < .005f &&
+                    (item.GetComponent<Spinner>() || Quaternion.Angle(item.transform.rotation, new Quaternion(q[0], q[1], q[2], q[3])) < .1f));
+            }
             Check("pickup collider " + item.name, body && collider && body.detectCollisions && body.collisionDetectionMode == CollisionDetectionMode.ContinuousSpeculative);
-            bool staged = await Approach(collider.bounds.center, item); Check("standing pickup approach " + item.name, staged, path); if (!staged) return;
+            bool staged = await Approach(collider.bounds.center, item); Check("standing pickup approach " + item.name, staged, path + "; " + lastApproachDetail); if (!staged) return;
             hand.selectInput.QueueManualState(true, 1); await Pause(200); bool selected = item.interactorsSelecting.Contains(hand);
             Check("queued grip " + item.name, selected); Check("held model scale " + item.name, (item.transform.lossyScale - scale).magnitude < .002f); if (!selected) return;
             var startHand = hand.transform.position;
@@ -215,7 +268,7 @@ public static class GeoIslandFullVerification
             landing = "original support";
             hand.selectInput.QueueManualState(false, 0); await Pause(150); Check("queued release " + item.name, !item.isSelected);
             await Pause(750);
-            for (int i = 0; i < 10 && body.linearVelocity.magnitude > .12f; i++) await Pause(100);
+            for (int i = 0; i < 25 && body.linearVelocity.magnitude > .12f; i++) await Pause(100);
             Check("released gravity " + item.name, !body.isKinematic && body.useGravity && body.detectCollisions);
             Check("placed back without falling through " + item.name, VisualBounds(item).min.y > bounds.min.y - .35f && body.position.y > -.2f,
                 "before bottom=" + bounds.min.y.ToString("F3") + ", after=" + VisualBounds(item).min.y.ToString("F3"));
@@ -238,6 +291,7 @@ public static class GeoIslandFullVerification
         {
             small.transform.rotation = Quaternion.AngleAxis(90f, Vector3.up) * rotation;
             var body = small.GetComponent<Rigidbody>(); body.rotation = small.transform.rotation;
+            body.isKinematic = false; body.useGravity = true;
             Physics.SyncTransforms();
             var bounds = VisualBounds(small);
             var top = table.bounds.max.y + .003f;
@@ -293,12 +347,14 @@ public static class GeoIslandFullVerification
             attach.useMomentum = false; attach.useDistanceBasedVelocityScaling = false; attach.useManipulationInput = false;
             await Pause(1500);
             var items = root.GetComponentsInChildren<XRGrabInteractable>(true).OrderBy(x => x.name, StringComparer.Ordinal).ToArray();
+            authoredPoses = JArray.Parse(File.ReadAllText(Path.GetFullPath("../Game_Plans/GeoAuthoredPresentationBaseline.json")));
             var buttons = root.GetComponentsInChildren<Button>(true);
             var tables = root.GetComponentsInChildren<BoxCollider>(true).Where(c => c.name.StartsWith("Tabletop support - ")).ToArray();
             Check("all 61 source pickups present", items.Length == 61, "count=" + items.Length);
             Check("all six source buttons present", buttons.Length == 6, "count=" + buttons.Length);
             Check("all six tabletop supports present", tables.Length == 6, "count=" + tables.Length);
             Check("table colliders match tabletop dimensions", tables.All(t => t.bounds.size.y > .15f && t.bounds.size.y < .17f && t.bounds.size.z < 4f));
+            Check("all untouched pickups retain their authored pose until grabbed", items.All(i => i.GetComponent<Rigidbody>().isKinematic && !i.GetComponent<Rigidbody>().useGravity));
             for (int i = 0; i < buttons.Length; i++) await TestButton(buttons[i], i + 1);
             for (int i = 0; i < items.Length; i++) await TestPickup(items[i], i + 1, tables);
             await TestTables(tables, items.Single(x => x.name == "Cylinder.020")); await Pause(1000);

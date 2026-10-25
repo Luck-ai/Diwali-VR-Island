@@ -10,14 +10,14 @@ The imported Geo scene contributes **67 distinct source actions**: six world-spa
 | GEO-UI-02 | Fan | `Geo Island Integration/gg/Canvas (1)/Button` | **Passed.** Starts/stops `Cylinder.005` around its vertical shaft (configured local Z). |
 | GEO-UI-03 | Ceiling light | `Geo Island Integration/gg/Canvas (1)/Button (1)` | **Passed.** Turns the linked ceiling light on/off. |
 | GEO-UI-04 | Shop light | `Geo Island Integration/gg/Canvas (2)/Button (1)` | **Passed.** Turns the shop point light and visible glow on/off. |
-| GEO-UI-05 | Stage lights | `Geo Island Integration/gg/Canvas (3)/Button (1)` | **Passed.** Turns all three stage spotlights on/off. |
+| GEO-UI-05 | Stage lights | `Geo Island Integration/gg/Canvas (3)/Button (1)` | **Passed.** Lights the stage with all three spotlights; lamp lenses visibly switch off/on. |
 | GEO-UI-06 | Play / pause music | `Geo Island Integration/gg/Canvas (4)/Button (1)` | **Passed.** Plays/pauses the local 3D audio source. |
 
 All six buttons passed standing XR ray reach, queued press dispatch, target response, and a second press to restore the initial state. The fan test checked its shaft and pivot; the light tests checked actual light and glow states; the music test checked playback and spatial settings. The imported stage button had targeted a ceiling light, and the shop button had omitted its point light; the integrated mappings now cover all three stage spotlights and the shop light plus glow.
 
 ## 61 grab-and-place actions
 
-Every row below passed queued NearFar selection, a short local carry and return, release, scale and collider checks, and settling on its original support. The audit also found all 61 present and no pickup below the island at completion. Reachable shelf pieces were moved to the counter; curved and flat meshes received fitted colliders. The scene-start [`GeoIslandPhysics`](../Assets/GeoIsland/Source/script/GeoIslandPhysics.cs) applies rigidbody speed, penetration, and collision settings at runtime, so those limits survive Play mode.
+Every row below passed queued NearFar selection, a short local carry and return, release, scale and collider checks, and settling on its original support. All 61 starting transforms were restored from the imported source scene, and every untouched pose was checked before pickup. Props stay in their authored positions until first grabbed, then use gravity and fitted colliders when released. The mug and both bottles remain on the elevated room table. The room controls are positioned relative to that room floor, rather than the ground below it.
 
 | ID | Imported object | Integrated hierarchy path | Result |
 |---|---|---|---|
@@ -85,12 +85,17 @@ Every row below passed queued NearFar selection, a short local carry and return,
 
 ## Table placement and travel
 
-Six main tabletops (`Cube.003`, `Cube.004`, `Cube.045`, `Cube.055`, `Cube.069`, `Cube.077`) each passed two real gravity drops of `Cylinder.020`, from **0.15 m** and **0.75 m** above an unobstructed spot. The focused audit passed **60/60 assertions across 12 drops**, checking the start point, gravity, surface contact, and settling. [`GeoTableVerification_2026-10-25.json`](GeoTableVerification_2026-10-25.json) contains each surface and measured gap.
-
+Six main tabletops (`Cube.003`, `Cube.004`, `Cube.045`, `Cube.055`, `Cube.069`, `Cube.077`) each passed two real gravity drops of `Cylinder.020`, from **0.15 m** and **0.75 m** above an unobstructed spot. All 12 drops passed in the current full audit. The elevated room and stage also have mesh-based floor collision and teleport surfaces. An actual CharacterController walk reached the room from ground level using the production player radius, step offset and slope limit, with no ending overlaps. See [`Geo_Room_Stair_Verification.json`](Geo_Room_Stair_Verification.json).
 The Geo ground is **69 × 48 m**, with source content enlarged **25%** and moved closer to the other islands (ground center near **X 89, Z −53.5**). A shared Y-shaped cedar bridge branches from Diwali toward Christmas and Geo. The Geo travel option, arrival floor and capsule clearance, Geo kiosk access, and return to Festival Plaza passed the travel suite (**139 checks, 0 failures**). See [`FinalTravelVerification.json`](FinalTravelVerification.json).
 
 ## Evidence and scope
 
-The canonical [`GeoFullInteractionVerification_2026-10-25.json`](GeoFullInteractionVerification_2026-10-25.json) records **67/67 source actions passed**: six buttons and 61 pickups. Its overall status remains **`failed` with four checks** because the separate table-drop fixture used decorated table centers on `Cube.004` and `Cube.077`, leaving the sample above the visible tabletop. The focused table audit tested unobstructed spots on all six tabletops and passed every drop. This report preserves both raw results; it does not relabel the full JSON as passed.
+The current [`GeoFullInteractionVerification_2026-10-25.json`](GeoFullInteractionVerification_2026-10-25.json) passed **873 checks with 0 failures**, covering all **67 source actions**, unchanged starting poses, visible stage-light output, room-floor reach and all 12 tabletop drops. Stage lighting was tested with rendered before/after images, rather than relying only on Light.enabled state. Music starts silent and its button supports looping playback, pause and resume. Automatic gaze selection is disabled in the player prefab, so looking around cannot click a different menu or interfere with controller input.
+
+![Restored room, from standing eye height](Geo_Room_Restored.png)
+
+![Stage lights off](Geo_Stage_Lights_Off.png)
+
+![Stage lights on](Geo_Stage_Lights_On.png)
 
 These checks used queued XR input and physics in Unity desktop Play mode. They verify the recorded scene behavior, not physical Quest headset comfort or Android performance.

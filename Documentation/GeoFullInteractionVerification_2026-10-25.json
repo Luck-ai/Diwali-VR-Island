@@ -1,8 +1,8 @@
 {
-  "status": "failed",
-  "failures": 4,
-  "started": "2026-10-25T02:51:10.731038Z",
-  "elapsedSeconds": 157.671367,
+  "status": "passed",
+  "failures": 0,
+  "started": "2026-10-25T03:36:16.194216Z",
+  "elapsedSeconds": 159.039875,
   "scope": "Desktop Play Mode, queued NearFar grip/UI input, floor-supported standing fixtures. Objects are released and allowed to settle before checking; fixture restoration happens only afterwards. This does not establish physical headset comfort or Android performance.",
   "actions": [
     {
@@ -561,7 +561,7 @@
       "id": "GEO-GRAB-01",
       "name": "Circle.004",
       "path": "Geo Island Integration/gg/Circle.004",
-      "home": "(79.225, 0.707, -60.852)",
+      "home": "(79.225, 0.655, -60.852)",
       "visualSize": "(0.962, 1.543, 0.962)",
       "collider": "BoxCollider",
       "scale": "(0.2821, 0.2821, 0.2821)"
@@ -570,7 +570,7 @@
       "id": "GEO-GRAB-02",
       "name": "Circle.005",
       "path": "Geo Island Integration/gg/Circle.005",
-      "home": "(79.326, 0.707, -50.651)",
+      "home": "(79.326, 0.653, -50.651)",
       "visualSize": "(0.987, 1.543, 0.987)",
       "collider": "BoxCollider",
       "scale": "(0.2821, 0.2821, 0.2821)"
@@ -579,8 +579,8 @@
       "id": "GEO-GRAB-03",
       "name": "Cube",
       "path": "Geo Island Integration/gg/Cube",
-      "home": "(106.086, 1.242, -68.499)",
-      "visualSize": "(0.064, 0.417, 0.146)",
+      "home": "(106.074, 1.242, -68.499)",
+      "visualSize": "(0.063, 0.416, 0.142)",
       "collider": "BoxCollider",
       "scale": "(0.0177, 0.0086, 0.0395)"
     },
@@ -588,7 +588,7 @@
       "id": "GEO-GRAB-04",
       "name": "Cube.022",
       "path": "Geo Island Integration/gg/Cube.022",
-      "home": "(106.246, 1.332, -64.843)",
+      "home": "(97.213, 3.637, -49.484)",
       "visualSize": "(0.225, 0.481, 0.158)",
       "collider": "BoxCollider",
       "scale": "(0.1125, 0.1125, 0.1125)"
@@ -597,7 +597,7 @@
       "id": "GEO-GRAB-05",
       "name": "Cube.030",
       "path": "Geo Island Integration/gg/Cube.030",
-      "home": "(99.954, 1.417, -67.044)",
+      "home": "(99.954, 1.400, -67.044)",
       "visualSize": "(0.527, 0.329, 0.445)",
       "collider": "BoxCollider",
       "scale": "(0.2375, 0.1887, 0.0500)"
@@ -606,8 +606,8 @@
       "id": "GEO-GRAB-06",
       "name": "Cube.031",
       "path": "Geo Island Integration/gg/Cube.031",
-      "home": "(99.231, 1.398, -67.020)",
-      "visualSize": "(0.317, 0.062, 0.317)",
+      "home": "(99.351, 1.392, -66.989)",
+      "visualSize": "(0.271, 0.061, 0.271)",
       "collider": "BoxCollider",
       "scale": "(0.1250, 0.1250, 0.0306)"
     },
@@ -615,7 +615,7 @@
       "id": "GEO-GRAB-07",
       "name": "Cube.035",
       "path": "Geo Island Integration/gg/Cube.035",
-      "home": "(99.825, 0.892, -67.987)",
+      "home": "(99.825, 0.852, -67.987)",
       "visualSize": "(0.633, 0.450, 0.633)",
       "collider": "BoxCollider",
       "scale": "(0.2550, 0.2550, 0.0375)"
@@ -624,8 +624,8 @@
       "id": "GEO-GRAB-08",
       "name": "Cube.059",
       "path": "Geo Island Integration/gg/Cube.059",
-      "home": "(107.951, 0.584, -67.959)",
-      "visualSize": "(0.172, 0.063, 0.425)",
+      "home": "(106.074, 1.242, -68.099)",
+      "visualSize": "(0.063, 0.416, 0.142)",
       "collider": "BoxCollider",
       "scale": "(0.0177, 0.0086, 0.0395)"
     },
@@ -633,7 +633,7 @@
       "id": "GEO-GRAB-09",
       "name": "Cube.088",
       "path": "Geo Island Integration/gg/Cube.088",
-      "home": "(110.904, 0.352, -39.914)",
+      "home": "(110.904, 0.369, -39.914)",
       "visualSize": "(0.590, 0.098, 0.528)",
       "collider": "BoxCollider",
       "scale": "(0.0491, 0.1625, 0.1942)"
@@ -642,7 +642,7 @@
       "id": "GEO-GRAB-10",
       "name": "Cube.097",
       "path": "Geo Island Integration/gg/Cube.097",
-      "home": "(111.339, 1.315, -69.114)",
+      "home": "(111.339, 1.311, -69.114)",
       "visualSize": "(0.278, 0.500, 0.278)",
       "collider": "BoxCollider",
       "scale": "(0.0989, 0.0989, 0.1967)"
@@ -651,8 +651,8 @@
       "id": "GEO-GRAB-11",
       "name": "Cube.098",
       "path": "Geo Island Integration/gg/Cube.098",
-      "home": "(106.092, 0.729, -68.847)",
-      "visualSize": "(0.457, 0.455, 0.455)",
+      "home": "(106.105, 0.688, -68.857)",
+      "visualSize": "(0.449, 0.440, 0.449)",
       "collider": "BoxCollider",
       "scale": "(0.2124, 0.2124, 0.2124)"
     },
@@ -660,7 +660,7 @@
       "id": "GEO-GRAB-12",
       "name": "Cube.099",
       "path": "Geo Island Integration/gg/Cube.099",
-      "home": "(72.499, 0.502, -65.033)",
+      "home": "(72.499, 0.485, -65.033)",
       "visualSize": "(0.634, 0.472, 0.634)",
       "collider": "BoxCollider",
       "scale": "(0.2361, 0.2361, 0.2361)"
@@ -669,7 +669,7 @@
       "id": "GEO-GRAB-13",
       "name": "Cube.100",
       "path": "Geo Island Integration/gg/Cube.100",
-      "home": "(73.386, 2.609, -58.071)",
+      "home": "(73.386, 2.652, -58.071)",
       "visualSize": "(1.979, 0.162, 1.486)",
       "collider": "BoxCollider",
       "scale": "(0.0600, 0.2538, 0.2538)"
@@ -678,7 +678,7 @@
       "id": "GEO-GRAB-14",
       "name": "Cube.101",
       "path": "Geo Island Integration/gg/Cube.101",
-      "home": "(72.698, 3.053, -53.644)",
+      "home": "(72.698, 3.014, -53.644)",
       "visualSize": "(0.996, 1.033, 0.996)",
       "collider": "BoxCollider",
       "scale": "(0.3608, 0.3608, 0.5041)"
@@ -687,7 +687,7 @@
       "id": "GEO-GRAB-15",
       "name": "Cube.105",
       "path": "Geo Island Integration/gg/Cube.105",
-      "home": "(103.963, 0.849, -42.395)",
+      "home": "(103.963, 1.026, -42.395)",
       "visualSize": "(1.536, 1.093, 1.536)",
       "collider": "BoxCollider",
       "scale": "(0.5463, 0.5463, 0.5463)"
@@ -696,8 +696,8 @@
       "id": "GEO-GRAB-16",
       "name": "Cube.106",
       "path": "Geo Island Integration/gg/Cube.106",
-      "home": "(72.711, 0.391, -66.306)",
-      "visualSize": "(0.350, 0.250, 0.350)",
+      "home": "(72.605, 0.412, -65.622)",
+      "visualSize": "(0.323, 0.261, 0.321)",
       "collider": "BoxCollider",
       "scale": "(0.1250, 0.1250, 0.1250)"
     },
@@ -705,8 +705,8 @@
       "id": "GEO-GRAB-17",
       "name": "Cylinder",
       "path": "Geo Island Integration/gg/Cylinder",
-      "home": "(111.616, 1.283, -67.462)",
-      "visualSize": "(0.418, 0.460, 0.514)",
+      "home": "(111.481, 1.260, -67.655)",
+      "visualSize": "(0.198, 0.482, 0.198)",
       "collider": "MeshCollider",
       "scale": "(0.0674, 0.0674, 0.1347)"
     },
@@ -714,8 +714,8 @@
       "id": "GEO-GRAB-18",
       "name": "Cylinder.001",
       "path": "Geo Island Integration/gg/Cylinder.001",
-      "home": "(106.902, 0.592, -68.720)",
-      "visualSize": "(0.413, 0.109, 0.238)",
+      "home": "(106.069, 1.236, -68.681)",
+      "visualSize": "(0.079, 0.400, 0.079)",
       "collider": "MeshCollider",
       "scale": "(0.0119, 0.0119, 0.1186)"
     },
@@ -723,8 +723,8 @@
       "id": "GEO-GRAB-19",
       "name": "Cylinder.002",
       "path": "Geo Island Integration/gg/Cylinder.002",
-      "home": "(106.209, 1.217, -63.841)",
-      "visualSize": "(0.373, 0.124, 0.108)",
+      "home": "(106.228, 1.158, -64.488)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -732,8 +732,8 @@
       "id": "GEO-GRAB-20",
       "name": "Cylinder.003",
       "path": "Geo Island Integration/gg/Cylinder.003",
-      "home": "(111.305, 1.156, -63.195)",
-      "visualSize": "(0.363, 0.080, 0.105)",
+      "home": "(111.310, 1.169, -63.360)",
+      "visualSize": "(0.358, 0.079, 0.074)",
       "collider": "MeshCollider",
       "scale": "(0.0076, 0.0076, 0.1772)"
     },
@@ -741,8 +741,8 @@
       "id": "GEO-GRAB-21",
       "name": "Cylinder.004",
       "path": "Geo Island Integration/gg/Cylinder.004",
-      "home": "(111.404, 1.224, -68.141)",
-      "visualSize": "(0.421, 0.386, 0.409)",
+      "home": "(111.205, 1.166, -68.046)",
+      "visualSize": "(0.219, 0.296, 0.219)",
       "collider": "MeshCollider",
       "scale": "(0.0419, 0.0419, 0.0419)"
     },
@@ -750,8 +750,8 @@
       "id": "GEO-GRAB-22",
       "name": "Cylinder.007",
       "path": "Geo Island Integration/gg/Cylinder.007",
-      "home": "(107.132, 0.654, -63.229)",
-      "visualSize": "(0.360, 0.306, 0.365)",
+      "home": "(97.811, 3.574, -49.520)",
+      "visualSize": "(0.246, 0.223, 0.223)",
       "collider": "MeshCollider",
       "scale": "(0.1013, 0.1013, 0.1114)"
     },
@@ -759,7 +759,7 @@
       "id": "GEO-GRAB-23",
       "name": "Cylinder.009",
       "path": "Geo Island Integration/gg/Cylinder.009",
-      "home": "(99.351, 1.256, -48.060)",
+      "home": "(99.351, 1.252, -48.060)",
       "visualSize": "(0.630, 0.122, 0.630)",
       "collider": "MeshCollider",
       "scale": "(0.3150, 0.3150, 0.0153)"
@@ -768,8 +768,8 @@
       "id": "GEO-GRAB-24",
       "name": "Cylinder.010",
       "path": "Geo Island Integration/gg/Cylinder.010",
-      "home": "(99.351, 0.416, -48.666)",
-      "visualSize": "(0.383, 0.183, 0.384)",
+      "home": "(99.351, 0.410, -48.667)",
+      "visualSize": "(0.383, 0.180, 0.383)",
       "collider": "MeshCollider",
       "scale": "(0.1913, 0.1913, 0.0900)"
     },
@@ -777,8 +777,8 @@
       "id": "GEO-GRAB-25",
       "name": "Cylinder.011",
       "path": "Geo Island Integration/gg/Cylinder.011",
-      "home": "(105.864, 0.631, -63.366)",
-      "visualSize": "(0.402, 0.221, 0.479)",
+      "home": "(97.496, 3.537, -49.914)",
+      "visualSize": "(0.158, 0.425, 0.158)",
       "collider": "MeshCollider",
       "scale": "(0.0788, 0.0788, 0.0788)"
     },
@@ -786,7 +786,7 @@
       "id": "GEO-GRAB-26",
       "name": "Cylinder.012",
       "path": "Geo Island Integration/gg/Cylinder.012",
-      "home": "(101.101, 0.663, -63.434)",
+      "home": "(101.101, 0.635, -63.434)",
       "visualSize": "(0.580, 0.944, 0.529)",
       "collider": "MeshCollider",
       "scale": "(0.1649, 0.1649, 0.1836)"
@@ -804,8 +804,8 @@
       "id": "GEO-GRAB-28",
       "name": "Cylinder.014",
       "path": "Geo Island Integration/gg/Cylinder.014",
-      "home": "(98.074, 0.655, -66.483)",
-      "visualSize": "(0.436, 0.113, 0.436)",
+      "home": "(98.416, 1.270, -67.029)",
+      "visualSize": "(0.348, 0.113, 0.348)",
       "collider": "MeshCollider",
       "scale": "(0.1250, 0.1250, 0.1250)"
     },
@@ -813,8 +813,8 @@
       "id": "GEO-GRAB-29",
       "name": "Cylinder.015",
       "path": "Geo Island Integration/gg/Cylinder.015",
-      "home": "(97.445, 1.427, -67.041)",
-      "visualSize": "(0.977, 0.406, 0.633)",
+      "home": "(97.460, 1.442, -67.032)",
+      "visualSize": "(0.967, 0.476, 0.622)",
       "collider": "MeshCollider",
       "scale": "(0.0702, 0.0702, 0.2924)"
     },
@@ -822,7 +822,7 @@
       "id": "GEO-GRAB-30",
       "name": "Cylinder.016",
       "path": "Geo Island Integration/gg/Cylinder.016",
-      "home": "(106.222, 1.153, -64.235)",
+      "home": "(106.228, 1.158, -64.559)",
       "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
@@ -831,8 +831,8 @@
       "id": "GEO-GRAB-31",
       "name": "Cylinder.017",
       "path": "Geo Island Integration/gg/Cylinder.017",
-      "home": "(106.108, 1.171, -63.895)",
-      "visualSize": "(0.376, 0.090, 0.147)",
+      "home": "(106.228, 1.158, -64.414)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -840,8 +840,8 @@
       "id": "GEO-GRAB-32",
       "name": "Cylinder.018",
       "path": "Geo Island Integration/gg/Cylinder.018",
-      "home": "(106.223, 0.581, -64.129)",
-      "visualSize": "(0.375, 0.083, 0.145)",
+      "home": "(106.228, 1.158, -64.346)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -849,8 +849,8 @@
       "id": "GEO-GRAB-33",
       "name": "Cylinder.019",
       "path": "Geo Island Integration/gg/Cylinder.019",
-      "home": "(105.910, 0.581, -62.543)",
-      "visualSize": "(0.375, 0.080, 0.168)",
+      "home": "(106.228, 1.158, -64.146)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -858,8 +858,8 @@
       "id": "GEO-GRAB-34",
       "name": "Cylinder.020",
       "path": "Geo Island Integration/gg/Cylinder.020",
-      "home": "(105.486, 0.585, -63.914)",
-      "visualSize": "(0.368, 0.074, 0.080)",
+      "home": "(106.228, 1.158, -64.069)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -867,8 +867,8 @@
       "id": "GEO-GRAB-35",
       "name": "Cylinder.023",
       "path": "Geo Island Integration/gg/Cylinder.023",
-      "home": "(104.483, 0.588, -63.016)",
-      "visualSize": "(0.369, 0.094, 0.251)",
+      "home": "(106.228, 1.158, -63.982)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -876,8 +876,8 @@
       "id": "GEO-GRAB-36",
       "name": "Cylinder.024",
       "path": "Geo Island Integration/gg/Cylinder.024",
-      "home": "(106.669, 0.584, -61.813)",
-      "visualSize": "(0.325, 0.083, 0.309)",
+      "home": "(106.228, 1.158, -63.896)",
+      "visualSize": "(0.367, 0.067, 0.067)",
       "collider": "MeshCollider",
       "scale": "(0.0042, 0.0042, 0.1592)"
     },
@@ -885,8 +885,8 @@
       "id": "GEO-GRAB-37",
       "name": "Cylinder.025",
       "path": "Geo Island Integration/gg/Cylinder.025",
-      "home": "(112.098, 0.588, -63.710)",
-      "visualSize": "(0.252, 0.076, 0.349)",
+      "home": "(111.310, 1.169, -63.500)",
+      "visualSize": "(0.358, 0.079, 0.074)",
       "collider": "MeshCollider",
       "scale": "(0.0076, 0.0076, 0.1772)"
     },
@@ -894,8 +894,8 @@
       "id": "GEO-GRAB-38",
       "name": "Cylinder.030",
       "path": "Geo Island Integration/gg/Cylinder.030",
-      "home": "(76.167, 4.048, -55.666)",
-      "visualSize": "(0.443, 0.329, 0.257)",
+      "home": "(76.219, 4.059, -55.649)",
+      "visualSize": "(0.439, 0.425, 0.207)",
       "collider": "MeshCollider",
       "scale": "(0.5623, 0.5623, 0.5623)"
     },
@@ -903,8 +903,8 @@
       "id": "GEO-GRAB-39",
       "name": "Cylinder.034",
       "path": "Geo Island Integration/gg/Cylinder.034",
-      "home": "(110.365, 0.592, -63.739)",
-      "visualSize": "(0.365, 0.087, 0.179)",
+      "home": "(111.310, 1.169, -63.762)",
+      "visualSize": "(0.358, 0.079, 0.074)",
       "collider": "MeshCollider",
       "scale": "(0.0076, 0.0076, 0.1772)"
     },
@@ -912,8 +912,8 @@
       "id": "GEO-GRAB-40",
       "name": "Cylinder.035",
       "path": "Geo Island Integration/gg/Cylinder.035",
-      "home": "(112.297, 0.589, -62.811)",
-      "visualSize": "(0.365, 0.078, 0.190)",
+      "home": "(111.310, 1.169, -63.893)",
+      "visualSize": "(0.358, 0.079, 0.074)",
       "collider": "MeshCollider",
       "scale": "(0.0076, 0.0076, 0.1772)"
     },
@@ -921,8 +921,8 @@
       "id": "GEO-GRAB-41",
       "name": "Cylinder.036",
       "path": "Geo Island Integration/gg/Cylinder.036",
-      "home": "(111.101, 0.635, -66.929)",
-      "visualSize": "(0.360, 0.300, 0.541)",
+      "home": "(111.219, 1.260, -67.655)",
+      "visualSize": "(0.198, 0.482, 0.198)",
       "collider": "MeshCollider",
       "scale": "(0.0674, 0.0674, 0.1347)"
     },
@@ -930,8 +930,8 @@
       "id": "GEO-GRAB-42",
       "name": "Cylinder.037",
       "path": "Geo Island Integration/gg/Cylinder.037",
-      "home": "(112.617, 0.627, -67.535)",
-      "visualSize": "(0.360, 0.326, 0.384)",
+      "home": "(111.463, 1.166, -68.046)",
+      "visualSize": "(0.219, 0.296, 0.219)",
       "collider": "MeshCollider",
       "scale": "(0.0419, 0.0419, 0.0419)"
     },
@@ -939,8 +939,8 @@
       "id": "GEO-GRAB-43",
       "name": "Cylinder.038",
       "path": "Geo Island Integration/gg/Cylinder.038",
-      "home": "(103.359, 0.592, -65.710)",
-      "visualSize": "(0.185, 0.109, 0.414)",
+      "home": "(106.069, 1.236, -68.308)",
+      "visualSize": "(0.079, 0.400, 0.079)",
       "collider": "MeshCollider",
       "scale": "(0.0119, 0.0119, 0.1186)"
     },
@@ -948,8 +948,8 @@
       "id": "GEO-GRAB-44",
       "name": "Cylinder.039",
       "path": "Geo Island Integration/gg/Cylinder.039",
-      "home": "(101.215, 1.289, -51.064)",
-      "visualSize": "(0.071, 0.086, 0.347)",
+      "home": "(101.281, 1.405, -51.237)",
+      "visualSize": "(0.015, 0.352, 0.015)",
       "collider": "MeshCollider",
       "scale": "(0.0077, 0.0077, 0.1300)"
     },
@@ -957,7 +957,7 @@
       "id": "GEO-GRAB-45",
       "name": "Cylinder.044",
       "path": "Geo Island Integration/gg/Cylinder.044",
-      "home": "(102.750, 0.999, -38.182)",
+      "home": "(102.750, 0.995, -38.182)",
       "visualSize": "(0.134, 0.513, 0.134)",
       "collider": "MeshCollider",
       "scale": "(0.0672, 0.0672, 0.1479)"
@@ -966,7 +966,7 @@
       "id": "GEO-GRAB-46",
       "name": "Cylinder.045",
       "path": "Geo Island Integration/gg/Cylinder.045",
-      "home": "(103.250, 0.492, -38.751)",
+      "home": "(103.250, 0.460, -38.751)",
       "visualSize": "(0.473, 0.423, 0.473)",
       "collider": "MeshCollider",
       "scale": "(0.0394, 0.0394, 0.1892)"
@@ -975,8 +975,8 @@
       "id": "GEO-GRAB-47",
       "name": "Cylinder.046",
       "path": "Geo Island Integration/gg/Cylinder.046",
-      "home": "(105.016, 0.382, -38.376)",
-      "visualSize": "(0.254, 0.176, 0.250)",
+      "home": "(104.008, 0.381, -38.638)",
+      "visualSize": "(0.159, 0.189, 0.159)",
       "collider": "MeshCollider",
       "scale": "(0.0797, 0.0797, 0.0876)"
     },
@@ -984,7 +984,7 @@
       "id": "GEO-GRAB-48",
       "name": "Cylinder.048",
       "path": "Geo Island Integration/gg/Cylinder.048",
-      "home": "(110.010, 0.366, -40.812)",
+      "home": "(110.010, 0.340, -40.812)",
       "visualSize": "(1.561, 0.125, 4.755)",
       "collider": "MeshCollider",
       "scale": "(0.0625, 0.0625, 2.2050)"
@@ -993,8 +993,8 @@
       "id": "GEO-GRAB-49",
       "name": "Cylinder.049",
       "path": "Geo Island Integration/gg/Cylinder.049",
-      "home": "(111.225, 0.396, -40.279)",
-      "visualSize": "(0.492, 0.276, 0.498)",
+      "home": "(110.700, 0.392, -39.280)",
+      "visualSize": "(0.455, 0.127, 0.455)",
       "collider": "MeshCollider",
       "scale": "(0.1250, 0.1250, 0.0625)"
     },
@@ -1002,7 +1002,7 @@
       "id": "GEO-GRAB-50",
       "name": "Cylinder.050",
       "path": "Geo Island Integration/gg/Cylinder.050",
-      "home": "(94.507, 0.967, -63.717)",
+      "home": "(94.507, 1.005, -63.717)",
       "visualSize": "(0.598, 0.968, 0.598)",
       "collider": "MeshCollider",
       "scale": "(0.2989, 0.2989, 0.4878)"
@@ -1011,7 +1011,7 @@
       "id": "GEO-GRAB-51",
       "name": "Cylinder.051",
       "path": "Geo Island Integration/gg/Cylinder.051",
-      "home": "(96.228, 0.662, -49.682)",
+      "home": "(96.228, 0.617, -49.682)",
       "visualSize": "(0.936, 0.743, 0.936)",
       "collider": "MeshCollider",
       "scale": "(0.0475, 0.0475, 0.3350)"
@@ -1020,8 +1020,8 @@
       "id": "GEO-GRAB-52",
       "name": "Cylinder.052",
       "path": "Geo Island Integration/gg/Cylinder.052",
-      "home": "(96.740, 0.388, -47.395)",
-      "visualSize": "(1.133, 0.194, 0.444)",
+      "home": "(96.440, 0.384, -48.523)",
+      "visualSize": "(1.137, 0.157, 0.663)",
       "collider": "MeshCollider",
       "scale": "(0.0426, 0.0426, 0.5365)"
     },
@@ -1029,8 +1029,8 @@
       "id": "GEO-GRAB-53",
       "name": "Plane.010",
       "path": "Geo Island Integration/gg/Plane.010",
-      "home": "(95.333, 1.377, -67.103)",
-      "visualSize": "(0.353, 0.000, 0.353)",
+      "home": "(95.427, 1.370, -67.161)",
+      "visualSize": "(0.351, 0.000, 0.351)",
       "collider": "BoxCollider",
       "scale": "(0.1250, 0.1250, 0.1250)"
     },
@@ -1038,7 +1038,7 @@
       "id": "GEO-GRAB-54",
       "name": "Plane.011",
       "path": "Geo Island Integration/gg/Plane.011",
-      "home": "(109.610, 0.321, -43.480)",
+      "home": "(109.609, 0.338, -43.480)",
       "visualSize": "(0.755, 0.015, 0.826)",
       "collider": "BoxCollider",
       "scale": "(0.2568, 0.3339, 0.2568)"
@@ -1047,8 +1047,8 @@
       "id": "GEO-GRAB-55",
       "name": "Plane.012",
       "path": "Geo Island Integration/gg/Plane.012",
-      "home": "(69.711, 2.564, -59.164)",
-      "visualSize": "(0.737, 0.011, 0.714)",
+      "home": "(70.469, 2.675, -58.965)",
+      "visualSize": "(0.602, 0.009, 0.670)",
       "collider": "BoxCollider",
       "scale": "(0.2367, 0.2840, 0.1250)"
     },
@@ -1056,8 +1056,8 @@
       "id": "GEO-GRAB-56",
       "name": "Sphere.017",
       "path": "Geo Island Integration/gg/Sphere.017",
-      "home": "(74.201, 0.663, -65.648)",
-      "visualSize": "(1.327, 1.359, 1.153)",
+      "home": "(72.065, 2.956, -60.199)",
+      "visualSize": "(0.796, 1.146, 1.278)",
       "collider": "MeshCollider",
       "scale": "(0.3981, 0.3981, 0.3981)"
     },
@@ -1065,8 +1065,8 @@
       "id": "GEO-GRAB-57",
       "name": "Sphere.018",
       "path": "Geo Island Integration/gg/Sphere.018",
-      "home": "(75.561, 2.970, -50.538)",
-      "visualSize": "(1.077, 1.147, 1.431)",
+      "home": "(75.561, 2.956, -50.537)",
+      "visualSize": "(1.077, 1.146, 1.431)",
       "collider": "MeshCollider",
       "scale": "(0.3981, 0.3981, 0.3981)"
     },
@@ -1074,8 +1074,8 @@
       "id": "GEO-GRAB-58",
       "name": "Sphere.019",
       "path": "Geo Island Integration/gg/Sphere.019",
-      "home": "(74.528, 0.663, -64.361)",
-      "visualSize": "(1.308, 1.360, 1.153)",
+      "home": "(71.446, 2.956, -59.548)",
+      "visualSize": "(1.280, 1.146, 0.800)",
       "collider": "MeshCollider",
       "scale": "(0.3981, 0.3981, 0.3981)"
     },
@@ -1083,8 +1083,8 @@
       "id": "GEO-GRAB-59",
       "name": "Sphere.020",
       "path": "Geo Island Integration/gg/Sphere.020",
-      "home": "(76.348, 2.970, -51.845)",
-      "visualSize": "(1.427, 1.147, 1.070)",
+      "home": "(76.348, 2.956, -51.845)",
+      "visualSize": "(1.427, 1.146, 1.069)",
       "collider": "MeshCollider",
       "scale": "(0.3981, 0.3981, 0.3981)"
     },
@@ -1092,8 +1092,8 @@
       "id": "GEO-GRAB-60",
       "name": "Sphere.021",
       "path": "Geo Island Integration/gg/Sphere.021",
-      "home": "(71.034, 2.970, -50.825)",
-      "visualSize": "(1.499, 1.147, 1.410)",
+      "home": "(71.034, 2.956, -50.825)",
+      "visualSize": "(1.499, 1.146, 1.410)",
       "collider": "MeshCollider",
       "scale": "(0.3981, 0.3981, 0.3981)"
     },
@@ -1101,8 +1101,8 @@
       "id": "GEO-GRAB-61",
       "name": "Torus",
       "path": "Geo Island Integration/gg/Torus",
-      "home": "(105.338, 0.413, -51.258)",
-      "visualSize": "(0.890, 0.221, 0.890)",
+      "home": "(105.345, 0.469, -51.261)",
+      "visualSize": "(0.902, 0.286, 0.894)",
       "collider": "BoxCollider",
       "scale": "(0.1526, 0.1526, 0.1526)"
     }
@@ -1130,6 +1130,11 @@
     },
     {
       "name": "table colliders match tabletop dimensions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all untouched pickups retain their authored pose until grabbed",
       "pass": true,
       "detail": ""
     },
@@ -1191,7 +1196,7 @@
     {
       "name": "standing UI reach Button",
       "pass": true,
-      "detail": "floor=Cube.114 (1), hand height=1.30, ray=0.80, head=(96.43, 1.98, -51.31)"
+      "detail": "floor=Cube.007, hand height=1.30, ray=0.86, head=(96.43, 4.45, -51.31)"
     },
     {
       "name": "button clear approach Button",
@@ -1206,7 +1211,7 @@
     {
       "name": "Fan rotates around configured shaft",
       "pass": true,
-      "detail": "degrees=27.5, axis=(0.00, 1.00, 0.00), shaft=(0.00, 1.00, 0.00)"
+      "detail": "degrees=27.7, axis=(0.00, 1.00, 0.00), shaft=(0.00, 1.00, 0.00)"
     },
     {
       "name": "Fan fixed pivot",
@@ -1221,7 +1226,7 @@
     {
       "name": "standing UI reach Button",
       "pass": true,
-      "detail": "floor=Cube.114 (1), hand height=1.30, ray=0.80, head=(96.43, 1.98, -51.31)"
+      "detail": "floor=Cube.007, hand height=1.30, ray=0.86, head=(96.43, 4.45, -51.31)"
     },
     {
       "name": "button clear approach Button",
@@ -1246,7 +1251,7 @@
     {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.114 (1), hand height=1.30, ray=0.83, head=(96.43, 1.98, -51.31)"
+      "detail": "floor=Cube.007, hand height=1.30, ray=0.80, head=(96.43, 4.45, -51.31)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1271,7 +1276,7 @@
     {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.114 (1), hand height=1.30, ray=0.83, head=(96.43, 1.98, -51.31)"
+      "detail": "floor=Cube.007, hand height=1.30, ray=0.80, head=(96.43, 4.45, -51.31)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1356,7 +1361,7 @@
     {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.116, hand height=1.30, ray=0.80, head=(77.55, 1.92, -63.44)"
+      "detail": "floor=Cube.116, hand height=1.30, ray=0.84, head=(81.25, 1.92, -61.54)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1374,7 +1379,17 @@
       "detail": ""
     },
     {
+      "name": "Stage lights visible emission ON 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "Stage lights actual light ON 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage lights visible emission ON 1",
       "pass": true,
       "detail": ""
     },
@@ -1384,9 +1399,19 @@
       "detail": ""
     },
     {
+      "name": "Stage lights visible emission ON 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "stage lighting visibly brightens the rendered stage",
+      "pass": true,
+      "detail": "mean luminance increase=0.0096, clearly brighter pixels=22798"
+    },
+    {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.116, hand height=1.30, ray=0.80, head=(77.55, 1.92, -63.44)"
+      "detail": "floor=Cube.116, hand height=1.30, ray=0.84, head=(81.25, 1.92, -61.54)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1404,12 +1429,27 @@
       "detail": ""
     },
     {
+      "name": "Stage lights visible emission OFF 0",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "Stage lights actual light OFF 1",
       "pass": true,
       "detail": ""
     },
     {
+      "name": "Stage lights visible emission OFF 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "Stage lights actual light OFF 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage lights visible emission OFF 2",
       "pass": true,
       "detail": ""
     },
@@ -1421,7 +1461,7 @@
     {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.116, hand height=1.30, ray=0.80, head=(77.55, 1.92, -62.44)"
+      "detail": "floor=Cube.116, hand height=1.30, ray=0.84, head=(81.25, 1.92, -59.94)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1441,7 +1481,7 @@
     {
       "name": "standing UI reach Button (1)",
       "pass": true,
-      "detail": "floor=Cube.116, hand height=1.30, ray=0.80, head=(77.55, 1.92, -62.44)"
+      "detail": "floor=Cube.116, hand height=1.30, ray=0.84, head=(81.25, 1.92, -59.94)"
     },
     {
       "name": "button clear approach Button (1)",
@@ -1459,6 +1499,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Circle.004",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Circle.004",
       "pass": true,
       "detail": ""
@@ -1466,7 +1511,7 @@
     {
       "name": "standing pickup approach Circle.004",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Circle.004"
+      "detail": "Geo Island Integration/gg/Circle.004; floor=Cube.116, hand height=1.30, ray=0.99, head=(78.28, 1.92, -60.02)"
     },
     {
       "name": "queued grip Circle.004",
@@ -1501,7 +1546,7 @@
     {
       "name": "placed back without falling through Circle.004",
       "pass": true,
-      "detail": "before bottom=0.266, after=0.266"
+      "detail": "before bottom=0.213, after=0.266"
     },
     {
       "name": "placed back settles Circle.004",
@@ -1514,6 +1559,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Circle.005",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Circle.005",
       "pass": true,
       "detail": ""
@@ -1521,7 +1571,7 @@
     {
       "name": "standing pickup approach Circle.005",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Circle.005"
+      "detail": "Geo Island Integration/gg/Circle.005; floor=Cube.116, hand height=1.30, ray=0.99, head=(78.09, 1.92, -50.75)"
     },
     {
       "name": "queued grip Circle.005",
@@ -1556,7 +1606,7 @@
     {
       "name": "placed back without falling through Circle.005",
       "pass": true,
-      "detail": "before bottom=0.266, after=0.266"
+      "detail": "before bottom=0.212, after=0.266"
     },
     {
       "name": "placed back settles Circle.005",
@@ -1569,6 +1619,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube",
       "pass": true,
       "detail": ""
@@ -1576,7 +1631,7 @@
     {
       "name": "standing pickup approach Cube",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube"
+      "detail": "Geo Island Integration/gg/Cube; floor=Cube.114, hand height=1.30, ray=0.96, head=(105.02, 2.20, -68.50)"
     },
     {
       "name": "queued grip Cube",
@@ -1611,7 +1666,7 @@
     {
       "name": "placed back without falling through Cube",
       "pass": true,
-      "detail": "before bottom=1.122, after=1.157"
+      "detail": "before bottom=1.122, after=1.152"
     },
     {
       "name": "placed back settles Cube",
@@ -1624,6 +1679,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.022",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.022",
       "pass": true,
       "detail": ""
@@ -1631,7 +1691,7 @@
     {
       "name": "standing pickup approach Cube.022",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.022"
+      "detail": "Geo Island Integration/gg/Cube.022; floor=Cube.007, hand height=1.30, ray=0.91, head=(96.16, 4.45, -49.48)"
     },
     {
       "name": "queued grip Cube.022",
@@ -1666,7 +1726,7 @@
     {
       "name": "placed back without falling through Cube.022",
       "pass": true,
-      "detail": "before bottom=1.118, after=1.118"
+      "detail": "before bottom=3.423, after=3.473"
     },
     {
       "name": "placed back settles Cube.022",
@@ -1679,6 +1739,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.030",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.030",
       "pass": true,
       "detail": ""
@@ -1686,7 +1751,7 @@
     {
       "name": "standing pickup approach Cube.030",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.030"
+      "detail": "Geo Island Integration/gg/Cube.030; floor=Cube.021, hand height=1.30, ray=0.84, head=(99.21, 2.13, -66.30)"
     },
     {
       "name": "queued grip Cube.030",
@@ -1721,7 +1786,7 @@
     {
       "name": "placed back without falling through Cube.030",
       "pass": true,
-      "detail": "before bottom=1.367, after=1.367"
+      "detail": "before bottom=1.350, after=1.367"
     },
     {
       "name": "placed back settles Cube.030",
@@ -1734,6 +1799,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.031",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.031",
       "pass": true,
       "detail": ""
@@ -1741,7 +1811,7 @@
     {
       "name": "standing pickup approach Cube.031",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.031"
+      "detail": "Geo Island Integration/gg/Cube.031; floor=Cube.021, hand height=1.30, ray=0.89, head=(98.61, 2.13, -66.25)"
     },
     {
       "name": "queued grip Cube.031",
@@ -1776,7 +1846,7 @@
     {
       "name": "placed back without falling through Cube.031",
       "pass": true,
-      "detail": "before bottom=1.367, after=1.367"
+      "detail": "before bottom=1.362, after=1.367"
     },
     {
       "name": "placed back settles Cube.031",
@@ -1789,6 +1859,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.035",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.035",
       "pass": true,
       "detail": ""
@@ -1796,7 +1871,7 @@
     {
       "name": "standing pickup approach Cube.035",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.035"
+      "detail": "Geo Island Integration/gg/Cube.035; floor=Cube.021, hand height=1.30, ray=1.37, head=(98.78, 2.13, -67.99)"
     },
     {
       "name": "queued grip Cube.035",
@@ -1831,7 +1906,7 @@
     {
       "name": "placed back without falling through Cube.035",
       "pass": true,
-      "detail": "before bottom=0.480, after=0.480"
+      "detail": "before bottom=0.439, after=0.480"
     },
     {
       "name": "placed back settles Cube.035",
@@ -1844,6 +1919,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.059",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.059",
       "pass": true,
       "detail": ""
@@ -1851,7 +1931,7 @@
     {
       "name": "standing pickup approach Cube.059",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.059"
+      "detail": "Geo Island Integration/gg/Cube.059; floor=Cube.114, hand height=1.30, ray=0.96, head=(105.02, 2.20, -68.10)"
     },
     {
       "name": "queued grip Cube.059",
@@ -1886,7 +1966,7 @@
     {
       "name": "placed back without falling through Cube.059",
       "pass": true,
-      "detail": "before bottom=0.552, after=0.552"
+      "detail": "before bottom=1.122, after=1.157"
     },
     {
       "name": "placed back settles Cube.059",
@@ -1899,6 +1979,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.088",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.088",
       "pass": true,
       "detail": ""
@@ -1906,7 +1991,7 @@
     {
       "name": "standing pickup approach Cube.088",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.088"
+      "detail": "Geo Island Integration/gg/Cube.088; floor=Cube.083, hand height=1.30, ray=1.47, head=(110.21, 1.95, -39.20)"
     },
     {
       "name": "queued grip Cube.088",
@@ -1941,15 +2026,20 @@
     {
       "name": "placed back without falling through Cube.088",
       "pass": true,
-      "detail": "before bottom=0.303, after=0.303"
+      "detail": "before bottom=0.320, after=0.303"
     },
     {
       "name": "placed back settles Cube.088",
       "pass": true,
-      "detail": "speed=0.003"
+      "detail": "speed=0.000"
     },
     {
       "name": "released model scale Cube.088",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cube.097",
       "pass": true,
       "detail": ""
     },
@@ -1961,7 +2051,7 @@
     {
       "name": "standing pickup approach Cube.097",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.097"
+      "detail": "Geo Island Integration/gg/Cube.097; floor=Cube.114, hand height=1.30, ray=0.94, head=(110.29, 2.20, -69.11)"
     },
     {
       "name": "queued grip Cube.097",
@@ -1996,7 +2086,7 @@
     {
       "name": "placed back without falling through Cube.097",
       "pass": true,
-      "detail": "before bottom=1.118, after=1.118"
+      "detail": "before bottom=1.114, after=1.118"
     },
     {
       "name": "placed back settles Cube.097",
@@ -2009,6 +2099,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.098",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.098",
       "pass": true,
       "detail": ""
@@ -2016,7 +2111,7 @@
     {
       "name": "standing pickup approach Cube.098",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.098"
+      "detail": "Geo Island Integration/gg/Cube.098; floor=Cube.114, hand height=1.30, ray=2.18, head=(104.00, 2.20, -68.86)"
     },
     {
       "name": "queued grip Cube.098",
@@ -2051,7 +2146,7 @@
     {
       "name": "placed back without falling through Cube.098",
       "pass": true,
-      "detail": "before bottom=0.509, after=0.504"
+      "detail": "before bottom=0.476, after=0.513"
     },
     {
       "name": "placed back settles Cube.098",
@@ -2064,6 +2159,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.099",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.099",
       "pass": true,
       "detail": ""
@@ -2071,7 +2171,7 @@
     {
       "name": "standing pickup approach Cube.099",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.099"
+      "detail": "Geo Island Integration/gg/Cube.099; floor=Cube.116, hand height=1.30, ray=1.34, head=(71.45, 1.92, -65.03)"
     },
     {
       "name": "queued grip Cube.099",
@@ -2106,7 +2206,7 @@
     {
       "name": "placed back without falling through Cube.099",
       "pass": true,
-      "detail": "before bottom=0.266, after=0.266"
+      "detail": "before bottom=0.249, after=0.266"
     },
     {
       "name": "placed back settles Cube.099",
@@ -2119,6 +2219,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.100",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.100",
       "pass": true,
       "detail": ""
@@ -2126,7 +2231,7 @@
     {
       "name": "standing pickup approach Cube.100",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.100"
+      "detail": "Geo Island Integration/gg/Cube.100; floor=Cube.086, hand height=1.30, ray=1.42, head=(72.24, 4.20, -57.53)"
     },
     {
       "name": "queued grip Cube.100",
@@ -2161,7 +2266,7 @@
     {
       "name": "placed back without falling through Cube.100",
       "pass": true,
-      "detail": "before bottom=2.549, after=2.549"
+      "detail": "before bottom=2.592, after=2.549"
     },
     {
       "name": "placed back settles Cube.100",
@@ -2174,6 +2279,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.101",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.101",
       "pass": true,
       "detail": ""
@@ -2181,7 +2291,7 @@
     {
       "name": "standing pickup approach Cube.101",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.101"
+      "detail": "Geo Island Integration/gg/Cube.101; floor=Cube.086, hand height=1.30, ray=1.15, head=(71.65, 4.20, -53.64)"
     },
     {
       "name": "queued grip Cube.101",
@@ -2216,7 +2326,7 @@
     {
       "name": "placed back without falling through Cube.101",
       "pass": true,
-      "detail": "before bottom=2.549, after=2.549"
+      "detail": "before bottom=2.510, after=2.549"
     },
     {
       "name": "placed back settles Cube.101",
@@ -2229,6 +2339,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.105",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.105",
       "pass": true,
       "detail": ""
@@ -2236,7 +2351,7 @@
     {
       "name": "standing pickup approach Cube.105",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.105"
+      "detail": "Geo Island Integration/gg/Cube.105; floor=Cube.102, hand height=1.30, ray=0.99, head=(102.91, 1.95, -42.39)"
     },
     {
       "name": "queued grip Cube.105",
@@ -2271,7 +2386,7 @@
     {
       "name": "placed back without falling through Cube.105",
       "pass": true,
-      "detail": "before bottom=0.303, after=0.303"
+      "detail": "before bottom=0.480, after=0.303"
     },
     {
       "name": "placed back settles Cube.105",
@@ -2284,6 +2399,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cube.106",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cube.106",
       "pass": true,
       "detail": ""
@@ -2291,7 +2411,7 @@
     {
       "name": "standing pickup approach Cube.106",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cube.106"
+      "detail": "Geo Island Integration/gg/Cube.106; floor=Cube.116, hand height=1.30, ray=1.40, head=(71.55, 1.92, -65.62)"
     },
     {
       "name": "queued grip Cube.106",
@@ -2326,7 +2446,7 @@
     {
       "name": "placed back without falling through Cube.106",
       "pass": true,
-      "detail": "before bottom=0.266, after=0.266"
+      "detail": "before bottom=0.281, after=0.266"
     },
     {
       "name": "placed back settles Cube.106",
@@ -2339,6 +2459,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder",
       "pass": true,
       "detail": ""
@@ -2346,7 +2471,7 @@
     {
       "name": "standing pickup approach Cylinder",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder"
+      "detail": "Geo Island Integration/gg/Cylinder; floor=Cube.114, hand height=1.30, ray=0.94, head=(110.74, 2.20, -66.91)"
     },
     {
       "name": "queued grip Cylinder",
@@ -2381,15 +2506,20 @@
     {
       "name": "placed back without falling through Cylinder",
       "pass": true,
-      "detail": "before bottom=1.007, after=1.030"
+      "detail": "before bottom=1.125, after=1.141"
     },
     {
       "name": "placed back settles Cylinder",
       "pass": true,
-      "detail": "speed=0.023"
+      "detail": "speed=0.000"
     },
     {
       "name": "released model scale Cylinder",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cylinder.001",
       "pass": true,
       "detail": ""
     },
@@ -2401,7 +2531,7 @@
     {
       "name": "standing pickup approach Cylinder.001",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.001"
+      "detail": "Geo Island Integration/gg/Cylinder.001; floor=Cube.114, hand height=1.30, ray=0.96, head=(105.02, 2.20, -68.68)"
     },
     {
       "name": "queued grip Cylinder.001",
@@ -2436,7 +2566,7 @@
     {
       "name": "placed back without falling through Cylinder.001",
       "pass": true,
-      "detail": "before bottom=0.537, after=0.537"
+      "detail": "before bottom=1.118, after=1.109"
     },
     {
       "name": "placed back settles Cylinder.001",
@@ -2449,6 +2579,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.002",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.002",
       "pass": true,
       "detail": ""
@@ -2456,7 +2591,7 @@
     {
       "name": "standing pickup approach Cylinder.002",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.002"
+      "detail": "Geo Island Integration/gg/Cylinder.002; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.49)"
     },
     {
       "name": "queued grip Cylinder.002",
@@ -2491,7 +2626,7 @@
     {
       "name": "placed back without falling through Cylinder.002",
       "pass": true,
-      "detail": "before bottom=1.149, after=1.104"
+      "detail": "before bottom=1.129, after=1.133"
     },
     {
       "name": "placed back settles Cylinder.002",
@@ -2504,6 +2639,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.003",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.003",
       "pass": true,
       "detail": ""
@@ -2511,7 +2651,7 @@
     {
       "name": "standing pickup approach Cylinder.003",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.003"
+      "detail": "Geo Island Integration/gg/Cylinder.003; floor=Cube.114, hand height=1.30, ray=1.05, head=(110.26, 2.20, -63.36)"
     },
     {
       "name": "queued grip Cylinder.003",
@@ -2546,7 +2686,7 @@
     {
       "name": "placed back without falling through Cylinder.003",
       "pass": true,
-      "detail": "before bottom=1.118, after=1.118"
+      "detail": "before bottom=1.128, after=1.202"
     },
     {
       "name": "placed back settles Cylinder.003",
@@ -2559,6 +2699,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.004",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.004",
       "pass": true,
       "detail": ""
@@ -2566,7 +2711,7 @@
     {
       "name": "standing pickup approach Cylinder.004",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.004"
+      "detail": "Geo Island Integration/gg/Cylinder.004; floor=Cube.114, hand height=1.30, ray=0.99, head=(110.15, 2.20, -68.05)"
     },
     {
       "name": "queued grip Cylinder.004",
@@ -2601,7 +2746,7 @@
     {
       "name": "placed back without falling through Cylinder.004",
       "pass": true,
-      "detail": "before bottom=1.064, after=1.064"
+      "detail": "before bottom=1.124, after=1.141"
     },
     {
       "name": "placed back settles Cylinder.004",
@@ -2614,6 +2759,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.007",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.007",
       "pass": true,
       "detail": ""
@@ -2621,7 +2771,7 @@
     {
       "name": "standing pickup approach Cylinder.007",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.007"
+      "detail": "Geo Island Integration/gg/Cylinder.007; floor=Cube.007, hand height=1.30, ray=0.96, head=(97.09, 4.45, -48.77)"
     },
     {
       "name": "queued grip Cylinder.007",
@@ -2656,7 +2806,7 @@
     {
       "name": "placed back without falling through Cylinder.007",
       "pass": true,
-      "detail": "before bottom=0.483, after=0.483"
+      "detail": "before bottom=3.463, after=3.473"
     },
     {
       "name": "placed back settles Cylinder.007",
@@ -2669,6 +2819,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.009",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.009",
       "pass": true,
       "detail": ""
@@ -2676,7 +2831,7 @@
     {
       "name": "standing pickup approach Cylinder.009",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.009"
+      "detail": "Geo Island Integration/gg/Cylinder.009; floor=Cube.114 (1), hand height=1.30, ray=0.87, head=(98.61, 1.98, -47.32)"
     },
     {
       "name": "queued grip Cylinder.009",
@@ -2711,7 +2866,7 @@
     {
       "name": "placed back without falling through Cylinder.009",
       "pass": true,
-      "detail": "before bottom=1.240, after=1.241"
+      "detail": "before bottom=1.237, after=1.241"
     },
     {
       "name": "placed back settles Cylinder.009",
@@ -2724,6 +2879,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.010",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.010",
       "pass": true,
       "detail": ""
@@ -2731,7 +2891,7 @@
     {
       "name": "standing pickup approach Cylinder.010",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.010"
+      "detail": "Geo Island Integration/gg/Cylinder.010; floor=Cube.114 (1), hand height=1.30, ray=1.46, head=(100.40, 1.98, -48.67)"
     },
     {
       "name": "queued grip Cylinder.010",
@@ -2766,7 +2926,7 @@
     {
       "name": "placed back without falling through Cylinder.010",
       "pass": true,
-      "detail": "before bottom=0.325, after=0.325"
+      "detail": "before bottom=0.320, after=0.325"
     },
     {
       "name": "placed back settles Cylinder.010",
@@ -2779,6 +2939,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.011",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.011",
       "pass": true,
       "detail": ""
@@ -2786,7 +2951,7 @@
     {
       "name": "standing pickup approach Cylinder.011",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.011"
+      "detail": "Geo Island Integration/gg/Cylinder.011; floor=Cube.007, hand height=1.30, ray=0.91, head=(96.45, 4.45, -49.91)"
     },
     {
       "name": "queued grip Cylinder.011",
@@ -2821,15 +2986,20 @@
     {
       "name": "placed back without falling through Cylinder.011",
       "pass": true,
-      "detail": "before bottom=0.520, after=0.520"
+      "detail": "before bottom=3.459, after=3.473"
     },
     {
       "name": "placed back settles Cylinder.011",
       "pass": true,
-      "detail": "speed=0.001"
+      "detail": "speed=0.000"
     },
     {
       "name": "released model scale Cylinder.011",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cylinder.012",
       "pass": true,
       "detail": ""
     },
@@ -2841,7 +3011,7 @@
     {
       "name": "standing pickup approach Cylinder.012",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.012"
+      "detail": "Geo Island Integration/gg/Cylinder.012; floor=Cube.021, hand height=1.30, ray=1.17, head=(100.02, 2.13, -63.43)"
     },
     {
       "name": "queued grip Cylinder.012",
@@ -2876,7 +3046,7 @@
     {
       "name": "placed back without falling through Cylinder.012",
       "pass": true,
-      "detail": "before bottom=0.480, after=0.480"
+      "detail": "before bottom=0.452, after=0.480"
     },
     {
       "name": "placed back settles Cylinder.012",
@@ -2889,6 +3059,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.013",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.013",
       "pass": true,
       "detail": ""
@@ -2896,7 +3071,7 @@
     {
       "name": "standing pickup approach Cylinder.013",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.013"
+      "detail": "Geo Island Integration/gg/Cylinder.013; floor=Cube.021, hand height=1.30, ray=0.84, head=(95.44, 2.13, -66.24)"
     },
     {
       "name": "queued grip Cylinder.013",
@@ -2944,6 +3119,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.014",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.014",
       "pass": true,
       "detail": ""
@@ -2951,7 +3131,7 @@
     {
       "name": "standing pickup approach Cylinder.014",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.014"
+      "detail": "Geo Island Integration/gg/Cylinder.014; floor=Cube.021, hand height=1.30, ray=0.89, head=(97.67, 2.13, -66.29)"
     },
     {
       "name": "queued grip Cylinder.014",
@@ -2986,7 +3166,7 @@
     {
       "name": "placed back without falling through Cylinder.014",
       "pass": true,
-      "detail": "before bottom=0.480, after=0.480"
+      "detail": "before bottom=1.332, after=1.327"
     },
     {
       "name": "placed back settles Cylinder.014",
@@ -2999,6 +3179,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.015",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.015",
       "pass": true,
       "detail": ""
@@ -3006,7 +3191,7 @@
     {
       "name": "standing pickup approach Cylinder.015",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.015"
+      "detail": "Geo Island Integration/gg/Cylinder.015; floor=Cube.021, hand height=1.30, ray=0.85, head=(96.88, 2.13, -66.33)"
     },
     {
       "name": "queued grip Cylinder.015",
@@ -3041,7 +3226,7 @@
     {
       "name": "placed back without falling through Cylinder.015",
       "pass": true,
-      "detail": "before bottom=1.215, after=1.215"
+      "detail": "before bottom=1.202, after=1.214"
     },
     {
       "name": "placed back settles Cylinder.015",
@@ -3054,6 +3239,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.016",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.016",
       "pass": true,
       "detail": ""
@@ -3061,7 +3251,7 @@
     {
       "name": "standing pickup approach Cylinder.016",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.016"
+      "detail": "Geo Island Integration/gg/Cylinder.016; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.56)"
     },
     {
       "name": "queued grip Cylinder.016",
@@ -3096,7 +3286,7 @@
     {
       "name": "placed back without falling through Cylinder.016",
       "pass": true,
-      "detail": "before bottom=1.119, after=1.115"
+      "detail": "before bottom=1.129, after=1.134"
     },
     {
       "name": "placed back settles Cylinder.016",
@@ -3109,6 +3299,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.017",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.017",
       "pass": true,
       "detail": ""
@@ -3116,7 +3311,7 @@
     {
       "name": "standing pickup approach Cylinder.017",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.017"
+      "detail": "Geo Island Integration/gg/Cylinder.017; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.41)"
     },
     {
       "name": "queued grip Cylinder.017",
@@ -3151,7 +3346,7 @@
     {
       "name": "placed back without falling through Cylinder.017",
       "pass": true,
-      "detail": "before bottom=1.124, after=1.124"
+      "detail": "before bottom=1.129, after=1.133"
     },
     {
       "name": "placed back settles Cylinder.017",
@@ -3164,6 +3359,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.018",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.018",
       "pass": true,
       "detail": ""
@@ -3171,7 +3371,7 @@
     {
       "name": "standing pickup approach Cylinder.018",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.018"
+      "detail": "Geo Island Integration/gg/Cylinder.018; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.35)"
     },
     {
       "name": "queued grip Cylinder.018",
@@ -3206,7 +3406,7 @@
     {
       "name": "placed back without falling through Cylinder.018",
       "pass": true,
-      "detail": "before bottom=0.544, after=0.544"
+      "detail": "before bottom=1.129, after=1.135"
     },
     {
       "name": "placed back settles Cylinder.018",
@@ -3219,6 +3419,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.019",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.019",
       "pass": true,
       "detail": ""
@@ -3226,7 +3431,7 @@
     {
       "name": "standing pickup approach Cylinder.019",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.019"
+      "detail": "Geo Island Integration/gg/Cylinder.019; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.15)"
     },
     {
       "name": "queued grip Cylinder.019",
@@ -3261,7 +3466,7 @@
     {
       "name": "placed back without falling through Cylinder.019",
       "pass": true,
-      "detail": "before bottom=0.545, after=0.545"
+      "detail": "before bottom=1.129, after=1.134"
     },
     {
       "name": "placed back settles Cylinder.019",
@@ -3274,6 +3479,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.020",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.020",
       "pass": true,
       "detail": ""
@@ -3281,7 +3491,7 @@
     {
       "name": "standing pickup approach Cylinder.020",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.020"
+      "detail": "Geo Island Integration/gg/Cylinder.020; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -64.07)"
     },
     {
       "name": "queued grip Cylinder.020",
@@ -3316,15 +3526,20 @@
     {
       "name": "placed back without falling through Cylinder.020",
       "pass": true,
-      "detail": "before bottom=0.549, after=0.548"
+      "detail": "before bottom=1.129, after=1.132"
     },
     {
       "name": "placed back settles Cylinder.020",
       "pass": true,
-      "detail": "speed=0.000"
+      "detail": "speed=0.007"
     },
     {
       "name": "released model scale Cylinder.020",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cylinder.023",
       "pass": true,
       "detail": ""
     },
@@ -3336,7 +3551,7 @@
     {
       "name": "standing pickup approach Cylinder.023",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.023"
+      "detail": "Geo Island Integration/gg/Cylinder.023; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -63.98)"
     },
     {
       "name": "queued grip Cylinder.023",
@@ -3371,7 +3586,7 @@
     {
       "name": "placed back without falling through Cylinder.023",
       "pass": true,
-      "detail": "before bottom=0.539, after=0.539"
+      "detail": "before bottom=1.129, after=1.132"
     },
     {
       "name": "placed back settles Cylinder.023",
@@ -3384,6 +3599,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.024",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.024",
       "pass": true,
       "detail": ""
@@ -3391,7 +3611,7 @@
     {
       "name": "standing pickup approach Cylinder.024",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.024"
+      "detail": "Geo Island Integration/gg/Cylinder.024; floor=Cube.114, hand height=1.30, ray=1.06, head=(105.15, 2.20, -63.90)"
     },
     {
       "name": "queued grip Cylinder.024",
@@ -3426,7 +3646,7 @@
     {
       "name": "placed back without falling through Cylinder.024",
       "pass": true,
-      "detail": "before bottom=0.544, after=0.544"
+      "detail": "before bottom=1.129, after=1.132"
     },
     {
       "name": "placed back settles Cylinder.024",
@@ -3439,6 +3659,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.025",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.025",
       "pass": true,
       "detail": ""
@@ -3446,7 +3671,7 @@
     {
       "name": "standing pickup approach Cylinder.025",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.025"
+      "detail": "Geo Island Integration/gg/Cylinder.025; floor=Cube.114, hand height=1.30, ray=1.05, head=(110.26, 2.20, -63.50)"
     },
     {
       "name": "queued grip Cylinder.025",
@@ -3481,7 +3706,7 @@
     {
       "name": "placed back without falling through Cylinder.025",
       "pass": true,
-      "detail": "before bottom=0.551, after=0.551"
+      "detail": "before bottom=1.128, after=1.130"
     },
     {
       "name": "placed back settles Cylinder.025",
@@ -3494,6 +3719,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.030",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.030",
       "pass": true,
       "detail": ""
@@ -3501,7 +3731,7 @@
     {
       "name": "standing pickup approach Cylinder.030",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.030"
+      "detail": "Geo Island Integration/gg/Cylinder.030; floor=Cube.086, hand height=1.30, ray=0.81, head=(75.25, 4.20, -55.65)"
     },
     {
       "name": "queued grip Cylinder.030",
@@ -3536,7 +3766,7 @@
     {
       "name": "placed back without falling through Cylinder.030",
       "pass": true,
-      "detail": "before bottom=3.861, after=3.861"
+      "detail": "before bottom=3.779, after=3.878"
     },
     {
       "name": "placed back settles Cylinder.030",
@@ -3549,6 +3779,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.034",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.034",
       "pass": true,
       "detail": ""
@@ -3556,7 +3791,7 @@
     {
       "name": "standing pickup approach Cylinder.034",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.034"
+      "detail": "Geo Island Integration/gg/Cylinder.034; floor=Cube.114, hand height=1.30, ray=1.05, head=(110.26, 2.20, -63.76)"
     },
     {
       "name": "queued grip Cylinder.034",
@@ -3591,7 +3826,7 @@
     {
       "name": "placed back without falling through Cylinder.034",
       "pass": true,
-      "detail": "before bottom=0.547, after=0.547"
+      "detail": "before bottom=1.128, after=1.130"
     },
     {
       "name": "placed back settles Cylinder.034",
@@ -3604,6 +3839,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.035",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.035",
       "pass": true,
       "detail": ""
@@ -3611,7 +3851,7 @@
     {
       "name": "standing pickup approach Cylinder.035",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.035"
+      "detail": "Geo Island Integration/gg/Cylinder.035; floor=Cube.114, hand height=1.30, ray=1.05, head=(110.26, 2.20, -63.89)"
     },
     {
       "name": "queued grip Cylinder.035",
@@ -3646,7 +3886,7 @@
     {
       "name": "placed back without falling through Cylinder.035",
       "pass": true,
-      "detail": "before bottom=0.550, after=0.550"
+      "detail": "before bottom=1.128, after=1.130"
     },
     {
       "name": "placed back settles Cylinder.035",
@@ -3659,6 +3899,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.036",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.036",
       "pass": true,
       "detail": ""
@@ -3666,7 +3911,7 @@
     {
       "name": "standing pickup approach Cylinder.036",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.036"
+      "detail": "Geo Island Integration/gg/Cylinder.036; floor=Cube.114, hand height=1.30, ray=0.94, head=(110.17, 2.20, -67.66)"
     },
     {
       "name": "queued grip Cylinder.036",
@@ -3701,7 +3946,7 @@
     {
       "name": "placed back without falling through Cylinder.036",
       "pass": true,
-      "detail": "before bottom=0.497, after=0.497"
+      "detail": "before bottom=1.125, after=1.141"
     },
     {
       "name": "placed back settles Cylinder.036",
@@ -3714,6 +3959,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.037",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.037",
       "pass": true,
       "detail": ""
@@ -3721,7 +3971,7 @@
     {
       "name": "standing pickup approach Cylinder.037",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.037"
+      "detail": "Geo Island Integration/gg/Cylinder.037; floor=Cube.114, hand height=1.30, ray=0.99, head=(110.72, 2.20, -67.30)"
     },
     {
       "name": "queued grip Cylinder.037",
@@ -3756,15 +4006,20 @@
     {
       "name": "placed back without falling through Cylinder.037",
       "pass": true,
-      "detail": "before bottom=0.479, after=0.472"
+      "detail": "before bottom=1.124, after=1.141"
     },
     {
       "name": "placed back settles Cylinder.037",
       "pass": true,
-      "detail": "speed=0.096"
+      "detail": "speed=0.000"
     },
     {
       "name": "released model scale Cylinder.037",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cylinder.038",
       "pass": true,
       "detail": ""
     },
@@ -3776,7 +4031,7 @@
     {
       "name": "standing pickup approach Cylinder.038",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.038"
+      "detail": "Geo Island Integration/gg/Cylinder.038; floor=Cube.114, hand height=1.30, ray=0.96, head=(105.02, 2.20, -68.31)"
     },
     {
       "name": "queued grip Cylinder.038",
@@ -3811,7 +4066,7 @@
     {
       "name": "placed back without falling through Cylinder.038",
       "pass": true,
-      "detail": "before bottom=0.537, after=0.538"
+      "detail": "before bottom=1.118, after=1.113"
     },
     {
       "name": "placed back settles Cylinder.038",
@@ -3824,6 +4079,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.039",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.039",
       "pass": true,
       "detail": ""
@@ -3831,7 +4091,7 @@
     {
       "name": "standing pickup approach Cylinder.039",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.039"
+      "detail": "Geo Island Integration/gg/Cylinder.039; floor=Cube.114 (1), hand height=1.30, ray=0.84, head=(100.54, 1.98, -50.49)"
     },
     {
       "name": "queued grip Cylinder.039",
@@ -3866,15 +4126,20 @@
     {
       "name": "placed back without falling through Cylinder.039",
       "pass": true,
-      "detail": "before bottom=1.236, after=1.158"
+      "detail": "before bottom=1.183, after=1.232"
     },
     {
       "name": "placed back settles Cylinder.039",
       "pass": true,
-      "detail": "speed=0.021"
+      "detail": "speed=0.006"
     },
     {
       "name": "released model scale Cylinder.039",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Cylinder.044",
       "pass": true,
       "detail": ""
     },
@@ -3886,7 +4151,7 @@
     {
       "name": "standing pickup approach Cylinder.044",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.044"
+      "detail": "Geo Island Integration/gg/Cylinder.044; floor=Geo ground base, hand height=1.30, ray=0.89, head=(101.70, 1.65, -38.18)"
     },
     {
       "name": "queued grip Cylinder.044",
@@ -3921,7 +4186,7 @@
     {
       "name": "placed back without falling through Cylinder.044",
       "pass": true,
-      "detail": "before bottom=0.647, after=0.647"
+      "detail": "before bottom=0.643, after=0.647"
     },
     {
       "name": "placed back settles Cylinder.044",
@@ -3934,6 +4199,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.045",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.045",
       "pass": true,
       "detail": ""
@@ -3941,7 +4211,7 @@
     {
       "name": "standing pickup approach Cylinder.045",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.045"
+      "detail": "Geo Island Integration/gg/Cylinder.045; floor=Cube.102, hand height=1.30, ray=1.38, head=(102.63, 1.95, -39.38)"
     },
     {
       "name": "queued grip Cylinder.045",
@@ -3976,7 +4246,7 @@
     {
       "name": "placed back without falling through Cylinder.045",
       "pass": true,
-      "detail": "before bottom=0.303, after=0.303"
+      "detail": "before bottom=0.271, after=0.303"
     },
     {
       "name": "placed back settles Cylinder.045",
@@ -3989,6 +4259,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.046",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.046",
       "pass": true,
       "detail": ""
@@ -3996,7 +4271,7 @@
     {
       "name": "standing pickup approach Cylinder.046",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.046"
+      "detail": "Geo Island Integration/gg/Cylinder.046; floor=Cube.102, hand height=1.30, ray=1.46, head=(103.27, 1.95, -39.38)"
     },
     {
       "name": "queued grip Cylinder.046",
@@ -4031,7 +4306,7 @@
     {
       "name": "placed back without falling through Cylinder.046",
       "pass": true,
-      "detail": "before bottom=0.295, after=0.296"
+      "detail": "before bottom=0.291, after=0.303"
     },
     {
       "name": "placed back settles Cylinder.046",
@@ -4044,6 +4319,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.048",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.048",
       "pass": true,
       "detail": ""
@@ -4051,7 +4331,7 @@
     {
       "name": "standing pickup approach Cylinder.048",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.048"
+      "detail": "Geo Island Integration/gg/Cylinder.048; floor=Cube.083, hand height=1.30, ray=1.49, head=(108.87, 1.95, -40.63)"
     },
     {
       "name": "queued grip Cylinder.048",
@@ -4086,7 +4366,7 @@
     {
       "name": "placed back without falling through Cylinder.048",
       "pass": true,
-      "detail": "before bottom=0.303, after=0.303"
+      "detail": "before bottom=0.278, after=0.303"
     },
     {
       "name": "placed back settles Cylinder.048",
@@ -4099,6 +4379,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.049",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.049",
       "pass": true,
       "detail": ""
@@ -4106,7 +4391,7 @@
     {
       "name": "standing pickup approach Cylinder.049",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.049"
+      "detail": "Geo Island Integration/gg/Cylinder.049; floor=Cube.083, hand height=1.30, ray=1.45, head=(109.96, 1.95, -38.54)"
     },
     {
       "name": "queued grip Cylinder.049",
@@ -4141,7 +4426,7 @@
     {
       "name": "placed back without falling through Cylinder.049",
       "pass": true,
-      "detail": "before bottom=0.259, after=0.303"
+      "detail": "before bottom=0.329, after=0.303"
     },
     {
       "name": "placed back settles Cylinder.049",
@@ -4154,6 +4439,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.050",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.050",
       "pass": true,
       "detail": ""
@@ -4161,7 +4451,7 @@
     {
       "name": "standing pickup approach Cylinder.050",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.050"
+      "detail": "Geo Island Integration/gg/Cylinder.050; floor=Cube.021, hand height=1.30, ray=1.12, head=(94.51, 2.13, -64.77)"
     },
     {
       "name": "queued grip Cylinder.050",
@@ -4196,7 +4486,7 @@
     {
       "name": "placed back without falling through Cylinder.050",
       "pass": true,
-      "detail": "before bottom=0.480, after=0.480"
+      "detail": "before bottom=0.517, after=0.480"
     },
     {
       "name": "placed back settles Cylinder.050",
@@ -4209,6 +4499,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.051",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.051",
       "pass": true,
       "detail": ""
@@ -4216,7 +4511,7 @@
     {
       "name": "standing pickup approach Cylinder.051",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.051"
+      "detail": "Geo Island Integration/gg/Cylinder.051; floor=Cube.114 (1), hand height=1.30, ray=1.62, head=(94.70, 1.98, -49.41)"
     },
     {
       "name": "queued grip Cylinder.051",
@@ -4251,7 +4546,7 @@
     {
       "name": "placed back without falling through Cylinder.051",
       "pass": true,
-      "detail": "before bottom=0.327, after=0.327"
+      "detail": "before bottom=0.282, after=0.327"
     },
     {
       "name": "placed back settles Cylinder.051",
@@ -4264,6 +4559,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Cylinder.052",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Cylinder.052",
       "pass": true,
       "detail": ""
@@ -4271,7 +4571,7 @@
     {
       "name": "standing pickup approach Cylinder.052",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Cylinder.052"
+      "detail": "Geo Island Integration/gg/Cylinder.052; floor=Cube.114 (1), hand height=1.30, ray=1.48, head=(95.68, 1.98, -47.69)"
     },
     {
       "name": "queued grip Cylinder.052",
@@ -4306,7 +4606,7 @@
     {
       "name": "placed back without falling through Cylinder.052",
       "pass": true,
-      "detail": "before bottom=0.292, after=0.292"
+      "detail": "before bottom=0.306, after=0.292"
     },
     {
       "name": "placed back settles Cylinder.052",
@@ -4319,6 +4619,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Plane.010",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Plane.010",
       "pass": true,
       "detail": ""
@@ -4326,7 +4631,7 @@
     {
       "name": "standing pickup approach Plane.010",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Plane.010"
+      "detail": "Geo Island Integration/gg/Plane.010; floor=Cube.021, hand height=1.30, ray=0.90, head=(94.38, 2.13, -67.16)"
     },
     {
       "name": "queued grip Plane.010",
@@ -4361,7 +4666,7 @@
     {
       "name": "placed back without falling through Plane.010",
       "pass": true,
-      "detail": "before bottom=1.377, after=1.377"
+      "detail": "before bottom=1.370, after=1.377"
     },
     {
       "name": "placed back settles Plane.010",
@@ -4374,6 +4679,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Plane.011",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Plane.011",
       "pass": true,
       "detail": ""
@@ -4381,7 +4691,7 @@
     {
       "name": "standing pickup approach Plane.011",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Plane.011"
+      "detail": "Geo Island Integration/gg/Plane.011; floor=Cube.083, hand height=1.30, ray=1.50, head=(108.87, 1.95, -42.74)"
     },
     {
       "name": "queued grip Plane.011",
@@ -4416,7 +4726,7 @@
     {
       "name": "placed back without falling through Plane.011",
       "pass": true,
-      "detail": "before bottom=0.305, after=0.305"
+      "detail": "before bottom=0.322, after=0.305"
     },
     {
       "name": "placed back settles Plane.011",
@@ -4429,6 +4739,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Plane.012",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Plane.012",
       "pass": true,
       "detail": ""
@@ -4436,7 +4751,7 @@
     {
       "name": "standing pickup approach Plane.012",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Plane.012"
+      "detail": "Geo Island Integration/gg/Plane.012; floor=Plane.004, hand height=1.30, ray=1.36, head=(69.42, 4.12, -58.97)"
     },
     {
       "name": "queued grip Plane.012",
@@ -4471,7 +4786,7 @@
     {
       "name": "placed back without falling through Plane.012",
       "pass": true,
-      "detail": "before bottom=2.554, after=2.554"
+      "detail": "before bottom=2.666, after=2.555"
     },
     {
       "name": "placed back settles Plane.012",
@@ -4484,6 +4799,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Sphere.017",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Sphere.017",
       "pass": true,
       "detail": ""
@@ -4491,7 +4811,7 @@
     {
       "name": "standing pickup approach Sphere.017",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Sphere.017"
+      "detail": "Geo Island Integration/gg/Sphere.017; floor=Cube.086, hand height=1.30, ray=1.21, head=(71.32, 4.20, -60.83)"
     },
     {
       "name": "queued grip Sphere.017",
@@ -4526,15 +4846,20 @@
     {
       "name": "placed back without falling through Sphere.017",
       "pass": true,
-      "detail": "before bottom=-0.052, after=-0.052"
+      "detail": "before bottom=2.333, after=2.441"
     },
     {
       "name": "placed back settles Sphere.017",
       "pass": true,
-      "detail": "speed=0.000"
+      "detail": "speed=0.094"
     },
     {
       "name": "released model scale Sphere.017",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Sphere.018",
       "pass": true,
       "detail": ""
     },
@@ -4546,7 +4871,7 @@
     {
       "name": "standing pickup approach Sphere.018",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Sphere.018"
+      "detail": "Geo Island Integration/gg/Sphere.018; floor=Cube.086, hand height=1.30, ray=1.21, head=(74.51, 4.20, -50.65)"
     },
     {
       "name": "queued grip Sphere.018",
@@ -4581,7 +4906,7 @@
     {
       "name": "placed back without falling through Sphere.018",
       "pass": true,
-      "detail": "before bottom=2.347, after=2.347"
+      "detail": "before bottom=2.333, after=2.347"
     },
     {
       "name": "placed back settles Sphere.018",
@@ -4594,6 +4919,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Sphere.019",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Sphere.019",
       "pass": true,
       "detail": ""
@@ -4601,7 +4931,7 @@
     {
       "name": "standing pickup approach Sphere.019",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Sphere.019"
+      "detail": "Geo Island Integration/gg/Sphere.019; floor=Cube.086, hand height=1.30, ray=1.21, head=(71.56, 4.20, -58.50)"
     },
     {
       "name": "queued grip Sphere.019",
@@ -4636,15 +4966,20 @@
     {
       "name": "placed back without falling through Sphere.019",
       "pass": true,
-      "detail": "before bottom=-0.052, after=-0.052"
+      "detail": "before bottom=2.333, after=2.438"
     },
     {
       "name": "placed back settles Sphere.019",
       "pass": true,
-      "detail": "speed=0.000"
+      "detail": "speed=0.071"
     },
     {
       "name": "released model scale Sphere.019",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Sphere.020",
       "pass": true,
       "detail": ""
     },
@@ -4656,7 +4991,7 @@
     {
       "name": "standing pickup approach Sphere.020",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Sphere.020"
+      "detail": "Geo Island Integration/gg/Sphere.020; floor=Cube.086, hand height=1.30, ray=1.21, head=(75.19, 4.20, -51.84)"
     },
     {
       "name": "queued grip Sphere.020",
@@ -4691,7 +5026,7 @@
     {
       "name": "placed back without falling through Sphere.020",
       "pass": true,
-      "detail": "before bottom=2.347, after=2.347"
+      "detail": "before bottom=2.333, after=2.347"
     },
     {
       "name": "placed back settles Sphere.020",
@@ -4704,6 +5039,11 @@
       "detail": ""
     },
     {
+      "name": "untouched authored pose Sphere.021",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "pickup collider Sphere.021",
       "pass": true,
       "detail": ""
@@ -4711,7 +5051,7 @@
     {
       "name": "standing pickup approach Sphere.021",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Sphere.021"
+      "detail": "Geo Island Integration/gg/Sphere.021; floor=Cube.086, hand height=1.30, ray=1.21, head=(70.36, 4.20, -50.11)"
     },
     {
       "name": "queued grip Sphere.021",
@@ -4746,15 +5086,20 @@
     {
       "name": "placed back without falling through Sphere.021",
       "pass": true,
-      "detail": "before bottom=2.347, after=2.347"
+      "detail": "before bottom=2.333, after=2.325"
     },
     {
       "name": "placed back settles Sphere.021",
       "pass": true,
-      "detail": "speed=0.000"
+      "detail": "speed=0.029"
     },
     {
       "name": "released model scale Sphere.021",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "untouched authored pose Torus",
       "pass": true,
       "detail": ""
     },
@@ -4766,7 +5111,7 @@
     {
       "name": "standing pickup approach Torus",
       "pass": true,
-      "detail": "Geo Island Integration/gg/Torus"
+      "detail": "Geo Island Integration/gg/Torus; floor=Cube.084, hand height=1.30, ray=1.39, head=(104.30, 1.95, -51.26)"
     },
     {
       "name": "queued grip Torus",
@@ -4801,7 +5146,7 @@
     {
       "name": "placed back without falling through Torus",
       "pass": true,
-      "detail": "before bottom=0.303, after=0.303"
+      "detail": "before bottom=0.326, after=0.303"
     },
     {
       "name": "placed back settles Torus",
@@ -4814,9 +5159,14 @@
       "detail": ""
     },
     {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.458, 1.206, -51.230)"
+    },
+    {
       "name": "drop starts over Tabletop support - Cube.003",
       "pass": true,
-      "detail": "desired=(101.28, 1.35, -51.23), actual=(101.28, 1.35, -51.23)"
+      "detail": "desired=(101.46, 1.34, -51.23), actual=(101.46, 1.34, -51.23)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m gravity after release",
@@ -4826,7 +5176,7 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.253, support=1.161, gap=0.092"
+      "detail": "visual bottom=1.154, support=1.161, gap=-0.007"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m settles",
@@ -4834,9 +5184,14 @@
       "detail": "speed=0.000"
     },
     {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.458, 1.206, -51.230)"
+    },
+    {
       "name": "drop starts over Tabletop support - Cube.003",
       "pass": true,
-      "detail": "desired=(101.28, 1.95, -51.23), actual=(101.28, 1.95, -51.23)"
+      "detail": "desired=(101.46, 1.94, -51.23), actual=(101.46, 1.94, -51.23)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m gravity after release",
@@ -4846,17 +5201,22 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.249, support=1.161, gap=0.088"
+      "detail": "visual bottom=1.160, support=1.161, gap=-0.001"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m settles",
       "pass": true,
-      "detail": "speed=0.038"
+      "detail": "speed=0.009"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.570, 1.487, -50.599)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.004",
       "pass": true,
-      "detail": "desired=(101.28, 1.63, -50.60), actual=(101.28, 1.63, -50.60)"
+      "detail": "desired=(101.57, 1.63, -50.60), actual=(101.57, 1.63, -50.60)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m gravity after release",
@@ -4865,18 +5225,23 @@
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m rests on visible surface",
-      "pass": false,
-      "detail": "visual bottom=1.579, support=1.442, gap=0.137"
+      "pass": true,
+      "detail": "visual bottom=1.431, support=1.442, gap=-0.012"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m settles",
       "pass": true,
-      "detail": "speed=0.003"
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.570, 1.487, -50.599)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.004",
       "pass": true,
-      "detail": "desired=(101.28, 2.23, -50.60), actual=(101.28, 2.23, -50.60)"
+      "detail": "desired=(101.57, 2.23, -50.60), actual=(101.57, 2.23, -50.60)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m gravity after release",
@@ -4885,18 +5250,23 @@
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m rests on visible surface",
-      "pass": false,
-      "detail": "visual bottom=1.673, support=1.442, gap=0.231"
+      "pass": true,
+      "detail": "visual bottom=1.429, support=1.442, gap=-0.013"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m settles",
       "pass": true,
-      "detail": "speed=0.036"
+      "detail": "speed=0.006"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.163, -69.256)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.045",
       "pass": true,
-      "detail": "desired=(111.34, 1.31, -68.34), actual=(111.34, 1.31, -68.34)"
+      "detail": "desired=(111.34, 1.30, -69.26), actual=(111.34, 1.30, -69.26)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m gravity after release",
@@ -4906,7 +5276,7 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.114, support=1.118, gap=-0.004"
+      "detail": "visual bottom=1.111, support=1.118, gap=-0.008"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m settles",
@@ -4914,9 +5284,14 @@
       "detail": "speed=0.000"
     },
     {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.163, -69.256)"
+    },
+    {
       "name": "drop starts over Tabletop support - Cube.045",
       "pass": true,
-      "detail": "desired=(111.34, 1.91, -68.34), actual=(111.34, 1.91, -68.34)"
+      "detail": "desired=(111.34, 1.90, -69.26), actual=(111.34, 1.90, -69.26)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.75m gravity after release",
@@ -4931,12 +5306,17 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.75m settles",
       "pass": true,
-      "detail": "speed=0.093"
+      "detail": "speed=0.038"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.163, -65.102)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.055",
       "pass": true,
-      "detail": "desired=(111.34, 1.31, -64.19), actual=(111.34, 1.31, -64.19)"
+      "detail": "desired=(111.34, 1.30, -65.10), actual=(111.34, 1.30, -65.10)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m gravity after release",
@@ -4946,17 +5326,22 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.115, support=1.118, gap=-0.003"
+      "detail": "visual bottom=1.106, support=1.118, gap=-0.012"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m settles",
       "pass": true,
-      "detail": "speed=0.000"
+      "detail": "speed=0.014"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.163, -65.102)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.055",
       "pass": true,
-      "detail": "desired=(111.34, 1.91, -64.19), actual=(111.34, 1.91, -64.19)"
+      "detail": "desired=(111.34, 1.90, -65.10), actual=(111.34, 1.90, -65.10)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m gravity after release",
@@ -4966,17 +5351,22 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.105, support=1.118, gap=-0.013"
+      "detail": "visual bottom=1.107, support=1.118, gap=-0.011"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m settles",
       "pass": true,
-      "detail": "speed=0.088"
+      "detail": "speed=0.030"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.163, -65.104)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.069",
       "pass": true,
-      "detail": "desired=(106.09, 1.31, -64.19), actual=(106.09, 1.31, -64.19)"
+      "detail": "desired=(106.09, 1.30, -65.10), actual=(106.09, 1.30, -65.10)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m gravity after release",
@@ -4986,17 +5376,22 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.107, support=1.118, gap=-0.012"
+      "detail": "visual bottom=1.117, support=1.118, gap=-0.001"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m settles",
       "pass": true,
-      "detail": "speed=0.006"
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.163, -65.104)"
     },
     {
       "name": "drop starts over Tabletop support - Cube.069",
       "pass": true,
-      "detail": "desired=(106.09, 1.91, -64.19), actual=(106.09, 1.91, -64.19)"
+      "detail": "desired=(106.09, 1.90, -65.10), actual=(106.09, 1.90, -65.10)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m gravity after release",
@@ -5006,7 +5401,7 @@
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m rests on visible surface",
       "pass": true,
-      "detail": "visual bottom=1.104, support=1.118, gap=-0.014"
+      "detail": "visual bottom=1.116, support=1.118, gap=-0.002"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m settles",
@@ -5014,9 +5409,14 @@
       "detail": "speed=0.000"
     },
     {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.163, -67.461)"
+    },
+    {
       "name": "drop starts over Tabletop support - Cube.077",
       "pass": true,
-      "detail": "desired=(106.09, 1.31, -68.37), actual=(106.09, 1.31, -68.37)"
+      "detail": "desired=(106.09, 1.30, -67.46), actual=(106.09, 1.30, -67.46)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m gravity after release",
@@ -5025,8 +5425,8 @@
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m rests on visible surface",
-      "pass": false,
-      "detail": "visual bottom=1.235, support=1.118, gap=0.117"
+      "pass": true,
+      "detail": "visual bottom=1.117, support=1.118, gap=-0.001"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m settles",
@@ -5034,9 +5434,14 @@
       "detail": "speed=0.000"
     },
     {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.163, -67.461)"
+    },
+    {
       "name": "drop starts over Tabletop support - Cube.077",
       "pass": true,
-      "detail": "desired=(106.09, 1.91, -68.37), actual=(106.09, 1.91, -68.37)"
+      "detail": "desired=(106.09, 1.90, -67.46), actual=(106.09, 1.90, -67.46)"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m gravity after release",
@@ -5045,13 +5450,13 @@
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m rests on visible surface",
-      "pass": false,
-      "detail": "visual bottom=1.235, support=1.118, gap=0.117"
+      "pass": true,
+      "detail": "visual bottom=1.116, support=1.118, gap=-0.002"
     },
     {
       "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m settles",
       "pass": true,
-      "detail": "speed=0.023"
+      "detail": "speed=0.000"
     },
     {
       "name": "no pickup falls below island",

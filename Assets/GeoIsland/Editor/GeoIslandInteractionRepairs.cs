@@ -1,11 +1,15 @@
 #if UNITY_EDITOR
 using System;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 using UnityEditor;
 using UnityEditor.Events;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation;
 
 public static class GeoIslandInteractionRepairs
 {
@@ -17,6 +21,8 @@ public static class GeoIslandInteractionRepairs
         if (!root) throw new InvalidOperationException("Geo island is missing.");
         Undo.RegisterFullObjectHierarchyUndo(root, "Repair Geo interactions");
         if (!root.GetComponent<GeoIslandPhysics>()) root.AddComponent<GeoIslandPhysics>();
+        RestoreAuthoredPresentation(root);
+        RepairPlatformAccess(root);
 
         var fan = root.GetComponentsInChildren<Spinner>(true).Single(s => s.name == "Cylinder.005");
         fan.rotationAxis = Vector3.forward;
@@ -100,8 +106,8 @@ public static class GeoIslandInteractionRepairs
                 item.colliders.Add(shape);
             }
             var body = item.GetComponent<Rigidbody>();
-            body.isKinematic = false;
-            body.useGravity = true;
+            body.isKinematic = true;
+            body.useGravity = false;
             body.detectCollisions = true;
             body.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
             body.interpolation = RigidbodyInterpolation.None;
@@ -116,45 +122,32 @@ public static class GeoIslandInteractionRepairs
             EditorUtility.SetDirty(item);
         }
 
-        // These source props intersected fixed display geometry at their authored positions.
-        foreach (var name in new[] { "Cube.059", "Cylinder.001" })
-        {
-            var item = root.GetComponentsInChildren<XRGrabInteractable>().Single(x => x.name == name);
-            if (item.transform.position.x < 106.2f) item.transform.position += Vector3.right * .16f;
-        }
-        var crate = root.GetComponentsInChildren<XRGrabInteractable>().Single(x => x.name == "Cube.098");
-        var crateBounds = crate.GetComponent<Renderer>().bounds;
-        if (crateBounds.min.y < .56f) crate.transform.position += Vector3.up * (.565f - crateBounds.min.y);
-        var stageProp = root.GetComponentsInChildren<XRGrabInteractable>().Single(x => x.name == "Sphere.017");
-        if (stageProp.GetComponent<Renderer>().bounds.min.y < 2.56f)
-        {
-            var bounds = stageProp.GetComponent<Renderer>().bounds;
-            stageProp.transform.position += new Vector3(1.1f, 2.565f - bounds.min.y, 0f);
-        }
-
-        var pickupCounter = root.GetComponentsInChildren<MeshRenderer>().Single(r => r.name == "Cube.069").bounds;
-        var shelfItems = new[] { "Cube.022", "Cylinder.007", "Cylinder.011" };
-        for (int i = 0; i < shelfItems.Length; i++)
-        {
-            var item = root.GetComponentsInChildren<XRGrabInteractable>().Single(x => x.name == shelfItems[i]);
-            if (item.transform.position.y < 2f) continue;
-            var bounds = item.GetComponent<Renderer>().bounds;
-            var center = new Vector3(pickupCounter.center.x + .16f, pickupCounter.max.y + bounds.extents.y + .015f,
-                pickupCounter.center.z + (i - 1) * .65f);
-            item.transform.position += center - bounds.center;
-            EditorUtility.SetDirty(item.transform);
-        }
-
-        var fanPanel = fan.GetComponentsInParent<Transform>().Last().GetComponentsInChildren<UnityEngine.UI.Button>(true)
-            .Single(b => Enumerable.Range(0, b.onClick.GetPersistentEventCount()).Any(i => b.onClick.GetPersistentTarget(i) == fan))
-            .GetComponentInParent<Canvas>().transform;
-        fanPanel.position = new Vector3(fanPanel.position.x, 1.5f, fanPanel.position.z);
-
         var buttons = root.GetComponentsInChildren<UnityEngine.UI.Button>(true);
         var shopBulb = root.GetComponentsInChildren<LightToggle>(true).Single(l => l.name == "Cube");
         var shopSupply = root.GetComponentsInChildren<LightToggle>(true).Single(l => l.name == "gg");
         shopBulb.targetLight = shopSupply.targetLight;
         var stageLights = root.GetComponentsInChildren<LightToggle>(true).Where(l => l.name == "Cylinder.031").ToArray();
+        var stageFloor = root.GetComponentsInChildren<MeshRenderer>().Single(r => r.name == "Cube.086").bounds;
+        foreach (var toggle in stageLights)
+        {
+            var light = toggle.targetLight;
+            if (!light) throw new InvalidOperationException("Stage spotlight reference is missing.");
+            var target = new Vector3(stageFloor.center.x, stageFloor.max.y + .02f, light.transform.position.z);
+            light.transform.rotation = Quaternion.LookRotation(target - light.transform.position);
+            light.intensity = 100f;
+            light.range = 14f;
+            light.spotAngle = 65f;
+            light.innerSpotAngle = 38f;
+            light.renderMode = LightRenderMode.ForcePixel;
+            light.shadows = LightShadows.None;
+            toggle.glowRenderer = toggle.GetComponent<Renderer>();
+            toggle.glowMaterialIndex = 2;
+            toggle.glowColor = light.color;
+            toggle.dimSurfaceWhenOff = true;
+            EditorUtility.SetDirty(toggle);
+            EditorUtility.SetDirty(light);
+            EditorUtility.SetDirty(light.transform);
+        }
         var stageButton = buttons.FirstOrDefault(b => b.onClick.GetPersistentTarget(0) is LightToggle l && l.name == "Cylinder.031") ??
             buttons.Where(b => b.onClick.GetPersistentTarget(0) is LightToggle l && l.name == "Sphere")
                 .OrderByDescending(b => Vector3.Distance(b.transform.position, fan.transform.position)).First();
@@ -176,13 +169,91 @@ public static class GeoIslandInteractionRepairs
             source.minDistance = 1.5f;
             source.maxDistance = 18f;
             source.dopplerLevel = 0f;
+            source.playOnAwake = false;
+            source.loop = true;
             EditorUtility.SetDirty(source);
         }
 
         Physics.SyncTransforms();
         EditorSceneManager.MarkSceneDirty(root.scene);
         EditorSceneManager.SaveScene(root.scene);
-        Debug.Log($"Geo interaction repairs: {added} missing static colliders, {tables} supported tabletop surfaces, fan local-Z axis, 61 dynamic pickups.");
+        Debug.Log($"Geo interaction repairs: {added} missing static colliders, {tables} supported tabletop surfaces, fan local-Z axis; authored pickup poses remain anchored until grabbed.");
+    }
+
+    static void RepairPlatformAccess(GameObject root)
+    {
+        var sample = UnityEngine.Object.FindObjectsByType<TeleportationArea>(FindObjectsSortMode.None)
+            .First(a => a.teleportationProvider && !a.transform.IsChildOf(root.transform));
+        foreach (string name in new[] { "Cube.007", "Cube.086" })
+        {
+            var floor = root.GetComponentsInChildren<MeshFilter>().Single(f => f.name == name);
+            foreach (var old in floor.GetComponents<Collider>()) UnityEngine.Object.DestroyImmediate(old);
+            var collider = floor.gameObject.AddComponent<MeshCollider>();
+            collider.sharedMesh = floor.sharedMesh;
+            collider.convex = false;
+            var area = floor.GetComponent<TeleportationArea>() ?? floor.gameObject.AddComponent<TeleportationArea>();
+            area.colliders.Clear(); area.colliders.Add(collider);
+            area.interactionLayers = sample.interactionLayers;
+            area.teleportationProvider = sample.teleportationProvider;
+            area.matchOrientation = MatchOrientation.WorldSpaceUp;
+            EditorUtility.SetDirty(area);
+        }
+
+        var ramp = root.transform.Find("Room stair walking support");
+        if (!ramp)
+        {
+            ramp = new GameObject("Room stair walking support", typeof(BoxCollider)).transform;
+            ramp.SetParent(root.transform, false);
+        }
+        var low = new Vector3(100.65f, .327f, -52.196f);
+        var high = new Vector3(97.05f, 2.798f, -52.196f);
+        var angle = Mathf.Atan2(low.y - high.y, low.x - high.x) * Mathf.Rad2Deg;
+        var rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        ramp.SetPositionAndRotation((low + high) * .5f - rotation * Vector3.up * .06f, rotation);
+        ramp.localScale = Vector3.one / root.transform.lossyScale.x;
+        ramp.GetComponent<BoxCollider>().size = new Vector3(Vector3.Distance(low, high), .12f, 1.05f);
+    }
+
+    static void RestoreAuthoredPresentation(GameObject root)
+    {
+        var targetScene = root.scene;
+        var sourceScene = EditorSceneManager.OpenScene("Assets/GeoIsland/Source/GeoSource.unity", OpenSceneMode.Additive);
+        try
+        {
+            var sourceRoot = sourceScene.GetRootGameObjects().Single(g => g.name == "GameObject");
+            var sourceItems = sourceRoot.GetComponentsInChildren<XRGrabInteractable>(true);
+            foreach (var item in root.GetComponentsInChildren<XRGrabInteractable>(true))
+            {
+                var original = sourceItems.Single(s => s.name == item.name).transform;
+                item.transform.localPosition = original.localPosition;
+                item.transform.localRotation = original.localRotation;
+                item.transform.localScale = original.localScale;
+                EditorUtility.SetDirty(item.transform);
+            }
+            foreach (var panel in root.GetComponentsInChildren<Canvas>(true))
+            {
+                var original = sourceRoot.GetComponentsInChildren<Canvas>(true).Single(c => c.name == panel.name).transform;
+                panel.transform.localPosition = original.localPosition;
+                panel.transform.localRotation = original.localRotation;
+                EditorUtility.SetDirty(panel.transform);
+            }
+            var stagePanel = root.GetComponentsInChildren<Canvas>(true).Single(c => c.name == "Canvas (3)").transform;
+            var musicPanel = root.GetComponentsInChildren<Canvas>(true).Single(c => c.name == "Canvas (4)").transform;
+            stagePanel.position = new Vector3(80.2f, 1.8f, -61.6f);
+            musicPanel.position = new Vector3(80.2f, 1.8f, -60f);
+            var baseline = root.GetComponentsInChildren<XRGrabInteractable>(true).Select(i => new {
+                name = i.name,
+                position = new[] { i.transform.position.x, i.transform.position.y, i.transform.position.z },
+                rotation = new[] { i.transform.rotation.x, i.transform.rotation.y, i.transform.rotation.z, i.transform.rotation.w }
+            }).ToArray();
+            File.WriteAllText(Path.GetFullPath("../Game_Plans/GeoAuthoredPresentationBaseline.json"),
+                JsonConvert.SerializeObject(baseline, Formatting.Indented));
+        }
+        finally
+        {
+            EditorSceneManager.CloseScene(sourceScene, true);
+            SceneManager.SetActiveScene(targetScene);
+        }
     }
 }
 #endif

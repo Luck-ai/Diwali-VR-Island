@@ -1,0 +1,678 @@
+{
+  "status": "completed",
+  "checks": [
+    {
+      "name": "Exactly ten supplied event types",
+      "pass": true,
+      "detail": "1:B1_SantasWorkshop_Int01_GiftBox; 2:B1_SantasWorkshop_Int02_ToyTrain; 3:B2_FrozenLake_Int03_FishingRod; 4:B3_FerrisWheel_Int04_ControlLever; 5:B4_GingerbreadBakery_Int05_Oven; 6:B5_SnowPark_Int06_Swing; 7:B5_SnowPark_Int07_Snowball; 8:B6_ReindeerStable_Int08_Carrot; 9:B7_Carousel_Int09_StartButton; 10:B8_ChristmasMarket_Int10_SnowGlobe"
+    },
+    {
+      "name": "No missing scripts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int01_GiftBox wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int01_GiftBox actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int01_GiftBox queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Gift lid and surprise animate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gift close actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gift close queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Gift closes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int02_ToyTrain wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int02_ToyTrain actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Int02_ToyTrain queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Train moves around track",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "train stop actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "train stop queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Train stops",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2_FrozenLake_Int03_FishingRod wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2_FrozenLake_Int03_FishingRod actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2_FrozenLake_Int03_FishingRod queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Fishing trigger reels visible fish",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B3_FerrisWheel_Int04_ControlLever wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B3_FerrisWheel_Int04_ControlLever actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B3_FerrisWheel_Int04_ControlLever queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris lever starts actual wheel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris cabins stay upright",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris stop actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris stop queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris lever stops command",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Int05_Oven wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Int05_Oven actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Int05_Oven queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Oven door and tray animate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oven close actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "oven close queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Oven closes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int06_Swing wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int06_Swing actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int06_Swing queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Primary swing rocks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primary swing stop actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primary swing stop queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Primary swing returns home and remains anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int07_Snowball wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int07_Snowball actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Int07_Snowball queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Snowball release enables physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Released snowball physically hits snowman",
+      "pass": true,
+      "detail": "collisions=2,last=Island_Terrain"
+    },
+    {
+      "name": "Snowball recalls after hit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Int08_Carrot wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Int08_Carrot actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Int08_Carrot queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Carrot feeds reindeer while held",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Carrot recalls visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B7_Carousel_Int09_StartButton wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B7_Carousel_Int09_StartButton actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B7_Carousel_Int09_StartButton queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Carousel button starts actual rotor",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "carousel stop actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "carousel stop queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Carousel button stops command",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B8_ChristmasMarket_Int10_SnowGlobe wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B8_ChristmasMarket_Int10_SnowGlobe actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B8_ChristmasMarket_Int10_SnowGlobe queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Snowglobe trigger emits particles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Second park swing has fixed selectable wiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "second swing start actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "second swing start queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Second swing rocks without falling",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "second swing stop actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "second swing stop queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Second swing returns home and remains anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B1_SantasWorkshop_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B1_SantasWorkshop_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Door opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B1_SantasWorkshop_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B1_SantasWorkshop_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Door closes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B4_GingerbreadBakery_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B4_GingerbreadBakery_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Door opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B4_GingerbreadBakery_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B4_GingerbreadBakery_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Door closes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B6_ReindeerStable_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door B6_ReindeerStable_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Door opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B6_ReindeerStable_Door actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "door close B6_ReindeerStable_Door queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Door closes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris cabin board actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris cabin board queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Cabin boarding moves actual rig",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Cabin feet have nearby solid support",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Seated rig follows moving cabin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris cabin exit actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ferris cabin exit queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Cabin exit returns rig to platform",
+      "pass": true,
+      "detail": "current=none, feet=(24.48, 0.07, -115.14), exit=(24.48, 0.40, -115.14), horizontalGap=0.000, markerAboveFeet=0.327"
+    },
+    {
+      "name": "Teleport areas have enabled usable colliders and provider",
+      "pass": true,
+      "detail": "areas=11"
+    },
+    {
+      "name": "Ride deck has solid collider",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Carousel deck has usable standing surface",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Standing rig carried by carousel deck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B1_SantasWorkshop_Prop_Hammer actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B1_SantasWorkshop_Prop_Hammer queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Prop_Hammer follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B1_SantasWorkshop_Prop_Hammer releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B2_FrozenLake_Prop_FishBucket actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B2_FrozenLake_Prop_FishBucket queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2_FrozenLake_Prop_FishBucket follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2_FrozenLake_Prop_FishBucket releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B3_FerrisWheel_Prop_Balloon actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B3_FerrisWheel_Prop_Balloon queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B3_FerrisWheel_Prop_Balloon follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B3_FerrisWheel_Prop_Balloon releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B4_GingerbreadBakery_Prop_CandyCane actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B4_GingerbreadBakery_Prop_CandyCane queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Prop_CandyCane follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B4_GingerbreadBakery_Prop_CandyCane releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B5_SnowPark_Prop_Sled actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B5_SnowPark_Prop_Sled queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Prop_Sled follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B5_SnowPark_Prop_Sled releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B6_ReindeerStable_Prop_Bucket actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B6_ReindeerStable_Prop_Bucket queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Prop_Bucket follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B6_ReindeerStable_Prop_Bucket releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B7_Carousel_Prop_BrassRing actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B7_Carousel_Prop_BrassRing queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B7_Carousel_Prop_BrassRing follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B7_Carousel_Prop_BrassRing releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B8_ChristmasMarket_Prop_Beanie actual ray target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose prop B8_ChristmasMarket_Prop_Beanie queued grip selects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B8_ChristmasMarket_Prop_Beanie follows held controller",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B8_ChristmasMarket_Prop_Beanie releases into physics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "All external decorative props have grab/reset wiring",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": 0,
+  "limitations": "Queued synthetic NearFar controller input; no physical headset/user reach verification. Snowball target hit uses a staged physics launch after a real queued grab/release. Existing island has ten event types across eight places; no five-place 10-action progression exists.",
+  "utc": "2026-10-25T04:03:20.3720150Z"
+}

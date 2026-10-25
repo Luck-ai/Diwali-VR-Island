@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unchangedProps": 61,
+  "expectedProps": 61,
+  "failures": [],
+  "maximumRotationDifferenceDegrees": 8.585414659473088e-05,
+  "missingScripts": 0,
+  "gazeAutoClicksDisabled": true,
+  "secondsInFreshSession": 587.28
+}

@@ -1,8 +1,20 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 namespace DiwaliGameplay {
 public static class PlayerEnvironmentSetup {
+ [MenuItem("Diwali/Gameplay/Use controller selection")]
+ public static void UseControllerSelection(){
+  if(EditorApplication.isPlaying)throw new System.InvalidOperationException("Apply player settings outside Play mode.");
+  foreach(var gaze in Object.FindObjectsByType<XRGazeInteractor>(FindObjectsInactive.Include,FindObjectsSortMode.None)){
+   Undo.RecordObject(gaze,"Require deliberate controller selection");
+   gaze.hoverToSelect=false;
+   gaze.enableUIInteraction=false;
+   PrefabUtility.RecordPrefabInstancePropertyModifications(gaze);
+   EditorUtility.SetDirty(gaze);
+  }
+ }
  public static int AddEnvironmentColliders(){
   int added=0;
   foreach(var rootName in new[]{"Diwali Festival Ground","Christmas Island Integration"}){

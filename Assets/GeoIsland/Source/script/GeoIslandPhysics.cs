@@ -15,15 +15,22 @@ public sealed class GeoIslandPhysics : MonoBehaviour
             body.maxAngularVelocity = 8f;
             body.solverIterations = 12;
             body.solverVelocityIterations = 8;
+            body.linearDamping = .3f;
+            body.angularDamping = 2f;
             body.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-            item.selectExited.AddListener(StopReleaseMomentum);
+            body.isKinematic = true;
+            body.useGravity = false;
+            item.selectExited.AddListener(ReleaseToPhysics);
         }
     }
 
-    static void StopReleaseMomentum(SelectExitEventArgs args)
+    static void ReleaseToPhysics(SelectExitEventArgs args)
     {
+        if (args.interactableObject.isSelected) return;
         var body = args.interactableObject.transform.GetComponent<Rigidbody>();
-        if (!body || body.isKinematic) return;
+        if (!body) return;
+        body.isKinematic = false;
+        body.useGravity = true;
         body.linearVelocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
     }
@@ -31,6 +38,6 @@ public sealed class GeoIslandPhysics : MonoBehaviour
     void OnDestroy()
     {
         foreach (var item in GetComponentsInChildren<XRGrabInteractable>(true))
-            item.selectExited.RemoveListener(StopReleaseMomentum);
+            item.selectExited.RemoveListener(ReleaseToPhysics);
     }
 }

@@ -2747,6 +2747,8 @@ MonoBehaviour:
   targetLight: {fileID: 1113006731}
   glowRenderer: {fileID: 31279129}
   glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowMaterialIndex: 0
+  dimSurfaceWhenOff: 0
 --- !u!23 &31279129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3117,8 +3119,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -4017,8 +4019,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -5145,8 +5147,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -5335,8 +5337,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -5364,10 +5366,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a4de27b77dd615243973ab874f2fbd60, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.35
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7789,8 +7791,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -11077,8 +11079,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -13196,8 +13198,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -15458,8 +15460,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -21436,6 +21438,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226418767}
   m_CullTransparentMesh: 1
+--- !u!1 &228467219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228467220}
+  - component: {fileID: 228467221}
+  m_Layer: 0
+  m_Name: Room stair walking support
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &228467220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228467219}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.2962523, w: 0.9551098}
+  m_LocalPosition: {x: 19.898071, y: 8.113199, z: 34.149353}
+  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2129998460}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &228467221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228467219}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.3664436, y: 0.12, z: 1.05}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &228601393
 GameObject:
   m_ObjectHideFlags: 0
@@ -23836,8 +23891,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -28788,8 +28843,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -29037,6 +29092,8 @@ MonoBehaviour:
   targetLight: {fileID: 1113006731}
   glowRenderer: {fileID: 31279129}
   glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowMaterialIndex: 0
+  dimSurfaceWhenOff: 0
 --- !u!1 &343067507
 GameObject:
   m_ObjectHideFlags: 0
@@ -29757,8 +29814,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -32778,8 +32835,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -33439,8 +33496,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -33921,8 +33978,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -37599,8 +37656,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -39962,8 +40019,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -47029,8 +47086,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -48920,8 +48977,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -50377,8 +50434,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -50604,8 +50661,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -52115,8 +52172,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -53058,8 +53115,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -53932,8 +53989,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -57234,8 +57291,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -57693,8 +57750,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -58165,8 +58222,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -63264,8 +63321,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -67797,8 +67854,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -72222,8 +72279,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -73068,8 +73125,92 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -208595431880416365, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
   m_PrefabInstance: {fileID: 1071434933}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &898019314
-BoxCollider:
+--- !u!114 &898019318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898019312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationArea
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 898019319}
+  m_InteractionLayers:
+    m_Bits: 2147483648
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 1
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_TeleportationProvider: {fileID: 1373153109}
+  m_MatchOrientation: 0
+  m_MatchDirectionalInput: 0
+  m_TeleportTrigger: 0
+  m_FilterSelectionByHitNormal: 0
+  m_UpNormalToleranceDegrees: 30
+  m_Teleporting:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!64 &898019319
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -73086,9 +73227,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 24.220015, y: 2.750001, z: 2.0000217}
-  m_Center: {x: 11.110006, y: -0.37500012, z: 0.000010490418}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3329902420748629119, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
 --- !u!1 &899195932
 GameObject:
   m_ObjectHideFlags: 0
@@ -73349,8 +73491,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -76696,7 +76838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980620834}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.5772652, y: -0.57726526, z: 0.40836853, w: 0.40836847}
   m_LocalPosition: {x: 0.0000013869322, y: 0.0000015851062, z: 1.9400022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -76743,10 +76885,10 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
-  m_Intensity: 1
-  m_Range: 40
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Intensity: 100
+  m_Range: 14
+  m_SpotAngle: 65
+  m_InnerSpotAngle: 38
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
     m_Type: 0
@@ -76777,7 +76919,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -78683,8 +78825,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -80050,8 +80192,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -80821,8 +80963,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -82129,8 +82271,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -82901,15 +83043,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5462416953546702982, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -185.30756
+      value: -194.10751
       objectReference: {fileID: 0}
     - target: {fileID: -5462416953546702982, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.511177
+      value: 19.655712
       objectReference: {fileID: 0}
     - target: {fileID: -5462416953546702982, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.872284
+      value: -29.872288
       objectReference: {fileID: 0}
     - target: {fileID: -4473125202559933979, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -82985,15 +83127,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2762262359140785493, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.33496
+      value: 7.071272
       objectReference: {fileID: 0}
     - target: {fileID: -2762262359140785493, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7843504
+      value: 25.10544
       objectReference: {fileID: 0}
     - target: {fileID: -2762262359140785493, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -67.027405
+      value: 55.842453
       objectReference: {fileID: 0}
     - target: {fileID: -2712175510624747214, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83007,65 +83149,89 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 103.88
       objectReference: {fileID: 0}
+    - target: {fileID: -2608375315704540816, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.4461605
+      objectReference: {fileID: 0}
+    - target: {fileID: -2608375315704540816, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2889748
+      objectReference: {fileID: 0}
     - target: {fileID: -2484921068739079471, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.20203
+      value: 77.92199
       objectReference: {fileID: 0}
     - target: {fileID: -2484921068739079471, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.8997183
+      value: 5.899718
       objectReference: {fileID: 0}
     - target: {fileID: -2484921068739079471, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -97.73352
+      value: -97.733536
       objectReference: {fileID: 0}
     - target: {fileID: 71915518356630547, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.238525
+      value: 77.95852
       objectReference: {fileID: 0}
     - target: {fileID: 71915518356630547, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.944028
+      value: 5.9440274
       objectReference: {fileID: 0}
     - target: {fileID: 71915518356630547, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -93.07794
+      value: -93.07796
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_Name
       value: gg
       objectReference: {fileID: 0}
+    - target: {fileID: 2966295963405561703, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6462262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2966295963405561703, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6462262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2966295963405561703, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2870396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2966295963405561703, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2870396
+      objectReference: {fileID: 0}
     - target: {fileID: 4891294558105794823, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.228283
+      value: 1.5156621
       objectReference: {fileID: 0}
     - target: {fileID: 4891294558105794823, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -99.13635
+      value: -99.13634
       objectReference: {fileID: 0}
     - target: {fileID: 5993847947337725134, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.16022
+      value: 11.856836
       objectReference: {fileID: 0}
     - target: {fileID: 5993847947337725134, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.965354
+      value: 24.604101
       objectReference: {fileID: 0}
     - target: {fileID: 5993847947337725134, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -61.90863
+      value: 55.56072
       objectReference: {fileID: 0}
     - target: {fileID: 8218352541718835037, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.33496
+      value: 9.3364105
       objectReference: {fileID: 0}
     - target: {fileID: 8218352541718835037, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7043524
+      value: 24.30845
       objectReference: {fileID: 0}
     - target: {fileID: 8218352541718835037, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -56.62738
+      value: 52.40258
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83382,7 +83548,10 @@ PrefabInstance:
       addedObject: {fileID: 252318269}
     - targetCorrespondingSourceObject: {fileID: -208595431880416365, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 898019314}
+      addedObject: {fileID: 898019319}
+    - targetCorrespondingSourceObject: {fileID: -208595431880416365, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 898019318}
     - targetCorrespondingSourceObject: {fileID: 281855664364225751, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2043203277}
@@ -83643,7 +83812,10 @@ PrefabInstance:
       addedObject: {fileID: 435761636}
     - targetCorrespondingSourceObject: {fileID: -3919796887962296046, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1494065572}
+      addedObject: {fileID: 1494065577}
+    - targetCorrespondingSourceObject: {fileID: -3919796887962296046, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1494065576}
     - targetCorrespondingSourceObject: {fileID: -6699157030307326032, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1798730639}
@@ -84428,8 +84600,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightToggle
   targetLight: {fileID: 1746428638}
-  glowRenderer: {fileID: 0}
-  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowRenderer: {fileID: 1071434946}
+  glowColor: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
+  glowMaterialIndex: 2
+  dimSurfaceWhenOff: 1
 --- !u!114 &1071434942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84443,8 +84617,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightToggle
   targetLight: {fileID: 980620837}
-  glowRenderer: {fileID: 0}
-  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowRenderer: {fileID: 1071434946}
+  glowColor: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
+  glowMaterialIndex: 2
+  dimSurfaceWhenOff: 1
 --- !u!114 &1071434943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84458,8 +84634,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightToggle
   targetLight: {fileID: 1680775091}
-  glowRenderer: {fileID: 0}
-  glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowRenderer: {fileID: 1071434946}
+  glowColor: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
+  glowMaterialIndex: 2
+  dimSurfaceWhenOff: 1
+--- !u!23 &1071434946 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8010859099199426946, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
+  m_PrefabInstance: {fileID: 1071434933}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1071434948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86152,8 +86335,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -88201,8 +88384,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -93935,8 +94118,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -95635,8 +95818,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -100369,7 +100552,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248956125}
   m_LocalRotation: {x: -0, y: -0.7264623, z: -0, w: 0.6872064}
-  m_LocalPosition: {x: 0, y: 0, z: -48.282623}
+  m_LocalPosition: {x: 0, y: 0, z: -28.282654}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -100378,7 +100561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -93.181, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -158.63037, y: 9.17}
+  m_AnchoredPosition: {x: -129.0304, y: 10.408944}
   m_SizeDelta: {x: 1414, y: 440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248956128
@@ -101103,8 +101286,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -104261,8 +104444,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -107679,8 +107862,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -109826,6 +110009,14 @@ PrefabInstance:
     - target: {fileID: 4750419575962273167, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193502429546757832, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_HoverToSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193502429546757832, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_EnableUIInteraction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6513916827483728859, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_IsActive
@@ -112004,8 +112195,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -116249,8 +116440,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -116439,8 +116630,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -117724,8 +117915,92 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -3919796887962296046, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
   m_PrefabInstance: {fileID: 1071434933}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1494065572
-BoxCollider:
+--- !u!114 &1494065576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494065570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationArea
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 1494065577}
+  m_InteractionLayers:
+    m_Bits: 2147483648
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 1
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_TeleportationProvider: {fileID: 1373153109}
+  m_MatchOrientation: 0
+  m_MatchDirectionalInput: 0
+  m_TeleportTrigger: 0
+  m_FilterSelectionByHitNormal: 0
+  m_UpNormalToleranceDegrees: 30
+  m_Teleporting:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!64 &1494065577
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -117742,9 +118017,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 12.6264105, y: 28.000008, z: 0.4706765}
-  m_Center: {x: 9.900278e-30, y: 0.0000009536745, z: -1.616838e-13}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8873786902571586346, guid: 5e82d9a08081de94f9875c5f5ca8bb00, type: 3}
 --- !u!1 &1494499799
 GameObject:
   m_ObjectHideFlags: 0
@@ -122734,8 +123010,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -124500,7 +124776,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585847028}
   m_LocalRotation: {x: -0, y: -0.7264624, z: -0, w: 0.68720627}
-  m_LocalPosition: {x: 0, y: 0, z: 40.80002}
+  m_LocalPosition: {x: 0, y: 0, z: 40.8}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -124510,7 +124786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -93.181, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -7.6000366, y: 8.0089445}
+  m_AnchoredPosition: {x: -7.6, y: 30.1}
   m_SizeDelta: {x: 1414, y: 880}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585847031
@@ -126643,8 +126919,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -133927,8 +134203,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -136459,7 +136735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680775088}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.5772652, y: -0.57726526, z: 0.40836853, w: 0.40836847}
   m_LocalPosition: {x: 0.0000013869322, y: 14.7300005, z: 1.9400026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -136506,10 +136782,10 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
-  m_Intensity: 1
-  m_Range: 40
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Intensity: 100
+  m_Range: 14
+  m_SpotAngle: 65
+  m_InnerSpotAngle: 38
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
     m_Type: 0
@@ -136540,7 +136816,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -137268,8 +137544,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -137485,8 +137761,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -140556,7 +140832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746428635}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.5772652, y: -0.57726526, z: 0.40836853, w: 0.40836847}
   m_LocalPosition: {x: -0.0000014859988, y: 29.550001, z: 1.9400039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -140603,10 +140879,10 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 0.9811321, g: 0.94414437, b: 0.39337844, a: 1}
-  m_Intensity: 1
-  m_Range: 40
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Intensity: 100
+  m_Range: 14
+  m_SpotAngle: 65
+  m_InnerSpotAngle: 38
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
     m_Type: 0
@@ -140637,7 +140913,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -143124,8 +143400,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -151276,8 +151552,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -151569,8 +151845,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -151815,8 +152091,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -153917,7 +154193,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863682967}
   m_LocalRotation: {x: -0, y: -0.7264623, z: -0, w: 0.6872064}
-  m_LocalPosition: {x: 0, y: 0, z: -56.282654}
+  m_LocalPosition: {x: 0, y: 0, z: -41.08264}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -153926,7 +154202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -93.181, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -158.63037, y: 9.17}
+  m_AnchoredPosition: {x: -129.0304, y: 10.408944}
   m_SizeDelta: {x: 1414, y: 440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863682970
@@ -155910,8 +156186,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -157957,6 +158233,8 @@ MonoBehaviour:
   targetLight: {fileID: 886174190}
   glowRenderer: {fileID: 1913685710}
   glowColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  glowMaterialIndex: 0
+  dimSurfaceWhenOff: 0
 --- !u!23 &1913685710
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -158615,8 +158893,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -162670,8 +162948,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -163772,8 +164050,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -165119,8 +165397,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -165675,8 +165953,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -167204,8 +167482,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -168316,8 +168594,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
@@ -174310,6 +174588,7 @@ Transform:
   - {fileID: 1347150833}
   - {fileID: 1002667271}
   - {fileID: 586972595}
+  - {fileID: 228467220}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2129998461

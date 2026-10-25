@@ -1,0 +1,3769 @@
+{
+  "state": "passed",
+  "started": "2026-10-25T03:58:40.264935Z",
+  "elapsedSeconds": 110.76874199999999,
+  "failures": 0,
+  "scope": "Synthetic queued NearFar controller and XR UI presses; far casts limited to 3m. All selection/UI origins are at standing hand height, remote grab distances 0.65-3m. Carried movement is synthetic and does not establish physical headset reach. No headset or visual QA claim.",
+  "results": [
+    {
+      "venue": "setup",
+      "name": "XR UI input module",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "setup",
+      "name": "event system",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Begin to start.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Next",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Next",
+      "pass": true,
+      "detail": "hits=Next,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Next",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "help Previous enabled",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Previous",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Previous",
+      "pass": true,
+      "detail": "hits=Previous,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Previous",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Begin Light Show",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Begin Light Show",
+      "pass": true,
+      "detail": "hits=Begin Light Show,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Begin Light Show",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "independent finale initially blocked",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "staging separated",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "unheld plunger call blocked",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets rocket",
+      "pass": true,
+      "detail": "target=(2.62, 1.36, 59.36),distance=1.049999,valid=rocket,blockers=rocket@0.65",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip rocket",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket hand clearance",
+      "pass": true,
+      "detail": "relative=(0.00, 0.00, 0.72)",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket collider clears controller",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket upright carrying pose",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "carried rocket scale stable",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.344, 1.359, 58.666)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket loads on release",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "only spinner keeps a slider",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.781, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts RocketTilt",
+      "pass": true,
+      "detail": "value=0.7000001,expected=0.7",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts TargetHeight",
+      "pass": true,
+      "detail": "value=0.5,expected=0.5",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reachable target path exists",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts RocketTilt",
+      "pass": true,
+      "detail": "value=0,expected=0.02",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts TargetHeight",
+      "pass": true,
+      "detail": "value=0.2,expected=0.2",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked controls align rocket",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 0",
+      "pass": true,
+      "detail": "progress=1",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets fountain",
+      "pass": true,
+      "detail": "target=(5.50, 1.29, 61.50),distance=1.049999,valid=fountain,blockers=fountain@0.78",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(5.500, 1.289, 60.450)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip fountain",
+      "pass": true,
+      "detail": "",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(5.500, 1.289, 60.450)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "fountain loaded",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.441, 61.246)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.441, 61.246)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(4.039, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts FountainHeight",
+      "pass": true,
+      "detail": "value=0.8000003,expected=0.8",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "lift visibly raises",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 1",
+      "pass": true,
+      "detail": "progress=0.9043216",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets spinner",
+      "pass": true,
+      "detail": "target=(-5.50, 2.15, 61.00),distance=1.259986,valid=spinner,blockers=",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(-5.500, 1.450, 59.950)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip spinner",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(-5.500, 1.450, 59.950)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "spinner loaded",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 2/3: move the Speed slider to choose its speed.",
+      "hand": "(-3.854, 0.692, 59.251)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible slider Spinner speed",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 2/3: move the Speed slider to choose its speed.",
+      "hand": "(-3.854, 0.692, 59.251)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued slider drag Spinner speed",
+      "pass": true,
+      "detail": "value=0.8236752,expected=0.8",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(-1.527, 1.292, 58.251)",
+      "held": "",
+      "proxyEye": "(-1.648, 1.600, 57.977)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 2",
+      "pass": true,
+      "detail": "progress=0.9001474",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "spinner rotates",
+      "pass": true,
+      "detail": "",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Finale",
+      "pass": true,
+      "detail": "",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Finale",
+      "pass": true,
+      "detail": "hits=Finale,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Finale",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "finale without other venue completion",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "all three particle loops remain playing",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "central finale runs",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reset unloads fireworks",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Begin to start.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,Restore the Rangoli controls",
+      "status": "Ready to begin.",
+      "hand": "(-22.774, 1.212, 33.792)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 33.792)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-22.774, 1.212, 33.792)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 33.792)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.774, 1.212, 33.792)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 33.792)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Next",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.774, 1.212, 33.792)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 33.792)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Next",
+      "pass": true,
+      "detail": "hits=Next,Restore the Rangoli help",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 34.398)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.398)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Next",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 34.398)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.398)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "help Previous enabled",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 34.398)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.398)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Previous",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 34.398)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.398)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Previous",
+      "pass": true,
+      "detail": "hits=Previous,Restore the Rangoli help",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 33.785)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 33.785)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Previous",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 33.785)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 33.785)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.205, 33.785)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 33.785)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,Restore the Rangoli help",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.108, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.108, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.108, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Begin Rangoli",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-22.759, 1.108, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.459, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Begin Rangoli",
+      "pass": true,
+      "detail": "hits=Begin Rangoli,Restore the Rangoli controls",
+      "status": "Ready to begin.",
+      "hand": "(-22.774, 1.308, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Begin Rangoli",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Choose a warm colour palette.",
+      "hand": "(-22.774, 1.308, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "premature finish rejected",
+      "pass": true,
+      "detail": "",
+      "status": "Restore 5/5 pieces, choose palette, Rotate Sun and adjust brightness first.",
+      "hand": "(-22.774, 1.308, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Magenta / gold",
+      "pass": true,
+      "detail": "",
+      "status": "Choose a warm colour palette.",
+      "hand": "(-22.774, 1.308, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Magenta / gold",
+      "pass": true,
+      "detail": "hits=Magenta / gold,Restore the Rangoli controls",
+      "status": "Choose a warm colour palette.",
+      "hand": "(-22.774, 1.260, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Magenta / gold",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Match the remaining pieces. 0 / 5 placed.",
+      "hand": "(-22.774, 1.260, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "palette chosen",
+      "pass": true,
+      "detail": "",
+      "status": "Match the remaining pieces. 0 / 5 placed.",
+      "hand": "(-22.774, 1.260, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "wrong shape rejected",
+      "pass": true,
+      "detail": "",
+      "status": "Match the remaining pieces. 0 / 5 placed.",
+      "hand": "(-22.774, 1.260, 34.091)",
+      "held": "",
+      "proxyEye": "(-22.474, 1.600, 34.091)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "3m NearFar targets Sun",
+      "pass": true,
+      "detail": "target=(-25.19, 1.06, 38.53),distance=1.049999,valid=Sun,blockers=Sun@0.96",
+      "status": "Match the remaining pieces. 0 / 5 placed.",
+      "hand": "(-24.142, 1.058, 38.528)",
+      "held": "",
+      "proxyEye": "(-23.842, 1.600, 38.528)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued grip Sun",
+      "pass": true,
+      "detail": "",
+      "status": "Match the remaining pieces. 0 / 5 placed.",
+      "hand": "(-24.142, 1.058, 38.528)",
+      "held": "",
+      "proxyEye": "(-23.842, 1.600, 38.528)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "matched piece 0",
+      "pass": true,
+      "detail": "",
+      "status": "Sun restored in the pavilion ahead. Match the remaining pieces. 1 / 5 placed.",
+      "hand": "(-24.388, 1.291, 35.561)",
+      "held": "",
+      "proxyEye": "(-23.842, 1.600, 38.528)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "placed piece locked 0",
+      "pass": true,
+      "detail": "",
+      "status": "Sun restored in the pavilion ahead. Match the remaining pieces. 1 / 5 placed.",
+      "hand": "(-24.388, 1.291, 35.561)",
+      "held": "",
+      "proxyEye": "(-23.842, 1.600, 38.528)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "3m NearFar targets Petal",
+      "pass": true,
+      "detail": "target=(-25.18, 0.99, 37.98),distance=1.049999,valid=Petal,blockers=Petal@0.92",
+      "status": "Sun restored in the pavilion ahead. Match the remaining pieces. 1 / 5 placed.",
+      "hand": "(-24.132, 0.993, 37.981)",
+      "held": "",
+      "proxyEye": "(-23.832, 1.600, 37.981)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued grip Petal",
+      "pass": true,
+      "detail": "",
+      "status": "Sun restored in the pavilion ahead. Match the remaining pieces. 1 / 5 placed.",
+      "hand": "(-24.132, 0.993, 37.981)",
+      "held": "",
+      "proxyEye": "(-23.832, 1.600, 37.981)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "matched piece 1",
+      "pass": true,
+      "detail": "",
+      "status": "Entire petal border restored in the pavilion ahead. Match the remaining pieces. 2 / 5 placed.",
+      "hand": "(-25.110, 1.288, 36.028)",
+      "held": "",
+      "proxyEye": "(-23.832, 1.600, 37.981)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "placed piece locked 1",
+      "pass": true,
+      "detail": "",
+      "status": "Entire petal border restored in the pavilion ahead. Match the remaining pieces. 2 / 5 placed.",
+      "hand": "(-25.110, 1.288, 36.028)",
+      "held": "",
+      "proxyEye": "(-23.832, 1.600, 37.981)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "3m NearFar targets Diamond",
+      "pass": true,
+      "detail": "target=(-25.22, 1.08, 39.63),distance=1.049999,valid=Diamond,blockers=Diamond@0.72",
+      "status": "Entire petal border restored in the pavilion ahead. Match the remaining pieces. 2 / 5 placed.",
+      "hand": "(-25.220, 1.082, 40.676)",
+      "held": "",
+      "proxyEye": "(-25.220, 1.600, 40.976)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued grip Diamond",
+      "pass": true,
+      "detail": "",
+      "status": "Entire petal border restored in the pavilion ahead. Match the remaining pieces. 2 / 5 placed.",
+      "hand": "(-25.220, 1.082, 40.676)",
+      "held": "",
+      "proxyEye": "(-25.220, 1.600, 40.976)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "matched piece 2",
+      "pass": true,
+      "detail": "",
+      "status": "Diamond motifs restored in the pavilion ahead. Match the remaining pieces. 3 / 5 placed.",
+      "hand": "(-25.223, 1.290, 37.176)",
+      "held": "",
+      "proxyEye": "(-25.220, 1.600, 40.976)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "placed piece locked 2",
+      "pass": true,
+      "detail": "",
+      "status": "Diamond motifs restored in the pavilion ahead. Match the remaining pieces. 3 / 5 placed.",
+      "hand": "(-25.223, 1.290, 37.176)",
+      "held": "",
+      "proxyEye": "(-25.220, 1.600, 40.976)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "3m NearFar targets Border",
+      "pass": true,
+      "detail": "target=(-25.22, 1.15, 37.38),distance=1.049999,valid=Border,blockers=Border@0.83",
+      "status": "Diamond motifs restored in the pavilion ahead. Match the remaining pieces. 3 / 5 placed.",
+      "hand": "(-25.224, 1.150, 38.435)",
+      "held": "",
+      "proxyEye": "(-25.224, 1.600, 38.735)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued grip Border",
+      "pass": true,
+      "detail": "",
+      "status": "Diamond motifs restored in the pavilion ahead. Match the remaining pieces. 3 / 5 placed.",
+      "hand": "(-25.224, 1.150, 38.435)",
+      "held": "",
+      "proxyEye": "(-25.224, 1.600, 38.735)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "matched piece 3",
+      "pass": true,
+      "detail": "",
+      "status": "C-border motifs restored in the pavilion ahead. Match the remaining pieces. 4 / 5 placed.",
+      "hand": "(-25.488, 1.271, 36.227)",
+      "held": "",
+      "proxyEye": "(-25.224, 1.600, 38.735)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "placed piece locked 3",
+      "pass": true,
+      "detail": "",
+      "status": "C-border motifs restored in the pavilion ahead. Match the remaining pieces. 4 / 5 placed.",
+      "hand": "(-25.488, 1.271, 36.227)",
+      "held": "",
+      "proxyEye": "(-25.224, 1.600, 38.735)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "3m NearFar targets Star",
+      "pass": true,
+      "detail": "target=(-25.27, 1.02, 39.03),distance=1.049999,valid=Star,blockers=Star@0.81",
+      "status": "C-border motifs restored in the pavilion ahead. Match the remaining pieces. 4 / 5 placed.",
+      "hand": "(-25.269, 1.017, 40.082)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued grip Star",
+      "pass": true,
+      "detail": "",
+      "status": "C-border motifs restored in the pavilion ahead. Match the remaining pieces. 4 / 5 placed.",
+      "hand": "(-25.269, 1.017, 40.082)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "matched piece 4",
+      "pass": true,
+      "detail": "",
+      "status": "Select Rotate Sun to choose its orientation.",
+      "hand": "(-24.682, 1.290, 36.691)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "placed piece locked 4",
+      "pass": true,
+      "detail": "",
+      "status": "Select Rotate Sun to choose its orientation.",
+      "hand": "(-24.682, 1.290, 36.691)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "display menu at standing height",
+      "pass": true,
+      "detail": "height=1.5507",
+      "status": "Select Rotate Sun to choose its orientation.",
+      "hand": "(-24.682, 1.290, 36.691)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Rotate Sun",
+      "pass": true,
+      "detail": "",
+      "status": "Select Rotate Sun to choose its orientation.",
+      "hand": "(-24.682, 1.290, 36.691)",
+      "held": "",
+      "proxyEye": "(-25.269, 1.600, 40.382)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Rotate Sun",
+      "pass": true,
+      "detail": "hits=Rotate Sun,Restore the Rangoli controls",
+      "status": "Select Rotate Sun to choose its orientation.",
+      "hand": "(-24.415, 1.212, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Rotate Sun",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Adjust Pavilion brightness.",
+      "hand": "(-24.415, 1.212, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "sun rotates 45 degrees",
+      "pass": true,
+      "detail": "",
+      "status": "Adjust Pavilion brightness.",
+      "hand": "(-24.415, 1.212, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible slider Pavilion brightness",
+      "pass": true,
+      "detail": "",
+      "status": "Adjust Pavilion brightness.",
+      "hand": "(-24.415, 1.212, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued slider drag Pavilion brightness",
+      "pass": true,
+      "detail": "value=0.8676898,expected=0.85",
+      "status": "Select Celebrate to finish your Rangoli.",
+      "hand": "(-24.049, 1.140, 35.245)",
+      "held": "",
+      "proxyEye": "(-24.007, 1.600, 35.542)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "brightness changes pavilion",
+      "pass": true,
+      "detail": "",
+      "status": "Select Celebrate to finish your Rangoli.",
+      "hand": "(-24.049, 1.140, 35.245)",
+      "held": "",
+      "proxyEye": "(-24.007, 1.600, 35.542)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "visible UI Celebrate",
+      "pass": true,
+      "detail": "",
+      "status": "Select Celebrate to finish your Rangoli.",
+      "hand": "(-24.049, 1.140, 35.245)",
+      "held": "",
+      "proxyEye": "(-24.007, 1.600, 35.542)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "tracked ray Celebrate",
+      "pass": true,
+      "detail": "hits=Celebrate,Restore the Rangoli controls",
+      "status": "Select Celebrate to finish your Rangoli.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "queued UI dispatch Celebrate",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Rangoli complete! Your festival pavilion is restored. The central rangoli now glows and spins.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "completed",
+      "pass": true,
+      "detail": "",
+      "status": "Rangoli complete! Your festival pavilion is restored. The central rangoli now glows and spins.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RangoliGame",
+      "name": "reset releases all matched pieces",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Begin to start.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-24.415, 1.085, 35.208)",
+      "held": "",
+      "proxyEye": "(-24.525, 1.600, 35.487)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,Route the Festival Lights controls",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.255, 39.193)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 39.193)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.255, 39.193)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 39.193)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.255, 39.193)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 39.193)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Next",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.255, 39.193)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 39.193)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Next",
+      "pass": true,
+      "detail": "hits=Next,Route the Festival Lights help",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 38.575)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.575)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Next",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 38.575)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.575)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "help Previous enabled",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 38.575)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.575)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Previous",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 38.575)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.575)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Previous",
+      "pass": true,
+      "detail": "hits=Previous,Route the Festival Lights help",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 39.200)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 39.200)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Previous",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 39.200)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 39.200)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.248, 39.200)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 39.200)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,Route the Festival Lights help",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.149, 38.887)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.149, 38.887)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.149, 38.887)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Begin Lighting",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.800, 1.149, 38.887)",
+      "held": "",
+      "proxyEye": "(26.500, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Begin Lighting",
+      "pass": true,
+      "detail": "hits=Begin Lighting,Route the Festival Lights controls",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Begin Lighting",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Grab the crystal and release it into its holder.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "incomplete route blocked",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the crystal and all three pieces before testing.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "3m NearFar targets Crystal",
+      "pass": true,
+      "detail": "target=(29.40, 0.28, 38.39),distance=1.171002,valid=Crystal,blockers=Crystal@1.07",
+      "status": "Grab the crystal and release it into its holder.",
+      "hand": "(29.400, 0.800, 37.337)",
+      "held": "",
+      "proxyEye": "(29.400, 1.600, 37.037)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued grip Crystal",
+      "pass": true,
+      "detail": "",
+      "status": "Grab the crystal and release it into its holder.",
+      "hand": "(29.400, 0.800, 37.337)",
+      "held": "",
+      "proxyEye": "(29.400, 1.600, 37.037)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "route piece fitted 0",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(28.914, 0.750, 36.884)",
+      "held": "",
+      "proxyEye": "(29.400, 1.600, 37.037)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "3m NearFar targets Elbow",
+      "pass": true,
+      "detail": "target=(29.33, 0.70, 34.43),distance=1.054343,valid=Elbow,blockers=Elbow@0.90",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.331, 0.800, 35.484)",
+      "held": "",
+      "proxyEye": "(29.331, 1.600, 35.784)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued grip Elbow",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.331, 0.800, 35.484)",
+      "held": "",
+      "proxyEye": "(29.331, 1.600, 35.784)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "route piece fitted 1",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.398, 1.347, 36.329)",
+      "held": "",
+      "proxyEye": "(29.331, 1.600, 35.784)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate elbow ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.398, 1.347, 36.329)",
+      "held": "",
+      "proxyEye": "(29.331, 1.600, 35.784)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate elbow ↻",
+      "pass": true,
+      "detail": "hits=Rotate elbow ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate elbow ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate elbow ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate elbow ↻",
+      "pass": true,
+      "detail": "hits=Rotate elbow ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate elbow ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate elbow ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate elbow ↻",
+      "pass": true,
+      "detail": "hits=Rotate elbow ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate elbow ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "connector aligned 1",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.353, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "3m NearFar targets T junction",
+      "pass": true,
+      "detail": "target=(29.97, 1.44, 34.31),distance=1.049999,valid=T junction,blockers=T junction@0.85",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.971, 1.435, 35.364)",
+      "held": "",
+      "proxyEye": "(29.971, 1.600, 35.664)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued grip T junction",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.971, 1.435, 35.364)",
+      "held": "",
+      "proxyEye": "(29.971, 1.600, 35.664)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "route piece fitted 2",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.396, 1.286, 37.160)",
+      "held": "",
+      "proxyEye": "(29.971, 1.600, 35.664)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate T-junction ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.396, 1.286, 37.160)",
+      "held": "",
+      "proxyEye": "(29.971, 1.600, 35.664)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate T-junction ↻",
+      "pass": true,
+      "detail": "hits=Rotate T-junction ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate T-junction ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate T-junction ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate T-junction ↻",
+      "pass": true,
+      "detail": "hits=Rotate T-junction ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate T-junction ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate T-junction ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate T-junction ↻",
+      "pass": true,
+      "detail": "hits=Rotate T-junction ↻,Route the Festival Lights controls",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate T-junction ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "connector aligned 2",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "3m NearFar targets Straight",
+      "pass": true,
+      "detail": "target=(29.65, 1.01, 34.40),distance=1.049999,valid=Straight,blockers=Straight@0.81",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.650, 1.014, 35.447)",
+      "held": "",
+      "proxyEye": "(29.650, 1.600, 35.747)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued grip Straight",
+      "pass": true,
+      "detail": "",
+      "status": "Fit the remaining routing pieces into their circular recesses.",
+      "hand": "(29.650, 1.014, 35.447)",
+      "held": "",
+      "proxyEye": "(29.650, 1.600, 35.747)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "route piece fitted 3",
+      "pass": true,
+      "detail": "",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(29.398, 1.289, 37.997)",
+      "held": "",
+      "proxyEye": "(29.650, 1.600, 35.747)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Rotate straight ↻",
+      "pass": true,
+      "detail": "",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(29.398, 1.289, 37.997)",
+      "held": "",
+      "proxyEye": "(29.650, 1.600, 35.747)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Rotate straight ↻",
+      "pass": true,
+      "detail": "hits=Rotate straight ↻,Route the Festival Lights controls",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Rotate straight ↻",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "connector aligned 3",
+      "pass": true,
+      "detail": "",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Test Lights",
+      "pass": true,
+      "detail": "",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(26.815, 1.304, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Test Lights",
+      "pass": true,
+      "detail": "hits=Test Lights,Route the Festival Lights controls",
+      "status": "Select Test Lights to illuminate the garden.",
+      "hand": "(26.815, 1.206, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Test Lights",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Testing the light route...",
+      "hand": "(26.815, 1.206, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "test pulse reaches garden",
+      "pass": true,
+      "detail": "",
+      "status": "Adjust Garden brightness.",
+      "hand": "(26.815, 1.206, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Change garden brightness",
+      "pass": true,
+      "detail": "",
+      "status": "Adjust Garden brightness.",
+      "hand": "(26.815, 1.206, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Change garden brightness",
+      "pass": true,
+      "detail": "hits=Change garden brightness,Route the Festival Lights controls",
+      "status": "Adjust Garden brightness.",
+      "hand": "(26.815, 1.157, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Change garden brightness",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Confirm brightness to finish the garden.",
+      "hand": "(26.815, 1.157, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "garden brightness chosen",
+      "pass": true,
+      "detail": "",
+      "status": "Confirm brightness to finish the garden.",
+      "hand": "(26.815, 1.157, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "visible UI Confirm brightness",
+      "pass": true,
+      "detail": "",
+      "status": "Confirm brightness to finish the garden.",
+      "hand": "(26.815, 1.157, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "tracked ray Confirm brightness",
+      "pass": true,
+      "detail": "hits=Confirm brightness,Route the Festival Lights controls",
+      "status": "Confirm brightness to finish the garden.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "queued UI dispatch Confirm brightness",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Garden complete! All three lantern destinations glow. The island lanterns are now lit.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "completed",
+      "pass": true,
+      "detail": "",
+      "status": "Garden complete! All three lantern destinations glow. The island lanterns are now lit.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "garden lamps lit",
+      "pass": true,
+      "detail": "",
+      "status": "Garden complete! All three lantern destinations glow. The island lanterns are now lit.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "RoutingGame",
+      "name": "reset clears circuit",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Begin to start.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(26.815, 1.125, 38.887)",
+      "held": "",
+      "proxyEye": "(26.515, 1.600, 38.887)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,Festival gift • any 4 sweets controls",
+      "status": "Ready to begin.",
+      "hand": "(-31.296, 1.222, 3.152)",
+      "held": "",
+      "proxyEye": "(-31.484, 1.600, 3.385)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-31.296, 1.222, 3.152)",
+      "held": "",
+      "proxyEye": "(-31.484, 1.600, 3.385)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.296, 1.222, 3.152)",
+      "held": "",
+      "proxyEye": "(-31.484, 1.600, 3.385)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Next",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.296, 1.222, 3.152)",
+      "held": "",
+      "proxyEye": "(-31.484, 1.600, 3.385)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Next",
+      "pass": true,
+      "detail": "hits=Next,Festival gift • any 4 sweets help",
+      "status": "Ready to begin.",
+      "hand": "(-31.667, 1.166, 2.872)",
+      "held": "",
+      "proxyEye": "(-31.856, 1.600, 3.105)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Next",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-31.667, 1.166, 2.872)",
+      "held": "",
+      "proxyEye": "(-31.856, 1.600, 3.105)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "help Previous enabled",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.667, 1.166, 2.872)",
+      "held": "",
+      "proxyEye": "(-31.856, 1.600, 3.105)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Previous",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.667, 1.166, 2.872)",
+      "held": "",
+      "proxyEye": "(-31.856, 1.600, 3.105)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Previous",
+      "pass": true,
+      "detail": "hits=Previous,Festival gift • any 4 sweets help",
+      "status": "Ready to begin.",
+      "hand": "(-31.220, 1.166, 3.232)",
+      "held": "",
+      "proxyEye": "(-31.408, 1.600, 3.466)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Previous",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-31.220, 1.166, 3.232)",
+      "held": "",
+      "proxyEye": "(-31.408, 1.600, 3.466)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.220, 1.166, 3.232)",
+      "held": "",
+      "proxyEye": "(-31.408, 1.600, 3.466)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,Festival gift • any 4 sweets help",
+      "status": "Ready to begin.",
+      "hand": "(-31.444, 1.075, 3.052)",
+      "held": "",
+      "proxyEye": "(-31.632, 1.600, 3.285)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-31.444, 1.075, 3.052)",
+      "held": "",
+      "proxyEye": "(-31.632, 1.600, 3.285)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.444, 1.075, 3.052)",
+      "held": "",
+      "proxyEye": "(-31.632, 1.600, 3.285)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Make a Gift Basket",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-31.444, 1.075, 3.052)",
+      "held": "",
+      "proxyEye": "(-31.632, 1.600, 3.285)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Make a Gift Basket",
+      "pass": true,
+      "detail": "hits=Make a Gift Basket,Festival gift • any 4 sweets controls",
+      "status": "Ready to begin.",
+      "hand": "(-31.434, 1.298, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Make a Gift Basket",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Open the cabinet, then place the basket on its outlined rest. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.298, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "early card rejected",
+      "pass": true,
+      "detail": "",
+      "status": "Open the cabinet, then place the basket on its outlined rest. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.298, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Open Cabinet",
+      "pass": true,
+      "detail": "",
+      "status": "Open the cabinet, then place the basket on its outlined rest. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.298, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Open Cabinet",
+      "pass": true,
+      "detail": "hits=Open Cabinet,Festival gift • any 4 sweets controls",
+      "status": "Open the cabinet, then place the basket on its outlined rest. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Open Cabinet",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Grip the basket; release it over the large BASKET REST outline on the counter.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Switch open side",
+      "pass": true,
+      "detail": "",
+      "status": "Grip the basket; release it over the large BASKET REST outline on the counter.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Switch open side",
+      "pass": true,
+      "detail": "hits=Switch open side,Festival gift • any 4 sweets controls",
+      "status": "Grip the basket; release it over the large BASKET REST outline on the counter.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Switch open side",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "cabinet switching moves panels",
+      "pass": true,
+      "detail": "",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "cabinet glass remains separated",
+      "pass": true,
+      "detail": "",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Switch open side",
+      "pass": true,
+      "detail": "",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Switch open side",
+      "pass": true,
+      "detail": "hits=Switch open side,Festival gift • any 4 sweets controls",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Switch open side",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Festival basket — upper shelf",
+      "pass": true,
+      "detail": "target=(-34.07, 1.45, 4.58),distance=1.050012,valid=Festival basket — upper shelf,blockers=Festival basket — upper shelf@0.68",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-34.074, 1.450, 5.630)",
+      "held": "",
+      "proxyEye": "(-34.074, 1.600, 5.930)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Festival basket — upper shelf",
+      "pass": true,
+      "detail": "",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-34.074, 1.450, 5.630)",
+      "held": "",
+      "proxyEye": "(-34.074, 1.600, 5.930)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "upper basket settles at rest",
+      "pass": true,
+      "detail": "",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-32.219, 1.666, 1.977)",
+      "held": "",
+      "proxyEye": "(-34.074, 1.600, 5.930)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Festival basket",
+      "pass": true,
+      "detail": "target=(-34.23, 1.44, 2.84),distance=1.05,valid=Festival basket,blockers=Festival basket@0.68",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-34.229, 1.443, 1.788)",
+      "held": "",
+      "proxyEye": "(-34.229, 1.600, 1.488)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Festival basket",
+      "pass": true,
+      "detail": "",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-34.229, 1.443, 1.788)",
+      "held": "",
+      "proxyEye": "(-34.229, 1.600, 1.488)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "empty basket can swap",
+      "pass": true,
+      "detail": "",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-32.525, 1.666, 1.413)",
+      "held": "",
+      "proxyEye": "(-34.229, 1.600, 1.488)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Switch open side",
+      "pass": true,
+      "detail": "",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-32.525, 1.666, 1.413)",
+      "held": "",
+      "proxyEye": "(-34.229, 1.600, 1.488)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Switch open side",
+      "pass": true,
+      "detail": "hits=Switch open side,Festival gift • any 4 sweets controls",
+      "status": "Basket safely resting — 0/4 sweets. Release sweets into the bowl.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Switch open side",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-31.434, 1.344, 3.040)",
+      "held": "",
+      "proxyEye": "(-31.623, 1.600, 3.274)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-27.79, 0.33, 1.20),distance=1.148731,valid=Gujiya,blockers=Gujiya@0.91",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "Cabinet opening switched. Choose any 4 sweets.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "sweet packed 0",
+      "pass": true,
+      "detail": "count=1",
+      "status": "1/4: Gujiya. Choose any sweet.",
+      "hand": "(-31.931, 1.912, 2.127)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Barfi",
+      "pass": true,
+      "detail": "target=(-27.74, 1.28, 1.18),distance=1.05,valid=Barfi,blockers=Barfi@0.84",
+      "status": "1/4: Gujiya. Choose any sweet.",
+      "hand": "(-27.741, 1.280, 2.232)",
+      "held": "",
+      "proxyEye": "(-27.741, 1.600, 2.532)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Barfi",
+      "pass": true,
+      "detail": "",
+      "status": "1/4: Gujiya. Choose any sweet.",
+      "hand": "(-27.741, 1.280, 2.232)",
+      "held": "",
+      "proxyEye": "(-27.741, 1.600, 2.532)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "sweet packed 1",
+      "pass": true,
+      "detail": "count=2",
+      "status": "2/4: Gujiya, Barfi. Choose any sweet.",
+      "hand": "(-31.931, 1.614, 2.166)",
+      "held": "",
+      "proxyEye": "(-27.741, 1.600, 2.532)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Modak",
+      "pass": true,
+      "detail": "target=(-27.74, 0.90, 1.21),distance=1.05,valid=Modak,blockers=Modak@0.93",
+      "status": "2/4: Gujiya, Barfi. Choose any sweet.",
+      "hand": "(-27.740, 0.903, 2.262)",
+      "held": "",
+      "proxyEye": "(-27.740, 1.600, 2.562)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Modak",
+      "pass": true,
+      "detail": "",
+      "status": "2/4: Gujiya, Barfi. Choose any sweet.",
+      "hand": "(-27.740, 0.903, 2.262)",
+      "held": "",
+      "proxyEye": "(-27.740, 1.600, 2.562)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "sweet packed 2",
+      "pass": true,
+      "detail": "count=3",
+      "status": "3/4: Gujiya, Barfi, Modak. Choose any sweet.",
+      "hand": "(-31.931, 1.615, 2.074)",
+      "held": "",
+      "proxyEye": "(-27.740, 1.600, 2.562)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-27.93, 0.33, 1.20),distance=1.148731,valid=Gujiya,blockers=Gujiya@0.91",
+      "status": "3/4: Gujiya, Barfi, Modak. Choose any sweet.",
+      "hand": "(-27.929, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.929, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "3/4: Gujiya, Barfi, Modak. Choose any sweet.",
+      "hand": "(-27.929, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.929, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "sweet packed 3",
+      "pass": true,
+      "detail": "count=4",
+      "status": "4/4: Gujiya, Barfi, Modak, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.931, 1.914, 2.127)",
+      "held": "",
+      "proxyEye": "(-27.929, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "four mixed sweets accepted",
+      "pass": true,
+      "detail": "",
+      "status": "4/4: Gujiya, Barfi, Modak, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.931, 1.914, 2.127)",
+      "held": "",
+      "proxyEye": "(-27.929, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-31.80, 1.18, 1.58),distance=0.7894836,valid=Gujiya,blockers=Gujiya@0.68",
+      "status": "4/4: Gujiya, Barfi, Modak, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.804, 1.450, 2.325)",
+      "held": "",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "3/4. Selection changed; tap card again at checkout.",
+      "hand": "(-31.804, 1.450, 2.325)",
+      "held": "",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "grip removes packed sweet",
+      "pass": true,
+      "detail": "",
+      "status": "3/4. Selection changed; tap card again at checkout.",
+      "hand": "(-31.804, 1.450, 2.325)",
+      "held": "Gujiya",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "original shelf return target",
+      "pass": true,
+      "detail": "",
+      "status": "3/4. Selection changed; tap card again at checkout.",
+      "hand": "(-31.804, 1.450, 2.325)",
+      "held": "Gujiya",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "sweet returns to original shelf",
+      "pass": true,
+      "detail": "",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.670, 0.592, 1.780)",
+      "held": "",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "returned sweet leaves contents",
+      "pass": true,
+      "detail": "",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.670, 0.592, 1.780)",
+      "held": "",
+      "proxyEye": "(-31.804, 1.600, 2.625)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-27.79, 0.33, 1.20),distance=1.148731,valid=Gujiya,blockers=Gujiya@0.91",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "returned sweet can be repacked",
+      "pass": true,
+      "detail": "",
+      "status": "4/4: Barfi, Modak, Gujiya, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.931, 1.913, 2.127)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Festival basket",
+      "pass": true,
+      "detail": "target=(-31.93, 1.40, 1.46),distance=1.05,valid=Festival basket,blockers=Festival basket@0.68",
+      "status": "4/4: Barfi, Modak, Gujiya, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.931, 1.396, 2.506)",
+      "held": "",
+      "proxyEye": "(-31.931, 1.600, 2.806)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Festival basket",
+      "pass": true,
+      "detail": "",
+      "status": "4/4: Barfi, Modak, Gujiya, Gujiya. Carry basket to checkout.",
+      "hand": "(-31.931, 1.396, 2.506)",
+      "held": "",
+      "proxyEye": "(-31.931, 1.600, 2.806)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "basket docks at checkout",
+      "pass": true,
+      "detail": "",
+      "status": "4/4 sweets checked. Tap the festival card on the outlined reader.",
+      "hand": "(-33.071, 1.681, 1.186)",
+      "held": "",
+      "proxyEye": "(-31.931, 1.600, 2.806)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Festival card",
+      "pass": true,
+      "detail": "target=(-33.73, 1.11, 1.03),distance=1.049999,valid=Festival card,blockers=Festival card@0.92,Cube.013@0.95,Cube.012@0.99",
+      "status": "4/4 sweets checked. Tap the festival card on the outlined reader.",
+      "hand": "(-32.684, 1.105, 1.027)",
+      "held": "",
+      "proxyEye": "(-32.384, 1.600, 1.027)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Festival card",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-32.684, 1.105, 1.027)",
+      "held": "",
+      "proxyEye": "(-32.384, 1.600, 1.027)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "held card authorizes checkout",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.106, 1.106, 0.777)",
+      "held": "Festival card",
+      "proxyEye": "(-32.384, 1.600, 1.027)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "physical monitor shows card accepted",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.106, 1.106, 0.777)",
+      "held": "Festival card",
+      "proxyEye": "(-32.384, 1.600, 1.027)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-33.51, 1.20, 0.55),distance=0.7844084,valid=Gujiya,blockers=Gujiya@0.67",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.510, 1.450, 1.294)",
+      "held": "",
+      "proxyEye": "(-33.510, 1.600, 1.594)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "3/4. Selection changed; tap card again at checkout.",
+      "hand": "(-33.510, 1.450, 1.294)",
+      "held": "",
+      "proxyEye": "(-33.510, 1.600, 1.594)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "changing contents invalidates card",
+      "pass": true,
+      "detail": "",
+      "status": "3/4. Selection changed; tap card again at checkout.",
+      "hand": "(-33.510, 1.450, 1.294)",
+      "held": "Gujiya",
+      "proxyEye": "(-33.510, 1.600, 1.594)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Gujiya",
+      "pass": true,
+      "detail": "target=(-27.79, 0.33, 1.20),distance=1.148731,valid=Gujiya,blockers=Gujiya@0.91",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Gujiya",
+      "pass": true,
+      "detail": "",
+      "status": "Gujiya returned to its shelf. 3/4 in the basket.",
+      "hand": "(-27.790, 0.800, 2.254)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "swap restores four sweets",
+      "pass": true,
+      "detail": "",
+      "status": "4/4: Barfi, Modak, Gujiya, Gujiya. Tap the festival card again.",
+      "hand": "(-33.382, 1.928, 1.351)",
+      "held": "",
+      "proxyEye": "(-27.790, 1.600, 2.554)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "3m NearFar targets Festival card",
+      "pass": true,
+      "detail": "target=(-33.71, 1.11, 0.79),distance=1.05,valid=Festival card,blockers=Festival card@0.90",
+      "status": "4/4: Barfi, Modak, Gujiya, Gujiya. Tap the festival card again.",
+      "hand": "(-33.711, 1.106, 1.840)",
+      "held": "",
+      "proxyEye": "(-33.711, 1.600, 2.140)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued grip Festival card",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.711, 1.106, 1.840)",
+      "held": "",
+      "proxyEye": "(-33.711, 1.600, 2.140)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "card can authorize changed gift",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.735, 1.106, 1.451)",
+      "held": "Festival card",
+      "proxyEye": "(-33.711, 1.600, 2.140)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "visible UI Confirm Gift",
+      "pass": true,
+      "detail": "",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-33.735, 1.106, 1.451)",
+      "held": "",
+      "proxyEye": "(-33.711, 1.600, 2.140)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "tracked ray Confirm Gift",
+      "pass": true,
+      "detail": "hits=Confirm Gift,Festival gift • any 4 sweets controls",
+      "status": "CARD ACCEPTED ✓ Your gift is authorized. Select Confirm Gift beside the reader.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "queued UI dispatch Confirm Gift",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "gift completes at checkout",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "physical monitor shows gift ready",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "packed sweets lock after confirmation",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "checkout sharing celebration activates",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "no central sweet gift plinth",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "checkout celebration ends",
+      "pass": true,
+      "detail": "",
+      "status": "Gift confirmed! Your four sweets are ready at checkout. Happy Diwali! A warm sharing celebration lights your gift at checkout.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "SweetGame",
+      "name": "reset clears sweet contents and authorization",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(-32.833, 1.450, 3.158)",
+      "held": "",
+      "proxyEye": "(-32.571, 1.600, 3.303)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,Diya courtyard controls",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.793, 1.161, 7.476)",
+      "held": "",
+      "proxyEye": "(32.775, 1.711, 7.177)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.793, 1.161, 7.476)",
+      "held": "",
+      "proxyEye": "(32.775, 1.711, 7.177)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.793, 1.161, 7.476)",
+      "held": "",
+      "proxyEye": "(32.775, 1.711, 7.177)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.793, 1.161, 7.476)",
+      "held": "",
+      "proxyEye": "(32.775, 1.711, 7.177)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,Diya courtyard help",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "progressive path preserves authored atlas",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "locked chest rejects opening",
+      "pass": true,
+      "detail": "",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Open Drawer",
+      "pass": true,
+      "detail": "",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.119, 1.047, 7.442)",
+      "held": "",
+      "proxyEye": "(33.101, 1.711, 7.142)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Open Drawer",
+      "pass": true,
+      "detail": "hits=Open Drawer,Diya courtyard controls",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.120, 1.266, 7.457)",
+      "held": "",
+      "proxyEye": "(33.102, 1.711, 7.157)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Open Drawer",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.120, 1.266, 7.457)",
+      "held": "",
+      "proxyEye": "(33.102, 1.711, 7.157)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "drawer action advances",
+      "pass": true,
+      "detail": "",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.120, 1.266, 7.457)",
+      "held": "",
+      "proxyEye": "(33.102, 1.711, 7.157)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-scroll",
+      "pass": true,
+      "detail": "target=(33.93, 0.48, 8.74),distance=1.135911,valid=Ribbon scroll grab,blockers=Ribbon scroll grab@0.77",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-scroll",
+      "pass": true,
+      "detail": "",
+      "status": "Your scroll shows the whole route. Read it, then return it to the drawer rest.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "scroll inspection guide appears",
+      "pass": true,
+      "detail": "",
+      "status": "Your scroll shows the whole route. Read it, then return it to the drawer rest.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "diya-scroll",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "scroll returned",
+      "pass": true,
+      "detail": "",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(33.930, 0.983, 9.533)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-pot",
+      "pass": true,
+      "detail": "target=(26.09, 1.14, 9.86),distance=1.05,valid=Flowerpot grab,blockers=Flowerpot grab@0.60",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(26.092, 1.135, 8.807)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-pot",
+      "pass": true,
+      "detail": "",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(26.092, 1.135, 8.807)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "pot reveals key",
+      "pass": true,
+      "detail": "",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(25.442, 1.304, 8.903)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-key",
+      "pass": true,
+      "detail": "target=(26.08, 0.73, 9.76),distance=1.065605,valid=Chest key grab,blockers=Chest key grab@1.03",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(26.083, 0.911, 8.710)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-key",
+      "pass": true,
+      "detail": "",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(26.083, 0.911, 8.710)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "key inserts without opening chest",
+      "pass": true,
+      "detail": "",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(27.804, 1.316, 8.848)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Turn Inserted Key",
+      "pass": true,
+      "detail": "",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(27.804, 1.316, 8.848)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Turn Inserted Key",
+      "pass": true,
+      "detail": "hits=Turn Inserted Key,Diya courtyard controls",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Turn Inserted Key",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "key turns around inserted shaft",
+      "pass": true,
+      "detail": "",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Open Chest",
+      "pass": true,
+      "detail": "",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Open Chest",
+      "pass": true,
+      "detail": "hits=Open Chest,Diya courtyard controls",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Open Chest",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "chest reveals feather",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.193, 1.266, 8.490)",
+      "held": "",
+      "proxyEye": "(25.897, 1.711, 8.540)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-feather",
+      "pass": true,
+      "detail": "target=(27.76, 1.68, 10.23),distance=1.056231,valid=Peacock feather grab,blockers=Peacock feather grab@1.02",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(27.764, 1.561, 9.181)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 8.881)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-feather",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(27.764, 1.561, 9.181)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 8.881)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "brushing cleans diya",
+      "pass": true,
+      "detail": "",
+      "status": "Diya clean. Release the feather on its marked bench rest.",
+      "hand": "(35.057, 1.190, 8.353)",
+      "held": "diya-feather",
+      "proxyEye": "(27.764, 1.711, 8.881)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "feather accepts forgiving return",
+      "pass": true,
+      "detail": "",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(29.790, 0.685, 9.313)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 8.881)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Reveal Starter Flame",
+      "pass": true,
+      "detail": "",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(29.790, 0.685, 9.313)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 8.881)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Reveal Starter Flame",
+      "pass": true,
+      "detail": "hits=Reveal Starter Flame,Diya courtyard controls",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(32.088, 1.266, 0.374)",
+      "held": "",
+      "proxyEye": "(31.957, 1.711, 0.644)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Reveal Starter Flame",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "7/10 complete. Pick up the clean diya and touch it to the starter behind the screen.",
+      "hand": "(32.088, 1.266, 0.374)",
+      "held": "",
+      "proxyEye": "(31.957, 1.711, 0.644)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "starter flame revealed",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya and touch it to the starter behind the screen.",
+      "hand": "(32.088, 1.266, 0.374)",
+      "held": "",
+      "proxyEye": "(31.957, 1.711, 0.644)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-lamp",
+      "pass": true,
+      "detail": "target=(34.98, 1.25, 8.88),distance=1.05,valid=Carried diya grab,blockers=Carried diya grab@0.74",
+      "status": "7/10 complete. Pick up the clean diya and touch it to the starter behind the screen.",
+      "hand": "(34.980, 1.248, 9.931)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-lamp",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya and touch it to the starter behind the screen.",
+      "hand": "(34.980, 1.248, 9.931)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "starter lights held diya",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over floor tile 1. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "out of order checkpoint rejected",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over floor tile 1. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "ordered floor route 0",
+      "pass": true,
+      "detail": "",
+      "status": "8/10  Route 1/3. Follow tile 2.",
+      "hand": "(33.742, 1.243, 1.415)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "ordered floor route 1",
+      "pass": true,
+      "detail": "",
+      "status": "8/10  Route 2/3. Follow tile 3.",
+      "hand": "(31.557, 1.243, 1.415)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "ordered floor route 2",
+      "pass": true,
+      "detail": "",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "walking records progressive floor illumination",
+      "pass": true,
+      "detail": "visited=4",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "central flame receives transfer",
+      "pass": true,
+      "detail": "",
+      "status": "Flame transferred. Set your diya on its marked rest.",
+      "hand": "(34.980, 1.243, 5.031)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "diya delivery completes",
+      "pass": true,
+      "detail": "",
+      "status": "Festival flame delivered. 10/10 tasks complete. All festival diyas are now lit.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "reset clears diya flame and route",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    }
+  ]
+}
