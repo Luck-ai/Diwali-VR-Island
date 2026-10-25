@@ -1,0 +1,9 @@
+# Venue feedback improvements — 25 October 2026
+
+Sweet Shop: the menu initially faces the entrance, then turns toward a nearby player when approached from the packing side. Its position is unchanged, keeping the worktop clear. Doorway start, packing-side cabinet access, and help open/close were exercised with queued XR trigger input at a 3 m ray limit. **13 checks passed.**
+
+Diya: brushing removes a grainy coating progressively across the authored bowl and emits soft dust puffs on feather movement. The highlighted bowl shows the remaining dust. After cleaning, the same bowl has a green halo, arrow and **TAKE THIS DIYA** label. A separate **STARTER FLAME — Keep this diya on the table** label distinguishes the stationary starter. The pickup marker hides when the correct diya is held. Starter and display models remain non-grabbable. Reset clears feedback and particles. The scroll now explains that any one route tile is sufficient.
+
+**69 Diya checks passed**, covering the full ten-action sequence: drawer, scroll, pot, key insertion/turn, chest, brushing, feather return, starter reveal/lighting, route tile and final transfer/rest. Additional assertions verify the supported dust shader, dirty/partly clean/clean states, dust emission/animation, correct pickup target, stationary starter/display, marker hiding, help and reset. Final dust coverage was rendered separately after a visual-only depth-bias and grain-projection adjustment.
+
+Evidence: `Sweet_Menu_Play_Mode.json`, `Diya_Play_Mode.json` and native Unity renders. The test controller used queued NearFar grip and trigger input. Desktop verification does not establish physical Quest comfort or device performance. The test viewpoint temporarily disables XRBodyTransformer gravity and approaches UI outside its head-clearance zone so that the measured target stays stable.

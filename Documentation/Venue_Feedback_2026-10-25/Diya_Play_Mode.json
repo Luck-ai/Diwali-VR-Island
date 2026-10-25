@@ -1,0 +1,699 @@
+{
+  "state": "passed",
+  "started": "2026-10-25T10:20:51.119193Z",
+  "elapsedSeconds": 19.267561,
+  "failures": 0,
+  "scope": "Synthetic queued NearFar controller and XR UI presses; far casts limited to 3m. All selection/UI origins are at standing hand height, remote grab distances 0.65-3m. Carried movement is synthetic and does not establish physical headset reach. No headset or visual QA claim.",
+  "results": [
+    {
+      "venue": "setup",
+      "name": "XR UI input module",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "setup",
+      "name": "event system",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,Diya courtyard controls",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.742, 1.161, 6.628)",
+      "held": "",
+      "proxyEye": "(32.724, 1.711, 6.328)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.742, 1.161, 6.628)",
+      "held": "",
+      "proxyEye": "(32.724, 1.711, 6.328)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.742, 1.161, 6.628)",
+      "held": "",
+      "proxyEye": "(32.724, 1.711, 6.328)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(32.742, 1.161, 6.628)",
+      "held": "",
+      "proxyEye": "(32.724, 1.711, 6.328)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,Diya courtyard help",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "progressive path preserves authored atlas",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "locked chest rejects opening",
+      "pass": true,
+      "detail": "",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Open Drawer",
+      "pass": true,
+      "detail": "",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.068, 1.047, 6.593)",
+      "held": "",
+      "proxyEye": "(33.050, 1.711, 6.294)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Open Drawer",
+      "pass": true,
+      "detail": "hits=Open Drawer,Diya courtyard controls",
+      "status": "Insert and turn the key first.",
+      "hand": "(33.069, 1.266, 6.608)",
+      "held": "",
+      "proxyEye": "(33.051, 1.711, 6.309)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Open Drawer",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.069, 1.266, 6.608)",
+      "held": "",
+      "proxyEye": "(33.051, 1.711, 6.309)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "drawer action advances",
+      "pass": true,
+      "detail": "",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.069, 1.266, 6.608)",
+      "held": "",
+      "proxyEye": "(33.051, 1.711, 6.309)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-scroll",
+      "pass": true,
+      "detail": "target=(33.93, 0.48, 8.74),distance=1.135911,valid=Ribbon scroll grab,blockers=Ribbon scroll grab@0.77",
+      "status": "1/10 complete. Lift the scroll to read your guide, then return it to the drawer.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-scroll",
+      "pass": true,
+      "detail": "",
+      "status": "Your scroll shows the whole route. Read it, then return it to the drawer rest.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "scroll inspection guide appears",
+      "pass": true,
+      "detail": "",
+      "status": "Your scroll shows the whole route. Read it, then return it to the drawer rest.",
+      "hand": "(33.930, 0.911, 9.787)",
+      "held": "diya-scroll",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "scroll returned",
+      "pass": true,
+      "detail": "",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(33.930, 0.956, 9.533)",
+      "held": "",
+      "proxyEye": "(33.930, 1.711, 10.087)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-pot",
+      "pass": true,
+      "detail": "target=(26.09, 1.14, 9.86),distance=1.05,valid=Flowerpot grab,blockers=Flowerpot grab@0.60",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(26.092, 1.135, 8.807)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-pot",
+      "pass": true,
+      "detail": "",
+      "status": "2/10 complete. Move the flowerpot to the marked bench rest to uncover the key.",
+      "hand": "(26.092, 1.135, 8.807)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "pot reveals key",
+      "pass": true,
+      "detail": "",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(25.442, 1.285, 8.903)",
+      "held": "",
+      "proxyEye": "(26.092, 1.711, 8.507)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-key",
+      "pass": true,
+      "detail": "target=(26.08, 0.73, 9.76),distance=1.065605,valid=Chest key grab,blockers=Chest key grab@1.03",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(26.083, 0.911, 8.710)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-key",
+      "pass": true,
+      "detail": "",
+      "status": "3/10 complete. Release the key over the glowing chest lock target, then select Turn Inserted Key.",
+      "hand": "(26.083, 0.911, 8.710)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "key inserts without opening chest",
+      "pass": true,
+      "detail": "",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(27.804, 1.297, 8.848)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Turn Inserted Key",
+      "pass": true,
+      "detail": "",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(27.804, 1.297, 8.848)",
+      "held": "",
+      "proxyEye": "(26.083, 1.711, 8.410)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Turn Inserted Key",
+      "pass": true,
+      "detail": "hits=Turn Inserted Key,Diya courtyard controls",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(26.176, 1.266, 8.600)",
+      "held": "",
+      "proxyEye": "(26.377, 1.711, 8.823)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Turn Inserted Key",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Key fitted. Select Turn Inserted Key on the courtyard controls.",
+      "hand": "(26.176, 1.266, 8.600)",
+      "held": "",
+      "proxyEye": "(26.377, 1.711, 8.823)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "key turns around inserted shaft",
+      "pass": true,
+      "detail": "",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.176, 1.266, 8.600)",
+      "held": "",
+      "proxyEye": "(26.377, 1.711, 8.823)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Open Chest",
+      "pass": true,
+      "detail": "",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.176, 1.266, 8.600)",
+      "held": "",
+      "proxyEye": "(26.377, 1.711, 8.823)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Open Chest",
+      "pass": true,
+      "detail": "hits=Open Chest,Diya courtyard controls",
+      "status": "4/10 complete. Select Open Chest to reveal the feather.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Open Chest",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "chest reveals feather",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "dust shader is supported",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "dirty diya has visible coating",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "brush marker identifies carried diya",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(26.451, 1.266, 8.923)",
+      "held": "",
+      "proxyEye": "(26.631, 1.711, 9.163)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-feather",
+      "pass": true,
+      "detail": "target=(27.76, 1.68, 9.14),distance=1.056231,valid=Peacock feather grab,blockers=Peacock feather grab@1.02",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(27.764, 1.561, 10.185)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-feather",
+      "pass": true,
+      "detail": "",
+      "status": "5/10 complete. Take the feather, sweep across the dusty diya, then return it to Feather rest.",
+      "hand": "(27.764, 1.561, 10.185)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "brushing visibly removes dust progressively",
+      "pass": true,
+      "detail": "",
+      "status": "Diya clean. Release the feather on its marked bench rest.",
+      "hand": "(35.056, 1.190, 9.410)",
+      "held": "diya-feather",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "brushing emits dust puffs",
+      "pass": true,
+      "detail": "particles=45",
+      "status": "Diya clean. Release the feather on its marked bench rest.",
+      "hand": "(35.056, 1.190, 9.410)",
+      "held": "diya-feather",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "brushing cleans diya",
+      "pass": true,
+      "detail": "",
+      "status": "Diya clean. Release the feather on its marked bench rest.",
+      "hand": "(35.056, 1.190, 9.410)",
+      "held": "diya-feather",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "clean coating fully clears",
+      "pass": true,
+      "detail": "",
+      "status": "Diya clean. Release the feather on its marked bench rest.",
+      "hand": "(35.056, 1.190, 9.410)",
+      "held": "diya-feather",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "feather accepts forgiving return",
+      "pass": true,
+      "detail": "",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(29.793, 0.684, 10.370)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "visible UI Reveal Starter Flame",
+      "pass": true,
+      "detail": "",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(29.793, 0.684, 10.370)",
+      "held": "",
+      "proxyEye": "(27.764, 1.711, 10.485)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "tracked ray Reveal Starter Flame",
+      "pass": true,
+      "detail": "hits=Reveal Starter Flame,Diya courtyard controls",
+      "status": "6/10 complete. Select Reveal Starter Flame to slide the screen aside.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued UI dispatch Reveal Starter Flame",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "starter flame revealed",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "pickup cue identifies the clean diya",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "starter has a separate stationary cue",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "fixed diya stays non grabbable Sphere",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "fixed diya stays non grabbable Sphere.001",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(31.717, 1.266, 1.139)",
+      "held": "",
+      "proxyEye": "(31.587, 1.711, 1.409)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "3m NearFar targets diya-lamp",
+      "pass": true,
+      "detail": "target=(34.98, 1.25, 8.88),distance=1.05,valid=Carried diya grab,blockers=Carried diya grab@0.74",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(34.980, 1.248, 9.931)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "queued grip diya-lamp",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(34.980, 1.248, 9.931)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "pickup marker hides when correct diya is held",
+      "pass": true,
+      "detail": "",
+      "status": "7/10 complete. Pick up the clean diya marked TAKE THIS DIYA. Touch its wick to the starter flame; leave the starter diya on its table.",
+      "hand": "(34.980, 1.248, 9.931)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "starter lights held diya",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over any one of the three floor tiles. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "route rejects released diya",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over any one of the three floor tiles. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "route rejects unlit signal",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over any one of the three floor tiles. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "transfer blocked before any route tile",
+      "pass": true,
+      "detail": "",
+      "status": "8/10 complete. Carry the lit diya over any one of the three floor tiles. Keep holding it.",
+      "hand": "(34.980, 1.243, -0.755)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "third tile alone completes route",
+      "pass": true,
+      "detail": "",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "transfer rejects released diya",
+      "pass": true,
+      "detail": "",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "transfer requires proximity",
+      "pass": true,
+      "detail": "",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "walking records progressive floor illumination",
+      "pass": true,
+      "detail": "visited=2",
+      "status": "9/10 complete. Touch the centre display with your diya, then release it on the central rest.",
+      "hand": "(31.557, 1.243, 4.945)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "central flame receives transfer",
+      "pass": true,
+      "detail": "",
+      "status": "Flame transferred. Set your diya on its marked rest.",
+      "hand": "(34.980, 1.243, 5.031)",
+      "held": "diya-lamp",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "diya delivery completes",
+      "pass": true,
+      "detail": "",
+      "status": "Festival flame delivered. 10/10 tasks complete. All festival diyas are now lit.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    },
+    {
+      "venue": "DiyaGame",
+      "name": "reset clears diya flame and route",
+      "pass": true,
+      "detail": "",
+      "status": "Select Open Drawer to begin.",
+      "hand": "(34.980, 1.484, 5.781)",
+      "held": "",
+      "proxyEye": "(34.980, 1.711, 10.231)"
+    }
+  ]
+}

@@ -78,7 +78,7 @@ public static class SweetCheckoutLayoutRepair {
   game.workspaceForward=Vector3.forward;
   game.cabinetForward=Vector3.forward;
   game.panelPosition=new Vector3(-27.40f,1.65f,1.70f);
-  var viewer=new Vector3(-30.30f,1.57f,1.70f);
+  var viewer=new Vector3(-24.3f,1.57f,3.8f);
   game.panelRotation=Quaternion.LookRotation(game.panelPosition-viewer,Vector3.up);
   bounds=Surface(counter,0);for(int i=1;i<counter.GetComponent<MeshFilter>().sharedMesh.subMeshCount;i++)bounds.Encapsulate(Surface(counter,i));
   game.basketZoneSign=ZoneSign(counter,game.basketZoneSign,"Checkout zone label",checkoutSeat,seatForward,"CHECKOUT\nPlace full basket",false);

@@ -74720,6 +74720,7 @@ MonoBehaviour:
   destinationFlame: {fileID: 1393160264}
   dust: {fileID: 1666734598}
   guide: {fileID: 755391270}
+  dustCoatingShader: {fileID: 4800000, guid: 0c57fbd675f0532ad868c77538c4d1a4, type: 3}
   originalFlameMaskShader: {fileID: 4800000, guid: e7c0b96239b8d176582babc21724f3e3, type: 3}
   panelPosition: {x: 25.147818, y: 1.9359856, z: 3.835964}
   panelRotation: {x: 0, y: 0.7071069, z: 0, w: 0.70710677}
@@ -89069,7 +89070,7 @@ MonoBehaviour:
   confirmed: 0
   snapRadius: 0.65
   panelPosition: {x: -27.4, y: 1.65, z: 1.7}
-  panelRotation: {x: -0.009750407, y: 0.7070396, z: 0.009750407, w: 0.70703954}
+  panelRotation: {x: 0, y: 0.8834161, z: 0, w: -0.46858934}
   worktopY: 1.0899897
   workspaceForward: {x: 0, y: 0, z: 1}
   cabinetForward: {x: 0, y: 0, z: 1}

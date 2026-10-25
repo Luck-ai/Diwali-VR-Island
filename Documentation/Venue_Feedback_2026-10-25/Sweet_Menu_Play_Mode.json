@@ -1,0 +1,72 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "scope": "Queued XR UI input from entrance and packing positions; desktop Play Mode",
+  "results": [
+    {
+      "name": "Menu faces entering player",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Visible Make a Gift Basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Make a Gift Basket",
+      "passed": true,
+      "detail": "clicks=1,ray=2.58"
+    },
+    {
+      "name": "Begin from entrance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Menu turns toward packing side",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Menu stays beside the rack",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Visible Open Cabinet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Open Cabinet",
+      "passed": true,
+      "detail": "clicks=1,ray=2.43"
+    },
+    {
+      "name": "Cabinet opens from packing side",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Visible How To Play",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger How To Play",
+      "passed": true,
+      "detail": "clicks=1,ray=2.43"
+    },
+    {
+      "name": "Visible Close",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Close",
+      "passed": true,
+      "detail": "clicks=1,ray=2.41"
+    }
+  ]
+}
