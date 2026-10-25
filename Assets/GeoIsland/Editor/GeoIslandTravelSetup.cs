@@ -32,7 +32,13 @@ public static class GeoIslandTravelSetup
             arrival = new GameObject("Geo Island").transform;
             arrival.SetParent(root.transform, false);
         }
-        arrival.SetPositionAndRotation(new Vector3(68f, .08f, -100f), Quaternion.LookRotation(Vector3.right));
+        var ground = GameObject.Find("Geo ground base");
+        if (!ground) throw new InvalidOperationException("Geo island ground is missing.");
+        var offset = new Vector3(ground.transform.position.x - 89f, 0f, ground.transform.position.z + 92f);
+        var approachAnchor = island.transform.Find("Geo entrance approach");
+        var arrivalPosition = approachAnchor ? approachAnchor.position : new Vector3(68f, .08f, -100f) + offset;
+        arrivalPosition.y = .08f;
+        arrival.SetPositionAndRotation(arrivalPosition, Quaternion.LookRotation(Vector3.right));
         if (!nav.destinations.Contains(arrival)) nav.destinations = nav.destinations.Concat(new[] { arrival }).ToArray();
         EditorUtility.SetDirty(nav);
 
@@ -40,7 +46,8 @@ public static class GeoIslandTravelSetup
         var sample = existingBridge.GetComponentsInChildren<TeleportationArea>(true).FirstOrDefault();
         if (!sample) throw new InvalidOperationException("The existing walkway has no teleportation area to match.");
         var deckMaterial = AssetDatabase.LoadAssetAtPath<Material>("Assets/ChristmasIsland/Materials/Bridge Cedar.mat");
-        RebuildYWalkway(existingBridge.transform, root.transform, deckMaterial, sample);
+        RebuildYWalkway(existingBridge.transform, root.transform, deckMaterial, sample,
+            new Vector3(arrival.position.x + 2f, 0f, arrival.position.z));
         var kioskRoot = scene.GetRootGameObjects().FirstOrDefault(x => x.name == "Venue travel kiosks")?.transform ?? root.transform;
         var kiosk = kioskRoot.Find("Travel outside - Geo Island");
         if (!kiosk)
@@ -48,7 +55,10 @@ public static class GeoIslandTravelSetup
             kiosk = new GameObject("Travel outside - Geo Island").transform;
             kiosk.SetParent(kioskRoot, false);
         }
-        kiosk.SetPositionAndRotation(new Vector3(70.5f, 1.43f, -100f), Quaternion.LookRotation(Vector3.right));
+        var kioskAnchor = island.transform.Find("Geo entrance kiosk");
+        var kioskPosition = kioskAnchor ? kioskAnchor.position : new Vector3(70.5f, 1.43f, -100f) + offset;
+        kioskPosition.y = 1.43f;
+        kiosk.SetPositionAndRotation(kioskPosition, Quaternion.LookRotation(Vector3.right));
         var component = kiosk.GetComponent<VenueTravelKiosk>() ?? kiosk.gameObject.AddComponent<VenueTravelKiosk>();
         component.navigation = nav;
         component.venueTitle = "Geo Island";
@@ -59,14 +69,14 @@ public static class GeoIslandTravelSetup
         Debug.Log("GEO_TRAVEL_COMPLETE destinations=" + nav.destinations.Length + " arrival=" + arrival.position + " kiosk=" + kiosk.position);
     }
 
-    static void RebuildYWalkway(Transform bridge, Transform geoTravel, Material material, TeleportationArea sample)
+    static void RebuildYWalkway(Transform bridge, Transform geoTravel, Material material, TeleportationArea sample, Vector3 geoLanding)
     {
         // The fork is over open water. Its eastern leg stays outside the Christmas fence
         // before reaching the clear west side of Geo Island.
         var fork = new Vector3(20f, 0f, -54f);
         Segment(bridge, "Y stem - Diwali", new Vector3(0f, 0f, -30f), fork, material, sample, 0f, 5f);
         Segment(bridge, "Y branch - Christmas", fork, new Vector3(0f, 0f, -81f), material, sample, 5f, 0f);
-        Segment(bridge, "Y branch - Geo", fork, new Vector3(70f, 0f, -100f), material, sample, 5f, 0f);
+        Segment(bridge, "Y branch - Geo", fork, geoLanding, material, sample, 5f, 0f);
         Cube(bridge, "Y fork deck", new Vector3(fork.x, -.06f, fork.z), new Vector3(10f, .24f, 10f), material, sample);
         var hubSafety = bridge.Find("Y fork safety floor");
         if (!hubSafety)

@@ -45,6 +45,8 @@ At Diwali mini-games, choose **Begin** and follow the task panel. Release items 
 
 > Checked using Unity Play Mode simulation and scripted checks. Physical headset comfort and Android performance still need device testing.
 
+[Geo island actions and verification](Documentation/Geo_Island_Action_Report.md)
+
 ---
 
 <div align="center">

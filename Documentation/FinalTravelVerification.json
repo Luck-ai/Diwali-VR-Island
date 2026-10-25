@@ -1,0 +1,842 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "started": "2026-10-25T02:57:37.461533Z",
+  "scope": "Queued XR UI presses on world travel kiosks; explicit floor-validated approach fixtures; arrival support/capsule checks and actual CharacterController.Move collision probe. Synthetic controller, not physical headset verification.",
+  "results": [
+    {
+      "name": "all travel destinations",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.341, -25.200)"
+    },
+    {
+      "name": "travel kiosks installed",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.341, -25.200)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel - Diwali entrance: Processional avenue distance=1.519",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel - Diwali entrance: ",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.25",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Rangoli Courtyard distance=1.24",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Rangoli Courtyard: ",
+      "head": "(1.100, 1.341, -24.550)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Rangoli Courtyard clicks=1",
+      "head": "(-20.300, 1.419, 35.974)"
+    },
+    {
+      "name": "arrival Rangoli Courtyard",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel - Diwali entrance",
+      "head": "(-20.300, 1.419, 35.974)"
+    },
+    {
+      "name": "arrival floor Rangoli Courtyard",
+      "pass": true,
+      "detail": "Crosswalk 9 distance=1.589",
+      "head": "(-20.300, 1.419, 35.974)"
+    },
+    {
+      "name": "arrival capsule Rangoli Courtyard",
+      "pass": true,
+      "detail": "",
+      "head": "(-20.300, 1.419, 35.974)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - RANGOLI PAVILION: Crosswalk 9 distance=1.589",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - RANGOLI PAVILION: ",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Sweet Shop distance=1.22",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Sweet Shop: ",
+      "head": "(-16.350, 1.419, 37.974)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Sweet Shop clicks=1",
+      "head": "(-20.300, 1.432, 3.833)"
+    },
+    {
+      "name": "arrival Sweet Shop",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - RANGOLI PAVILION",
+      "head": "(-20.300, 1.432, 3.833)"
+    },
+    {
+      "name": "arrival floor Sweet Shop",
+      "pass": true,
+      "detail": "Crosswalk -10 distance=1.601",
+      "head": "(-20.300, 1.432, 3.833)"
+    },
+    {
+      "name": "arrival capsule Sweet Shop",
+      "pass": true,
+      "detail": "",
+      "head": "(-20.300, 1.432, 3.833)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - SWEET MEMORY SHOP: Crosswalk -10 distance=1.601",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - SWEET MEMORY SHOP: ",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Lantern Garden distance=1.21",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Lantern Garden: ",
+      "head": "(-16.350, 1.432, 5.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Lantern Garden clicks=1",
+      "head": "(20.300, 1.424, 35.974)"
+    },
+    {
+      "name": "arrival Lantern Garden",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - SWEET MEMORY SHOP",
+      "head": "(20.300, 1.424, 35.974)"
+    },
+    {
+      "name": "arrival floor Lantern Garden",
+      "pass": true,
+      "detail": "Crosswalk 9 distance=1.594",
+      "head": "(20.300, 1.424, 35.974)"
+    },
+    {
+      "name": "arrival capsule Lantern Garden",
+      "pass": true,
+      "detail": "",
+      "head": "(20.300, 1.424, 35.974)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - LANTERN GARDEN: Crosswalk 9 distance=1.594",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - LANTERN GARDEN: ",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Diya Courtyard distance=1.22",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Diya Courtyard: ",
+      "head": "(16.350, 1.424, 33.974)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Diya Courtyard clicks=1",
+      "head": "(20.300, 1.431, 3.833)"
+    },
+    {
+      "name": "arrival Diya Courtyard",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - LANTERN GARDEN",
+      "head": "(20.300, 1.431, 3.833)"
+    },
+    {
+      "name": "arrival floor Diya Courtyard",
+      "pass": true,
+      "detail": "Crosswalk -10 distance=1.600",
+      "head": "(20.300, 1.431, 3.833)"
+    },
+    {
+      "name": "arrival capsule Diya Courtyard",
+      "pass": true,
+      "detail": "",
+      "head": "(20.300, 1.431, 3.833)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - DIYA COURTYARD: Crosswalk -10 distance=1.600",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - DIYA COURTYARD: ",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Fireworks distance=1.22",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Fireworks: ",
+      "head": "(16.350, 1.431, 1.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Fireworks clicks=1",
+      "head": "(0.000, 1.393, 49.507)"
+    },
+    {
+      "name": "arrival Fireworks",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - DIYA COURTYARD",
+      "head": "(0.000, 1.393, 49.507)"
+    },
+    {
+      "name": "arrival floor Fireworks",
+      "pass": true,
+      "detail": "Processional avenue distance=1.571",
+      "head": "(0.000, 1.393, 49.507)"
+    },
+    {
+      "name": "arrival capsule Fireworks",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.393, 49.507)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - FESTIVAL GAMES: Processional avenue distance=1.571",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - FESTIVAL GAMES: ",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.24",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Festival Plaza distance=1.21",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Festival Plaza: ",
+      "head": "(2.000, 1.393, 45.557)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Festival Plaza clicks=1",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival Festival Plaza",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - FESTIVAL GAMES",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival floor Festival Plaza",
+      "pass": true,
+      "detail": "Plaza red border distance=1.594",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival capsule Festival Plaza",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - SWEET MEMORY SHOP: Crosswalk -10 distance=1.599",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - SWEET MEMORY SHOP: ",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Christmas Island distance=1.23",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Christmas Island: ",
+      "head": "(-16.350, 1.429, 5.833)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Christmas Island clicks=1",
+      "head": "(0.000, 1.441, -78.000)"
+    },
+    {
+      "name": "arrival Christmas Island",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - SWEET MEMORY SHOP",
+      "head": "(0.000, 1.441, -78.000)"
+    },
+    {
+      "name": "arrival floor Christmas Island",
+      "pass": true,
+      "detail": "Walkable Deck distance=1.581",
+      "head": "(0.000, 1.441, -78.000)"
+    },
+    {
+      "name": "arrival capsule Christmas Island",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.441, -78.000)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - Christmas Island: Safety floor - walkable margin distance=1.598",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - Christmas Island: ",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Geo Island distance=1.23",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Geo Island: ",
+      "head": "(1.050, 1.428, -74.050)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Geo Island clicks=1",
+      "head": "(62.750, 1.441, -63.500)"
+    },
+    {
+      "name": "arrival Geo Island",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - Christmas Island",
+      "head": "(62.750, 1.441, -63.500)"
+    },
+    {
+      "name": "arrival floor Geo Island",
+      "pass": true,
+      "detail": "Walkable Deck distance=1.581",
+      "head": "(62.750, 1.441, -63.500)"
+    },
+    {
+      "name": "arrival capsule Geo Island",
+      "pass": true,
+      "detail": "",
+      "head": "(62.750, 1.441, -63.500)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Geo Island: Walkable Deck distance=1.581",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Geo Island: ",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Festival Plaza distance=1.22",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Festival Plaza: ",
+      "head": "(64.425, 1.441, -63.500)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Festival Plaza clicks=1",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival Festival Plaza",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Geo Island",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival floor Festival Plaza",
+      "pass": true,
+      "detail": "Plaza red border distance=1.594",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival capsule Festival Plaza",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "approach floor support",
+      "pass": true,
+      "detail": "Travel outside - Arrival - Christmas Island: Safety floor - walkable margin distance=1.599",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "approach capsule clear",
+      "pass": true,
+      "detail": "Travel outside - Arrival - Christmas Island: ",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Teleport / choose destination distance=1.23",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Teleport / choose destination: ",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Teleport / choose destination clicks=1",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "head-based travel ray within 3m",
+      "pass": true,
+      "detail": "Festival Plaza distance=1.22",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "travel physical line of sight",
+      "pass": true,
+      "detail": "Festival Plaza: ",
+      "head": "(1.050, 1.429, -74.050)"
+    },
+    {
+      "name": "queued travel UI dispatch",
+      "pass": true,
+      "detail": "Festival Plaza clicks=1",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival Festival Plaza",
+      "pass": true,
+      "detail": "XZ error=0.000, kiosk=Travel outside - Arrival - Christmas Island",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival floor Festival Plaza",
+      "pass": true,
+      "detail": "Plaza red border distance=1.594",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "arrival capsule Festival Plaza",
+      "pass": true,
+      "detail": "",
+      "head": "(0.000, 1.438, 3.833)"
+    },
+    {
+      "name": "venue approach floor FireworksGame",
+      "pass": true,
+      "detail": "Circle distance=1.587",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue approach capsule FireworksGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue panel physical LOS FireworksGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue approach floor DiyaGame",
+      "pass": true,
+      "detail": "Plane.002 distance=1.599",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue approach capsule DiyaGame",
+      "pass": true,
+      "detail": "",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue panel physical LOS DiyaGame",
+      "pass": true,
+      "detail": "",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue approach floor SweetGame",
+      "pass": true,
+      "detail": "Plane.001 distance=1.587",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "venue approach capsule SweetGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "venue panel physical LOS SweetGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "venue approach floor RoutingGame",
+      "pass": true,
+      "detail": "Plane distance=1.587",
+      "head": "(26.515, 1.438, 38.887)"
+    },
+    {
+      "name": "venue approach capsule RoutingGame",
+      "pass": true,
+      "detail": "",
+      "head": "(26.515, 1.438, 38.887)"
+    },
+    {
+      "name": "venue panel physical LOS RoutingGame",
+      "pass": true,
+      "detail": "",
+      "head": "(26.515, 1.438, 38.887)"
+    },
+    {
+      "name": "venue approach floor RangoliGame",
+      "pass": true,
+      "detail": "Empty venue floor 1 distance=1.597",
+      "head": "(-22.474, 1.438, 34.091)"
+    },
+    {
+      "name": "venue approach capsule RangoliGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-22.474, 1.438, 34.091)"
+    },
+    {
+      "name": "venue panel physical LOS RangoliGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-22.474, 1.438, 34.091)"
+    },
+    {
+      "name": "venue approach floor FireworksGame",
+      "pass": true,
+      "detail": "Circle distance=1.587",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue approach capsule FireworksGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue panel physical LOS FireworksGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-1.250, 1.438, 57.851)"
+    },
+    {
+      "name": "venue approach floor DiyaGame",
+      "pass": true,
+      "detail": "Plane.002 distance=1.599",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue approach capsule DiyaGame",
+      "pass": true,
+      "detail": "",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue panel physical LOS DiyaGame",
+      "pass": true,
+      "detail": "",
+      "head": "(33.102, 1.438, 7.157)"
+    },
+    {
+      "name": "venue approach floor SweetGame",
+      "pass": true,
+      "detail": "Plane.001 distance=1.587",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "venue approach capsule SweetGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "venue panel physical LOS SweetGame",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.623, 1.438, 3.274)"
+    },
+    {
+      "name": "CharacterController wall collision",
+      "pass": true,
+      "detail": "wall=Cube.012, requested=1.39, moved=0.80, hit=0.74, flags=Sides",
+      "head": "(-31.896, 1.438, 2.469)"
+    },
+    {
+      "name": "wall probe ends outside geometry",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.896, 1.438, 2.469)"
+    },
+    {
+      "name": "wall probe fixture found",
+      "pass": true,
+      "detail": "",
+      "head": "(-31.896, 1.438, 2.469)"
+    }
+  ]
+}

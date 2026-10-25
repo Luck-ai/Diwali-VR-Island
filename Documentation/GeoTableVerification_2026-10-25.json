@@ -1,0 +1,311 @@
+{
+  "status": "passed",
+  "failures": 0,
+  "started": "2026-10-25T02:57:00.54171Z",
+  "elapsedSeconds": 9.456424,
+  "scope": "Desktop Play Mode, queued NearFar grip/UI input, floor-supported standing fixtures. Objects are released and allowed to settle before checking; fixture restoration happens only afterwards. This does not establish physical headset comfort or Android performance.",
+  "actions": [],
+  "inventory": [],
+  "results": [
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.454, 1.209, -51.230)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "desired=(101.45, 1.35, -51.23), actual=(101.45, 1.35, -51.23)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.152, support=1.161, gap=-0.009"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.454, 1.209, -51.230)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.003",
+      "pass": true,
+      "detail": "desired=(101.45, 1.95, -51.23), actual=(101.45, 1.95, -51.23)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.148, support=1.161, gap=-0.012"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.003 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.050"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.567, 1.491, -50.599)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "desired=(101.57, 1.63, -50.60), actual=(101.57, 1.63, -50.60)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.437, support=1.442, gap=-0.006"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(101.567, 1.491, -50.599)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.004",
+      "pass": true,
+      "detail": "desired=(101.57, 2.23, -50.60), actual=(101.57, 2.23, -50.60)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.435, support=1.442, gap=-0.007"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.004 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.025"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.167, -69.256)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "desired=(111.34, 1.30, -69.26), actual=(111.34, 1.30, -69.26)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.115, support=1.118, gap=-0.003"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.167, -69.256)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.045",
+      "pass": true,
+      "detail": "desired=(111.34, 1.90, -69.26), actual=(111.34, 1.90, -69.26)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.114, support=1.118, gap=-0.004"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.045 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.023"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.167, -65.102)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "desired=(111.34, 1.30, -65.10), actual=(111.34, 1.30, -65.10)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.115, support=1.118, gap=-0.003"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(111.343, 1.167, -65.102)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.055",
+      "pass": true,
+      "detail": "desired=(111.34, 1.90, -65.10), actual=(111.34, 1.90, -65.10)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.110, support=1.118, gap=-0.008"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.055 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.015"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.167, -65.104)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "desired=(106.09, 1.30, -65.10), actual=(106.09, 1.30, -65.10)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.115, support=1.118, gap=-0.003"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.167, -65.104)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.069",
+      "pass": true,
+      "detail": "desired=(106.09, 1.90, -65.10), actual=(106.09, 1.90, -65.10)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.109, support=1.118, gap=-0.009"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.069 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.003"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.167, -67.461)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "desired=(106.09, 1.30, -67.46), actual=(106.09, 1.30, -67.46)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.115, support=1.118, gap=-0.003"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.15m settles",
+      "pass": true,
+      "detail": "speed=0.000"
+    },
+    {
+      "name": "unobstructed tabletop drop location Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "Fixed decorations excluded; location=(106.086, 1.167, -67.461)"
+    },
+    {
+      "name": "drop starts over Tabletop support - Cube.077",
+      "pass": true,
+      "detail": "desired=(106.09, 1.90, -67.46), actual=(106.09, 1.90, -67.46)"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m gravity after release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m rests on visible surface",
+      "pass": true,
+      "detail": "visual bottom=1.114, support=1.118, gap=-0.004"
+    },
+    {
+      "name": "drop Cylinder.020 on Tabletop support - Cube.077 from 0.75m settles",
+      "pass": true,
+      "detail": "speed=0.025"
+    }
+  ]
+}

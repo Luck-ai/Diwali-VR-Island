@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "sourceActions": {
+    "passed": 67,
+    "total": 67,
+    "buttons": 6,
+    "grabAndPlace": 61,
+    "evidence": "GeoFullInteractionVerification_2026-10-25.json"
+  },
+  "tableDrops": {
+    "passed": 12,
+    "total": 12,
+    "assertions": 60,
+    "evidence": "GeoTableVerification_2026-10-25.json"
+  },
+  "travel": {
+    "passed": 139,
+    "failures": 0,
+    "evidence": "FinalTravelVerification.json"
+  },
+  "bridgeSupport": {
+    "samples": 339,
+    "missingSupport": 0,
+    "scope": "Live downward support probes at one-metre intervals across all three Y legs, center and +/-2.8m margins."
+  },
+  "supersededFixtureChecks": {
+    "count": 4,
+    "source": "GeoFullInteractionVerification_2026-10-25.json",
+    "reason": "Raw full audit table-center drops landed on fixed decorations. All six tables were retested at explicitly clear spots in focused table audit. Raw evidence retains its failed status."
+  },
+  "limitations": "Unity desktop Play Mode and synthetic queued XR input. Physical Quest comfort and Android performance require device testing."
+}
