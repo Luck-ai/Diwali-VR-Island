@@ -17,7 +17,7 @@ using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 namespace DiwaliGameplay {
 public static class SweetReachAndCarryVerification {
  public static bool Running;
- public static string Folder=>Path.GetFullPath("Documentation/Sweet_Wall_Layout_2026-10-25");
+ public static string Folder=>Path.GetFullPath("Documentation/Sweet_Basket_Motion_2026-10-25");
  static SweetGame game;static NearFarInteractor hand;static Unity.XR.CoreUtils.XROrigin rig;
  static readonly List<object> rows=new List<object>();static int failures;static Vector3 workEye=new Vector3(-30.30f,1.6f,1.70f);
  static async Task Wait(int ms=150){await Task.Delay(ms);}
@@ -38,13 +38,33 @@ public static class SweetReachAndCarryVerification {
  static void Capture(string name,Vector3 eye,Vector3 look,float fov=85){File.Copy(ChristmasIslandQA.Render("Sweet-Reach-"+name,eye,look,fov),Path.Combine(Folder,name+".png"),true);}
  static async Task CarryCases(GrabbableItem basket,string label){
   if(!await Grip(basket,label))return;
+  Eye(workEye);
+  var startHand=workEye+new Vector3(0,-.35f,-.42f);
+  hand.transform.SetPositionAndRotation(startHand,Quaternion.LookRotation(Vector3.back));await Wait(200);
+  var startBasket=basket.transform.position;
+  hand.transform.position=startHand+Vector3.up*.45f;await Wait(200);
+  Check(label+" follows vertical hand movement",basket.IsHeld&&basket.transform.position.y-startBasket.y>.30f,"lift="+(basket.transform.position.y-startBasket.y).ToString("F3"));
+  hand.transform.SetPositionAndRotation(startHand,Quaternion.LookRotation(Vector3.back));await Wait(200);startBasket=basket.transform.position;
+  hand.transform.position=startHand+Vector3.right*.4f;await Wait(200);
+  Check(label+" follows sideways hand movement",basket.IsHeld&&basket.transform.position.x-startBasket.x>.25f,"side="+(basket.transform.position.x-startBasket.x).ToString("F3"));
+  hand.transform.SetPositionAndRotation(startHand,Quaternion.LookRotation(Vector3.back));await Wait(200);startBasket=basket.transform.position;
+  hand.transform.rotation=Quaternion.LookRotation(new Vector3(0,.5f,-.866f));await Wait(200);
+  Check(label+" follows upward wrist aiming",basket.IsHeld&&basket.transform.position.y-startBasket.y>.30f,"lift="+(basket.transform.position.y-startBasket.y).ToString("F3"));
+  hand.transform.rotation=Quaternion.LookRotation(new Vector3(.6f,0,-.8f));await Wait(200);
+  Check(label+" follows sideways wrist aiming",basket.IsHeld&&basket.transform.position.x-startBasket.x>.25f,"side="+(basket.transform.position.x-startBasket.x).ToString("F3"));
+  var attach=(InteractionAttachController)hand.interactionAttachController;
+  hand.transform.SetPositionAndRotation(startHand,Quaternion.LookRotation(Vector3.back));
+  ((IInteractionAttachController)attach).MoveTo(startHand+Vector3.back*.95f);await Wait(200);startBasket=basket.transform.position;
+  ((IInteractionAttachController)attach).ApplyLocalPositionOffset(Vector3.forward*.45f);await Wait(200);
+  Check(label+" follows far grab distance adjustment",basket.IsHeld&&Vector3.Distance(basket.transform.position,startBasket)>.25f,"movement="+Vector3.Distance(basket.transform.position,startBasket).ToString("F3"));
+  ((IInteractionAttachController)attach).MoveTo(hand.transform.position+hand.transform.forward*1.05f);
   foreach(float height in new[]{1.15f,1.6f,1.85f})foreach(float side in new[]{-.23f,.23f})foreach(float lift in new[]{-.45f,0f}){
    Eye(new Vector3(workEye.x,height,workEye.z));var direction=new Vector3(-1,0,-.1f).normalized;
    var position=rig.Camera.transform.position+direction*.38f+Vector3.forward*side+Vector3.up*lift;
    hand.transform.SetPositionAndRotation(position,Quaternion.Euler(lift==0?-45:55,side<0?225:315,0));await Wait(110);
    var bounds=GameObjectUtility.BoundsOf(basket.transform);float handGap=Vector3.Distance(bounds.ClosestPoint(hand.transform.position),hand.transform.position);float headGap=Vector3.Distance(bounds.ClosestPoint(rig.Camera.transform.position),rig.Camera.transform.position);
    bool inside=basket==game.basket?game.selected.All(s=>Vector3.Distance(GameObjectUtility.BoundsOf(s.transform).center,bounds.center)<1):true;
-   Check(label+" h"+height+" side"+side+" lift"+lift,basket.IsHeld&&handGap>.18f&&headGap>.45f&&bounds.max.y<height-.26f&&Vector3.Angle(basket.transform.up,Vector3.up)<2&&inside,"handGap="+handGap.ToString("F3")+",headGap="+headGap.ToString("F3")+",top="+bounds.max.y.ToString("F3"));
+   Check(label+" h"+height+" side"+side+" lift"+lift,basket.IsHeld&&handGap>.18f&&headGap>.45f&&Vector3.Angle(basket.transform.up,Vector3.up)<2&&inside,"handGap="+handGap.ToString("F3")+",headGap="+headGap.ToString("F3")+",top="+bounds.max.y.ToString("F3"));
   }
   Eye(workEye);Aim(game.rest.position,.48f,.3f);await Wait(160);
   Capture(label+"-forward-view",rig.Camera.transform.position,rig.Camera.transform.position+new Vector3(-2,0,-.4f));

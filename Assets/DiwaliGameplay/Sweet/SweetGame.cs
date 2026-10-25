@@ -42,7 +42,7 @@ public class SweetGame : VenueGame {
  public Quaternion gujiyaRestRotation=Quaternion.identity;
  readonly Dictionary<BoxCollider,(Vector3 center,Vector3 size)> shelfColliderShapes=new Dictionary<BoxCollider,(Vector3 center,Vector3 size)>();
  readonly Dictionary<GrabbableItem,Vector3> sweetScales=new Dictionary<GrabbableItem,Vector3>();
- protected override void Awake(){base.Awake();defaultBasket=basket;if(baskets==null||baskets.Length==0)baskets=new[]{basket};foreach(var b in baskets){basketScales[b]=b.transform.localScale;MakeBasketInteriorReachable(b);b.ConfigureGrab();b.grab.trackPosition=false;b.grab.trackRotation=false;b.grab.useDynamicAttach=false;var item=b;b.grab.selectExited.AddListener(_=>QueueBasketRelease(item));}snapRadius=Mathf.Max(snapRadius,.65f);basketScale=basket.transform.localScale;if(sweets!=null)foreach(var sweet in sweets)if(sweet){sweet.ConfigureGrab();foreach(var box in sweet.GetComponentsInChildren<BoxCollider>(true))if(box.GetComponentInParent<GrabbableItem>()==sweet)shelfColliderShapes[box]=(box.center,box.size);sweetScales[sweet]=sweet.transform.localScale;shelfParents[sweet]=sweet.transform.parent;
+ protected override void Awake(){base.Awake();defaultBasket=basket;if(baskets==null||baskets.Length==0)baskets=new[]{basket};foreach(var b in baskets){basketScales[b]=b.transform.localScale;MakeBasketInteriorReachable(b);b.ConfigureGrab();b.grab.trackPosition=false;b.grab.trackRotation=false;b.grab.useDynamicAttach=false;var item=b;b.grab.selectEntered.AddListener(args=>BeginBasketCarry(item,args.interactorObject));b.grab.selectExited.AddListener(_=>QueueBasketRelease(item));}snapRadius=Mathf.Max(snapRadius,.65f);basketScale=basket.transform.localScale;if(sweets!=null)foreach(var sweet in sweets)if(sweet){sweet.ConfigureGrab();foreach(var box in sweet.GetComponentsInChildren<BoxCollider>(true))if(box.GetComponentInParent<GrabbableItem>()==sweet)shelfColliderShapes[box]=(box.center,box.size);sweetScales[sweet]=sweet.transform.localScale;shelfParents[sweet]=sweet.transform.parent;
  var shelf=new GameObject(sweet.itemId+" original shelf pose").transform;shelf.SetParent(transform,false);shelf.SetPositionAndRotation(sweet.transform.position,sweet.transform.rotation);shelfTargets[sweet]=shelf;
  var item=sweet;sweet.grab.selectEntered.AddListener(_=>{if(!confirmed)RemoveSweet(item);});sweet.grab.selectExited.AddListener(_=>{if(begun&&!completed)releasedSweets.Add(item);});sweet.grab.trackScale=false;sweet.grab.useDynamicAttach=true;sweet.grab.matchAttachPosition=true;sweet.grab.matchAttachRotation=true;}}
 
@@ -221,19 +221,37 @@ public class SweetGame : VenueGame {
   var labels=panel.GetComponentsInChildren<UnityEngine.UI.Text>(true).Where(t=>t.transform.parent==panel.transform).ToArray();if(labels.Length>2)labels[2].gameObject.SetActive(!begun||completed);
   beginControl.gameObject.SetActive(!begun);openControl.gameObject.SetActive(begun&&!cabinetOpen);switchControl.gameObject.SetActive(begun&&cabinetOpen&&!confirmed&&!completed);
  }
+ void BeginBasketCarry(GrabbableItem item,IXRSelectInteractor interactor){
+  item.transform.SetParent(null,true);
+  if(interactor is NearFarInteractor nearFar){
+   var hand=nearFar.interactionAttachController.transformToFollow;
+   if(!hand)hand=interactor.transform;
+   nearFar.interactionAttachController.MoveTo(hand.position+hand.forward*1.05f);
+  }
+ }
  public static Pose ComfortableBasketPose(Vector3 handPosition,Vector3 handForward,Transform head,float radius,float topOffset=.30f){
-  var away=head?Vector3.ProjectOnPlane(handPosition-head.position,Vector3.up):Vector3.ProjectOnPlane(handForward,Vector3.up);
+  return BasketCarryPose(handPosition,handPosition+handForward.normalized*Mathf.Max(1.05f,radius+.36f),head,radius,topOffset);
+ }
+ public static Pose BasketCarryPose(Vector3 handPosition,Vector3 grabPoint,Transform head,float radius,float topOffset){
+  var delta=grabPoint-handPosition;
+  if(delta.sqrMagnitude<.0001f)delta=head?head.forward:Vector3.forward;
+  var position=handPosition+delta.normalized*Mathf.Clamp(delta.magnitude,Mathf.Max(.75f,radius+.36f),2.5f);
+  var away=head?Vector3.ProjectOnPlane(position-head.position,Vector3.up):Vector3.ProjectOnPlane(delta,Vector3.up);
   if(away.sqrMagnitude<.01f&&head)away=Vector3.ProjectOnPlane(head.forward,Vector3.up);
   if(away.sqrMagnitude<.01f)away=Vector3.forward;
   away.Normalize();
-  float distance=Mathf.Max(.65f,radius+.36f);
-  var position=handPosition+away*distance+Vector3.down*Mathf.Max(.34f,topOffset+.08f);
+  var fromHand=Vector3.ProjectOnPlane(position-handPosition,Vector3.up);
+  float handClearance=radius+.55f;
+  if(fromHand.magnitude<handClearance){
+   var direction=fromHand.sqrMagnitude>.0001f?fromHand.normalized:away;
+   position+=direction*(handClearance-fromHand.magnitude);
+  }
   if(head){
    var horizontal=Vector3.ProjectOnPlane(position-head.position,Vector3.up);
-   float clearance=radius+.55f;
+   float clearance=radius+.8f;
    if(horizontal.magnitude<clearance)position+=away*(clearance-horizontal.magnitude);
-   position.y=Mathf.Min(position.y,head.position.y-.32f-topOffset);
   }
+  position-=Vector3.up*(topOffset+.06f);
   return new Pose(position,Quaternion.LookRotation(away,Vector3.up));
  }
  void OnEnable(){Application.onBeforeRender+=ApplyBasketCarry;}
@@ -246,7 +264,8 @@ public class SweetGame : VenueGame {
    var item=pair.Key;item.transform.localScale=pair.Value;
    if(!item.IsHeld||item.grab.interactorsSelecting.Count==0)continue;
    var interactor=item.grab.interactorsSelecting[0];
-   var hand=interactor.transform;
+   var hand=interactor is NearFarInteractor nearFar?nearFar.interactionAttachController.transformToFollow:interactor.transform;
+   if(!hand)hand=interactor.transform;
    if(!hand)continue;
    if(!playerHead){var camera=Camera.main;if(camera)playerHead=camera.transform;}
    var bounds=NativeBounds(item,item.transform);
@@ -255,7 +274,13 @@ public class SweetGame : VenueGame {
    float radius=Mathf.Sqrt(x*x+z*z);
    float topOffset=bounds.max.y*Mathf.Abs(item.transform.lossyScale.y);
    item.grab.trackPosition=false;item.grab.trackRotation=false;item.grab.trackScale=false;
-   var pose=ComfortableBasketPose(hand.position,hand.forward,playerHead,radius,topOffset);
+   var attach=interactor.GetAttachTransform(item.grab);
+   var point=attach?attach.position:hand.position;
+   if((point-hand.position).sqrMagnitude<.0001f)point=hand.position+hand.forward*1.05f;
+   var pose=BasketCarryPose(hand.position,point,playerHead,radius,topOffset);
+   float floor=playerHead?playerHead.root.position.y:0;
+   float bottomOffset=Mathf.Max(0,-bounds.min.y*Mathf.Abs(item.transform.lossyScale.y));
+   pose.position.y=Mathf.Max(pose.position.y,floor+bottomOffset+.04f);
    item.transform.SetPositionAndRotation(pose.position,pose.rotation);
    var body=item.GetComponent<Rigidbody>();if(body&&body.isKinematic){body.position=pose.position;body.rotation=pose.rotation;}
   }
