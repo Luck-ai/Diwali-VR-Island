@@ -146,8 +146,7 @@ public static class SweetBasketComfortVerification {
    foreach(var sweet in game.selected.ToArray()){
     var mesh=MeshBounds(sweet);var floorWorld=game.basket.transform.TransformPoint(new Vector3(0,game.BasketInteriorFloorY(game.basket),0)).y;
     var basketMesh=MeshBounds(game.basket);float rimWorld=basketMesh.min.y+basketMesh.size.y*.35f;
-    bool flat=sweet.itemId=="Barfi"||sweet.itemId=="Gujiya";
-    Check("Packed visual seated on basket floor "+sweet.name,mesh.min.y>=floorWorld-.01f&&mesh.min.y<=floorWorld+.025f&&(!flat||mesh.max.y<=rimWorld+.02f),
+    Check("Selected sweet floats above basket for swapping "+sweet.name,mesh.min.y>=floorWorld+.24f&&mesh.min.y<=floorWorld+.4f,
      $"bottom={mesh.min.y:F3},top={mesh.max.y:F3},floor={floorWorld:F3},rim={rimWorld:F3}");
    }
    await Frames();Capture("packed",game);Capture("packed-top",game);

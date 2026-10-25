@@ -1,0 +1,9 @@
+{
+  "scope": "Focused Unity desktop Play Mode checks using synthetic XR selection; physical headset comfort was not tested.",
+  "results": [
+    "[Log] FLOAT Gujiya bottom above basket floor=0.3\n[Log] FLOAT Gujiya bottom above basket floor=0.3\n[Log] FLOAT Gujiya bottom above basket floor=0.3\n[Log] FLOAT Gujiya bottom above basket floor=0.3\n[Log] SWEET menu blocks basket=False menu=(-32.63, 1.59, 3.86)\n[Log] SWEET floating grab selected=True selected remaining=3\n[Log] DIYA chest opening step=5\n[Log] DIYA ROUTE LOGIC PASS: preparation gate, each tile alone completes route once, held/unlit gating, transfer gate, proximity, reset.",
+    "[Log] SWEET return from generous shelf margin error=0\n[Log] MIXED FLOAT Gujiya gap=0.3\n[Log] MIXED FLOAT Barfi gap=0.3\n[Log] MIXED FLOAT Modak gap=0.2999998\n[Log] MIXED FLOAT Gujiya gap=0.3\n[Log] FEATHER front clearance=0.119998 top clearance=0.12\n[Log] DIYA head moved close to cleaning-stage menu for clearance check\n[Log] FIREWORKS ground stage persists on Begin=True bottom=0.09074926",
+    "[Log] DIYA cleaning menu center clearance=1.925002 minimum edge clearance=1.400002\n[Log] SWEET VISUAL /home/lucky/KMITL/3.1/AR/Project/Scene_Previews/Christmas-Integration-20261019/Sweet-comfort-final.png\n[Log] DIYA VISUAL /home/lucky/KMITL/3.1/AR/Project/Scene_Previews/Christmas-Integration-20261019/Diya-feather-front-final.png\n[Log] DIYA route actual grip=True entering tile3 first",
+    "[Log] ONE TILE runtime step=9 route count=3 held=True\n[Log] DIYA physical flame transfer=True\n[Log] DIYA final rest completed=True actions=10"
+  ]
+}
