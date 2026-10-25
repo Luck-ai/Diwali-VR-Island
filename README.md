@@ -2,7 +2,7 @@
 
 # 🪔 Festival Realms
 
-**Explore Diwali and Christmas islands through hands-on VR mini-games.**
+**Explore connected islands through hands-on VR games and activities.**
 
 ![Unity](https://img.shields.io/badge/Unity-6000.3-FFFFFF?style=for-the-badge&logo=unity&logoColor=white&labelColor=0E1626)
 ![C#](https://img.shields.io/badge/C%23-Gameplay-8A2BE2?style=for-the-badge&labelColor=0E1626)
@@ -15,9 +15,10 @@
 
 ## ✨ Features
 
-- **Two connected festival islands** with pathways and teleport travel.
+- **Three connected islands** with pathways and teleport travel.
 - **Diwali island:** rangoli puzzles, sweet shopping, lantern routing, diya preparation and fireworks.
 - **Christmas island:** festive interactive props, doors, a carousel and a Ferris wheel.
+- **Geo island:** a market and performance stage with lights, fans, music and grabbable props.
 - **Hands-on interactions:** grab objects, snap pieces into place, operate moving parts and use world-space menus.
 - **Festival exploration:** move between themed venues, enjoy rides and unlock Diwali celebrations through game completion.
 - Authored Blender models, PBR materials and festival lighting.
@@ -38,9 +39,9 @@ Install Unity’s **Android Build Support, SDK, NDK and OpenJDK** modules for he
 
 ## 🎮 Playing
 
-Start at the **Diwali entrance** beside the travel menu. Explore on foot or teleport between venues and the Christmas island. Grab festive props and interact with rides and activities.
+Start at the **Diwali entrance** beside the travel menu. Explore on foot or teleport between venues and islands. Grab props and interact with rides, lights, music and activities.
 
-At Diwali mini-games, choose **Begin** and follow the task panel. Release items near highlighted targets to place them, and use buttons or sliders to operate the game. **How To Play** explains each activity; **Restart** resets it.
+At Diwali mini-games, choose **Begin** and follow the task panel. Release items near highlighted targets to place them. In Fireworks, grip the loaded rocket, board or fountain and move your hand up/down to adjust it; the spinner keeps its speed slider. **How To Play** explains each activity; **Restart** resets it.
 
 > Checked using Unity Play Mode simulation and scripted checks. Physical headset comfort and Android performance still need device testing.
 
