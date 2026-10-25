@@ -31,6 +31,8 @@ public sealed class GeoIslandPhysics : MonoBehaviour
         if (!body) return;
         body.isKinematic = false;
         body.useGravity = true;
+        // Throwable items (e.g. the rescue ring) keep the throw the grab hands them.
+        if (args.interactableObject is XRGrabInteractable grab && grab.throwOnDetach) return;
         body.linearVelocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
     }
