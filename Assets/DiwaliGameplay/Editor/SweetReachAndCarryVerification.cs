@@ -17,9 +17,9 @@ using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 namespace DiwaliGameplay {
 public static class SweetReachAndCarryVerification {
  public static bool Running;
- public static string Folder=>Path.GetFullPath("Documentation/Sweet_Reach_Carry_2026-10-25");
+ public static string Folder=>Path.GetFullPath("Documentation/Sweet_Wall_Layout_2026-10-25");
  static SweetGame game;static NearFarInteractor hand;static Unity.XR.CoreUtils.XROrigin rig;
- static readonly List<object> rows=new List<object>();static int failures;static Vector3 workEye=new Vector3(-30,1.6f,4.45f);
+ static readonly List<object> rows=new List<object>();static int failures;static Vector3 workEye=new Vector3(-30.30f,1.6f,1.70f);
  static async Task Wait(int ms=150){await Task.Delay(ms);}
  static void Save(string state){File.WriteAllText(Path.Combine(Folder,"Play_Mode.json"),Newtonsoft.Json.JsonConvert.SerializeObject(new{state,failures,scope="Desktop Play Mode, queued NearFar inputs. Stocking, swapping, checkout use one fixed head position and hand positions within 0.7 m. Initial basket collection and carry-motion checks move the rig explicitly. No physical Quest verification.",results=rows},Newtonsoft.Json.Formatting.Indented));}
  static void Check(string name,bool passed,string detail=""){rows.Add(new{name,passed,detail});if(!passed){failures++;Debug.LogWarning("Sweet reach/carry: "+name+" "+detail);}Save("running");}
@@ -65,9 +65,9 @@ public static class SweetReachAndCarryVerification {
    Eye(workEye);await Wait(200);game.ResetGame();
    await Click(game.ActivityPanel.GetComponentsInChildren<Button>().First(b=>b.name=="Make a Gift Basket"),"Begin");
    await Click(game.ActivityPanel.GetComponentsInChildren<Button>().First(b=>b.name=="Open Cabinet"),"Open cabinet");await Wait(700);
-   Check("Permanent basket checkout sign exists",game.basketZoneSign&&game.basketZoneSign.GetComponentInChildren<Text>().text.Contains("BASKET / CHECKOUT"));
+   Check("Permanent basket checkout sign exists",game.basketZoneSign&&game.basketZoneSign.GetComponentInChildren<Text>().text.Contains("CHECKOUT"));
    Eye(new Vector3(-33.1f,1.6f,2.84f));
-   if(await Grip(game.basket,"wall shelf basket")){Eye(new Vector3(-33.1f,1.6f,4.45f));await Wait(150);Eye(workEye);await Wait(150);await DropToward(game.rest.position);}
+   if(await Grip(game.basket,"wall shelf basket")){Eye(new Vector3(-32.9f,1.6f,3.1f));await Wait(150);Eye(workEye);await Wait(150);await DropToward(game.rest.position);}
    Eye(workEye);Check("Basket collected and placed",game.basketReady&&Vector3.Distance(game.basket.transform.position,game.rest.position)<.04f);
    if(!game.basketReady)throw new InvalidOperationException("Basket pickup/drop failed; stocking precondition is unmet.");
    var sourceOrder=new[]{"Barfi","Modak","Gujiya","Barfi"};
@@ -85,12 +85,13 @@ public static class SweetReachAndCarryVerification {
    if(await Grip(swap,"packed sweet for swapping")){Check("Grabbing a packed sweet removes it",game.selected.Count==3);await DropToward(game.ShelfReturnTarget(swap).position);Check("Sweet returns to its original shelf",!game.selected.Contains(swap)&&Vector3.Distance(swap.transform.position,game.ShelfReturnTarget(swap).position)<.05f);}
    if(await Grip(swap,"returned shelf sweet"))await DropToward(game.basket.transform.position+Vector3.up*.10f);
    Check("Four sweets restored after swap",game.selected.Count==4);
-   Capture("Packing-from-work-position",workEye,new Vector3(-31.3f,1.1f,4.2f));
+   Capture("Packing-from-work-position",workEye,(game.rest.position+game.checkout.position)*.5f);
    await CarryCases(game.basket,"loaded basket");
    Check("Loaded carry preserves four sweets",game.selected.Count==4);
    var display=game.GetComponent<SweetCheckoutDisplay>();display.RefreshStatus();
-   if(!game.docked)await Click(display.ActionButton,"Checkout on monitor");await Wait(500);
-   Check("Checkout uses same basket recess",game.docked&&Vector3.Distance(game.basket.transform.position,game.rest.position)<.04f);
+   if(await Grip(game.basket,"full basket for checkout"))await DropToward(game.checkout.position);await Wait(500);
+   Check("Separate checkout area exists",Vector3.Distance(game.rest.position,game.checkout.position)>.70f);
+   Check("Full basket snaps to dedicated checkout",game.docked&&Vector3.Distance(game.basket.transform.position,game.checkout.position)<.04f);
    Check("Large menu hidden for payment",!game.ActivityPanel.gameObject.activeInHierarchy);
    if(await Grip(game.card,"festival card")){
     for(int i=0;i<8&&!game.authorized;i++){Aim(game.cardReader.position,.48f+i*.02f,.3f);await Wait(150);}

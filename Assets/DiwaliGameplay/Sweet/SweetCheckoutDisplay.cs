@@ -74,7 +74,6 @@ public sealed class SweetCheckoutDisplay : MonoBehaviour {
   if (!owner) return;
   if (owner.confirmed || owner.completed) owner.ResetGame();
   else if (owner.authorized) owner.ConfirmGift();
-  else if (owner.selected.Count == 4 && !owner.docked) owner.CheckoutBasket();
   RefreshStatus();
  }
 
@@ -99,8 +98,8 @@ public sealed class SweetCheckoutDisplay : MonoBehaviour {
  public void RefreshStatus() {
   if (!owner || !heading) return;
   int state = owner.confirmed || owner.completed ? 3 : owner.authorized ? 2 : owner.docked && owner.selected.Count == 4 ? 1 : owner.selected.Count == 4 ? 4 : 0;
-  actionButton.gameObject.SetActive(state == 2 || state == 3 || state == 4);
-  actionButton.interactable = state == 4 ? owner.begun && owner.basketReady && owner.basket && !owner.basket.IsHeld : state == 2 || state == 3;
+  actionButton.gameObject.SetActive(state == 2 || state == 3);
+  actionButton.interactable = state == 2 || state == 3;
   if (state == displayedState) return;
   displayedState = state;
   bool accepted = state == 2 || state == 3;
@@ -108,8 +107,8 @@ public sealed class SweetCheckoutDisplay : MonoBehaviour {
   heading.color = accepted ? new Color(.5f, 1, .68f) : new Color(1, .9f, .62f);
   detail.color = new Color(.88f, .95f, .91f);
   heading.text = state == 3 ? "GIFT SHARED" : state == 2 ? "CARD\nACCEPTED" : state == 1 ? "TAP CARD" : state == 4 ? "BASKET READY" : "CHOOSE\n4 SWEETS";
-  detail.text = state == 3 ? "See your basket in\nthe central plaza" : state == 2 ? "Share your basket\nwith the central plaza" : state == 1 ? "Touch the reader" : state == 4 ? "Checkout here" : "Fill your gift basket";
-  actionLabel.text = state == 3 ? "New Gift" : state == 4 ? "Checkout" : "Share Gift";
+  detail.text = state == 3 ? "See your basket in\nthe central plaza" : state == 2 ? "Share your basket\nwith the central plaza" : state == 1 ? "Touch the reader" : state == 4 ? "Place basket on\nCHECKOUT area" : "Fill your gift basket";
+  actionLabel.text = state == 3 ? "New Gift" : "Share Gift";
  }
 
  }

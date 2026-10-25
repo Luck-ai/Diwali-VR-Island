@@ -1,0 +1,407 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "scope": "Desktop Play Mode, queued NearFar inputs. Stocking, swapping, checkout use one fixed head position and hand positions within 0.7 m. Initial basket collection and carry-motion checks move the rig explicitly. No physical Quest verification.",
+  "results": [
+    {
+      "name": "Visible Begin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Begin",
+      "passed": true,
+      "detail": "clicks=1,rayLength=2.43"
+    },
+    {
+      "name": "Visible Open cabinet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Open cabinet",
+      "passed": true,
+      "detail": "clicks=1,rayLength=2.43"
+    },
+    {
+      "name": "Permanent basket checkout sign exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches wall shelf basket",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip wall shelf basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket collected and placed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches stock Barfi",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip stock Barfi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stock and pack Barfi without walking",
+      "passed": true,
+      "detail": "selected=1"
+    },
+    {
+      "name": "Ray reaches stock Modak",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip stock Modak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stock and pack Modak without walking",
+      "passed": true,
+      "detail": "selected=2"
+    },
+    {
+      "name": "Ray reaches stock Gujiya",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip stock Gujiya",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stock and pack Gujiya without walking",
+      "passed": true,
+      "detail": "selected=3"
+    },
+    {
+      "name": "Ray reaches stock Barfi",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip stock Barfi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stock and pack Barfi without walking",
+      "passed": true,
+      "detail": "selected=4"
+    },
+    {
+      "name": "Four actual released sweets packed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches packed sweet for swapping",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip packed sweet for swapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Grabbing a packed sweet removes it",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sweet returns to its original shelf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches returned shelf sweet",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip returned shelf sweet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four sweets restored after swap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches loaded basket",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip loaded basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "loaded basket h1.15 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.247,headGap=0.856,top=0.620"
+    },
+    {
+      "name": "loaded basket h1.15 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.396,headGap=0.745,top=0.830"
+    },
+    {
+      "name": "loaded basket h1.15 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.331,headGap=0.884,top=0.620"
+    },
+    {
+      "name": "loaded basket h1.15 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.453,headGap=0.777,top=0.830"
+    },
+    {
+      "name": "loaded basket h1.6 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.247,headGap=0.856,top=1.070"
+    },
+    {
+      "name": "loaded basket h1.6 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.396,headGap=0.745,top=1.280"
+    },
+    {
+      "name": "loaded basket h1.6 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.331,headGap=0.884,top=1.070"
+    },
+    {
+      "name": "loaded basket h1.6 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.453,headGap=0.777,top=1.280"
+    },
+    {
+      "name": "loaded basket h1.85 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.247,headGap=0.856,top=1.320"
+    },
+    {
+      "name": "loaded basket h1.85 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.396,headGap=0.745,top=1.530"
+    },
+    {
+      "name": "loaded basket h1.85 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.331,headGap=0.884,top=1.320"
+    },
+    {
+      "name": "loaded basket h1.85 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.453,headGap=0.777,top=1.530"
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "loaded basket releases into basket zone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loaded carry preserves four sweets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches full basket for checkout",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip full basket for checkout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Separate checkout area exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Full basket snaps to dedicated checkout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large menu hidden for payment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches festival card",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip festival card",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Card tap from work position",
+      "passed": true,
+      "detail": "cardDistance=0.270"
+    },
+    {
+      "name": "Visible Share gift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued trigger Share gift",
+      "passed": true,
+      "detail": "clicks=1,rayLength=2.63"
+    },
+    {
+      "name": "Share completes Sweet game",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Ray reaches second empty basket",
+      "passed": true,
+      "detail": "handDistance=0.43"
+    },
+    {
+      "name": "Queued grip second empty basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "second empty basket h1.15 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.219,headGap=0.829,top=0.620"
+    },
+    {
+      "name": "second empty basket h1.15 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.380,headGap=0.713,top=0.830"
+    },
+    {
+      "name": "second empty basket h1.15 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.301,headGap=0.858,top=0.620"
+    },
+    {
+      "name": "second empty basket h1.15 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.432,headGap=0.746,top=0.830"
+    },
+    {
+      "name": "second empty basket h1.6 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.219,headGap=0.829,top=1.070"
+    },
+    {
+      "name": "second empty basket h1.6 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.380,headGap=0.713,top=1.280"
+    },
+    {
+      "name": "second empty basket h1.6 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.301,headGap=0.858,top=1.070"
+    },
+    {
+      "name": "second empty basket h1.6 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.432,headGap=0.746,top=1.280"
+    },
+    {
+      "name": "second empty basket h1.85 side-0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.219,headGap=0.829,top=1.320"
+    },
+    {
+      "name": "second empty basket h1.85 side-0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.380,headGap=0.713,top=1.530"
+    },
+    {
+      "name": "second empty basket h1.85 side0.23 lift-0.45",
+      "passed": true,
+      "detail": "handGap=0.301,headGap=0.858,top=1.320"
+    },
+    {
+      "name": "second empty basket h1.85 side0.23 lift0",
+      "passed": true,
+      "detail": "handGap=0.432,headGap=0.746,top=1.530"
+    },
+    {
+      "name": "Drop hand remains within reach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "second empty basket releases into basket zone",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

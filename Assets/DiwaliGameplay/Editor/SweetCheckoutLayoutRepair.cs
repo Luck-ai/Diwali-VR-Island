@@ -26,7 +26,7 @@ public static class SweetCheckoutLayoutRepair {
   var cabinetGroup=GameObjectUtility.FindUnder(venue,"Accessible cabinet group");
   var cabinetBounds=GameObjectUtility.BoundsOf(cabinet);
   var pivot=cabinetBounds.center;
-  var turn=Quaternion.AngleAxis(Mathf.DeltaAngle(cabinet.eulerAngles.y,270),Vector3.up);
+  var turn=Quaternion.AngleAxis(Mathf.DeltaAngle(cabinet.eulerAngles.y,180),Vector3.up);
   Undo.RecordObject(cabinetGroup,"Face Sweet cabinet into the working area");
   cabinetGroup.SetPositionAndRotation(pivot+turn*(cabinetGroup.position-pivot),turn*cabinetGroup.rotation);
   foreach(var sweet in game.sweets)if(!sweet.transform.IsChildOf(cabinetGroup)) {
@@ -36,7 +36,7 @@ public static class SweetCheckoutLayoutRepair {
    Undo.RecordObject(glass,"Rotate glass with cabinet");glass.SetPositionAndRotation(pivot+turn*(glass.position-pivot),turn*glass.rotation);
   }
   cabinetBounds=GameObjectUtility.BoundsOf(cabinet);
-  var cabinetDelta=new Vector3(-31.65f,cabinetBounds.center.y,5.50f)-cabinetBounds.center;
+  var cabinetDelta=new Vector3(-28.60f,cabinetBounds.center.y,-.55f)-cabinetBounds.center;
   cabinetGroup.position+=cabinetDelta;
   foreach(var sweet in game.sweets)if(!sweet.transform.IsChildOf(cabinetGroup))sweet.transform.position+=cabinetDelta;
   foreach(var glass in game.glass)if(!glass.IsChildOf(cabinetGroup))glass.position+=cabinetDelta;
@@ -45,16 +45,22 @@ public static class SweetCheckoutLayoutRepair {
   counter.rotation=Quaternion.Euler(0,37.69f,0);
   var bounds=Surface(counter,0);
   for(int i=1;i<counter.GetComponent<MeshFilter>().sharedMesh.subMeshCount;i++)bounds.Encapsulate(Surface(counter,i));
-  counter.position+=new Vector3(-31.00f,bounds.center.y,2.90f)-bounds.center;
+  counter.position+=new Vector3(-31.72f,bounds.center.y,-.10f)-bounds.center;
   var inset=Surface(counter,2);
   var payment=Surface(counter,3);
   var basketBounds=GameObjectUtility.BoundsOf(game.basket.transform);
-  var seat=inset.center;
-  var basketPose=seat+Vector3.up*(game.basket.transform.position.y-basketBounds.min.y+.015f);
-  foreach(var target in new[]{game.rest,game.checkout}) {
+  var seatForward=new Vector3(.225f,0,.974f).normalized;
+  var seatAcross=Vector3.Cross(Vector3.up,seatForward);
+  var packingSeat=inset.center+seatAcross*.37f;
+  var checkoutSeat=inset.center-seatAcross*.37f;
+  float bottomOffset=game.basket.transform.position.y-basketBounds.min.y+.015f;
+  var targets=new[]{game.rest,game.checkout};
+  var seats=new[]{packingSeat,checkoutSeat};
+  for(int i=0;i<targets.Length;i++) {
+   var target=targets[i];
    Undo.SetTransformParent(target,counter,"Attach basket target to counter");
    target.localScale=new Vector3(1/counter.lossyScale.x,1/counter.lossyScale.y,1/counter.lossyScale.z);
-   target.SetPositionAndRotation(basketPose,Quaternion.identity);
+   target.SetPositionAndRotation(seats[i]+Vector3.up*bottomOffset,Quaternion.LookRotation(seatForward));
   }
   Undo.SetTransformParent(game.cardReader,counter,"Attach card reader to counter");
   game.cardReader.SetPositionAndRotation(payment.center+Vector3.up*.015f,Quaternion.identity);
@@ -70,27 +76,42 @@ public static class SweetCheckoutLayoutRepair {
   var body=game.card.GetComponent<Rigidbody>();body.position=cardCenter;body.rotation=game.card.transform.rotation;
   game.worktopY=inset.center.y;
   game.workspaceForward=Vector3.forward;
-  game.cabinetForward=Vector3.right;
-  game.panelPosition=new Vector3(-30.65f,1.57f,7.10f);
-  var viewer=new Vector3(-30.0f,1.57f,4.45f);
+  game.cabinetForward=Vector3.forward;
+  game.panelPosition=new Vector3(-27.40f,1.65f,1.70f);
+  var viewer=new Vector3(-30.30f,1.57f,1.70f);
   game.panelRotation=Quaternion.LookRotation(game.panelPosition-viewer,Vector3.up);
   bounds=Surface(counter,0);for(int i=1;i<counter.GetComponent<MeshFilter>().sharedMesh.subMeshCount;i++)bounds.Encapsulate(Surface(counter,i));
-  var sign=game.basketZoneSign;
-  if(!sign){sign=new GameObject("Basket and checkout zone",typeof(RectTransform),typeof(Canvas)).transform;Undo.RegisterCreatedObjectUndo(sign.gameObject,"Label Sweet checkout");sign.SetParent(counter,true);game.basketZoneSign=sign;
-   var rect=(RectTransform)sign;rect.sizeDelta=new Vector2(360,90);
-   sign.GetComponent<Canvas>().renderMode=RenderMode.WorldSpace;
-   var background=sign.gameObject.AddComponent<Image>();background.color=new Color(.14f,.025f,.06f);background.raycastTarget=false;
-   var label=new GameObject("Basket checkout label",typeof(RectTransform),typeof(Text));label.transform.SetParent(sign,false);
-   var lr=label.GetComponent<RectTransform>();lr.anchorMin=Vector2.zero;lr.anchorMax=Vector2.one;lr.offsetMin=new Vector2(8,4);lr.offsetMax=new Vector2(-8,-4);
-   var text=label.GetComponent<Text>();text.font=Resources.Load<Font>("Diwali/Inter");if(!text.font)text.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");text.fontSize=27;text.alignment=TextAnchor.MiddleCenter;text.color=new Color(1,.93f,.72f);text.raycastTarget=false;text.text="BASKET / CHECKOUT\nLeave basket here";
-  }
-  sign.SetParent(null,true);sign.localScale=Vector3.one*.0015f;
-  sign.SetPositionAndRotation(new Vector3(inset.center.x,game.worktopY-.12f,bounds.max.z+.012f),Quaternion.LookRotation(-game.workspaceForward));sign.SetParent(counter,true);
+  game.basketZoneSign=ZoneSign(counter,game.basketZoneSign,"Checkout zone label",checkoutSeat,seatForward,"CHECKOUT\nPlace full basket",false);
+  ZoneSign(counter,counter.Find("Packing zone label"),"Packing zone label",packingSeat,seatForward,"FILL BASKET\nChoose 4 sweets",false);
+  ZoneSign(counter,counter.Find("Checkout counter pad"),"Checkout counter pad",checkoutSeat,seatForward,"CHECKOUT\n\n4 SWEETS → TAP CARD",true);
+  ZoneSign(counter,counter.Find("Packing counter pad"),"Packing counter pad",packingSeat,seatForward,"FILL BASKET\n\nANY 4 SWEETS",true);
   SweetCheckoutDisplayInstaller.Apply();
   EditorUtility.SetDirty(game);
   EditorSceneManager.MarkSceneDirty(game.gameObject.scene);
-  Debug.Log("Sweet checkout aligned: counter="+GameObjectUtility.BoundsOf(counter)+", inset="+inset+", basket="+basketPose+", card pad="+game.cardReader.position+", menu="+game.panelPosition);
+  Debug.Log("Sweet checkout aligned: counter="+GameObjectUtility.BoundsOf(counter)+", inset="+inset+", packing="+game.rest.position+", checkout="+game.checkout.position+", card pad="+game.cardReader.position+", menu="+game.panelPosition);
  }
+ static Transform ZoneSign(Transform counter,Transform sign,string name,Vector3 seat,Vector3 front,string copy,bool flat) {
+  if(!sign){sign=new GameObject(name,typeof(RectTransform),typeof(Canvas),typeof(Image)).transform;Undo.RegisterCreatedObjectUndo(sign.gameObject,"Label Sweet counter");}
+  sign.name=name;sign.SetParent(null,true);sign.localScale=Vector3.one*(flat?.0022f:.0015f);
+  var rect=(RectTransform)sign;rect.sizeDelta=flat?new Vector2(320,320):new Vector2(360,90);
+  var canvas=sign.GetComponent<Canvas>();canvas.renderMode=RenderMode.WorldSpace;
+  var image=sign.GetComponent<Image>();if(!image)image=sign.gameObject.AddComponent<Image>();
+  bool checkout=name.StartsWith("Checkout");image.color=flat?(checkout?new Color(.025f,.17f,.13f,.85f):new Color(.25f,.12f,.045f,.65f)):new Color(.14f,.025f,.06f);
+  image.raycastTarget=false;
+  var outline=sign.GetComponent<Outline>();if(!outline)outline=sign.gameObject.AddComponent<Outline>();outline.effectColor=checkout?new Color(.42f,1,.72f):new Color(1,.78f,.35f);outline.effectDistance=new Vector2(3,-3);
+  var text=sign.GetComponentInChildren<Text>();
+  if(!text){var label=new GameObject("Label",typeof(RectTransform),typeof(Text));label.transform.SetParent(sign,false);text=label.GetComponent<Text>();}
+  var lr=text.GetComponent<RectTransform>();lr.anchorMin=Vector2.zero;lr.anchorMax=Vector2.one;lr.offsetMin=new Vector2(10,6);lr.offsetMax=new Vector2(-10,-6);
+  text.font=Resources.Load<Font>("Diwali/Inter");if(!text.font)text.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");text.fontSize=flat?23:26;text.fontStyle=FontStyle.Bold;text.alignment=TextAnchor.MiddleCenter;text.color=new Color(1,.93f,.72f);text.raycastTarget=false;text.text=copy;
+  var point=flat?seat+Vector3.up*.009f:seat+front*.60f+Vector3.down*.12f;
+  if(!flat){
+   Physics.SyncTransforms();var origin=seat+Vector3.down*.12f+front*2;
+   foreach(var hit in Physics.RaycastAll(origin,-front,3,~0,QueryTriggerInteraction.Ignore))
+    if(hit.collider.transform==counter){point=hit.point+front*.012f;break;}
+  }
+  sign.SetPositionAndRotation(point,flat?Quaternion.LookRotation(Vector3.down,-front):Quaternion.LookRotation(-front));sign.SetParent(counter,true);return sign;
+ }
+
 }
 }
 #endif
