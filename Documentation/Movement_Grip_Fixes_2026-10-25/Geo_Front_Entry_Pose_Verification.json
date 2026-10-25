@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checked": 61,
+  "maxPositionError": 5.099023785225431e-05,
+  "maxRotationErrorDegrees": 8.585414659473088e-05,
+  "errors": [],
+  "scope": "World poses equal the authored poses after a single 180 degree island rotation; local model axes unchanged."
+}

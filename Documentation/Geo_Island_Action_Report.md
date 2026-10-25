@@ -86,7 +86,7 @@ Every row below passed queued NearFar selection, a short local carry and return,
 ## Table placement and travel
 
 Six main tabletops (`Cube.003`, `Cube.004`, `Cube.045`, `Cube.055`, `Cube.069`, `Cube.077`) each passed two real gravity drops of `Cylinder.020`, from **0.15 m** and **0.75 m** above an unobstructed spot. All 12 drops passed in the current full audit. The elevated room and stage also have mesh-based floor collision and teleport surfaces. An actual CharacterController walk reached the room from ground level using the production player radius, step offset and slope limit, with no ending overlaps. See [`Geo_Room_Stair_Verification.json`](Geo_Room_Stair_Verification.json).
-The Geo ground is **69 × 48 m**, with source content enlarged **25%** and moved closer to the other islands (ground center near **X 89, Z −53.5**). A shared Y-shaped cedar bridge branches from Diwali toward Christmas and Geo. The Geo travel option, arrival floor and capsule clearance, Geo kiosk access, and return to Festival Plaza passed the travel suite (**139 checks, 0 failures**). See [`FinalTravelVerification.json`](FinalTravelVerification.json).
+The Geo ground is **69 × 48 m**, with source content enlarged **25%** and moved closer to the other islands (ground center near **X 89, Z −53.5**). A shared Y-shaped cedar bridge branches from Diwali toward Christmas and Geo. The Geo travel option, arrival floor and capsule clearance, Geo kiosk access, and return to Festival Plaza passed the travel suite (**143 checks, 0 failures**). See [`FinalTravelVerification.json`](FinalTravelVerification.json).
 
 ## Evidence and scope
 

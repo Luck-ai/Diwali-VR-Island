@@ -1,0 +1,1009 @@
+{
+  "state": "passed",
+  "started": "2026-10-25T05:32:31.369357Z",
+  "elapsedSeconds": 24.661369999999998,
+  "failures": 0,
+  "scope": "Synthetic queued NearFar controller and XR UI presses; far casts limited to 3m. All selection/UI origins are at standing hand height, remote grab distances 0.65-3m. Carried movement is synthetic and does not establish physical headset reach. No headset or visual QA claim.",
+  "results": [
+    {
+      "venue": "setup",
+      "name": "XR UI input module",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "setup",
+      "name": "event system",
+      "pass": true,
+      "detail": "",
+      "status": "",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "runtime venue",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "panel exists",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI How To Play",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(0.000, 0.000, 0.000)",
+      "held": "",
+      "proxyEye": "(0.000, 0.000, 0.000)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray How To Play",
+      "pass": true,
+      "detail": "hits=How To Play,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch How To Play",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "help canvas opens",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Next",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.426, 1.235, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.426, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Next",
+      "pass": true,
+      "detail": "hits=Next,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Next",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "help Previous enabled",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Previous",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-0.963, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-0.963, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Previous",
+      "pass": true,
+      "detail": "hits=Previous,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Previous",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Close",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.538, 1.176, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.538, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Close",
+      "pass": true,
+      "detail": "hits=Close,LOAD / ADJUST / PRESS PLUNGER help",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Close",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "main canvas resumes",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Begin Light Show",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.085, 58.136)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.836)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Begin Light Show",
+      "pass": true,
+      "detail": "hits=Begin Light Show,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Begin Light Show",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "independent finale initially blocked",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "staging separated",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "unheld plunger call blocked",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets rocket",
+      "pass": true,
+      "detail": "target=(2.62, 1.36, 59.36),distance=1.049999,valid=rocket,blockers=rocket@0.65",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip rocket",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket hand clearance",
+      "pass": true,
+      "detail": "relative=(0.00, 0.00, 0.72)",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket collider clears controller",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket upright carrying pose",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.616, 1.359, 58.307)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "carried rocket scale stable",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 1/3: grip the rocket from the staging tray and release it onto its support.",
+      "hand": "(2.344, 1.359, 58.666)",
+      "held": "rocket",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "rocket loads on release",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "only spinner keeps a slider",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.729, 1.264, 59.649)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 58.007)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.701, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "ROCKET 2/3: grip the loaded rocket and move up/down to tilt. Grip the board to change its height. Release when AIM READY appears.",
+      "hand": "(2.781, 1.051, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts RocketTilt",
+      "pass": true,
+      "detail": "value=0.7000001,expected=0.7",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.095, 59.185)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.885)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts TargetHeight",
+      "pass": true,
+      "detail": "value=0.5,expected=0.5",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reachable target path exists",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.900, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.701, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.064, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts RocketTilt",
+      "pass": true,
+      "detail": "value=0,expected=0.02",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment RocketTilt",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.781, 1.068, 59.279)",
+      "held": "",
+      "proxyEye": "(2.701, 1.600, 58.979)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.616, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts TargetHeight",
+      "pass": true,
+      "detail": "value=0.2,expected=0.2",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment TargetHeight",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked controls align rocket",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(2.696, 0.800, 61.957)",
+      "held": "",
+      "proxyEye": "(2.616, 1.600, 61.657)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "Release the rocket after aiming at the rings. Grip the target board to adjust its height.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 0",
+      "pass": true,
+      "detail": "progress=1",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets fountain",
+      "pass": true,
+      "detail": "target=(5.50, 1.29, 61.50),distance=1.049999,valid=fountain,blockers=fountain@0.78",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(5.500, 1.289, 60.450)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip fountain",
+      "pass": true,
+      "detail": "",
+      "status": "Target hit! ROCKET keeps celebrating. Load the fountain onto the lift.",
+      "hand": "(5.500, 1.289, 60.450)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "fountain loaded",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.441, 61.246)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted adjustment available FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.441, 61.246)",
+      "held": "",
+      "proxyEye": "(5.500, 1.600, 60.150)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "NearFar targets mounted FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued mounted grip FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "mounted grab does not jump FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(3.959, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "horizontal movement constrained FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 2/3: grip the loaded fountain and move up/down to choose its height.",
+      "hand": "(4.039, 1.222, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "hand drag adjusts FountainHeight",
+      "pass": true,
+      "detail": "value=0.8000003,expected=0.8",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "release keeps adjustment FountainHeight",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "lift visibly raises",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(4.039, 1.343, 60.969)",
+      "held": "",
+      "proxyEye": "(3.959, 1.600, 60.669)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "FOUNTAIN 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 1",
+      "pass": true,
+      "detail": "progress=0.9104232",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets spinner",
+      "pass": true,
+      "detail": "target=(-5.50, 2.15, 61.00),distance=1.259986,valid=spinner,blockers=",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(-5.500, 1.450, 59.950)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip spinner",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 1/3: load the spinner onto its support.",
+      "hand": "(-5.500, 1.450, 59.950)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "spinner loaded",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 2/3: move the Speed slider to choose its speed.",
+      "hand": "(-3.854, 0.692, 59.251)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible slider Spinner speed",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 2/3: move the Speed slider to choose its speed.",
+      "hand": "(-3.854, 0.692, 59.251)",
+      "held": "",
+      "proxyEye": "(-5.500, 1.600, 59.650)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued slider drag Spinner speed",
+      "pass": true,
+      "detail": "value=0.8236752,expected=0.8",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(-1.527, 1.292, 58.251)",
+      "held": "",
+      "proxyEye": "(-1.648, 1.600, 57.977)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "3m NearFar targets plunger",
+      "pass": true,
+      "detail": "target=(0.00, 1.21, 59.20),distance=1.05,valid=plunger,blockers=plunger@0.48,plunger base@0.85",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued grip plunger",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.210, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "short plunger travel does not activate",
+      "pass": true,
+      "detail": "",
+      "status": "SPINNER 3/3: grip the plunger, then push down about 12 cm.",
+      "hand": "(1.050, 1.170, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "physical plunger advances stage 2",
+      "pass": true,
+      "detail": "progress=0.9132187",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "plunger",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "spinner rotates",
+      "pass": true,
+      "detail": "",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "visible UI Finale",
+      "pass": true,
+      "detail": "",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(1.050, 1.085, 59.201)",
+      "held": "",
+      "proxyEye": "(1.350, 1.600, 59.201)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "tracked ray Finale",
+      "pass": true,
+      "detail": "hits=Finale,LOAD / ADJUST / PRESS PLUNGER controls",
+      "status": "All three displays are ready. Select Finale.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "queued UI dispatch Finale",
+      "pass": true,
+      "detail": "clicks=1",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "finale without other venue completion",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "all three particle loops remain playing",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "central finale runs",
+      "pass": true,
+      "detail": "",
+      "status": "Finale! Fireworks are launching around the central decoration.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reset clears progress",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    },
+    {
+      "venue": "FireworksGame",
+      "name": "reset unloads fireworks",
+      "pass": true,
+      "detail": "",
+      "status": "Ready to begin.",
+      "hand": "(-1.250, 1.310, 58.151)",
+      "held": "",
+      "proxyEye": "(-1.250, 1.600, 57.851)"
+    }
+  ]
+}

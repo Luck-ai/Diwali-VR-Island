@@ -13,6 +13,9 @@ public sealed class FireworksGrabAdjustment : XRSimpleInteractable {
  public float handTravel=.22f;
  Transform surface,hand;
  float startY,startValue;
+ Plane dragPlane;
+ bool rayDrag;
+ BoxCollider target;
  TextMesh hint;
  MeshRenderer[] surfaces;
  public bool IsDragging=>isSelected;
@@ -21,21 +24,9 @@ public sealed class FireworksGrabAdjustment : XRSimpleInteractable {
   var go=new GameObject(kind+" grab adjustment");go.SetActive(false);go.transform.SetParent(game.transform,true);go.transform.position=visual.position;
   var control=go.AddComponent<FireworksGrabAdjustment>();control.owner=game;control.adjustment=kind;control.surface=visual;
   control.surfaces=visual.GetComponentsInChildren<MeshRenderer>().Where(r=>r.GetComponent<MeshFilter>()).ToArray();
-  var grab=visual.GetComponent<XRGrabInteractable>();
-  if(grab)control.colliders.AddRange(grab.colliders.Where(c=>c&&c.enabled&&!c.isTrigger));
-  else control.colliders.AddRange(visual.GetComponentsInChildren<Collider>().Where(c=>c.enabled&&!c.isTrigger));
-  if(control.colliders.Count==0){
-   var bounds=new Bounds();bool first=true;
-   foreach(var filter in visual.GetComponentsInChildren<MeshFilter>()){
-    if(!filter.sharedMesh)continue;var b=filter.sharedMesh.bounds;
-    for(int i=0;i<8;i++){
-     var corner=b.center+Vector3.Scale(b.extents,new Vector3((i&1)==0?-1:1,(i&2)==0?-1:1,(i&4)==0?-1:1));
-     var p=visual.InverseTransformPoint(filter.transform.TransformPoint(corner));
-     if(first){bounds=new Bounds(p,Vector3.zero);first=false;}else bounds.Encapsulate(p);
-    }
-   }
-   var collider=visual.gameObject.AddComponent<BoxCollider>();collider.center=bounds.center;collider.size=bounds.size;control.colliders.Add(collider);
-  }
+  // Give each adjustment its own solid target, independent of the carry interactable.
+  control.target=go.AddComponent<BoxCollider>();control.colliders.Add(control.target);
+  control.UpdateTarget();
   var label=new GameObject("Grip adjustment hint");label.transform.SetParent(go.transform,false);control.hint=label.AddComponent<TextMesh>();
   control.hint.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");control.hint.GetComponent<MeshRenderer>().sharedMaterial=control.hint.font.material;control.hint.fontSize=40;control.hint.characterSize=.008f;
   control.hint.anchor=TextAnchor.MiddleCenter;control.hint.alignment=TextAlignment.Center;
@@ -47,13 +38,20 @@ public sealed class FireworksGrabAdjustment : XRSimpleInteractable {
   base.OnSelectEntered(args);
   var nearFar=args.interactorObject as NearFarInteractor;
   hand=nearFar!=null?nearFar.interactionAttachController.transformToFollow:args.interactorObject.GetAttachTransform(this);
-  if(hand){startY=hand.position.y;startValue=owner.AdjustmentValue(adjustment);}
+  if(hand){
+   var bounds=SurfaceBounds();
+   rayDrag=nearFar!=null?nearFar.interactionAttachController.hasOffset:Vector3.Distance(hand.position,bounds.ClosestPoint(hand.position))>.35f;
+   var normal=Vector3.ProjectOnPlane(hand.forward,Vector3.up).normalized;
+   if(normal.sqrMagnitude<.01f)normal=Vector3.forward;
+   dragPlane=new Plane(normal,bounds.center);
+   startY=DragPoint().y;startValue=owner.AdjustmentValue(adjustment);
+  }
  }
  protected override void OnSelectExited(SelectExitEventArgs args){base.OnSelectExited(args);hand=null;}
  void Update(){
-  if(surface)transform.position=surface.position;
+  UpdateTarget();
   if(isSelected&&hand&&owner&&owner.CanAdjust(adjustment)){
-   float delta=hand.position.y-startY;
+   float delta=DragPoint().y-startY;
    if(Mathf.Abs(delta)>.008f)owner.ApplyGrabAdjustment(adjustment,Mathf.Clamp01(startValue+delta/Mathf.Max(.1f,handTravel)));
   }
   if(!hint||surfaces==null||surfaces.Length==0)return;
@@ -61,7 +59,10 @@ public sealed class FireworksGrabAdjustment : XRSimpleInteractable {
   hint.transform.position=bounds.center+Vector3.back*(bounds.extents.z+.06f)+Vector3.up*.12f;
   var camera=Camera.main;if(camera)hint.transform.rotation=Quaternion.LookRotation(hint.transform.position-camera.transform.position,Vector3.up);
   hint.color=isSelected||isHovered?new Color(.35f,1,.65f):new Color(1,.85f,.5f);
-  hint.text=(adjustment==FireworksAdjustment.RocketTilt?"GRIP ROCKET + MOVE UP / DOWN\nTILT":adjustment==FireworksAdjustment.TargetHeight?"GRIP BOARD + MOVE UP / DOWN":"GRIP FOUNTAIN + MOVE UP / DOWN")+"  "+Mathf.RoundToInt(owner.AdjustmentValue(adjustment)*100)+"%";
+  hint.text=(adjustment==FireworksAdjustment.RocketTilt?"POINT + HOLD GRIP\nDRAG UP / DOWN TO TILT":adjustment==FireworksAdjustment.TargetHeight?"POINT + HOLD GRIP\nDRAG BOARD UP / DOWN":"POINT + HOLD GRIP\nDRAG FOUNTAIN UP / DOWN")+"  "+Mathf.RoundToInt(owner.AdjustmentValue(adjustment)*100)+"%";
  }
+ Bounds SurfaceBounds(){var b=surfaces[0].bounds;foreach(var r in surfaces.Skip(1))if(r)b.Encapsulate(r.bounds);return b;}
+ void UpdateTarget(){if(!surface||!target||surfaces==null||surfaces.Length==0)return;var b=SurfaceBounds();transform.position=b.center;target.center=Vector3.zero;target.size=Vector3.Max(b.size+Vector3.one*.08f,Vector3.one*.16f);}
+ Vector3 DragPoint(){if(!rayDrag)return hand.position;var ray=new Ray(hand.position,hand.forward);return dragPlane.Raycast(ray,out float distance)&&distance>0&&distance<10?ray.GetPoint(distance):hand.position;}
 }
 }

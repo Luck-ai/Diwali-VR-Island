@@ -1,0 +1,17 @@
+Board available before loading rocket	pass=True
+Left Controller	RocketTilt	gesture=far wrist aim	pass=True	region=Far	targets=RocketTilt grab adjustment	value=0.2->0.902703	handTranslation=0
+Release retains RocketTilt	pass=True
+Left Controller	RocketTilt	gesture=near hand lift	pass=True	region=Near	targets=RocketTilt grab adjustment	value=0.2->0.7782393	handTranslation=0.15
+Release retains RocketTilt	pass=True
+Left Controller	TargetHeight	gesture=far wrist aim	pass=True	region=Far	targets=TargetHeight grab adjustment	value=0.2->0.8267515	handTranslation=0
+Release retains TargetHeight	pass=True
+Left Controller	TargetHeight	gesture=near hand lift	pass=True	region=Near	targets=TargetHeight grab adjustment	value=0.2->0.7375223	handTranslation=0.15
+Release retains TargetHeight	pass=True
+Right Controller	RocketTilt	gesture=far wrist aim	pass=True	region=Far	targets=RocketTilt grab adjustment	value=0.2->0.7874582	handTranslation=0
+Release retains RocketTilt	pass=True
+Right Controller	RocketTilt	gesture=near hand lift	pass=True	region=Near	targets=RocketTilt grab adjustment	value=0.2->0.8018254	handTranslation=0.15
+Release retains RocketTilt	pass=True
+Right Controller	TargetHeight	gesture=far wrist aim	pass=True	region=Far	targets=TargetHeight grab adjustment	value=0.2->0.8166109	handTranslation=0
+Release retains TargetHeight	pass=True
+Right Controller	TargetHeight	gesture=near hand lift	pass=True	region=Near	targets=TargetHeight grab adjustment	value=0.2->0.7773815	handTranslation=0.1500001
+Release retains TargetHeight	pass=True

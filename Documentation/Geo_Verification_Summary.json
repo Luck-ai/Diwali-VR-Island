@@ -14,14 +14,14 @@
     "evidence": "GeoFullInteractionVerification_2026-10-25.json"
   },
   "travel": {
-    "passed": 139,
+    "passed": 143,
     "failures": 0,
     "evidence": "FinalTravelVerification.json"
   },
   "bridgeSupport": {
-    "samples": 339,
-    "missingSupport": 0,
-    "scope": "Live downward support probes at one-metre intervals across all three Y legs, center and +/-2.8m margins."
+    "newGeoLegWalkingPassed": true,
+    "frontRoadWalkingPassed": true,
+    "evidence": "Movement_Grip_Fixes_2026-10-25/Walking_Surface_Verification.tsv"
   },
   "limitations": "Unity desktop Play Mode and synthetic queued XR input. Physical Quest comfort and Android performance require device testing.",
   "fullAudit": {
@@ -37,7 +37,10 @@
     "stageVisibleOutputPassed": true,
     "evidence": "GeoFullInteractionVerification_2026-10-25.json",
     "freshSessionSeconds": 587.28,
-    "freshSessionEvidence": "Geo_Fresh_Presentation_Verification.json"
+    "freshSessionEvidence": "Geo_Fresh_Presentation_Verification.json",
+    "islandYawDegrees": 180,
+    "all61AuthoredPosesPreserved": true,
+    "rotationEvidence": "Movement_Grip_Fixes_2026-10-25/Geo_Front_Entry_Pose_Verification.json"
   },
   "roomStairs": {
     "passed": true,
@@ -48,6 +51,7 @@
     "stepOffset": 0.25,
     "slopeLimit": 50,
     "overlaps": "",
-    "evidence": "Geo_Room_Stair_Verification.json"
+    "evidence": "Geo_Room_Stair_Verification.json",
+    "scope": "Earlier room stair walk before the whole-island rotation; see Movement_Grip_Fixes_2026-10-25 for the rotated stair recheck."
   }
 }

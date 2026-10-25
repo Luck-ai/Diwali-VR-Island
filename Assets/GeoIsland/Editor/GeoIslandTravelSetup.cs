@@ -34,10 +34,10 @@ public static class GeoIslandTravelSetup
         }
         var ground = GameObject.Find("Geo ground base");
         if (!ground) throw new InvalidOperationException("Geo island ground is missing.");
+        FaceFrontRoadTowardBridge(island.transform, ground.transform.position);
         var offset = new Vector3(ground.transform.position.x - 89f, 0f, ground.transform.position.z + 92f);
         var approachAnchor = island.transform.Find("Geo entrance approach");
         var arrivalPosition = approachAnchor ? approachAnchor.position : new Vector3(68f, .08f, -100f) + offset;
-        arrivalPosition.y = .08f;
         arrival.SetPositionAndRotation(arrivalPosition, Quaternion.LookRotation(Vector3.right));
         if (!nav.destinations.Contains(arrival)) nav.destinations = nav.destinations.Concat(new[] { arrival }).ToArray();
         EditorUtility.SetDirty(nav);
@@ -47,7 +47,7 @@ public static class GeoIslandTravelSetup
         if (!sample) throw new InvalidOperationException("The existing walkway has no teleportation area to match.");
         var deckMaterial = AssetDatabase.LoadAssetAtPath<Material>("Assets/ChristmasIsland/Materials/Bridge Cedar.mat");
         RebuildYWalkway(existingBridge.transform, root.transform, deckMaterial, sample,
-            new Vector3(arrival.position.x + 2f, 0f, arrival.position.z));
+            new Vector3(arrival.position.x + .25f, arrival.position.y - .14f, arrival.position.z));
         var kioskRoot = scene.GetRootGameObjects().FirstOrDefault(x => x.name == "Venue travel kiosks")?.transform ?? root.transform;
         var kiosk = kioskRoot.Find("Travel outside - Geo Island");
         if (!kiosk)
@@ -57,16 +57,34 @@ public static class GeoIslandTravelSetup
         }
         var kioskAnchor = island.transform.Find("Geo entrance kiosk");
         var kioskPosition = kioskAnchor ? kioskAnchor.position : new Vector3(70.5f, 1.43f, -100f) + offset;
-        kioskPosition.y = 1.43f;
         kiosk.SetPositionAndRotation(kioskPosition, Quaternion.LookRotation(Vector3.right));
         var component = kiosk.GetComponent<VenueTravelKiosk>() ?? kiosk.gameObject.AddComponent<VenueTravelKiosk>();
         component.navigation = nav;
         component.venueTitle = "Geo Island";
+        component.islandsOnly = true;
         ControllerMenu(nav);
         Physics.SyncTransforms();
         EditorSceneManager.MarkSceneDirty(scene);
         EditorSceneManager.SaveScene(scene);
         Debug.Log("GEO_TRAVEL_COMPLETE destinations=" + nav.destinations.Length + " arrival=" + arrival.position + " kiosk=" + kiosk.position);
+    }
+
+    static void FaceFrontRoadTowardBridge(Transform island, Vector3 islandCenter)
+    {
+        Undo.RecordObject(island, "Turn Geo front road toward the Y bridge");
+        float angle = Vector3.SignedAngle(Vector3.ProjectOnPlane(island.right, Vector3.up), Vector3.left, Vector3.up);
+        island.RotateAround(islandCenter, Vector3.up, angle);
+        Physics.SyncTransforms();
+        var road = island.GetComponentsInChildren<MeshRenderer>().Single(r => r.name == "Cube.113");
+        var bounds = road.bounds;
+        var entrance = new Vector3(bounds.min.x + 1.25f, bounds.max.y + .08f, bounds.center.z);
+        var approach = island.Find("Geo entrance approach");
+        var kiosk = island.Find("Geo entrance kiosk");
+        if (!approach || !kiosk) throw new InvalidOperationException("Geo entrance anchors are missing.");
+        Undo.RecordObject(approach, "Use authored Geo front road entrance");
+        Undo.RecordObject(kiosk, "Place Geo travel beside the front road");
+        approach.SetPositionAndRotation(entrance, Quaternion.LookRotation(Vector3.right));
+        kiosk.SetPositionAndRotation(entrance + new Vector3(1.5f, 1.35f, 2.6f), Quaternion.LookRotation(Vector3.right));
     }
 
     static void RebuildYWalkway(Transform bridge, Transform geoTravel, Material material, TeleportationArea sample, Vector3 geoLanding)

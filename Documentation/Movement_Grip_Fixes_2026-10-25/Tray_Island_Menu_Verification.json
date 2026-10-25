@@ -1,0 +1,43 @@
+{
+  "scope": "Unity desktop Play Mode; no physical Quest session",
+  "rocket_tray": {
+    "mesh": "rocket stand rotating",
+    "floor_geometry_present": true,
+    "floor_ray_samples_passed": 9,
+    "underside_triangles": 18,
+    "interior_material": "RocketTrayInterior",
+    "interior_cull": 0,
+    "rim_material_preserved": "Fireworks_10_02",
+    "render": "Rocket_Tray_Interior_After.png"
+  },
+  "menus": [
+    {
+      "location": "Christmas Island",
+      "destination_buttons": [
+        "Diwali Island",
+        "Christmas Island",
+        "Geo Island"
+      ]
+    },
+    {
+      "location": "Geo Island",
+      "destination_buttons": [
+        "Diwali Island",
+        "Christmas Island",
+        "Geo Island"
+      ]
+    }
+  ],
+  "travel": [
+    {
+      "from": "Christmas Island kiosk",
+      "button": "Geo Island",
+      "arrival_xz_error_m": 3.814697e-06
+    },
+    {
+      "from": "Geo Island kiosk",
+      "button": "Diwali Island",
+      "arrival_xz_error_m": 0.0
+    }
+  ]
+}
