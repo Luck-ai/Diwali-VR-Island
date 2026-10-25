@@ -30,8 +30,15 @@ public static class SweetCheckoutDisplayInstaller {
   if (!material)
    throw new System.InvalidOperationException("Counter material slot 5 has no atlas material");
   var points = ReadTriangles(filter.sharedMesh);
-  if (!TryFace(counter, points, game.workspaceForward, out var center, out var normal, out var up, out var size))
-   throw new System.InvalidOperationException("No customer-facing screen plane found; main activity panel remains available");
+  if (!TryFace(counter, points, game.workspaceForward, out var center, out var normal, out var up, out var size)) {
+   // The authored screen is a single face; the reversed counter uses its other side.
+   if (!TryFace(counter, points, -game.workspaceForward, out center, out normal, out up, out size))
+    throw new System.InvalidOperationException("No checkout screen plane found; main activity panel remains available");
+   normal = -normal;
+  }
+  float front = float.NegativeInfinity;
+  foreach (var point in points) front = Mathf.Max(front, Vector3.Dot(counter.TransformPoint(point), normal));
+  center += normal * (front - Vector3.Dot(center, normal));
   var display = game.GetComponent<SweetCheckoutDisplay>();
   if (!display) display = Undo.AddComponent<SweetCheckoutDisplay>(game.gameObject);
   Undo.RecordObject(display, "Fit Sweet checkout monitor");

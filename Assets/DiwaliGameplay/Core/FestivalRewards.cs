@@ -10,14 +10,15 @@ public sealed class FestivalRewards : MonoBehaviour {
  readonly HashSet<string> earned=new HashSet<string>();
  readonly List<Renderer> flames=new List<Renderer>(),silks=new List<Renderer>();
  readonly List<Light> lamps=new List<Light>();
- Transform rangoli;bool spin;GameObject centralControl,sweetGift;ParticleSystem centralFireworks;
+ Transform rangoli;bool spin;GameObject centralControl,sweetGift,sweetCelebration;ParticleSystem centralFireworks;
  public int FlameCount=>flames.Count;
  public int LampCount=>lamps.Count;
  public bool CentralDisplayEnabled=>centralControl&&centralControl.activeSelf;
  public bool CentralDisplayRunning=>centralFireworks&&centralFireworks.isPlaying;
  public bool RangoliSpinning=>spin;
  public bool SweetsShared=>earned.Contains("SweetGame");
- public bool SweetCelebrationActive=>sweetGift&&sweetGift.activeSelf;
+ public bool SweetCelebrationActive=>sweetCelebration&&sweetCelebration.activeSelf;
+ public Transform SweetGiftDisplay=>sweetGift?sweetGift.transform:null;
  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)] static void Boot(){instance=null;var root=GameObjectUtility.FindExact("Diwali Festival Ground");if(root){var go=new GameObject("Connected festival rewards");go.transform.SetParent(root,true);instance=go.AddComponent<FestivalRewards>();instance.Initialise(root);}}
  void Initialise(Transform root){
   foreach(var r in root.GetComponentsInChildren<Renderer>(true)){
@@ -36,24 +37,53 @@ public sealed class FestivalRewards : MonoBehaviour {
   case "DiyaGame":foreach(var r in flames){r.enabled=true;var b=r.bounds;var go=new GameObject("Festival diya lit flame");go.transform.SetParent(r.transform.parent,true);go.transform.position=new Vector3(b.center.x,b.max.y,b.center.z);go.AddComponent<DiyaFlameVisual>().decorative=true;}var main=GameObjectUtility.FindExact("Central lamp warm light");if(main&&main.GetComponent<Light>())main.GetComponent<Light>().intensity=1.1f;game.status+=" All festival diyas are now lit.";break;
   case "RoutingGame":foreach(var r in silks)SetLanternPower(r,true);foreach(var l in lamps){l.intensity=.85f;l.range=5;l.shadows=LightShadows.None;}game.status+=" The island lanterns are now lit.";break;
   case "RangoliGame":spin=true;if(rangoli)foreach(var r in rangoli.GetComponentsInChildren<Renderer>())SetEmission(r,new Color(.13f,.055f,.015f));game.status+=" The central rangoli now glows and spins.";break;
-  case "SweetGame":ShareSweetGift((SweetGame)game);game.status+=" A warm sharing celebration lights your gift at checkout.";break;
+  case "SweetGame":ShareSweetGift((SweetGame)game);game.status+=" Your basket and chosen sweets are now shared at the central plaza.";break;
   case "FireworksGame":LaunchPlazaFinale(game);break;
  }}
  void Update(){if(spin&&rangoli)rangoli.Rotate(Vector3.up,8*Time.deltaTime,Space.World);}
  void ShareSweetGift(SweetGame game){
-  if(!game.basket)return;
-  var bounds=GameObjectUtility.BoundsOf(game.basket.transform);
-  sweetGift=new GameObject("Sweet gift checkout sharing celebration");
-  sweetGift.transform.SetParent(game.basket.transform,true);
-  sweetGift.transform.position=bounds.center+Vector3.up*bounds.extents.y*.4f;
-  var scale=game.basket.transform.lossyScale;sweetGift.transform.localScale=new Vector3(1/scale.x,1/scale.y,1/scale.z);
-  var light=sweetGift.AddComponent<Light>();light.type=LightType.Point;light.color=new Color(1,.65f,.25f);light.intensity=0;light.range=1.8f;light.shadows=LightShadows.None;
-  var sparks=sweetGift.AddComponent<ParticleSystem>();sparks.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);
+  if(!game.basket||!rangoli)return;
+  sweetGift=new GameObject("Shared sweet gift at central plaza");
+  sweetGift.transform.SetParent(transform,true);
+  sweetGift.transform.position=rangoli.position+new Vector3(-4.2f,0,-2.5f);
+  var basket=game.basket.transform;
+  var native=new GameObject("Native gift basket and selected sweets").transform;
+  native.SetParent(sweetGift.transform,false);
+  native.localRotation=basket.rotation;
+  native.localScale=basket.lossyScale;
+  CopyGiftMeshes(basket,native);
+  sweetGift.transform.localScale=Vector3.one*1.15f;
+  var bounds=GameObjectUtility.BoundsOf(sweetGift.transform);
+  var pattern=GameObjectUtility.FindExact("Flower rangoli - walkable inlaid carpet");
+  float floorY=pattern?GameObjectUtility.BoundsOf(pattern).max.y:rangoli.position.y;
+  var position=sweetGift.transform.position;
+  position.x+=sweetGift.transform.position.x-bounds.center.x;
+  position.z+=sweetGift.transform.position.z-bounds.center.z;
+  position.y+=floorY+.006f-bounds.min.y;
+  sweetGift.transform.position=position;
+  bounds=GameObjectUtility.BoundsOf(sweetGift.transform);
+  sweetCelebration=new GameObject("Sweet gift sharing celebration");
+  sweetCelebration.transform.SetParent(sweetGift.transform,true);
+  sweetCelebration.transform.position=bounds.center+Vector3.up*bounds.extents.y*.4f;
+  var light=sweetCelebration.AddComponent<Light>();light.type=LightType.Point;light.color=new Color(1,.65f,.25f);light.intensity=0;light.range=1.8f;light.shadows=LightShadows.None;
+  var sparks=sweetCelebration.AddComponent<ParticleSystem>();sparks.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);
   var main=sparks.main;main.playOnAwake=false;main.loop=false;main.duration=2.5f;main.startLifetime=new ParticleSystem.MinMaxCurve(.7f,1.3f);main.startSpeed=new ParticleSystem.MinMaxCurve(.08f,.2f);main.startSize=new ParticleSystem.MinMaxCurve(.015f,.03f);main.startColor=new Color(1,.78f,.35f,.8f);main.maxParticles=32;main.scalingMode=ParticleSystemScalingMode.Shape;main.simulationSpace=ParticleSystemSimulationSpace.World;
   var emission=sparks.emission;emission.rateOverTime=12;
   var shape=sparks.shape;shape.shapeType=ParticleSystemShapeType.Circle;shape.radius=Mathf.Clamp(Mathf.Max(bounds.extents.x,bounds.extents.z)*.8f,.15f,.45f);shape.radiusThickness=.15f;shape.rotation=new Vector3(-90,0,0);
   var size=sparks.sizeOverLifetime;size.enabled=true;size.size=new ParticleSystem.MinMaxCurve(1,AnimationCurve.EaseInOut(0,1,1,0));
-  FestivalParticleStyle.Apply(sparks);sparks.Play();StartCoroutine(FadeSharingCelebration(sweetGift,light));
+  FestivalParticleStyle.Apply(sparks);sparks.Play();StartCoroutine(FadeSharingCelebration(sweetCelebration,light));
+ }
+ static void CopyGiftMeshes(Transform source,Transform target){
+  var filter=source.GetComponent<MeshFilter>();var renderer=source.GetComponent<MeshRenderer>();
+  if(filter&&filter.sharedMesh&&renderer&&renderer.enabled){
+   target.gameObject.AddComponent<MeshFilter>().sharedMesh=filter.sharedMesh;
+   var copy=target.gameObject.AddComponent<MeshRenderer>();copy.sharedMaterials=renderer.sharedMaterials;copy.shadowCastingMode=renderer.shadowCastingMode;copy.receiveShadows=renderer.receiveShadows;
+  }
+  foreach(Transform child in source){
+   if(!child.gameObject.activeSelf||child.GetComponentsInChildren<MeshFilter>().Length==0)continue;
+   var copy=new GameObject(child.name).transform;copy.SetParent(target,false);copy.localPosition=child.localPosition;copy.localRotation=child.localRotation;copy.localScale=child.localScale;
+   CopyGiftMeshes(child,copy);
+  }
  }
  IEnumerator FadeSharingCelebration(GameObject effect,Light light){
   float elapsed=0;while(effect&&elapsed<4){elapsed+=Time.deltaTime;float fade=Mathf.Clamp01(elapsed/.4f)*Mathf.Clamp01((4-elapsed)/1.4f);light.intensity=fade*(.9f+.25f*Mathf.Sin(elapsed*4));yield return null;}

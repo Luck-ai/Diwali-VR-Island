@@ -1,0 +1,226 @@
+{
+  "failures": 0,
+  "scope": "Focused Unity desktop Play Mode: actual queued NearFar grips, XR UI triggers, basket release, card touch, monitor states and central reward. Sweet stocking is preconditioned using previously verified AddSweet; no physical Quest test.",
+  "results": [
+    {
+      "name": "Visible enabled Begin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unblocked tracked UI ray Begin",
+      "passed": true,
+      "detail": "Make a Gift Basket,Festival gift • any 4 sweets controls"
+    },
+    {
+      "name": "Queued trigger dispatch Begin",
+      "passed": true,
+      "detail": "clicks=1"
+    },
+    {
+      "name": "Visible enabled Open cabinet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unblocked tracked UI ray Open cabinet",
+      "passed": true,
+      "detail": "Open Cabinet,Festival gift • any 4 sweets controls"
+    },
+    {
+      "name": "Queued trigger dispatch Open cabinet",
+      "passed": true,
+      "detail": "clicks=1"
+    },
+    {
+      "name": "Packing and checkout use the authored recess",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Basket targets retain unit world scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Counter anchors move together",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Controller ray targets Festival basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued grip selects Festival basket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loose basket release snaps into recess",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Docking preserves basket size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack preverified sweet Barfi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack preverified sweet Modak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack preverified sweet Gujiya",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Pack preverified sweet Gujiya",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Side menu clears basket and payment view",
+      "passed": true,
+      "detail": "eye=(-31.15, 1.65, 3.05)"
+    },
+    {
+      "name": "Side menu clears basket and payment view",
+      "passed": true,
+      "detail": "eye=(-30.55, 1.65, 2.80)"
+    },
+    {
+      "name": "Side menu clears basket and payment view",
+      "passed": true,
+      "detail": "eye=(-31.65, 1.60, 3.20)"
+    },
+    {
+      "name": "Visible enabled Monitor checkout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unblocked tracked UI ray Monitor checkout",
+      "passed": true,
+      "detail": "Share Gift"
+    },
+    {
+      "name": "Queued trigger dispatch Monitor checkout",
+      "passed": true,
+      "detail": "clicks=1"
+    },
+    {
+      "name": "Checkout keeps basket in recess",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large menu hidden at checkout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Resting card does not auto-authorize",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Controller ray targets Festival card",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Queued grip selects Festival card",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Card pickup alone is not a tap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Card touch authorizes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Menu stays hidden on card accepted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Acceptance displayed on native monitor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Visible enabled Share gift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unblocked tracked UI ray Share gift",
+      "passed": true,
+      "detail": "Share Gift"
+    },
+    {
+      "name": "Queued trigger dispatch Share gift",
+      "passed": true,
+      "detail": "clicks=1"
+    },
+    {
+      "name": "Share gift completes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Central gift display created",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Central gift contains basket and four sweets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Central gift has no interaction or physics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Central gift persists after celebration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Visible enabled New gift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unblocked tracked UI ray New gift",
+      "passed": true,
+      "detail": "Share Gift"
+    },
+    {
+      "name": "Queued trigger dispatch New gift",
+      "passed": true,
+      "detail": "clicks=1"
+    },
+    {
+      "name": "New gift restores side menu",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}
