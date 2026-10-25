@@ -1,0 +1,557 @@
+{
+  "state": "passed",
+  "failures": 0,
+  "scope": "Menu layout fixtures for all 11 stages, nine player positions per stage; checks full horizontal panel clearance, physical overlaps, head distance, stationary drift. Gameplay interactions verified separately.",
+  "results": [
+    {
+      "name": "Stage 0 head 0",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 6.02),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 1",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 6.02),headGap=2.03,collisions="
+    },
+    {
+      "name": "Stage 0 head 2",
+      "passed": true,
+      "detail": "menu=(30.50, 1.53, 8.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 3",
+      "passed": true,
+      "detail": "menu=(32.42, 1.53, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 4",
+      "passed": true,
+      "detail": "menu=(32.42, 1.53, 2.42),headGap=1.78,collisions="
+    },
+    {
+      "name": "Stage 0 head 5",
+      "passed": true,
+      "detail": "menu=(32.62, 1.53, 8.78),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 6",
+      "passed": true,
+      "detail": "menu=(26.72, 1.53, 4.92),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 7",
+      "passed": true,
+      "detail": "menu=(26.50, 1.53, -0.30),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 0 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 0 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 1 head 0",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 6.02),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 1",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 6.02),headGap=2.03,collisions="
+    },
+    {
+      "name": "Stage 1 head 2",
+      "passed": true,
+      "detail": "menu=(30.50, 1.53, 8.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 3",
+      "passed": true,
+      "detail": "menu=(32.42, 1.53, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 4",
+      "passed": true,
+      "detail": "menu=(32.42, 1.53, 2.42),headGap=1.78,collisions="
+    },
+    {
+      "name": "Stage 1 head 5",
+      "passed": true,
+      "detail": "menu=(32.62, 1.53, 8.78),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 6",
+      "passed": true,
+      "detail": "menu=(26.72, 1.53, 4.92),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 7",
+      "passed": true,
+      "detail": "menu=(26.50, 1.53, -0.30),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 1 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 1 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 2 head 0",
+      "passed": true,
+      "detail": "menu=(32.29, 1.53, 1.72),headGap=2.81,collisions="
+    },
+    {
+      "name": "Stage 2 head 1",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 2 head 2",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.38,collisions="
+    },
+    {
+      "name": "Stage 2 head 3",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 2 head 4",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.55,collisions="
+    },
+    {
+      "name": "Stage 2 head 5",
+      "passed": true,
+      "detail": "menu=(28.18, 1.53, 8.78),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 2 head 6",
+      "passed": true,
+      "detail": "menu=(25.42, 1.53, 6.22),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 2 head 7",
+      "passed": true,
+      "detail": "menu=(24.80, 1.53, 0.40),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 2 head 8",
+      "passed": true,
+      "detail": "menu=(32.29, 1.53, 1.72),headGap=5.39,collisions="
+    },
+    {
+      "name": "Stage 2 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 3 head 0",
+      "passed": true,
+      "detail": "menu=(28.70, 1.53, 5.50),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 3 head 1",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 3 head 2",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.38,collisions="
+    },
+    {
+      "name": "Stage 3 head 3",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 3 head 4",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.55,collisions="
+    },
+    {
+      "name": "Stage 3 head 5",
+      "passed": true,
+      "detail": "menu=(28.18, 1.53, 8.29),headGap=2.63,collisions="
+    },
+    {
+      "name": "Stage 3 head 6",
+      "passed": true,
+      "detail": "menu=(26.20, 1.53, 5.70),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 3 head 7",
+      "passed": true,
+      "detail": "menu=(25.72, 1.53, 0.22),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 3 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 0.72),headGap=3.98,collisions="
+    },
+    {
+      "name": "Stage 3 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 4 head 0",
+      "passed": true,
+      "detail": "menu=(28.70, 1.53, 5.50),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 4 head 1",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 4 head 2",
+      "passed": true,
+      "detail": "menu=(30.40, 1.53, 7.40),headGap=2.38,collisions="
+    },
+    {
+      "name": "Stage 4 head 3",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 4 head 4",
+      "passed": true,
+      "detail": "menu=(30.58, 1.53, 2.42),headGap=2.55,collisions="
+    },
+    {
+      "name": "Stage 4 head 5",
+      "passed": true,
+      "detail": "menu=(28.18, 1.53, 8.29),headGap=2.63,collisions="
+    },
+    {
+      "name": "Stage 4 head 6",
+      "passed": true,
+      "detail": "menu=(26.20, 1.53, 5.70),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 4 head 7",
+      "passed": true,
+      "detail": "menu=(25.72, 1.53, 0.22),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 4 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 0.72),headGap=3.98,collisions="
+    },
+    {
+      "name": "Stage 4 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 5 head 0",
+      "passed": true,
+      "detail": "menu=(31.32, 1.66, 6.02),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 5 head 1",
+      "passed": true,
+      "detail": "menu=(31.32, 1.66, 6.02),headGap=2.03,collisions="
+    },
+    {
+      "name": "Stage 5 head 2",
+      "passed": true,
+      "detail": "menu=(30.32, 1.66, 8.92),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 5 head 3",
+      "passed": true,
+      "detail": "menu=(32.42, 1.66, 2.42),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 5 head 4",
+      "passed": true,
+      "detail": "menu=(32.42, 1.66, 2.42),headGap=1.78,collisions="
+    },
+    {
+      "name": "Stage 5 head 5",
+      "passed": true,
+      "detail": "menu=(32.83, 1.66, 9.77),headGap=2.43,collisions="
+    },
+    {
+      "name": "Stage 5 head 6",
+      "passed": true,
+      "detail": "menu=(26.72, 1.66, 4.92),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 5 head 7",
+      "passed": true,
+      "detail": "menu=(26.50, 1.66, -0.30),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 5 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.66, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 5 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 6 head 0",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 1.58),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 1",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 5.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 2",
+      "passed": true,
+      "detail": "menu=(29.02, 1.53, 5.78),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 3",
+      "passed": true,
+      "detail": "menu=(32.88, 1.53, -1.18),headGap=1.95,collisions="
+    },
+    {
+      "name": "Stage 6 head 4",
+      "passed": true,
+      "detail": "menu=(32.40, 1.53, 1.80),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 5",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 7.48),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 6",
+      "passed": true,
+      "detail": "menu=(26.72, 1.53, 3.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 7",
+      "passed": true,
+      "detail": "menu=(27.20, 1.53, -2.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 6 head 8",
+      "passed": true,
+      "detail": "menu=(32.29, 1.53, -1.28),headGap=3.97,collisions="
+    },
+    {
+      "name": "Stage 6 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 7 head 0",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 1.58),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 1",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 5.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 2",
+      "passed": true,
+      "detail": "menu=(29.02, 1.53, 5.78),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 3",
+      "passed": true,
+      "detail": "menu=(32.88, 1.53, -1.18),headGap=1.95,collisions="
+    },
+    {
+      "name": "Stage 7 head 4",
+      "passed": true,
+      "detail": "menu=(32.40, 1.53, 1.80),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 5",
+      "passed": true,
+      "detail": "menu=(31.32, 1.53, 7.48),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 6",
+      "passed": true,
+      "detail": "menu=(26.72, 1.53, 3.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 7",
+      "passed": true,
+      "detail": "menu=(27.20, 1.53, -2.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 7 head 8",
+      "passed": true,
+      "detail": "menu=(32.29, 1.53, -1.28),headGap=3.97,collisions="
+    },
+    {
+      "name": "Stage 7 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 8 head 0",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 3.80),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 1",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 5.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 2",
+      "passed": true,
+      "detail": "menu=(30.32, 1.53, 7.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 3",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 4",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.44,collisions="
+    },
+    {
+      "name": "Stage 8 head 5",
+      "passed": true,
+      "detail": "menu=(32.10, 1.53, 8.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 6",
+      "passed": true,
+      "detail": "menu=(26.90, 1.53, 4.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 7",
+      "passed": true,
+      "detail": "menu=(27.02, 1.53, -1.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 8 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 8 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 9 head 0",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 3.80),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 1",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 5.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 2",
+      "passed": true,
+      "detail": "menu=(30.32, 1.53, 7.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 3",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 4",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.44,collisions="
+    },
+    {
+      "name": "Stage 9 head 5",
+      "passed": true,
+      "detail": "menu=(32.10, 1.53, 8.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 6",
+      "passed": true,
+      "detail": "menu=(26.90, 1.53, 4.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 7",
+      "passed": true,
+      "detail": "menu=(27.02, 1.53, -1.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 9 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 9 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 10 head 0",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 3.80),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 1",
+      "passed": true,
+      "detail": "menu=(32.80, 1.53, 5.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 2",
+      "passed": true,
+      "detail": "menu=(30.32, 1.53, 7.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 3",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 4",
+      "passed": true,
+      "detail": "menu=(33.20, 1.53, 1.90),headGap=2.44,collisions="
+    },
+    {
+      "name": "Stage 10 head 5",
+      "passed": true,
+      "detail": "menu=(32.10, 1.53, 8.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 6",
+      "passed": true,
+      "detail": "menu=(26.90, 1.53, 4.00),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 7",
+      "passed": true,
+      "detail": "menu=(27.02, 1.53, -1.08),headGap=2.40,collisions="
+    },
+    {
+      "name": "Stage 10 head 8",
+      "passed": true,
+      "detail": "menu=(33.29, 1.53, 1.72),headGap=4.72,collisions="
+    },
+    {
+      "name": "Stage 10 stationary player does not cause drift",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}
