@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 namespace DiwaliGameplay {
+[DefaultExecutionOrder(100)]
 public class SweetGame : VenueGame {
  public GrabbableItem basket,card;
  public GrabbableItem[] baskets;
@@ -24,10 +25,12 @@ public class SweetGame : VenueGame {
  Vector3 basketScale=Vector3.one;
  bool basketWasHeld;
  public Vector3 panelPosition;public Quaternion panelRotation;
- public float worktopY;public Vector3 workspaceForward=Vector3.forward;
+ public float worktopY;public Vector3 workspaceForward=Vector3.forward,cabinetForward=Vector3.forward;
+ public Transform basketZoneSign;
  VenuePanel panel;SweetPlacementGhost restGhost,dockGhost,shelfGhost;TextMesh shelfHint;bool placing,cardMustLeaveReader;
  readonly Dictionary<GrabbableItem,Transform> shelfTargets=new Dictionary<GrabbableItem,Transform>();
  readonly Dictionary<GrabbableItem,Transform> shelfParents=new Dictionary<GrabbableItem,Transform>();
+ readonly Dictionary<GrabbableItem,float> shelfAimAt=new Dictionary<GrabbableItem,float>();
  readonly HashSet<GrabbableItem> releasedSweets=new HashSet<GrabbableItem>();
  readonly Dictionary<GrabbableItem,Transform> armedPlacement=new Dictionary<GrabbableItem,Transform>();
  readonly Dictionary<GrabbableItem,float> armedAt=new Dictionary<GrabbableItem,float>();
@@ -53,15 +56,16 @@ public class SweetGame : VenueGame {
   }
  }
  void Start(){
+  card.grab.selectEntered.AddListener(args=>{if(args.interactorObject is NearFarInteractor interactor)interactor.interactionAttachController.MoveTo(card.transform.position);});
   var checkoutDisplay=GetComponent<SweetCheckoutDisplay>();if(checkoutDisplay)checkoutDisplay.Create(this);
   openGlass=(Vector3[])closedGlass.Clone();alternateGlass=(Vector3[])closedGlass.Clone();
   var first=GameObjectUtility.BoundsOf(glass[0]);var second=GameObjectUtility.BoundsOf(glass[1]);
   // Keep both panels within the cabinet, on separate depth tracks.
   var across=second.center-first.center;across.y=0;
-  var depth=workspaceForward.normalized*.035f;
+  var depth=cabinetForward.normalized*.035f;
   openGlass[0]+=glass[0].parent.InverseTransformVector(across+depth);
   alternateGlass[1]+=glass[1].parent.InverseTransformVector(-across-depth);
-  howToPlay="Grip to grab; release to place.\n1. Make a Gift Basket, then Open Cabinet. Switch open side to reach the other half.\n2. Choose either basket on the wall shelves and release it over BASKET REST.\n3. Release any 4 sweets over the basket; repeats welcome. Selected sweets float above the rim for easy swapping. Grip one to swap it; release near its green shelf preview to return it.\n4. Leave the basket in its recess and select Checkout on the small monitor.\n5. Touch the outlined reader with the festival card. CARD ACCEPTED appears on the monitor.\n6. Select Share Gift on the monitor to add your basket to the central rangoli celebration.\nPoint at buttons and press trigger. Restart restores all props. No payment or budget.";
+  howToPlay="Grip to grab; release to place.\n1. Make a Gift Basket, then Open Cabinet. Switch open side to reach the other half.\n2. Choose either basket on the wall shelves and release it over BASKET REST.\n3. Release any 4 sweets over the basket; repeats welcome. Selected sweets float above the rim for easy swapping. Grip one to swap it; aim at its green shelf preview and release to return it.\n4. Leave the basket in its recess and select Checkout on the small monitor.\n5. Touch the outlined reader with the festival card. CARD ACCEPTED appears on the monitor.\n6. Select Share Gift on the monitor to add your basket to the central rangoli celebration.\nPoint at buttons and press trigger. Restart restores all props. No payment or budget.";
   float table=worktopY>0?worktopY:rest.position.y-GameObjectUtility.BoundsOf(basket.transform).extents.y;
   if(panelRotation==default)panelRotation=Quaternion.LookRotation(-workspaceForward,Vector3.up);
   restRing=Mark(rest,"BASKET REST",table+.025f,.42f);dockRing=Mark(checkout,"CHECKOUT",table+.025f,.42f);Mark(cardReader,"TAP CARD",cardReader.position.y,.14f);
@@ -139,8 +143,8 @@ public class SweetGame : VenueGame {
   bool restClose=heldBasket&&preview==rest&&CanPlaceBasket(heldBasket,rest);
   bool dockClose=heldBasket&&preview==checkout&&CanPlaceBasket(heldBasket,checkout);
   bool sharedRecess=(rest.position-checkout.position).sqrMagnitude<.01f;
-  if(restRing){restRing.enabled=!sharedRecess||selected.Count<4;var label=restRing.GetComponentInChildren<TextMesh>(true);if(label)label.gameObject.SetActive(restRing.enabled&&(!basketReady||heldBasket));}
-  if(dockRing){dockRing.enabled=!sharedRecess||selected.Count==4;var label=dockRing.GetComponentInChildren<TextMesh>(true);if(label)label.gameObject.SetActive(dockRing.enabled&&(!sharedRecess||heldBasket)&&(!docked||heldBasket));}
+  if(restRing){restRing.enabled=true;var label=restRing.GetComponentInChildren<TextMesh>(true);if(label)label.gameObject.SetActive(!basketReady||heldBasket);}
+  if(dockRing){dockRing.enabled=!sharedRecess;var label=dockRing.GetComponentInChildren<TextMesh>(true);if(label)label.gameObject.SetActive(dockRing.enabled&&(!docked||heldBasket));}
   if(restGhost){restGhost.Show(heldBasket?heldBasket:basket,rest,begun&&!completed&&heldBasket&&(selected.Count<4||preview!=checkout),restClose);dockGhost.Show(heldBasket?heldBasket:basket,checkout,begun&&!completed&&heldBasket&&selected.Count==4&&(preview==null||preview==checkout),dockClose);}
   if(restRing){restRing.startColor=restRing.endColor=restClose?new Color(.3f,1,.55f):new Color(1,.72f,.28f);restRing.widthMultiplier=restClose?.028f:.018f;}
   if(dockRing){dockRing.startColor=dockRing.endColor=dockClose?new Color(.3f,1,.55f):new Color(1,.72f,.28f);dockRing.widthMultiplier=dockClose?.028f:.018f;}
@@ -152,12 +156,13 @@ public class SweetGame : VenueGame {
   GrabbableItem heldSweet=null;
   foreach(var sweet in sweets){
    if(!sweet)continue;
-   if(sweet.IsHeld){heldSweet=sweet;heldLast.Add(sweet);if(selected.Contains(sweet)&&!confirmed)RemoveSweet(sweet);}
+   if(sweet.IsHeld){heldSweet=sweet;heldLast.Add(sweet);if(selected.Contains(sweet)&&!confirmed)RemoveSweet(sweet);if(PointingAtShelf(sweet))shelfAimAt[sweet]=Time.unscaledTime;else shelfAimAt.Remove(sweet);}
    else if(heldLast.Remove(sweet))releasedSweets.Add(sweet);
   }
   foreach(var sweet in releasedSweets.ToArray()){
    if(sweet.IsHeld)continue;
    releasedSweets.Remove(sweet);
+   if(ShelfReturnArmed(sweet)&&ReturnSweet(sweet))continue;
    var bowl=NativeBounds(basket,basket.transform);var p=basket.transform.InverseTransformPoint(sweet.transform.position);
    bool inBowl=DiyaRestTarget.Contains(sweet,basket.transform,.8f)||Mathf.Abs(p.x-bowl.center.x)<bowl.extents.x+.2f&&Mathf.Abs(p.z-bowl.center.z)<bowl.extents.z+.2f&&p.y>bowl.min.y-.15f&&p.y<bowl.max.y+.3f;
    if(inBowl&&AddSweet(sweet))continue;
@@ -170,17 +175,23 @@ public class SweetGame : VenueGame {
   
  }
  public Transform ShelfReturnTarget(GrabbableItem sweet)=>sweet&&shelfTargets.TryGetValue(sweet,out var target)?target:null;
+ bool PointingAtShelf(GrabbableItem sweet){
+  var target=ShelfReturnTarget(sweet);if(!target||sweet.grab.interactorsSelecting.Count==0)return false;
+  var hand=sweet.grab.interactorsSelecting[0].transform;var delta=target.position-hand.position;
+  return delta.magnitude<3&&Vector3.Angle(hand.forward,delta)<7.5f;
+ }
+ bool ShelfReturnArmed(GrabbableItem sweet)=>shelfAimAt.TryGetValue(sweet,out var time)&&Time.unscaledTime-time<.35f;
  public bool CanReturnSweet(GrabbableItem sweet){
   var target=ShelfReturnTarget(sweet);if(!target||confirmed)return false;
   var delta=sweet.transform.position-target.position;
-  return new Vector2(delta.x,delta.z).sqrMagnitude<.6f*.6f&&Mathf.Abs(delta.y)<.55f;
+  return ShelfReturnArmed(sweet)||new Vector2(delta.x,delta.z).sqrMagnitude<.9f*.9f&&Mathf.Abs(delta.y)<.65f;
  }
  public bool ReturnSweet(GrabbableItem sweet){
   var target=ShelfReturnTarget(sweet);if(!begun||confirmed||!target||sweet.IsHeld)return false;
   RemoveSweet(sweet);RestoreSweetColliders(sweet);
   sweet.transform.SetParent(shelfParents[sweet],true);sweet.transform.localScale=sweetScales[sweet];sweet.transform.SetPositionAndRotation(target.position,target.rotation);
   var body=sweet.GetComponent<Rigidbody>();if(body){if(!body.isKinematic){body.linearVelocity=Vector3.zero;body.angularVelocity=Vector3.zero;}body.isKinematic=true;body.position=target.position;body.rotation=target.rotation;}
-  releasedSweets.Remove(sweet);heldLast.Remove(sweet);
+  releasedSweets.Remove(sweet);heldLast.Remove(sweet);shelfAimAt.Remove(sweet);
   status=sweet.itemId+" returned to its shelf. "+selected.Count+"/4 in the basket.";
   if(selected.Count==4)status+=" Select Checkout on the small monitor.";
   return true;
@@ -199,37 +210,45 @@ public class SweetGame : VenueGame {
   var labels=panel.GetComponentsInChildren<UnityEngine.UI.Text>(true).Where(t=>t.transform.parent==panel.transform).ToArray();if(labels.Length>2)labels[2].gameObject.SetActive(!begun||completed);
   beginControl.gameObject.SetActive(!begun);openControl.gameObject.SetActive(begun&&!cabinetOpen);switchControl.gameObject.SetActive(begun&&cabinetOpen&&!confirmed&&!completed);
  }
- public static Pose ComfortableBasketPose(Vector3 handPosition,Vector3 handForward,Transform head,float radius){
+ public static Pose ComfortableBasketPose(Vector3 handPosition,Vector3 handForward,Transform head,float radius,float topOffset=.30f){
   var away=head?Vector3.ProjectOnPlane(handPosition-head.position,Vector3.up):Vector3.ProjectOnPlane(handForward,Vector3.up);
   if(away.sqrMagnitude<.01f&&head)away=Vector3.ProjectOnPlane(head.forward,Vector3.up);
   if(away.sqrMagnitude<.01f)away=Vector3.forward;
   away.Normalize();
-  float distance=Mathf.Max(.55f,radius+.22f);
-  var position=handPosition+away*distance+Vector3.down*.12f;
+  float distance=Mathf.Max(.65f,radius+.36f);
+  var position=handPosition+away*distance+Vector3.down*Mathf.Max(.34f,topOffset+.08f);
   if(head){
    var horizontal=Vector3.ProjectOnPlane(position-head.position,Vector3.up);
-   float clearance=radius+.5f;
+   float clearance=radius+.55f;
    if(horizontal.magnitude<clearance)position+=away*(clearance-horizontal.magnitude);
+   position.y=Mathf.Min(position.y,head.position.y-.32f-topOffset);
   }
   return new Pose(position,Quaternion.LookRotation(away,Vector3.up));
  }
- void LateUpdate(){
+ void OnEnable(){Application.onBeforeRender+=ApplyBasketCarry;}
+ void OnDisable(){Application.onBeforeRender-=ApplyBasketCarry;}
+ void LateUpdate(){ApplyBasketCarry();}
+ [BeforeRenderOrder(10000)]
+ void ApplyBasketCarry(){
   if(!playerHead){var camera=Camera.main;if(camera)playerHead=camera.transform;}
   foreach(var pair in basketScales)if(pair.Key){
    var item=pair.Key;item.transform.localScale=pair.Value;
    if(!item.IsHeld||item.grab.interactorsSelecting.Count==0)continue;
    var interactor=item.grab.interactorsSelecting[0];
-   var nearFar=interactor as NearFarInteractor;
-   var hand=nearFar!=null?nearFar.interactionAttachController.transformToFollow:interactor.GetAttachTransform(item.grab);
+   var hand=interactor.transform;
    if(!hand)continue;
    if(!playerHead){var camera=Camera.main;if(camera)playerHead=camera.transform;}
    var bounds=NativeBounds(item,item.transform);
-   float radius=Mathf.Max(bounds.extents.x*Mathf.Abs(item.transform.lossyScale.x),bounds.extents.z*Mathf.Abs(item.transform.lossyScale.z));
-   var pose=ComfortableBasketPose(hand.position,hand.forward,playerHead,radius);
+   if(item==basket)foreach(var sweet in selected)if(sweet&&!sweet.IsHeld)bounds.Encapsulate(NativeBounds(sweet,item.transform));
+   float x=bounds.extents.x*Mathf.Abs(item.transform.lossyScale.x),z=bounds.extents.z*Mathf.Abs(item.transform.lossyScale.z);
+   float radius=Mathf.Sqrt(x*x+z*z);
+   float topOffset=bounds.max.y*Mathf.Abs(item.transform.lossyScale.y);
+   item.grab.trackPosition=false;item.grab.trackRotation=false;item.grab.trackScale=false;
+   var pose=ComfortableBasketPose(hand.position,hand.forward,playerHead,radius,topOffset);
    item.transform.SetPositionAndRotation(pose.position,pose.rotation);
    var body=item.GetComponent<Rigidbody>();if(body&&body.isKinematic){body.position=pose.position;body.rotation=pose.rotation;}
   }
  }
- public override void ResetGame(){StopAllCoroutines();foreach(var label in GetComponentsInChildren<TextMesh>(true))if(label.name=="CARD ACCEPTED")Destroy(label.gameObject);ChoosePackingMenuAnchor();MovePanelToPackingSide();placing=false;cardMustLeaveReader=false;releasedSweets.Clear();ShowShelfReturn(null);armedPlacement.Clear();armedAt.Clear();releasedPlacements.Clear();base.ResetGame();heldLast.Clear();heldBaskets.Clear();basketWasHeld=false;selected.Clear();otherSide=false;cabinetOpen=basketReady=docked=authorized=confirmed=false;if(baskets!=null)foreach(var b in baskets)if(b)b.ResetItem();basket=defaultBasket?defaultBasket:basket;if(basket){basketScale=basket.transform.localScale;foreach(var slot in slots)slot.SetParent(basket.transform,false);}if(card)card.ResetItem();if(sweets!=null)foreach(var s in sweets)if(s){RestoreSweetColliders(s);s.ResetItem();if(sweetScales.TryGetValue(s,out var scale))s.transform.localScale=scale;}if(glass!=null&&closedGlass!=null)for(int i=0;i<glass.Length;i++)glass[i].localPosition=closedGlass[i];RefreshControls();}
+ public override void ResetGame(){StopAllCoroutines();foreach(var label in GetComponentsInChildren<TextMesh>(true))if(label.name=="CARD ACCEPTED")Destroy(label.gameObject);ChoosePackingMenuAnchor();MovePanelToPackingSide();placing=false;cardMustLeaveReader=false;shelfAimAt.Clear();releasedSweets.Clear();ShowShelfReturn(null);armedPlacement.Clear();armedAt.Clear();releasedPlacements.Clear();base.ResetGame();heldLast.Clear();heldBaskets.Clear();basketWasHeld=false;selected.Clear();otherSide=false;cabinetOpen=basketReady=docked=authorized=confirmed=false;if(baskets!=null)foreach(var b in baskets)if(b)b.ResetItem();basket=defaultBasket?defaultBasket:basket;if(basket){basketScale=basket.transform.localScale;foreach(var slot in slots)slot.SetParent(basket.transform,false);}if(card)card.ResetItem();if(sweets!=null)foreach(var s in sweets)if(s){RestoreSweetColliders(s);s.ResetItem();if(sweetScales.TryGetValue(s,out var scale))s.transform.localScale=scale;}if(glass!=null&&closedGlass!=null)for(int i=0;i<glass.Length;i++)glass[i].localPosition=closedGlass[i];RefreshControls();}
 }
 }

@@ -1,5 +1,7 @@
 # Sweet shop checkout repair
 
+Superseded by [the reach and loaded-carry verification](../Sweet_Reach_Carry_2026-10-25/README.md). The following describes the earlier layout; it did not test re-grabbing a loaded basket or stationary stocking from the real entrance side.
+
 The counter retains its previous 37.69-degree orientation. It sits beside the cabinet; the cabinet moved 0.5 m forward and 0.25 m sideways. Basket packing and checkout share the authored recessed tray. Snap anchors and the card now follow the counter transform without enlarging the basket.
 
 Selected sweets sit 14 cm above the basket interior floor, reduced from 30 cm. They remain available for swapping. Shelf return behavior is preserved.
